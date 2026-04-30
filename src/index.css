@@ -1,0 +1,166 @@
+@import '@fontsource/outfit/400.css';
+@import '@fontsource/outfit/500.css';
+@import '@fontsource/outfit/600.css';
+@import '@fontsource/outfit/700.css';
+
+@import url('https://api.fontshare.com/v2/css?f[]=clash-display@500,600,700&display=swap');
+
+@import '@fontsource/space-grotesk/500.css';
+@import '@fontsource/space-grotesk/600.css';
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+
+  body {
+    @apply bg-background-primary text-text-primary font-body tracking-body;
+    margin: 0;
+    overflow-x: hidden;
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    @apply font-heading tracking-heading;
+  }
+
+  /* Custom Selection Color */
+  ::selection {
+    @apply bg-accent-primary/30 text-white;
+  }
+
+  /* Custom Scrollbar */
+  ::-webkit-scrollbar {
+    width: 8px;
+    height: 8px;
+  }
+
+  ::-webkit-scrollbar-track {
+    background: #F8F9FA;
+  }
+
+  ::-webkit-scrollbar-thumb {
+    background: #CCCCCC;
+    border-radius: 4px;
+  }
+
+  ::-webkit-scrollbar-thumb:hover {
+    background: #999999;
+  }
+}
+
+@layer utilities {
+  .glass-panel {
+    @apply bg-surface-glass backdrop-blur-md border border-border transition-all duration-300 ease-smooth;
+  }
+
+  .glass-panel:hover {
+    @apply bg-surface-glass-hover border-border-hover shadow-[0_8px_30px_rgb(0,0,0,0.12)];
+  }
+
+  .text-gradient {
+    @apply bg-gradient-accent bg-clip-text text-transparent;
+  }
+  
+  .subtle-hover {
+    @apply transition-all duration-300 ease-smooth hover:scale-[1.01] hover:opacity-90;
+  }
+  
+  .subtle-active {
+    @apply active:scale-[0.99] transition-transform duration-300 ease-smooth;
+  }
+
+  .price-text {
+    @apply font-mono;
+  }
+
+  .animate-fadeIn {
+    animation: fadeIn 0.2s ease forwards;
+  }
+}
+
+/* ── Announcement Ticker ── */
+@keyframes ticker {
+  0% { transform: translateX(0); }
+  100% { transform: translateX(-50%); }
+}
+
+.announcement-ticker {
+  animation: ticker 28s linear infinite;
+  width: max-content;
+}
+
+.announcement-ticker:hover {
+  animation-play-state: paused;
+}
+
+/* ── Fade In ── */
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(-6px); }
+  to   { opacity: 1; transform: translateY(0); }
+}
+
+/* ── Brand Marquee ── */
+@keyframes marquee-scroll {
+  0% { transform: translateX(0); }
+  100% { transform: translateX(-50%); }
+}
+
+.marquee-track {
+  animation: marquee-scroll 35s linear infinite;
+  width: max-content;
+}
+
+.marquee-track:hover {
+  animation-play-state: paused;
+}
+
+/* ── Hide Scrollbar ── */
+.hide-scrollbar {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+.hide-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+
+/* ── Perspective Utility ── */
+.perspective-\[1000px\] {
+  perspective: 1000px;
+}
+
+/* ── Skeleton Shimmer ── */
+@keyframes shimmer {
+  0% { background-position: -400px 0; }
+  100% { background-position: 400px 0; }
+}
+
+.skeleton-shimmer {
+  background: linear-gradient(90deg, #F2F2F0 25%, #E8E8E6 37%, #F2F2F0 63%);
+  background-size: 800px 100%;
+  animation: shimmer 1.4s ease infinite;
+}
+
+/* ── Mobile Filter Slide Up ── */
+@keyframes slideUp {
+  from { transform: translateY(100%); }
+  to   { transform: translateY(0); }
+}
+
+.animate-slideUp {
+  animation: slideUp 0.3s ease forwards;
+}
+
+/* ── Line Clamp ── */
+.line-clamp-2 {
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
