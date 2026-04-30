@@ -1,4 +1,5 @@
-import { Routes, Route } from 'react-router-dom';
+import { useEffect } from 'react';
+import { Routes, Route, useLocation } from 'react-router-dom';
 import { Toaster } from 'react-hot-toast';
 import Navbar from './components/Layout/Navbar';
 import MobileNav from './components/Layout/MobileNav';
@@ -16,6 +17,12 @@ import Login from './pages/Login';
 import Signup from './pages/Signup';
 
 function App() {
+  const { pathname } = useLocation();
+
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, [pathname]);
+
   return (
     <div className="min-h-screen bg-white text-black flex flex-col font-body">
       <Toaster

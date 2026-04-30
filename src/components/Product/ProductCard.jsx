@@ -43,7 +43,7 @@ const ProductCard = ({ product, showDealBadge = false }) => {
 
   return (
     <motion.div
-      className="group bg-white border border-[#EFEFED] rounded-md overflow-hidden cursor-pointer hover:border-[#E0E0E0] hover:shadow-[0_4px_12px_rgba(0,0,0,0.07)] transition-all duration-200"
+      className="group h-full flex flex-col bg-white border border-[#EFEFED] rounded-md overflow-hidden cursor-pointer hover:border-[#E0E0E0] hover:shadow-[0_4px_12px_rgba(0,0,0,0.07)] transition-all duration-200"
       onClick={handleCardClick}
       initial={{ opacity: 0, y: 12 }}
       whileInView={{ opacity: 1, y: 0 }}
@@ -114,19 +114,20 @@ const ProductCard = ({ product, showDealBadge = false }) => {
       </div>
 
       {/* ── Text Section ── */}
-      <div className="px-3 pt-2.5 pb-3">
+      <div className="flex-1 flex flex-col px-3 pt-2.5 pb-3">
         {/* Brand */}
         <p className="font-body text-[11px] text-[#999] uppercase tracking-[0.06em] truncate">
           {product.brand}
         </p>
 
         {/* Name */}
-        <p className="font-body text-[14px] text-[#0A0A0A] mt-[3px] leading-[1.4] line-clamp-2">
+        <p className="font-body text-[14px] text-[#0A0A0A] mt-[3px] leading-[1.4] line-clamp-2 mb-2">
           {product.name}
         </p>
 
-        {/* Price Row */}
-        <div className="flex items-center gap-1.5 mt-1.5 flex-wrap">
+        <div className="mt-auto flex flex-col gap-1.5">
+          {/* Price Row */}
+          <div className="flex items-center gap-1.5 flex-wrap">
           <span className="font-mono text-[15px] font-semibold text-[#0A0A0A]">
             {product.currency}{product.price.toLocaleString('en-IN')}
           </span>
@@ -144,7 +145,7 @@ const ProductCard = ({ product, showDealBadge = false }) => {
 
         {/* Rating */}
         {product.reviewCount > 0 && (
-          <div className="flex items-center gap-1 mt-1">
+          <div className="flex items-center gap-1">
             <span className="text-[#F59E0B] text-[12px]">★</span>
             <span className="font-body text-[12px] text-[#999]">
               {product.rating}
@@ -160,7 +161,7 @@ const ProductCard = ({ product, showDealBadge = false }) => {
 
         {/* Deal Stock Indicator */}
         {showDealBadge && product.stock < 50 && (
-          <div className="mt-2">
+          <div className="mt-1">
             <p className="font-body text-[11px] text-[#333] font-medium mb-1">🔥 Only {product.stock} left</p>
             <div className="w-full h-[3px] bg-[#E8E8E8] rounded-full overflow-hidden">
               <div
@@ -170,6 +171,7 @@ const ProductCard = ({ product, showDealBadge = false }) => {
             </div>
           </div>
         )}
+        </div>
       </div>
     </motion.div>
   );
