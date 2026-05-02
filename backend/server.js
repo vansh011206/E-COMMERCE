@@ -22,7 +22,7 @@ const httpServer = createServer(app);
 // Socket.IO setup
 const allowedOrigins = [
   'http://localhost:5173',
-  'https://e-commerce-omega-eight-78.vercel.app',
+  'https://voguevalut.vercel.app',
   process.env.FRONTEND_URL
 ].filter(Boolean);
 
