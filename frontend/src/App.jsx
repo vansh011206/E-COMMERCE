@@ -15,6 +15,7 @@ import Orders from './pages/Orders';
 import Checkout from './pages/Checkout';
 import Login from './pages/Login';
 import Signup from './pages/Signup';
+import Addresses from './pages/Addresses';
 
 // Admin imports
 import AdminGuard from './admin/components/AdminGuard';
@@ -116,6 +117,8 @@ function App() {
           <Route path="/orders" element={<Orders />} />
           <Route path="/login" element={<Login />} />
           <Route path="/signup" element={<Signup />} />
+          <Route path="/profile/addresses" element={<Addresses />} />
+          <Route path="/profile/settings" element={<Profile />} />
         </Routes>
       </main>
 

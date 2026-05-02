@@ -9,6 +9,7 @@ const generateToken = (res, userId) => {
     sameSite: process.env.NODE_ENV === 'development' ? 'strict' : 'none',
     maxAge: 30 * 24 * 60 * 60 * 1000
   });
+  return token;
 };
 
 // POST /api/auth/register
@@ -22,7 +23,7 @@ export const registerUser = async (req, res) => {
     const user = await User.create({ name, email, password, phone });
 
     if (user) {
-      generateToken(res, user._id);
+      const token = generateToken(res, user._id);
 
       // Emit real-time notification to admin
       const io = req.app.get('io');
@@ -39,7 +40,7 @@ export const registerUser = async (req, res) => {
       }
 
       res.status(201).json({
-        _id: user._id, name: user.name, email: user.email, isAdmin: user.isAdmin, addresses: user.addresses || [], wishlist: []
+        token, _id: user._id, name: user.name, email: user.email, isAdmin: user.isAdmin, addresses: user.addresses || [], wishlist: []
       });
     } else {
       res.status(400).json({ message: 'Invalid user data' });
@@ -57,9 +58,9 @@ export const authUser = async (req, res) => {
     const user = await User.findOne({ email }).populate('wishlist');
 
     if (user && (await user.matchPassword(password))) {
-      generateToken(res, user._id);
+      const token = generateToken(res, user._id);
       res.json({
-        _id: user._id, name: user.name, email: user.email, isAdmin: user.isAdmin, addresses: user.addresses || [], wishlist: user.wishlist || []
+        token, _id: user._id, name: user.name, email: user.email, isAdmin: user.isAdmin, addresses: user.addresses || [], wishlist: user.wishlist || []
       });
     } else {
       res.status(401).json({ message: 'Invalid email or password' });
