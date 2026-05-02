@@ -63,6 +63,26 @@ const Signup = () => {
     return Object.keys(newErrors).length === 0;
   };
 
+  const registerUserInSystem = (userData) => {
+    const users = JSON.parse(localStorage.getItem('registered-users') || '[]');
+    const exists = users.find(u => u.email === userData.email);
+    if (!exists) {
+      users.push({
+        id: userData.uid || 'user_' + Date.now(),
+        name: userData.name,
+        email: userData.email,
+        phone: userData.phone || '',
+        avatar: userData.name?.charAt(0)?.toUpperCase() || 'U',
+        registeredAt: new Date().toISOString(),
+        lastActive: new Date().toISOString(),
+        ordersCount: 0,
+        totalSpent: 0,
+        provider: userData.provider || 'email',
+      });
+      localStorage.setItem('registered-users', JSON.stringify(users));
+    }
+  };
+
   const handleSignup = async (e) => {
     e.preventDefault();
     if (!validate()) return;
@@ -71,6 +91,7 @@ const Signup = () => {
     try {
       await new Promise(resolve => setTimeout(resolve, 1000));
       signup({ name: formData.fullName, email: formData.email, phone: formData.phone });
+      registerUserInSystem({ name: formData.fullName, email: formData.email, phone: formData.phone, provider: 'email' });
       toast.success('Account created!');
       navigate('/');
     } catch (error) {
@@ -84,6 +105,7 @@ const Signup = () => {
     try {
       await new Promise(resolve => setTimeout(resolve, 500));
       loginWithGoogle();
+      registerUserInSystem({ name: 'Google User', email: 'google@example.com', provider: 'google' });
       toast.success('Account created!');
       navigate('/');
     } catch (error) {

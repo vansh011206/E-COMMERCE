@@ -272,7 +272,7 @@ const AddressStep = ({ onNext, selectedAddressId, setSelectedAddressId }) => {
       <button
         onClick={handleSaveAndContinue}
         disabled={!showForm && !selectedAddressId}
-        className="flex-1 rounded h-[50px] text-white font-heading text-[13px] uppercase tracking-[0.1em] bg-[#0A0A0A] hover:bg-[#333] transition-colors disabled:opacity-50"
+        className="w-full rounded h-[50px] px-4 text-white font-heading text-[13px] uppercase tracking-[0.1em] bg-[#0A0A0A] hover:bg-[#333] transition-colors disabled:opacity-50"
       >
         Save and Continue
       </button>

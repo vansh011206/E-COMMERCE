@@ -1,40 +1,34 @@
 export const products = [
   {
     "id": "prod_001",
-    "name": "H&M Men's Premium Ethnic Wear",
-    "brand": "H&M",
-    "description": "Premium quality ethnic wear from H&M. Features comfortable fit and excellent material suitable for everyday wear.",
+    "name": "Premium T-Shirts - Style 1",
+    "brand": "DRIFT",
+    "description": "Experience ultimate comfort and style with our latest t-shirts. Perfect for everyday wear, featuring premium materials and exceptional craftsmanship.",
     "category": "Men",
-    "subCategory": "Ethnic Wear",
+    "subCategory": "T-Shirts",
     "type": "Topwear",
-    "price": 594,
-    "mrp": 991,
-    "discount": 40,
+    "price": 399,
+    "mrp": 498,
+    "discount": 20,
     "currency": "₹",
-    "rating": 4.3,
-    "reviewCount": 1953,
+    "rating": "4.2",
+    "reviewCount": 2352,
     "images": [
-      "https://images.unsplash.com/photo-1596455607563-ad6193f76b46?w=600&q=80",
-      "https://images.unsplash.com/photo-1583391733959-1f510f214314?w=600&q=80",
-      "https://images.unsplash.com/photo-1596455607563-ad6193f76b46?w=600&q=80",
-      "https://images.unsplash.com/photo-1583391733959-1f510f214314?w=600&q=80"
+      "https://images.unsplash.com/photo-1483985886-078e6abb8e4e?w=600&q=80",
+      "https://images.unsplash.com/photo-1521572163474-6864f9cf17ab?w=600&q=80",
+      "https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=600&q=80"
     ],
     "colors": [
       {
-        "name": "Navy Blue",
-        "hex": "#000080"
+        "name": "Standard",
+        "hex": "#1a1a1a"
       },
       {
-        "name": "Mustard",
-        "hex": "#FFDB58"
-      },
-      {
-        "name": "Olive",
-        "hex": "#556B2F"
+        "name": "Variant",
+        "hex": "#f5f5f5"
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -42,81 +36,72 @@ export const products = [
       "XXL"
     ],
     "sizesAvailable": {
-      "XS": false,
       "S": true,
       "M": true,
       "L": true,
       "XL": true,
-      "XXL": true
+      "XXL": false
     },
-    "material": "Premium Cotton Blend",
-    "fit": "Slim",
-    "pattern": "Printed",
+    "material": "100% Premium Material",
+    "fit": "Regular",
+    "pattern": "Solid",
     "occasion": "Casual",
-    "season": "All Season",
-    "stock": 57,
+    "stock": 23,
     "isTrending": false,
-    "isNewArrival": true,
+    "isNewArrival": false,
     "isBestSeller": false,
     "tags": [
-      "fashion",
       "premium",
-      "topwear",
-      "men"
+      "comfortable",
+      "t-shirts"
     ],
     "specifications": {
-      "Fabric": "Premium Cotton Blend",
-      "Fit": "Regular/Slim",
+      "Fabric": "Premium Quality",
+      "Fit": "Regular",
       "Wash Care": "Machine Wash"
     },
     "reviews": [
       {
-        "id": "rev_hy5gn",
-        "userName": "Customer",
+        "id": "rev_1_1",
+        "userName": "Verified Buyer",
         "rating": 5,
-        "comment": "Excellent product, highly recommended!",
-        "date": "2024-12-15",
-        "helpful": 48,
+        "comment": "Absolutely love this product! The quality is amazing for the price.",
+        "date": "2024-03-15",
+        "helpful": 12,
         "verified": true
       }
     ]
   },
   {
     "id": "prod_002",
-    "name": "H&M Men's Premium Trousers",
-    "brand": "H&M",
-    "description": "Premium quality trousers from H&M. Features comfortable fit and excellent material suitable for everyday wear.",
+    "name": "Premium T-Shirts - Style 2",
+    "brand": "AURA",
+    "description": "Experience ultimate comfort and style with our latest t-shirts. Perfect for everyday wear, featuring premium materials and exceptional craftsmanship.",
     "category": "Men",
-    "subCategory": "Trousers",
-    "type": "Bottomwear",
-    "price": 4754,
-    "mrp": 13583,
-    "discount": 65,
+    "subCategory": "T-Shirts",
+    "type": "Topwear",
+    "price": 199,
+    "mrp": 598,
+    "discount": 67,
     "currency": "₹",
-    "rating": 4.8,
-    "reviewCount": 1878,
+    "rating": "4.5",
+    "reviewCount": 1222,
     "images": [
-      "https://images.unsplash.com/photo-1624378439575-d8705ad7ae80?w=600&q=80",
-      "https://images.unsplash.com/photo-1594938298603-c8148c4dae35?w=600&q=80",
-      "https://images.unsplash.com/photo-1624378439575-d8705ad7ae80?w=600&q=80",
-      "https://images.unsplash.com/photo-1594938298603-c8148c4dae35?w=600&q=80"
+      "https://images.unsplash.com/photo-1521572163474-6864f9cf17ab?w=600&q=80",
+      "https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=600&q=80",
+      "https://images.unsplash.com/photo-1503341504249-96bc8f2b4b07?w=600&q=80"
     ],
     "colors": [
       {
-        "name": "Charcoal Black",
+        "name": "Standard",
         "hex": "#1a1a1a"
       },
       {
-        "name": "Navy Blue",
-        "hex": "#000080"
-      },
-      {
-        "name": "Mustard",
-        "hex": "#FFDB58"
+        "name": "Variant",
+        "hex": "#f5f5f5"
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -124,81 +109,72 @@ export const products = [
       "XXL"
     ],
     "sizesAvailable": {
-      "XS": false,
       "S": true,
       "M": true,
       "L": true,
       "XL": true,
       "XXL": false
     },
-    "material": "Premium Cotton Blend",
+    "material": "100% Premium Material",
     "fit": "Regular",
     "pattern": "Solid",
     "occasion": "Casual",
-    "season": "All Season",
-    "stock": 54,
+    "stock": 35,
     "isTrending": false,
     "isNewArrival": true,
     "isBestSeller": false,
     "tags": [
-      "fashion",
       "premium",
-      "bottomwear",
-      "men"
+      "comfortable",
+      "t-shirts"
     ],
     "specifications": {
-      "Fabric": "Premium Cotton Blend",
-      "Fit": "Regular/Slim",
+      "Fabric": "Premium Quality",
+      "Fit": "Regular",
       "Wash Care": "Machine Wash"
     },
     "reviews": [
       {
-        "id": "rev_dlfzs",
-        "userName": "Customer",
+        "id": "rev_2_1",
+        "userName": "Verified Buyer",
         "rating": 5,
-        "comment": "Excellent product, highly recommended!",
-        "date": "2024-12-15",
-        "helpful": 25,
+        "comment": "Absolutely love this product! The quality is amazing for the price.",
+        "date": "2024-03-15",
+        "helpful": 7,
         "verified": true
       }
     ]
   },
   {
     "id": "prod_003",
-    "name": "Van Heusen Men's Premium Shirts",
-    "brand": "Van Heusen",
-    "description": "Premium quality shirts from Van Heusen. Features comfortable fit and excellent material suitable for everyday wear.",
+    "name": "Premium T-Shirts - Style 3",
+    "brand": "Vero Moda",
+    "description": "Experience ultimate comfort and style with our latest t-shirts. Perfect for everyday wear, featuring premium materials and exceptional craftsmanship.",
     "category": "Men",
-    "subCategory": "Shirts",
+    "subCategory": "T-Shirts",
     "type": "Topwear",
-    "price": 5266,
-    "mrp": 11449,
-    "discount": 54,
+    "price": 199,
+    "mrp": 298,
+    "discount": 33,
     "currency": "₹",
-    "rating": 3.2,
-    "reviewCount": 3447,
+    "rating": "4.7",
+    "reviewCount": 4687,
     "images": [
-      "https://images.unsplash.com/photo-1602810318383-e386cc2a3ce3?w=600&q=80",
-      "https://images.unsplash.com/photo-1598033129183-c4f50c736f10?w=600&q=80",
-      "https://images.unsplash.com/photo-1602810318383-e386cc2a3ce3?w=600&q=80",
-      "https://images.unsplash.com/photo-1598033129183-c4f50c736f10?w=600&q=80"
+      "https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=600&q=80",
+      "https://images.unsplash.com/photo-1503341504249-96bc8f2b4b07?w=600&q=80",
+      "https://images.unsplash.com/photo-1618354691373-d851c5c827b2?w=600&q=80"
     ],
     "colors": [
       {
-        "name": "Charcoal Black",
+        "name": "Standard",
         "hex": "#1a1a1a"
       },
       {
-        "name": "Off White",
-        "hex": "#f5f0e8"
-      },
-      {
-        "name": "Navy Blue",
-        "hex": "#000080"
+        "name": "Variant",
+        "hex": "#f5f5f5"
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -206,81 +182,72 @@ export const products = [
       "XXL"
     ],
     "sizesAvailable": {
-      "XS": true,
       "S": true,
       "M": true,
       "L": true,
       "XL": true,
       "XXL": false
     },
-    "material": "Premium Cotton Blend",
-    "fit": "Slim",
-    "pattern": "Printed",
+    "material": "100% Premium Material",
+    "fit": "Regular",
+    "pattern": "Solid",
     "occasion": "Casual",
-    "season": "All Season",
-    "stock": 50,
-    "isTrending": true,
+    "stock": 96,
+    "isTrending": false,
     "isNewArrival": false,
-    "isBestSeller": true,
+    "isBestSeller": false,
     "tags": [
-      "fashion",
       "premium",
-      "topwear",
-      "men"
+      "comfortable",
+      "t-shirts"
     ],
     "specifications": {
-      "Fabric": "Premium Cotton Blend",
-      "Fit": "Regular/Slim",
+      "Fabric": "Premium Quality",
+      "Fit": "Regular",
       "Wash Care": "Machine Wash"
     },
     "reviews": [
       {
-        "id": "rev_n84ek",
-        "userName": "Customer",
+        "id": "rev_3_1",
+        "userName": "Verified Buyer",
         "rating": 5,
-        "comment": "Excellent product, highly recommended!",
-        "date": "2024-12-15",
-        "helpful": 36,
+        "comment": "Absolutely love this product! The quality is amazing for the price.",
+        "date": "2024-03-15",
+        "helpful": 2,
         "verified": true
       }
     ]
   },
   {
     "id": "prod_004",
-    "name": "W Men's Premium Jackets",
-    "brand": "W",
-    "description": "Premium quality jackets from W. Features comfortable fit and excellent material suitable for everyday wear.",
+    "name": "Premium T-Shirts - Style 4",
+    "brand": "FabIndia",
+    "description": "Experience ultimate comfort and style with our latest t-shirts. Perfect for everyday wear, featuring premium materials and exceptional craftsmanship.",
     "category": "Men",
-    "subCategory": "Jackets",
+    "subCategory": "T-Shirts",
     "type": "Topwear",
-    "price": 7815,
-    "mrp": 9893,
-    "discount": 21,
+    "price": 299,
+    "mrp": 1098,
+    "discount": 73,
     "currency": "₹",
-    "rating": 4.5,
-    "reviewCount": 1289,
+    "rating": "4.2",
+    "reviewCount": 2216,
     "images": [
-      "https://images.unsplash.com/photo-1551028719-00167b16eac5?w=600&q=80",
-      "https://images.unsplash.com/photo-1591047139829-d91aecb6caea?w=600&q=80",
-      "https://images.unsplash.com/photo-1551028719-00167b16eac5?w=600&q=80",
-      "https://images.unsplash.com/photo-1591047139829-d91aecb6caea?w=600&q=80"
+      "https://images.unsplash.com/photo-1503341504249-96bc8f2b4b07?w=600&q=80",
+      "https://images.unsplash.com/photo-1618354691373-d851c5c827b2?w=600&q=80",
+      "https://images.unsplash.com/photo-1542060748-10c28b62d84b?w=600&q=80"
     ],
     "colors": [
       {
-        "name": "Maroon",
-        "hex": "#800000"
+        "name": "Standard",
+        "hex": "#1a1a1a"
       },
       {
-        "name": "Navy Blue",
-        "hex": "#000080"
-      },
-      {
-        "name": "Off White",
-        "hex": "#f5f0e8"
+        "name": "Variant",
+        "hex": "#f5f5f5"
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -288,81 +255,72 @@ export const products = [
       "XXL"
     ],
     "sizesAvailable": {
-      "XS": false,
       "S": true,
       "M": true,
       "L": true,
-      "XL": true,
+      "XL": false,
       "XXL": false
     },
-    "material": "Premium Cotton Blend",
-    "fit": "Slim",
-    "pattern": "Printed",
+    "material": "100% Premium Material",
+    "fit": "Regular",
+    "pattern": "Solid",
     "occasion": "Casual",
-    "season": "All Season",
-    "stock": 5,
+    "stock": 106,
     "isTrending": false,
-    "isNewArrival": false,
+    "isNewArrival": true,
     "isBestSeller": false,
     "tags": [
-      "fashion",
       "premium",
-      "topwear",
-      "men"
+      "comfortable",
+      "t-shirts"
     ],
     "specifications": {
-      "Fabric": "Premium Cotton Blend",
-      "Fit": "Regular/Slim",
+      "Fabric": "Premium Quality",
+      "Fit": "Regular",
       "Wash Care": "Machine Wash"
     },
     "reviews": [
       {
-        "id": "rev_qu4oq",
-        "userName": "Customer",
+        "id": "rev_4_1",
+        "userName": "Verified Buyer",
         "rating": 5,
-        "comment": "Excellent product, highly recommended!",
-        "date": "2024-12-15",
-        "helpful": 34,
+        "comment": "Absolutely love this product! The quality is amazing for the price.",
+        "date": "2024-03-15",
+        "helpful": 41,
         "verified": true
       }
     ]
   },
   {
     "id": "prod_005",
-    "name": "H&M Men's Premium Accessories",
-    "brand": "H&M",
-    "description": "Premium quality accessories from H&M. Features comfortable fit and excellent material suitable for everyday wear.",
+    "name": "Premium T-Shirts - Style 5",
+    "brand": "Adidas",
+    "description": "Experience ultimate comfort and style with our latest t-shirts. Perfect for everyday wear, featuring premium materials and exceptional craftsmanship.",
     "category": "Men",
-    "subCategory": "Accessories",
-    "type": "Accessories",
-    "price": 5734,
-    "mrp": 11468,
-    "discount": 50,
+    "subCategory": "T-Shirts",
+    "type": "Topwear",
+    "price": 199,
+    "mrp": 898,
+    "discount": 78,
     "currency": "₹",
-    "rating": 4.9,
-    "reviewCount": 90,
+    "rating": "4.7",
+    "reviewCount": 4640,
     "images": [
-      "https://images.unsplash.com/photo-1511499767150-a48a237f0083?w=600&q=80",
-      "https://images.unsplash.com/photo-1523206489230-c012c64b2b48?w=600&q=80",
-      "https://images.unsplash.com/photo-1511499767150-a48a237f0083?w=600&q=80",
-      "https://images.unsplash.com/photo-1523206489230-c012c64b2b48?w=600&q=80"
+      "https://images.unsplash.com/photo-1618354691373-d851c5c827b2?w=600&q=80",
+      "https://images.unsplash.com/photo-1542060748-10c28b62d84b?w=600&q=80",
+      "https://images.unsplash.com/photo-1576566588048-b34a62b71f4b?w=600&q=80"
     ],
     "colors": [
       {
-        "name": "Mustard",
-        "hex": "#FFDB58"
-      },
-      {
-        "name": "Olive",
-        "hex": "#556B2F"
-      },
-      {
-        "name": "Charcoal Black",
+        "name": "Standard",
         "hex": "#1a1a1a"
+      },
+      {
+        "name": "Variant",
+        "hex": "#f5f5f5"
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -370,81 +328,72 @@ export const products = [
       "XXL"
     ],
     "sizesAvailable": {
-      "XS": true,
       "S": true,
       "M": true,
       "L": true,
-      "XL": true,
+      "XL": false,
       "XXL": false
     },
-    "material": "Premium Cotton Blend",
-    "fit": "Slim",
+    "material": "100% Premium Material",
+    "fit": "Regular",
     "pattern": "Solid",
     "occasion": "Casual",
-    "season": "All Season",
-    "stock": 96,
+    "stock": 17,
     "isTrending": true,
-    "isNewArrival": true,
+    "isNewArrival": false,
     "isBestSeller": false,
     "tags": [
-      "fashion",
       "premium",
-      "accessories",
-      "men"
+      "comfortable",
+      "t-shirts"
     ],
     "specifications": {
-      "Fabric": "Premium Cotton Blend",
-      "Fit": "Regular/Slim",
+      "Fabric": "Premium Quality",
+      "Fit": "Regular",
       "Wash Care": "Machine Wash"
     },
     "reviews": [
       {
-        "id": "rev_et4x6",
-        "userName": "Customer",
+        "id": "rev_5_1",
+        "userName": "Verified Buyer",
         "rating": 5,
-        "comment": "Excellent product, highly recommended!",
-        "date": "2024-12-15",
-        "helpful": 10,
+        "comment": "Absolutely love this product! The quality is amazing for the price.",
+        "date": "2024-03-15",
+        "helpful": 30,
         "verified": true
       }
     ]
   },
   {
     "id": "prod_006",
-    "name": "Adidas Men's Premium Shirts",
-    "brand": "Adidas",
-    "description": "Premium quality shirts from Adidas. Features comfortable fit and excellent material suitable for everyday wear.",
+    "name": "Premium T-Shirts - Style 6",
+    "brand": "H&M",
+    "description": "Experience ultimate comfort and style with our latest t-shirts. Perfect for everyday wear, featuring premium materials and exceptional craftsmanship.",
     "category": "Men",
-    "subCategory": "Shirts",
+    "subCategory": "T-Shirts",
     "type": "Topwear",
-    "price": 1178,
-    "mrp": 2067,
-    "discount": 43,
+    "price": 499,
+    "mrp": 898,
+    "discount": 44,
     "currency": "₹",
-    "rating": 4.8,
-    "reviewCount": 1689,
+    "rating": "4.9",
+    "reviewCount": 2701,
     "images": [
-      "https://images.unsplash.com/photo-1598033129183-c4f50c736f10?w=600&q=80",
-      "https://images.unsplash.com/photo-1602810318383-e386cc2a3ce3?w=600&q=80",
-      "https://images.unsplash.com/photo-1598033129183-c4f50c736f10?w=600&q=80",
-      "https://images.unsplash.com/photo-1602810318383-e386cc2a3ce3?w=600&q=80"
+      "https://images.unsplash.com/photo-1542060748-10c28b62d84b?w=600&q=80",
+      "https://images.unsplash.com/photo-1576566588048-b34a62b71f4b?w=600&q=80",
+      "https://images.unsplash.com/photo-1509631179647-0177331693ae?w=600&q=80"
     ],
     "colors": [
       {
-        "name": "Off White",
-        "hex": "#f5f0e8"
+        "name": "Standard",
+        "hex": "#1a1a1a"
       },
       {
-        "name": "Navy Blue",
-        "hex": "#000080"
-      },
-      {
-        "name": "Maroon",
-        "hex": "#800000"
+        "name": "Variant",
+        "hex": "#f5f5f5"
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -452,81 +401,72 @@ export const products = [
       "XXL"
     ],
     "sizesAvailable": {
-      "XS": false,
       "S": true,
       "M": true,
       "L": true,
-      "XL": true,
+      "XL": false,
       "XXL": true
     },
-    "material": "Premium Cotton Blend",
+    "material": "100% Premium Material",
     "fit": "Regular",
     "pattern": "Solid",
     "occasion": "Casual",
-    "season": "All Season",
-    "stock": 86,
-    "isTrending": false,
-    "isNewArrival": true,
-    "isBestSeller": false,
+    "stock": 33,
+    "isTrending": true,
+    "isNewArrival": false,
+    "isBestSeller": true,
     "tags": [
-      "fashion",
       "premium",
-      "topwear",
-      "men"
+      "comfortable",
+      "t-shirts"
     ],
     "specifications": {
-      "Fabric": "Premium Cotton Blend",
-      "Fit": "Regular/Slim",
+      "Fabric": "Premium Quality",
+      "Fit": "Regular",
       "Wash Care": "Machine Wash"
     },
     "reviews": [
       {
-        "id": "rev_hthw9",
-        "userName": "Customer",
+        "id": "rev_6_1",
+        "userName": "Verified Buyer",
         "rating": 5,
-        "comment": "Excellent product, highly recommended!",
-        "date": "2024-12-15",
-        "helpful": 21,
+        "comment": "Absolutely love this product! The quality is amazing for the price.",
+        "date": "2024-03-15",
+        "helpful": 10,
         "verified": true
       }
     ]
   },
   {
     "id": "prod_007",
-    "name": "Zara Men's Premium T-Shirts",
+    "name": "Premium T-Shirts - Style 7",
     "brand": "Zara",
-    "description": "Premium quality t-shirts from Zara. Features comfortable fit and excellent material suitable for everyday wear.",
+    "description": "Experience ultimate comfort and style with our latest t-shirts. Perfect for everyday wear, featuring premium materials and exceptional craftsmanship.",
     "category": "Men",
     "subCategory": "T-Shirts",
     "type": "Topwear",
-    "price": 6731,
-    "mrp": 8975,
-    "discount": 25,
+    "price": 299,
+    "mrp": 598,
+    "discount": 50,
     "currency": "₹",
-    "rating": 4.1,
-    "reviewCount": 2824,
+    "rating": "5.0",
+    "reviewCount": 1160,
     "images": [
-      "https://images.unsplash.com/photo-1583743814966-8936f5b7be1a?w=600&q=80",
-      "https://images.unsplash.com/photo-1521572163474-6864f9cf17ab?w=600&q=80",
-      "https://images.unsplash.com/photo-1583743814966-8936f5b7be1a?w=600&q=80",
-      "https://images.unsplash.com/photo-1521572163474-6864f9cf17ab?w=600&q=80"
+      "https://images.unsplash.com/photo-1576566588048-b34a62b71f4b?w=600&q=80",
+      "https://images.unsplash.com/photo-1509631179647-0177331693ae?w=600&q=80",
+      "https://images.unsplash.com/photo-1562157873-818bc0726f68?w=600&q=80"
     ],
     "colors": [
       {
-        "name": "Olive",
-        "hex": "#556B2F"
-      },
-      {
-        "name": "Maroon",
-        "hex": "#800000"
-      },
-      {
-        "name": "Charcoal Black",
+        "name": "Standard",
         "hex": "#1a1a1a"
+      },
+      {
+        "name": "Variant",
+        "hex": "#f5f5f5"
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -534,81 +474,72 @@ export const products = [
       "XXL"
     ],
     "sizesAvailable": {
-      "XS": false,
       "S": true,
       "M": true,
       "L": true,
       "XL": true,
       "XXL": false
     },
-    "material": "Premium Cotton Blend",
-    "fit": "Slim",
-    "pattern": "Printed",
+    "material": "100% Premium Material",
+    "fit": "Regular",
+    "pattern": "Solid",
     "occasion": "Casual",
-    "season": "All Season",
-    "stock": 9,
+    "stock": 13,
     "isTrending": false,
     "isNewArrival": false,
     "isBestSeller": false,
     "tags": [
-      "fashion",
       "premium",
-      "topwear",
-      "men"
+      "comfortable",
+      "t-shirts"
     ],
     "specifications": {
-      "Fabric": "Premium Cotton Blend",
-      "Fit": "Regular/Slim",
+      "Fabric": "Premium Quality",
+      "Fit": "Regular",
       "Wash Care": "Machine Wash"
     },
     "reviews": [
       {
-        "id": "rev_9evl1",
-        "userName": "Customer",
+        "id": "rev_7_1",
+        "userName": "Verified Buyer",
         "rating": 5,
-        "comment": "Excellent product, highly recommended!",
-        "date": "2024-12-15",
-        "helpful": 2,
+        "comment": "Absolutely love this product! The quality is amazing for the price.",
+        "date": "2024-03-15",
+        "helpful": 22,
         "verified": true
       }
     ]
   },
   {
     "id": "prod_008",
-    "name": "Allen Solly Men's Premium Jeans",
-    "brand": "Allen Solly",
-    "description": "Premium quality jeans from Allen Solly. Features comfortable fit and excellent material suitable for everyday wear.",
+    "name": "Premium T-Shirts - Style 8",
+    "brand": "NOIR",
+    "description": "Experience ultimate comfort and style with our latest t-shirts. Perfect for everyday wear, featuring premium materials and exceptional craftsmanship.",
     "category": "Men",
-    "subCategory": "Jeans",
-    "type": "Bottomwear",
-    "price": 1731,
-    "mrp": 4222,
-    "discount": 59,
+    "subCategory": "T-Shirts",
+    "type": "Topwear",
+    "price": 499,
+    "mrp": 998,
+    "discount": 50,
     "currency": "₹",
-    "rating": 4.4,
-    "reviewCount": 3748,
+    "rating": "4.5",
+    "reviewCount": 1473,
     "images": [
-      "https://images.unsplash.com/photo-1542272604-787c3835535d?w=600&q=80",
-      "https://images.unsplash.com/photo-1604176354204-926873812d4e?w=600&q=80",
-      "https://images.unsplash.com/photo-1542272604-787c3835535d?w=600&q=80",
-      "https://images.unsplash.com/photo-1604176354204-926873812d4e?w=600&q=80"
+      "https://images.unsplash.com/photo-1509631179647-0177331693ae?w=600&q=80",
+      "https://images.unsplash.com/photo-1562157873-818bc0726f68?w=600&q=80",
+      "https://images.unsplash.com/photo-1583743814966-8d4f2b9d7c0e?w=600&q=80"
     ],
     "colors": [
       {
-        "name": "Mustard",
-        "hex": "#FFDB58"
-      },
-      {
-        "name": "Olive",
-        "hex": "#556B2F"
-      },
-      {
-        "name": "Charcoal Black",
+        "name": "Standard",
         "hex": "#1a1a1a"
+      },
+      {
+        "name": "Variant",
+        "hex": "#f5f5f5"
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -616,409 +547,72 @@ export const products = [
       "XXL"
     ],
     "sizesAvailable": {
-      "XS": false,
       "S": true,
       "M": true,
       "L": true,
       "XL": true,
       "XXL": false
     },
-    "material": "Premium Cotton Blend",
+    "material": "100% Premium Material",
     "fit": "Regular",
     "pattern": "Solid",
     "occasion": "Casual",
-    "season": "All Season",
-    "stock": 87,
-    "isTrending": true,
-    "isNewArrival": false,
-    "isBestSeller": false,
-    "tags": [
-      "fashion",
-      "premium",
-      "bottomwear",
-      "men"
-    ],
-    "specifications": {
-      "Fabric": "Premium Cotton Blend",
-      "Fit": "Regular/Slim",
-      "Wash Care": "Machine Wash"
-    },
-    "reviews": [
-      {
-        "id": "rev_yw53h",
-        "userName": "Customer",
-        "rating": 5,
-        "comment": "Excellent product, highly recommended!",
-        "date": "2024-12-15",
-        "helpful": 7,
-        "verified": true
-      }
-    ]
-  },
-  {
-    "id": "prod_009",
-    "name": "Vero Moda Men's Premium Hoodies & Sweatshirts",
-    "brand": "Vero Moda",
-    "description": "Premium quality hoodies & sweatshirts from Vero Moda. Features comfortable fit and excellent material suitable for everyday wear.",
-    "category": "Men",
-    "subCategory": "Hoodies & Sweatshirts",
-    "type": "Topwear",
-    "price": 9597,
-    "mrp": 11291,
-    "discount": 15,
-    "currency": "₹",
-    "rating": 4.1,
-    "reviewCount": 2333,
-    "images": [
-      "https://images.unsplash.com/photo-1620799140408-edc6dcb6d633?w=600&q=80",
-      "https://images.unsplash.com/photo-1556821840-3a63f95609a7?w=600&q=80",
-      "https://images.unsplash.com/photo-1620799140408-edc6dcb6d633?w=600&q=80",
-      "https://images.unsplash.com/photo-1556821840-3a63f95609a7?w=600&q=80"
-    ],
-    "colors": [
-      {
-        "name": "Charcoal Black",
-        "hex": "#1a1a1a"
-      },
-      {
-        "name": "Navy Blue",
-        "hex": "#000080"
-      },
-      {
-        "name": "Olive",
-        "hex": "#556B2F"
-      }
-    ],
-    "sizes": [
-      "XS",
-      "S",
-      "M",
-      "L",
-      "XL",
-      "XXL"
-    ],
-    "sizesAvailable": {
-      "XS": true,
-      "S": true,
-      "M": true,
-      "L": true,
-      "XL": true,
-      "XXL": true
-    },
-    "material": "Premium Cotton Blend",
-    "fit": "Regular",
-    "pattern": "Printed",
-    "occasion": "Casual",
-    "season": "All Season",
-    "stock": 21,
+    "stock": 26,
     "isTrending": false,
     "isNewArrival": false,
     "isBestSeller": false,
     "tags": [
-      "fashion",
       "premium",
-      "topwear",
-      "men"
+      "comfortable",
+      "t-shirts"
     ],
     "specifications": {
-      "Fabric": "Premium Cotton Blend",
-      "Fit": "Regular/Slim",
+      "Fabric": "Premium Quality",
+      "Fit": "Regular",
       "Wash Care": "Machine Wash"
     },
     "reviews": [
       {
-        "id": "rev_ucmku",
-        "userName": "Customer",
+        "id": "rev_8_1",
+        "userName": "Verified Buyer",
         "rating": 5,
-        "comment": "Excellent product, highly recommended!",
-        "date": "2024-12-15",
-        "helpful": 20,
-        "verified": true
-      }
-    ]
-  },
-  {
-    "id": "prod_010",
-    "name": "Nike Men's Premium Jackets",
-    "brand": "Nike",
-    "description": "Premium quality jackets from Nike. Features comfortable fit and excellent material suitable for everyday wear.",
-    "category": "Men",
-    "subCategory": "Jackets",
-    "type": "Topwear",
-    "price": 4868,
-    "mrp": 14752,
-    "discount": 67,
-    "currency": "₹",
-    "rating": 3,
-    "reviewCount": 639,
-    "images": [
-      "https://images.unsplash.com/photo-1551028719-00167b16eac5?w=600&q=80",
-      "https://images.unsplash.com/photo-1591047139829-d91aecb6caea?w=600&q=80",
-      "https://images.unsplash.com/photo-1551028719-00167b16eac5?w=600&q=80",
-      "https://images.unsplash.com/photo-1591047139829-d91aecb6caea?w=600&q=80"
-    ],
-    "colors": [
-      {
-        "name": "Maroon",
-        "hex": "#800000"
-      },
-      {
-        "name": "Navy Blue",
-        "hex": "#000080"
-      },
-      {
-        "name": "Off White",
-        "hex": "#f5f0e8"
-      }
-    ],
-    "sizes": [
-      "XS",
-      "S",
-      "M",
-      "L",
-      "XL",
-      "XXL"
-    ],
-    "sizesAvailable": {
-      "XS": true,
-      "S": true,
-      "M": true,
-      "L": true,
-      "XL": false,
-      "XXL": false
-    },
-    "material": "Premium Cotton Blend",
-    "fit": "Slim",
-    "pattern": "Solid",
-    "occasion": "Casual",
-    "season": "All Season",
-    "stock": 27,
-    "isTrending": false,
-    "isNewArrival": false,
-    "isBestSeller": false,
-    "tags": [
-      "fashion",
-      "premium",
-      "topwear",
-      "men"
-    ],
-    "specifications": {
-      "Fabric": "Premium Cotton Blend",
-      "Fit": "Regular/Slim",
-      "Wash Care": "Machine Wash"
-    },
-    "reviews": [
-      {
-        "id": "rev_uzil2",
-        "userName": "Customer",
-        "rating": 5,
-        "comment": "Excellent product, highly recommended!",
-        "date": "2024-12-15",
-        "helpful": 14,
-        "verified": true
-      }
-    ]
-  },
-  {
-    "id": "prod_011",
-    "name": "AURA Men's Premium Shirts",
-    "brand": "AURA",
-    "description": "Premium quality shirts from AURA. Features comfortable fit and excellent material suitable for everyday wear.",
-    "category": "Men",
-    "subCategory": "Shirts",
-    "type": "Topwear",
-    "price": 9134,
-    "mrp": 15482,
-    "discount": 41,
-    "currency": "₹",
-    "rating": 3.4,
-    "reviewCount": 4223,
-    "images": [
-      "https://images.unsplash.com/photo-1602810318383-e386cc2a3ce3?w=600&q=80",
-      "https://images.unsplash.com/photo-1598033129183-c4f50c736f10?w=600&q=80",
-      "https://images.unsplash.com/photo-1602810318383-e386cc2a3ce3?w=600&q=80",
-      "https://images.unsplash.com/photo-1598033129183-c4f50c736f10?w=600&q=80"
-    ],
-    "colors": [
-      {
-        "name": "Mustard",
-        "hex": "#FFDB58"
-      },
-      {
-        "name": "Maroon",
-        "hex": "#800000"
-      },
-      {
-        "name": "Charcoal Black",
-        "hex": "#1a1a1a"
-      }
-    ],
-    "sizes": [
-      "XS",
-      "S",
-      "M",
-      "L",
-      "XL",
-      "XXL"
-    ],
-    "sizesAvailable": {
-      "XS": false,
-      "S": true,
-      "M": true,
-      "L": true,
-      "XL": true,
-      "XXL": false
-    },
-    "material": "Premium Cotton Blend",
-    "fit": "Slim",
-    "pattern": "Printed",
-    "occasion": "Casual",
-    "season": "All Season",
-    "stock": 92,
-    "isTrending": false,
-    "isNewArrival": false,
-    "isBestSeller": false,
-    "tags": [
-      "fashion",
-      "premium",
-      "topwear",
-      "men"
-    ],
-    "specifications": {
-      "Fabric": "Premium Cotton Blend",
-      "Fit": "Regular/Slim",
-      "Wash Care": "Machine Wash"
-    },
-    "reviews": [
-      {
-        "id": "rev_wnbzw",
-        "userName": "Customer",
-        "rating": 5,
-        "comment": "Excellent product, highly recommended!",
-        "date": "2024-12-15",
-        "helpful": 29,
-        "verified": true
-      }
-    ]
-  },
-  {
-    "id": "prod_012",
-    "name": "URBAN EDGE Men's Premium Accessories",
-    "brand": "URBAN EDGE",
-    "description": "Premium quality accessories from URBAN EDGE. Features comfortable fit and excellent material suitable for everyday wear.",
-    "category": "Men",
-    "subCategory": "Accessories",
-    "type": "Accessories",
-    "price": 8090,
-    "mrp": 11725,
-    "discount": 31,
-    "currency": "₹",
-    "rating": 3.4,
-    "reviewCount": 4779,
-    "images": [
-      "https://images.unsplash.com/photo-1523206489230-c012c64b2b48?w=600&q=80",
-      "https://images.unsplash.com/photo-1511499767150-a48a237f0083?w=600&q=80",
-      "https://images.unsplash.com/photo-1523206489230-c012c64b2b48?w=600&q=80",
-      "https://images.unsplash.com/photo-1511499767150-a48a237f0083?w=600&q=80"
-    ],
-    "colors": [
-      {
-        "name": "Maroon",
-        "hex": "#800000"
-      },
-      {
-        "name": "Mustard",
-        "hex": "#FFDB58"
-      },
-      {
-        "name": "Navy Blue",
-        "hex": "#000080"
-      }
-    ],
-    "sizes": [
-      "XS",
-      "S",
-      "M",
-      "L",
-      "XL",
-      "XXL"
-    ],
-    "sizesAvailable": {
-      "XS": false,
-      "S": true,
-      "M": true,
-      "L": true,
-      "XL": true,
-      "XXL": true
-    },
-    "material": "Premium Cotton Blend",
-    "fit": "Regular",
-    "pattern": "Printed",
-    "occasion": "Casual",
-    "season": "All Season",
-    "stock": 23,
-    "isTrending": false,
-    "isNewArrival": true,
-    "isBestSeller": false,
-    "tags": [
-      "fashion",
-      "premium",
-      "accessories",
-      "men"
-    ],
-    "specifications": {
-      "Fabric": "Premium Cotton Blend",
-      "Fit": "Regular/Slim",
-      "Wash Care": "Machine Wash"
-    },
-    "reviews": [
-      {
-        "id": "rev_tzw68",
-        "userName": "Customer",
-        "rating": 5,
-        "comment": "Excellent product, highly recommended!",
-        "date": "2024-12-15",
+        "comment": "Absolutely love this product! The quality is amazing for the price.",
+        "date": "2024-03-15",
         "helpful": 11,
         "verified": true
       }
     ]
   },
   {
-    "id": "prod_013",
-    "name": "Puma Men's Premium Shirts",
-    "brand": "Puma",
-    "description": "Premium quality shirts from Puma. Features comfortable fit and excellent material suitable for everyday wear.",
+    "id": "prod_009",
+    "name": "Premium Shirts - Style 1",
+    "brand": "W",
+    "description": "Experience ultimate comfort and style with our latest shirts. Perfect for everyday wear, featuring premium materials and exceptional craftsmanship.",
     "category": "Men",
     "subCategory": "Shirts",
     "type": "Topwear",
-    "price": 475,
-    "mrp": 610,
-    "discount": 22,
+    "price": 799,
+    "mrp": 1398,
+    "discount": 43,
     "currency": "₹",
-    "rating": 4.2,
-    "reviewCount": 906,
+    "rating": "4.1",
+    "reviewCount": 1283,
     "images": [
-      "https://images.unsplash.com/photo-1602810318383-e386cc2a3ce3?w=600&q=80",
-      "https://images.unsplash.com/photo-1598033129183-c4f50c736f10?w=600&q=80",
-      "https://images.unsplash.com/photo-1602810318383-e386cc2a3ce3?w=600&q=80",
-      "https://images.unsplash.com/photo-1598033129183-c4f50c736f10?w=600&q=80"
+      "https://images.unsplash.com/photo-1603252109303-e67a8d5be4bf?w=600&q=80",
+      "https://images.unsplash.com/photo-1596755094514-f87e34085b2c?w=600&q=80",
+      "https://images.unsplash.com/photo-1598033129183-9be1a2c85a81?w=600&q=80"
     ],
     "colors": [
       {
-        "name": "Navy Blue",
-        "hex": "#000080"
+        "name": "Standard",
+        "hex": "#1a1a1a"
       },
       {
-        "name": "Olive",
-        "hex": "#556B2F"
-      },
-      {
-        "name": "Mustard",
-        "hex": "#FFDB58"
+        "name": "Variant",
+        "hex": "#f5f5f5"
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -1026,2049 +620,72 @@ export const products = [
       "XXL"
     ],
     "sizesAvailable": {
-      "XS": false,
       "S": true,
       "M": true,
       "L": true,
       "XL": true,
       "XXL": true
     },
-    "material": "Premium Cotton Blend",
-    "fit": "Slim",
-    "pattern": "Solid",
-    "occasion": "Casual",
-    "season": "All Season",
-    "stock": 50,
-    "isTrending": false,
-    "isNewArrival": false,
-    "isBestSeller": false,
-    "tags": [
-      "fashion",
-      "premium",
-      "topwear",
-      "men"
-    ],
-    "specifications": {
-      "Fabric": "Premium Cotton Blend",
-      "Fit": "Regular/Slim",
-      "Wash Care": "Machine Wash"
-    },
-    "reviews": [
-      {
-        "id": "rev_t5orq",
-        "userName": "Customer",
-        "rating": 5,
-        "comment": "Excellent product, highly recommended!",
-        "date": "2024-12-15",
-        "helpful": 47,
-        "verified": true
-      }
-    ]
-  },
-  {
-    "id": "prod_014",
-    "name": "Global Desi Men's Premium Jackets",
-    "brand": "Global Desi",
-    "description": "Premium quality jackets from Global Desi. Features comfortable fit and excellent material suitable for everyday wear.",
-    "category": "Men",
-    "subCategory": "Jackets",
-    "type": "Topwear",
-    "price": 7199,
-    "mrp": 8674,
-    "discount": 17,
-    "currency": "₹",
-    "rating": 4.1,
-    "reviewCount": 2735,
-    "images": [
-      "https://images.unsplash.com/photo-1551028719-00167b16eac5?w=600&q=80",
-      "https://images.unsplash.com/photo-1591047139829-d91aecb6caea?w=600&q=80",
-      "https://images.unsplash.com/photo-1551028719-00167b16eac5?w=600&q=80",
-      "https://images.unsplash.com/photo-1591047139829-d91aecb6caea?w=600&q=80"
-    ],
-    "colors": [
-      {
-        "name": "Maroon",
-        "hex": "#800000"
-      },
-      {
-        "name": "Off White",
-        "hex": "#f5f0e8"
-      },
-      {
-        "name": "Mustard",
-        "hex": "#FFDB58"
-      }
-    ],
-    "sizes": [
-      "XS",
-      "S",
-      "M",
-      "L",
-      "XL",
-      "XXL"
-    ],
-    "sizesAvailable": {
-      "XS": false,
-      "S": true,
-      "M": true,
-      "L": true,
-      "XL": true,
-      "XXL": false
-    },
-    "material": "Premium Cotton Blend",
+    "material": "100% Premium Material",
     "fit": "Regular",
     "pattern": "Solid",
     "occasion": "Casual",
-    "season": "All Season",
-    "stock": 74,
-    "isTrending": false,
-    "isNewArrival": true,
-    "isBestSeller": false,
-    "tags": [
-      "fashion",
-      "premium",
-      "topwear",
-      "men"
-    ],
-    "specifications": {
-      "Fabric": "Premium Cotton Blend",
-      "Fit": "Regular/Slim",
-      "Wash Care": "Machine Wash"
-    },
-    "reviews": [
-      {
-        "id": "rev_qyyzk",
-        "userName": "Customer",
-        "rating": 5,
-        "comment": "Excellent product, highly recommended!",
-        "date": "2024-12-15",
-        "helpful": 32,
-        "verified": true
-      }
-    ]
-  },
-  {
-    "id": "prod_015",
-    "name": "AURA Men's Premium Shorts",
-    "brand": "AURA",
-    "description": "Premium quality shorts from AURA. Features comfortable fit and excellent material suitable for everyday wear.",
-    "category": "Men",
-    "subCategory": "Shorts",
-    "type": "Bottomwear",
-    "price": 6641,
-    "mrp": 15446,
-    "discount": 57,
-    "currency": "₹",
-    "rating": 5,
-    "reviewCount": 2194,
-    "images": [
-      "https://images.unsplash.com/photo-1552374196-1ab2a1c593e8?w=600&q=80",
-      "https://images.unsplash.com/photo-1490578474895-699bc4e3f49f?w=600&q=80",
-      "https://images.unsplash.com/photo-1552374196-1ab2a1c593e8?w=600&q=80",
-      "https://images.unsplash.com/photo-1490578474895-699bc4e3f49f?w=600&q=80"
-    ],
-    "colors": [
-      {
-        "name": "Olive",
-        "hex": "#556B2F"
-      },
-      {
-        "name": "Maroon",
-        "hex": "#800000"
-      },
-      {
-        "name": "Off White",
-        "hex": "#f5f0e8"
-      }
-    ],
-    "sizes": [
-      "XS",
-      "S",
-      "M",
-      "L",
-      "XL",
-      "XXL"
-    ],
-    "sizesAvailable": {
-      "XS": true,
-      "S": true,
-      "M": true,
-      "L": true,
-      "XL": true,
-      "XXL": false
-    },
-    "material": "Premium Cotton Blend",
-    "fit": "Regular",
-    "pattern": "Solid",
-    "occasion": "Casual",
-    "season": "All Season",
-    "stock": 15,
-    "isTrending": false,
-    "isNewArrival": true,
-    "isBestSeller": false,
-    "tags": [
-      "fashion",
-      "premium",
-      "bottomwear",
-      "men"
-    ],
-    "specifications": {
-      "Fabric": "Premium Cotton Blend",
-      "Fit": "Regular/Slim",
-      "Wash Care": "Machine Wash"
-    },
-    "reviews": [
-      {
-        "id": "rev_wot2p",
-        "userName": "Customer",
-        "rating": 5,
-        "comment": "Excellent product, highly recommended!",
-        "date": "2024-12-15",
-        "helpful": 46,
-        "verified": true
-      }
-    ]
-  },
-  {
-    "id": "prod_016",
-    "name": "H&M Men's Premium Shirts",
-    "brand": "H&M",
-    "description": "Premium quality shirts from H&M. Features comfortable fit and excellent material suitable for everyday wear.",
-    "category": "Men",
-    "subCategory": "Shirts",
-    "type": "Topwear",
-    "price": 11091,
-    "mrp": 14220,
-    "discount": 22,
-    "currency": "₹",
-    "rating": 3.3,
-    "reviewCount": 3841,
-    "images": [
-      "https://images.unsplash.com/photo-1598033129183-c4f50c736f10?w=600&q=80",
-      "https://images.unsplash.com/photo-1602810318383-e386cc2a3ce3?w=600&q=80",
-      "https://images.unsplash.com/photo-1598033129183-c4f50c736f10?w=600&q=80",
-      "https://images.unsplash.com/photo-1602810318383-e386cc2a3ce3?w=600&q=80"
-    ],
-    "colors": [
-      {
-        "name": "Charcoal Black",
-        "hex": "#1a1a1a"
-      },
-      {
-        "name": "Off White",
-        "hex": "#f5f0e8"
-      },
-      {
-        "name": "Olive",
-        "hex": "#556B2F"
-      }
-    ],
-    "sizes": [
-      "XS",
-      "S",
-      "M",
-      "L",
-      "XL",
-      "XXL"
-    ],
-    "sizesAvailable": {
-      "XS": true,
-      "S": true,
-      "M": true,
-      "L": true,
-      "XL": true,
-      "XXL": false
-    },
-    "material": "Premium Cotton Blend",
-    "fit": "Regular",
-    "pattern": "Solid",
-    "occasion": "Casual",
-    "season": "All Season",
-    "stock": 44,
-    "isTrending": false,
-    "isNewArrival": true,
-    "isBestSeller": false,
-    "tags": [
-      "fashion",
-      "premium",
-      "topwear",
-      "men"
-    ],
-    "specifications": {
-      "Fabric": "Premium Cotton Blend",
-      "Fit": "Regular/Slim",
-      "Wash Care": "Machine Wash"
-    },
-    "reviews": [
-      {
-        "id": "rev_tpvop",
-        "userName": "Customer",
-        "rating": 5,
-        "comment": "Excellent product, highly recommended!",
-        "date": "2024-12-15",
-        "helpful": 28,
-        "verified": true
-      }
-    ]
-  },
-  {
-    "id": "prod_017",
-    "name": "Levi's Men's Premium Shirts",
-    "brand": "Levi's",
-    "description": "Premium quality shirts from Levi's. Features comfortable fit and excellent material suitable for everyday wear.",
-    "category": "Men",
-    "subCategory": "Shirts",
-    "type": "Topwear",
-    "price": 8231,
-    "mrp": 12862,
-    "discount": 36,
-    "currency": "₹",
-    "rating": 3.5,
-    "reviewCount": 674,
-    "images": [
-      "https://images.unsplash.com/photo-1602810318383-e386cc2a3ce3?w=600&q=80",
-      "https://images.unsplash.com/photo-1598033129183-c4f50c736f10?w=600&q=80",
-      "https://images.unsplash.com/photo-1602810318383-e386cc2a3ce3?w=600&q=80",
-      "https://images.unsplash.com/photo-1598033129183-c4f50c736f10?w=600&q=80"
-    ],
-    "colors": [
-      {
-        "name": "Charcoal Black",
-        "hex": "#1a1a1a"
-      },
-      {
-        "name": "Navy Blue",
-        "hex": "#000080"
-      },
-      {
-        "name": "Off White",
-        "hex": "#f5f0e8"
-      }
-    ],
-    "sizes": [
-      "XS",
-      "S",
-      "M",
-      "L",
-      "XL",
-      "XXL"
-    ],
-    "sizesAvailable": {
-      "XS": false,
-      "S": true,
-      "M": true,
-      "L": true,
-      "XL": false,
-      "XXL": false
-    },
-    "material": "Premium Cotton Blend",
-    "fit": "Slim",
-    "pattern": "Solid",
-    "occasion": "Casual",
-    "season": "All Season",
-    "stock": 93,
-    "isTrending": true,
-    "isNewArrival": true,
-    "isBestSeller": true,
-    "tags": [
-      "fashion",
-      "premium",
-      "topwear",
-      "men"
-    ],
-    "specifications": {
-      "Fabric": "Premium Cotton Blend",
-      "Fit": "Regular/Slim",
-      "Wash Care": "Machine Wash"
-    },
-    "reviews": [
-      {
-        "id": "rev_zda9s",
-        "userName": "Customer",
-        "rating": 5,
-        "comment": "Excellent product, highly recommended!",
-        "date": "2024-12-15",
-        "helpful": 2,
-        "verified": true
-      }
-    ]
-  },
-  {
-    "id": "prod_018",
-    "name": "URBAN EDGE Men's Premium T-Shirts",
-    "brand": "URBAN EDGE",
-    "description": "Premium quality t-shirts from URBAN EDGE. Features comfortable fit and excellent material suitable for everyday wear.",
-    "category": "Men",
-    "subCategory": "T-Shirts",
-    "type": "Topwear",
-    "price": 834,
-    "mrp": 959,
-    "discount": 13,
-    "currency": "₹",
-    "rating": 4,
-    "reviewCount": 3578,
-    "images": [
-      "https://images.unsplash.com/photo-1521572163474-6864f9cf17ab?w=600&q=80",
-      "https://images.unsplash.com/photo-1583743814966-8936f5b7be1a?w=600&q=80",
-      "https://images.unsplash.com/photo-1521572163474-6864f9cf17ab?w=600&q=80",
-      "https://images.unsplash.com/photo-1583743814966-8936f5b7be1a?w=600&q=80"
-    ],
-    "colors": [
-      {
-        "name": "Off White",
-        "hex": "#f5f0e8"
-      },
-      {
-        "name": "Maroon",
-        "hex": "#800000"
-      },
-      {
-        "name": "Charcoal Black",
-        "hex": "#1a1a1a"
-      }
-    ],
-    "sizes": [
-      "XS",
-      "S",
-      "M",
-      "L",
-      "XL",
-      "XXL"
-    ],
-    "sizesAvailable": {
-      "XS": false,
-      "S": true,
-      "M": true,
-      "L": true,
-      "XL": true,
-      "XXL": false
-    },
-    "material": "Premium Cotton Blend",
-    "fit": "Regular",
-    "pattern": "Solid",
-    "occasion": "Casual",
-    "season": "All Season",
-    "stock": 53,
-    "isTrending": false,
-    "isNewArrival": false,
-    "isBestSeller": false,
-    "tags": [
-      "fashion",
-      "premium",
-      "topwear",
-      "men"
-    ],
-    "specifications": {
-      "Fabric": "Premium Cotton Blend",
-      "Fit": "Regular/Slim",
-      "Wash Care": "Machine Wash"
-    },
-    "reviews": [
-      {
-        "id": "rev_eol4d",
-        "userName": "Customer",
-        "rating": 5,
-        "comment": "Excellent product, highly recommended!",
-        "date": "2024-12-15",
-        "helpful": 44,
-        "verified": true
-      }
-    ]
-  },
-  {
-    "id": "prod_019",
-    "name": "Global Desi Men's Premium T-Shirts",
-    "brand": "Global Desi",
-    "description": "Premium quality t-shirts from Global Desi. Features comfortable fit and excellent material suitable for everyday wear.",
-    "category": "Men",
-    "subCategory": "T-Shirts",
-    "type": "Topwear",
-    "price": 4067,
-    "mrp": 5352,
-    "discount": 24,
-    "currency": "₹",
-    "rating": 4.3,
-    "reviewCount": 3396,
-    "images": [
-      "https://images.unsplash.com/photo-1583743814966-8936f5b7be1a?w=600&q=80",
-      "https://images.unsplash.com/photo-1521572163474-6864f9cf17ab?w=600&q=80",
-      "https://images.unsplash.com/photo-1583743814966-8936f5b7be1a?w=600&q=80",
-      "https://images.unsplash.com/photo-1521572163474-6864f9cf17ab?w=600&q=80"
-    ],
-    "colors": [
-      {
-        "name": "Mustard",
-        "hex": "#FFDB58"
-      },
-      {
-        "name": "Olive",
-        "hex": "#556B2F"
-      },
-      {
-        "name": "Navy Blue",
-        "hex": "#000080"
-      }
-    ],
-    "sizes": [
-      "XS",
-      "S",
-      "M",
-      "L",
-      "XL",
-      "XXL"
-    ],
-    "sizesAvailable": {
-      "XS": false,
-      "S": true,
-      "M": true,
-      "L": true,
-      "XL": false,
-      "XXL": false
-    },
-    "material": "Premium Cotton Blend",
-    "fit": "Slim",
-    "pattern": "Solid",
-    "occasion": "Casual",
-    "season": "All Season",
-    "stock": 37,
-    "isTrending": false,
-    "isNewArrival": false,
-    "isBestSeller": false,
-    "tags": [
-      "fashion",
-      "premium",
-      "topwear",
-      "men"
-    ],
-    "specifications": {
-      "Fabric": "Premium Cotton Blend",
-      "Fit": "Regular/Slim",
-      "Wash Care": "Machine Wash"
-    },
-    "reviews": [
-      {
-        "id": "rev_okydf",
-        "userName": "Customer",
-        "rating": 5,
-        "comment": "Excellent product, highly recommended!",
-        "date": "2024-12-15",
-        "helpful": 4,
-        "verified": true
-      }
-    ]
-  },
-  {
-    "id": "prod_020",
-    "name": "FabIndia Men's Premium Activewear",
-    "brand": "FabIndia",
-    "description": "Premium quality activewear from FabIndia. Features comfortable fit and excellent material suitable for everyday wear.",
-    "category": "Men",
-    "subCategory": "Activewear",
-    "type": "Activewear",
-    "price": 11870,
-    "mrp": 15218,
-    "discount": 22,
-    "currency": "₹",
-    "rating": 4.1,
-    "reviewCount": 3082,
-    "images": [
-      "https://images.unsplash.com/photo-1490578474895-699bc4e3f49f?w=600&q=80",
-      "https://images.unsplash.com/photo-1552374196-1ab2a1c593e8?w=600&q=80",
-      "https://images.unsplash.com/photo-1490578474895-699bc4e3f49f?w=600&q=80",
-      "https://images.unsplash.com/photo-1552374196-1ab2a1c593e8?w=600&q=80"
-    ],
-    "colors": [
-      {
-        "name": "Mustard",
-        "hex": "#FFDB58"
-      },
-      {
-        "name": "Olive",
-        "hex": "#556B2F"
-      },
-      {
-        "name": "Navy Blue",
-        "hex": "#000080"
-      }
-    ],
-    "sizes": [
-      "XS",
-      "S",
-      "M",
-      "L",
-      "XL",
-      "XXL"
-    ],
-    "sizesAvailable": {
-      "XS": false,
-      "S": true,
-      "M": true,
-      "L": true,
-      "XL": true,
-      "XXL": false
-    },
-    "material": "Premium Cotton Blend",
-    "fit": "Slim",
-    "pattern": "Printed",
-    "occasion": "Casual",
-    "season": "All Season",
-    "stock": 69,
-    "isTrending": false,
-    "isNewArrival": false,
-    "isBestSeller": false,
-    "tags": [
-      "fashion",
-      "premium",
-      "activewear",
-      "men"
-    ],
-    "specifications": {
-      "Fabric": "Premium Cotton Blend",
-      "Fit": "Regular/Slim",
-      "Wash Care": "Machine Wash"
-    },
-    "reviews": [
-      {
-        "id": "rev_t0mcf",
-        "userName": "Customer",
-        "rating": 5,
-        "comment": "Excellent product, highly recommended!",
-        "date": "2024-12-15",
-        "helpful": 12,
-        "verified": true
-      }
-    ]
-  },
-  {
-    "id": "prod_021",
-    "name": "NOIR Men's Premium Shirts",
-    "brand": "NOIR",
-    "description": "Premium quality shirts from NOIR. Features comfortable fit and excellent material suitable for everyday wear.",
-    "category": "Men",
-    "subCategory": "Shirts",
-    "type": "Topwear",
-    "price": 1367,
-    "mrp": 2581,
-    "discount": 47,
-    "currency": "₹",
-    "rating": 4.8,
-    "reviewCount": 3742,
-    "images": [
-      "https://images.unsplash.com/photo-1602810318383-e386cc2a3ce3?w=600&q=80",
-      "https://images.unsplash.com/photo-1598033129183-c4f50c736f10?w=600&q=80",
-      "https://images.unsplash.com/photo-1602810318383-e386cc2a3ce3?w=600&q=80",
-      "https://images.unsplash.com/photo-1598033129183-c4f50c736f10?w=600&q=80"
-    ],
-    "colors": [
-      {
-        "name": "Maroon",
-        "hex": "#800000"
-      },
-      {
-        "name": "Mustard",
-        "hex": "#FFDB58"
-      },
-      {
-        "name": "Olive",
-        "hex": "#556B2F"
-      }
-    ],
-    "sizes": [
-      "XS",
-      "S",
-      "M",
-      "L",
-      "XL",
-      "XXL"
-    ],
-    "sizesAvailable": {
-      "XS": false,
-      "S": true,
-      "M": true,
-      "L": true,
-      "XL": false,
-      "XXL": false
-    },
-    "material": "Premium Cotton Blend",
-    "fit": "Slim",
-    "pattern": "Printed",
-    "occasion": "Casual",
-    "season": "All Season",
-    "stock": 59,
-    "isTrending": false,
-    "isNewArrival": false,
-    "isBestSeller": true,
-    "tags": [
-      "fashion",
-      "premium",
-      "topwear",
-      "men"
-    ],
-    "specifications": {
-      "Fabric": "Premium Cotton Blend",
-      "Fit": "Regular/Slim",
-      "Wash Care": "Machine Wash"
-    },
-    "reviews": [
-      {
-        "id": "rev_4pdoo",
-        "userName": "Customer",
-        "rating": 5,
-        "comment": "Excellent product, highly recommended!",
-        "date": "2024-12-15",
-        "helpful": 3,
-        "verified": true
-      }
-    ]
-  },
-  {
-    "id": "prod_022",
-    "name": "NOIR Men's Premium Activewear",
-    "brand": "NOIR",
-    "description": "Premium quality activewear from NOIR. Features comfortable fit and excellent material suitable for everyday wear.",
-    "category": "Men",
-    "subCategory": "Activewear",
-    "type": "Activewear",
-    "price": 6128,
-    "mrp": 15321,
-    "discount": 60,
-    "currency": "₹",
-    "rating": 3.5,
-    "reviewCount": 4777,
-    "images": [
-      "https://images.unsplash.com/photo-1490578474895-699bc4e3f49f?w=600&q=80",
-      "https://images.unsplash.com/photo-1552374196-1ab2a1c593e8?w=600&q=80",
-      "https://images.unsplash.com/photo-1490578474895-699bc4e3f49f?w=600&q=80",
-      "https://images.unsplash.com/photo-1552374196-1ab2a1c593e8?w=600&q=80"
-    ],
-    "colors": [
-      {
-        "name": "Navy Blue",
-        "hex": "#000080"
-      },
-      {
-        "name": "Mustard",
-        "hex": "#FFDB58"
-      },
-      {
-        "name": "Maroon",
-        "hex": "#800000"
-      }
-    ],
-    "sizes": [
-      "XS",
-      "S",
-      "M",
-      "L",
-      "XL",
-      "XXL"
-    ],
-    "sizesAvailable": {
-      "XS": false,
-      "S": true,
-      "M": true,
-      "L": true,
-      "XL": true,
-      "XXL": false
-    },
-    "material": "Premium Cotton Blend",
-    "fit": "Regular",
-    "pattern": "Printed",
-    "occasion": "Casual",
-    "season": "All Season",
-    "stock": 27,
-    "isTrending": true,
-    "isNewArrival": false,
-    "isBestSeller": false,
-    "tags": [
-      "fashion",
-      "premium",
-      "activewear",
-      "men"
-    ],
-    "specifications": {
-      "Fabric": "Premium Cotton Blend",
-      "Fit": "Regular/Slim",
-      "Wash Care": "Machine Wash"
-    },
-    "reviews": [
-      {
-        "id": "rev_wnda2",
-        "userName": "Customer",
-        "rating": 5,
-        "comment": "Excellent product, highly recommended!",
-        "date": "2024-12-15",
-        "helpful": 17,
-        "verified": true
-      }
-    ]
-  },
-  {
-    "id": "prod_023",
-    "name": "URBAN EDGE Men's Premium Shorts",
-    "brand": "URBAN EDGE",
-    "description": "Premium quality shorts from URBAN EDGE. Features comfortable fit and excellent material suitable for everyday wear.",
-    "category": "Men",
-    "subCategory": "Shorts",
-    "type": "Bottomwear",
-    "price": 4650,
-    "mrp": 12238,
-    "discount": 62,
-    "currency": "₹",
-    "rating": 4,
-    "reviewCount": 3040,
-    "images": [
-      "https://images.unsplash.com/photo-1552374196-1ab2a1c593e8?w=600&q=80",
-      "https://images.unsplash.com/photo-1490578474895-699bc4e3f49f?w=600&q=80",
-      "https://images.unsplash.com/photo-1552374196-1ab2a1c593e8?w=600&q=80",
-      "https://images.unsplash.com/photo-1490578474895-699bc4e3f49f?w=600&q=80"
-    ],
-    "colors": [
-      {
-        "name": "Navy Blue",
-        "hex": "#000080"
-      },
-      {
-        "name": "Mustard",
-        "hex": "#FFDB58"
-      },
-      {
-        "name": "Maroon",
-        "hex": "#800000"
-      }
-    ],
-    "sizes": [
-      "XS",
-      "S",
-      "M",
-      "L",
-      "XL",
-      "XXL"
-    ],
-    "sizesAvailable": {
-      "XS": true,
-      "S": true,
-      "M": true,
-      "L": true,
-      "XL": true,
-      "XXL": false
-    },
-    "material": "Premium Cotton Blend",
-    "fit": "Regular",
-    "pattern": "Solid",
-    "occasion": "Casual",
-    "season": "All Season",
-    "stock": 78,
-    "isTrending": true,
-    "isNewArrival": false,
-    "isBestSeller": false,
-    "tags": [
-      "fashion",
-      "premium",
-      "bottomwear",
-      "men"
-    ],
-    "specifications": {
-      "Fabric": "Premium Cotton Blend",
-      "Fit": "Regular/Slim",
-      "Wash Care": "Machine Wash"
-    },
-    "reviews": [
-      {
-        "id": "rev_qyjk9",
-        "userName": "Customer",
-        "rating": 5,
-        "comment": "Excellent product, highly recommended!",
-        "date": "2024-12-15",
-        "helpful": 25,
-        "verified": true
-      }
-    ]
-  },
-  {
-    "id": "prod_024",
-    "name": "Zara Men's Premium Ethnic Wear",
-    "brand": "Zara",
-    "description": "Premium quality ethnic wear from Zara. Features comfortable fit and excellent material suitable for everyday wear.",
-    "category": "Men",
-    "subCategory": "Ethnic Wear",
-    "type": "Topwear",
-    "price": 3655,
-    "mrp": 6528,
-    "discount": 44,
-    "currency": "₹",
-    "rating": 3.8,
-    "reviewCount": 2374,
-    "images": [
-      "https://images.unsplash.com/photo-1583391733959-1f510f214314?w=600&q=80",
-      "https://images.unsplash.com/photo-1596455607563-ad6193f76b46?w=600&q=80",
-      "https://images.unsplash.com/photo-1583391733959-1f510f214314?w=600&q=80",
-      "https://images.unsplash.com/photo-1596455607563-ad6193f76b46?w=600&q=80"
-    ],
-    "colors": [
-      {
-        "name": "Off White",
-        "hex": "#f5f0e8"
-      },
-      {
-        "name": "Mustard",
-        "hex": "#FFDB58"
-      },
-      {
-        "name": "Charcoal Black",
-        "hex": "#1a1a1a"
-      }
-    ],
-    "sizes": [
-      "XS",
-      "S",
-      "M",
-      "L",
-      "XL",
-      "XXL"
-    ],
-    "sizesAvailable": {
-      "XS": true,
-      "S": true,
-      "M": true,
-      "L": true,
-      "XL": true,
-      "XXL": false
-    },
-    "material": "Premium Cotton Blend",
-    "fit": "Slim",
-    "pattern": "Solid",
-    "occasion": "Casual",
-    "season": "All Season",
-    "stock": 5,
-    "isTrending": false,
-    "isNewArrival": true,
-    "isBestSeller": false,
-    "tags": [
-      "fashion",
-      "premium",
-      "topwear",
-      "men"
-    ],
-    "specifications": {
-      "Fabric": "Premium Cotton Blend",
-      "Fit": "Regular/Slim",
-      "Wash Care": "Machine Wash"
-    },
-    "reviews": [
-      {
-        "id": "rev_h1vgm",
-        "userName": "Customer",
-        "rating": 5,
-        "comment": "Excellent product, highly recommended!",
-        "date": "2024-12-15",
-        "helpful": 6,
-        "verified": true
-      }
-    ]
-  },
-  {
-    "id": "prod_025",
-    "name": "Adidas Men's Premium Jackets",
-    "brand": "Adidas",
-    "description": "Premium quality jackets from Adidas. Features comfortable fit and excellent material suitable for everyday wear.",
-    "category": "Men",
-    "subCategory": "Jackets",
-    "type": "Topwear",
-    "price": 8814,
-    "mrp": 11752,
-    "discount": 25,
-    "currency": "₹",
-    "rating": 3.9,
-    "reviewCount": 2889,
-    "images": [
-      "https://images.unsplash.com/photo-1591047139829-d91aecb6caea?w=600&q=80",
-      "https://images.unsplash.com/photo-1551028719-00167b16eac5?w=600&q=80",
-      "https://images.unsplash.com/photo-1591047139829-d91aecb6caea?w=600&q=80",
-      "https://images.unsplash.com/photo-1551028719-00167b16eac5?w=600&q=80"
-    ],
-    "colors": [
-      {
-        "name": "Navy Blue",
-        "hex": "#000080"
-      },
-      {
-        "name": "Off White",
-        "hex": "#f5f0e8"
-      },
-      {
-        "name": "Maroon",
-        "hex": "#800000"
-      }
-    ],
-    "sizes": [
-      "XS",
-      "S",
-      "M",
-      "L",
-      "XL",
-      "XXL"
-    ],
-    "sizesAvailable": {
-      "XS": false,
-      "S": true,
-      "M": true,
-      "L": true,
-      "XL": true,
-      "XXL": false
-    },
-    "material": "Premium Cotton Blend",
-    "fit": "Slim",
-    "pattern": "Printed",
-    "occasion": "Casual",
-    "season": "All Season",
-    "stock": 29,
-    "isTrending": false,
-    "isNewArrival": false,
-    "isBestSeller": true,
-    "tags": [
-      "fashion",
-      "premium",
-      "topwear",
-      "men"
-    ],
-    "specifications": {
-      "Fabric": "Premium Cotton Blend",
-      "Fit": "Regular/Slim",
-      "Wash Care": "Machine Wash"
-    },
-    "reviews": [
-      {
-        "id": "rev_se174",
-        "userName": "Customer",
-        "rating": 5,
-        "comment": "Excellent product, highly recommended!",
-        "date": "2024-12-15",
-        "helpful": 12,
-        "verified": true
-      }
-    ]
-  },
-  {
-    "id": "prod_026",
-    "name": "Van Heusen Men's Premium Hoodies & Sweatshirts",
-    "brand": "Van Heusen",
-    "description": "Premium quality hoodies & sweatshirts from Van Heusen. Features comfortable fit and excellent material suitable for everyday wear.",
-    "category": "Men",
-    "subCategory": "Hoodies & Sweatshirts",
-    "type": "Topwear",
-    "price": 5367,
-    "mrp": 9254,
-    "discount": 42,
-    "currency": "₹",
-    "rating": 4.4,
-    "reviewCount": 2896,
-    "images": [
-      "https://images.unsplash.com/photo-1556821840-3a63f95609a7?w=600&q=80",
-      "https://images.unsplash.com/photo-1620799140408-edc6dcb6d633?w=600&q=80",
-      "https://images.unsplash.com/photo-1556821840-3a63f95609a7?w=600&q=80",
-      "https://images.unsplash.com/photo-1620799140408-edc6dcb6d633?w=600&q=80"
-    ],
-    "colors": [
-      {
-        "name": "Navy Blue",
-        "hex": "#000080"
-      },
-      {
-        "name": "Off White",
-        "hex": "#f5f0e8"
-      },
-      {
-        "name": "Maroon",
-        "hex": "#800000"
-      }
-    ],
-    "sizes": [
-      "XS",
-      "S",
-      "M",
-      "L",
-      "XL",
-      "XXL"
-    ],
-    "sizesAvailable": {
-      "XS": false,
-      "S": true,
-      "M": true,
-      "L": true,
-      "XL": true,
-      "XXL": false
-    },
-    "material": "Premium Cotton Blend",
-    "fit": "Regular",
-    "pattern": "Printed",
-    "occasion": "Casual",
-    "season": "All Season",
-    "stock": 13,
-    "isTrending": false,
-    "isNewArrival": false,
-    "isBestSeller": false,
-    "tags": [
-      "fashion",
-      "premium",
-      "topwear",
-      "men"
-    ],
-    "specifications": {
-      "Fabric": "Premium Cotton Blend",
-      "Fit": "Regular/Slim",
-      "Wash Care": "Machine Wash"
-    },
-    "reviews": [
-      {
-        "id": "rev_lyor4",
-        "userName": "Customer",
-        "rating": 5,
-        "comment": "Excellent product, highly recommended!",
-        "date": "2024-12-15",
-        "helpful": 43,
-        "verified": true
-      }
-    ]
-  },
-  {
-    "id": "prod_027",
-    "name": "Van Heusen Men's Premium Jackets",
-    "brand": "Van Heusen",
-    "description": "Premium quality jackets from Van Heusen. Features comfortable fit and excellent material suitable for everyday wear.",
-    "category": "Men",
-    "subCategory": "Jackets",
-    "type": "Topwear",
-    "price": 8535,
-    "mrp": 11693,
-    "discount": 27,
-    "currency": "₹",
-    "rating": 3,
-    "reviewCount": 4058,
-    "images": [
-      "https://images.unsplash.com/photo-1591047139829-d91aecb6caea?w=600&q=80",
-      "https://images.unsplash.com/photo-1551028719-00167b16eac5?w=600&q=80",
-      "https://images.unsplash.com/photo-1591047139829-d91aecb6caea?w=600&q=80",
-      "https://images.unsplash.com/photo-1551028719-00167b16eac5?w=600&q=80"
-    ],
-    "colors": [
-      {
-        "name": "Maroon",
-        "hex": "#800000"
-      },
-      {
-        "name": "Off White",
-        "hex": "#f5f0e8"
-      },
-      {
-        "name": "Charcoal Black",
-        "hex": "#1a1a1a"
-      }
-    ],
-    "sizes": [
-      "XS",
-      "S",
-      "M",
-      "L",
-      "XL",
-      "XXL"
-    ],
-    "sizesAvailable": {
-      "XS": true,
-      "S": true,
-      "M": true,
-      "L": true,
-      "XL": false,
-      "XXL": true
-    },
-    "material": "Premium Cotton Blend",
-    "fit": "Regular",
-    "pattern": "Printed",
-    "occasion": "Casual",
-    "season": "All Season",
-    "stock": 11,
-    "isTrending": true,
-    "isNewArrival": false,
-    "isBestSeller": false,
-    "tags": [
-      "fashion",
-      "premium",
-      "topwear",
-      "men"
-    ],
-    "specifications": {
-      "Fabric": "Premium Cotton Blend",
-      "Fit": "Regular/Slim",
-      "Wash Care": "Machine Wash"
-    },
-    "reviews": [
-      {
-        "id": "rev_mlmyf",
-        "userName": "Customer",
-        "rating": 5,
-        "comment": "Excellent product, highly recommended!",
-        "date": "2024-12-15",
-        "helpful": 35,
-        "verified": true
-      }
-    ]
-  },
-  {
-    "id": "prod_028",
-    "name": "Levi's Men's Premium Jackets",
-    "brand": "Levi's",
-    "description": "Premium quality jackets from Levi's. Features comfortable fit and excellent material suitable for everyday wear.",
-    "category": "Men",
-    "subCategory": "Jackets",
-    "type": "Topwear",
-    "price": 3954,
-    "mrp": 7604,
-    "discount": 48,
-    "currency": "₹",
-    "rating": 4.1,
-    "reviewCount": 3081,
-    "images": [
-      "https://images.unsplash.com/photo-1551028719-00167b16eac5?w=600&q=80",
-      "https://images.unsplash.com/photo-1591047139829-d91aecb6caea?w=600&q=80",
-      "https://images.unsplash.com/photo-1551028719-00167b16eac5?w=600&q=80",
-      "https://images.unsplash.com/photo-1591047139829-d91aecb6caea?w=600&q=80"
-    ],
-    "colors": [
-      {
-        "name": "Maroon",
-        "hex": "#800000"
-      },
-      {
-        "name": "Off White",
-        "hex": "#f5f0e8"
-      },
-      {
-        "name": "Charcoal Black",
-        "hex": "#1a1a1a"
-      }
-    ],
-    "sizes": [
-      "XS",
-      "S",
-      "M",
-      "L",
-      "XL",
-      "XXL"
-    ],
-    "sizesAvailable": {
-      "XS": true,
-      "S": true,
-      "M": true,
-      "L": true,
-      "XL": false,
-      "XXL": false
-    },
-    "material": "Premium Cotton Blend",
-    "fit": "Regular",
-    "pattern": "Solid",
-    "occasion": "Casual",
-    "season": "All Season",
-    "stock": 65,
-    "isTrending": false,
-    "isNewArrival": false,
-    "isBestSeller": false,
-    "tags": [
-      "fashion",
-      "premium",
-      "topwear",
-      "men"
-    ],
-    "specifications": {
-      "Fabric": "Premium Cotton Blend",
-      "Fit": "Regular/Slim",
-      "Wash Care": "Machine Wash"
-    },
-    "reviews": [
-      {
-        "id": "rev_3lxy7",
-        "userName": "Customer",
-        "rating": 5,
-        "comment": "Excellent product, highly recommended!",
-        "date": "2024-12-15",
-        "helpful": 15,
-        "verified": true
-      }
-    ]
-  },
-  {
-    "id": "prod_029",
-    "name": "Levi's Men's Premium Hoodies & Sweatshirts",
-    "brand": "Levi's",
-    "description": "Premium quality hoodies & sweatshirts from Levi's. Features comfortable fit and excellent material suitable for everyday wear.",
-    "category": "Men",
-    "subCategory": "Hoodies & Sweatshirts",
-    "type": "Topwear",
-    "price": 5295,
-    "mrp": 7254,
-    "discount": 27,
-    "currency": "₹",
-    "rating": 3.6,
-    "reviewCount": 3277,
-    "images": [
-      "https://images.unsplash.com/photo-1620799140408-edc6dcb6d633?w=600&q=80",
-      "https://images.unsplash.com/photo-1556821840-3a63f95609a7?w=600&q=80",
-      "https://images.unsplash.com/photo-1620799140408-edc6dcb6d633?w=600&q=80",
-      "https://images.unsplash.com/photo-1556821840-3a63f95609a7?w=600&q=80"
-    ],
-    "colors": [
-      {
-        "name": "Olive",
-        "hex": "#556B2F"
-      },
-      {
-        "name": "Maroon",
-        "hex": "#800000"
-      },
-      {
-        "name": "Mustard",
-        "hex": "#FFDB58"
-      }
-    ],
-    "sizes": [
-      "XS",
-      "S",
-      "M",
-      "L",
-      "XL",
-      "XXL"
-    ],
-    "sizesAvailable": {
-      "XS": true,
-      "S": true,
-      "M": true,
-      "L": true,
-      "XL": false,
-      "XXL": true
-    },
-    "material": "Premium Cotton Blend",
-    "fit": "Slim",
-    "pattern": "Solid",
-    "occasion": "Casual",
-    "season": "All Season",
-    "stock": 56,
-    "isTrending": false,
-    "isNewArrival": false,
-    "isBestSeller": true,
-    "tags": [
-      "fashion",
-      "premium",
-      "topwear",
-      "men"
-    ],
-    "specifications": {
-      "Fabric": "Premium Cotton Blend",
-      "Fit": "Regular/Slim",
-      "Wash Care": "Machine Wash"
-    },
-    "reviews": [
-      {
-        "id": "rev_r9igt",
-        "userName": "Customer",
-        "rating": 5,
-        "comment": "Excellent product, highly recommended!",
-        "date": "2024-12-15",
-        "helpful": 35,
-        "verified": true
-      }
-    ]
-  },
-  {
-    "id": "prod_030",
-    "name": "Jack & Jones Men's Premium Accessories",
-    "brand": "Jack & Jones",
-    "description": "Premium quality accessories from Jack & Jones. Features comfortable fit and excellent material suitable for everyday wear.",
-    "category": "Men",
-    "subCategory": "Accessories",
-    "type": "Accessories",
-    "price": 7158,
-    "mrp": 9943,
-    "discount": 28,
-    "currency": "₹",
-    "rating": 3.3,
-    "reviewCount": 4544,
-    "images": [
-      "https://images.unsplash.com/photo-1523206489230-c012c64b2b48?w=600&q=80",
-      "https://images.unsplash.com/photo-1511499767150-a48a237f0083?w=600&q=80",
-      "https://images.unsplash.com/photo-1523206489230-c012c64b2b48?w=600&q=80",
-      "https://images.unsplash.com/photo-1511499767150-a48a237f0083?w=600&q=80"
-    ],
-    "colors": [
-      {
-        "name": "Off White",
-        "hex": "#f5f0e8"
-      },
-      {
-        "name": "Maroon",
-        "hex": "#800000"
-      },
-      {
-        "name": "Navy Blue",
-        "hex": "#000080"
-      }
-    ],
-    "sizes": [
-      "XS",
-      "S",
-      "M",
-      "L",
-      "XL",
-      "XXL"
-    ],
-    "sizesAvailable": {
-      "XS": true,
-      "S": true,
-      "M": true,
-      "L": true,
-      "XL": true,
-      "XXL": false
-    },
-    "material": "Premium Cotton Blend",
-    "fit": "Regular",
-    "pattern": "Printed",
-    "occasion": "Casual",
-    "season": "All Season",
-    "stock": 5,
-    "isTrending": false,
-    "isNewArrival": false,
-    "isBestSeller": false,
-    "tags": [
-      "fashion",
-      "premium",
-      "accessories",
-      "men"
-    ],
-    "specifications": {
-      "Fabric": "Premium Cotton Blend",
-      "Fit": "Regular/Slim",
-      "Wash Care": "Machine Wash"
-    },
-    "reviews": [
-      {
-        "id": "rev_emq13",
-        "userName": "Customer",
-        "rating": 5,
-        "comment": "Excellent product, highly recommended!",
-        "date": "2024-12-15",
-        "helpful": 23,
-        "verified": true
-      }
-    ]
-  },
-  {
-    "id": "prod_031",
-    "name": "URBAN EDGE Men's Premium Shoes",
-    "brand": "URBAN EDGE",
-    "description": "Premium quality shoes from URBAN EDGE. Features comfortable fit and excellent material suitable for everyday wear.",
-    "category": "Men",
-    "subCategory": "Shoes",
-    "type": "Footwear",
-    "price": 1339,
-    "mrp": 3722,
-    "discount": 64,
-    "currency": "₹",
-    "rating": 4.9,
-    "reviewCount": 2876,
-    "images": [
-      "https://images.unsplash.com/photo-1525966222134-fcfa99b8ae77?w=600&q=80",
-      "https://images.unsplash.com/photo-1542291026-7eec264c27ff?w=600&q=80",
-      "https://images.unsplash.com/photo-1525966222134-fcfa99b8ae77?w=600&q=80",
-      "https://images.unsplash.com/photo-1542291026-7eec264c27ff?w=600&q=80"
-    ],
-    "colors": [
-      {
-        "name": "Off White",
-        "hex": "#f5f0e8"
-      },
-      {
-        "name": "Maroon",
-        "hex": "#800000"
-      },
-      {
-        "name": "Navy Blue",
-        "hex": "#000080"
-      }
-    ],
-    "sizes": [
-      "XS",
-      "S",
-      "M",
-      "L",
-      "XL",
-      "XXL"
-    ],
-    "sizesAvailable": {
-      "XS": false,
-      "S": true,
-      "M": true,
-      "L": true,
-      "XL": true,
-      "XXL": false
-    },
-    "material": "Premium Cotton Blend",
-    "fit": "Slim",
-    "pattern": "Solid",
-    "occasion": "Casual",
-    "season": "All Season",
-    "stock": 68,
-    "isTrending": false,
-    "isNewArrival": true,
-    "isBestSeller": false,
-    "tags": [
-      "fashion",
-      "premium",
-      "footwear",
-      "men"
-    ],
-    "specifications": {
-      "Fabric": "Premium Cotton Blend",
-      "Fit": "Regular/Slim",
-      "Wash Care": "Machine Wash"
-    },
-    "reviews": [
-      {
-        "id": "rev_zv6uy",
-        "userName": "Customer",
-        "rating": 5,
-        "comment": "Excellent product, highly recommended!",
-        "date": "2024-12-15",
-        "helpful": 39,
-        "verified": true
-      }
-    ]
-  },
-  {
-    "id": "prod_032",
-    "name": "Vero Moda Men's Premium Hoodies & Sweatshirts",
-    "brand": "Vero Moda",
-    "description": "Premium quality hoodies & sweatshirts from Vero Moda. Features comfortable fit and excellent material suitable for everyday wear.",
-    "category": "Men",
-    "subCategory": "Hoodies & Sweatshirts",
-    "type": "Topwear",
-    "price": 5992,
-    "mrp": 7990,
-    "discount": 25,
-    "currency": "₹",
-    "rating": 4.9,
-    "reviewCount": 1800,
-    "images": [
-      "https://images.unsplash.com/photo-1556821840-3a63f95609a7?w=600&q=80",
-      "https://images.unsplash.com/photo-1620799140408-edc6dcb6d633?w=600&q=80",
-      "https://images.unsplash.com/photo-1556821840-3a63f95609a7?w=600&q=80",
-      "https://images.unsplash.com/photo-1620799140408-edc6dcb6d633?w=600&q=80"
-    ],
-    "colors": [
-      {
-        "name": "Navy Blue",
-        "hex": "#000080"
-      },
-      {
-        "name": "Mustard",
-        "hex": "#FFDB58"
-      },
-      {
-        "name": "Off White",
-        "hex": "#f5f0e8"
-      }
-    ],
-    "sizes": [
-      "XS",
-      "S",
-      "M",
-      "L",
-      "XL",
-      "XXL"
-    ],
-    "sizesAvailable": {
-      "XS": true,
-      "S": true,
-      "M": true,
-      "L": true,
-      "XL": false,
-      "XXL": false
-    },
-    "material": "Premium Cotton Blend",
-    "fit": "Regular",
-    "pattern": "Solid",
-    "occasion": "Casual",
-    "season": "All Season",
-    "stock": 43,
-    "isTrending": false,
-    "isNewArrival": false,
-    "isBestSeller": true,
-    "tags": [
-      "fashion",
-      "premium",
-      "topwear",
-      "men"
-    ],
-    "specifications": {
-      "Fabric": "Premium Cotton Blend",
-      "Fit": "Regular/Slim",
-      "Wash Care": "Machine Wash"
-    },
-    "reviews": [
-      {
-        "id": "rev_ach1a",
-        "userName": "Customer",
-        "rating": 5,
-        "comment": "Excellent product, highly recommended!",
-        "date": "2024-12-15",
-        "helpful": 34,
-        "verified": true
-      }
-    ]
-  },
-  {
-    "id": "prod_033",
-    "name": "FabIndia Men's Premium Hoodies & Sweatshirts",
-    "brand": "FabIndia",
-    "description": "Premium quality hoodies & sweatshirts from FabIndia. Features comfortable fit and excellent material suitable for everyday wear.",
-    "category": "Men",
-    "subCategory": "Hoodies & Sweatshirts",
-    "type": "Topwear",
-    "price": 1772,
-    "mrp": 2037,
-    "discount": 13,
-    "currency": "₹",
-    "rating": 3.9,
-    "reviewCount": 3744,
-    "images": [
-      "https://images.unsplash.com/photo-1620799140408-edc6dcb6d633?w=600&q=80",
-      "https://images.unsplash.com/photo-1556821840-3a63f95609a7?w=600&q=80",
-      "https://images.unsplash.com/photo-1620799140408-edc6dcb6d633?w=600&q=80",
-      "https://images.unsplash.com/photo-1556821840-3a63f95609a7?w=600&q=80"
-    ],
-    "colors": [
-      {
-        "name": "Charcoal Black",
-        "hex": "#1a1a1a"
-      },
-      {
-        "name": "Maroon",
-        "hex": "#800000"
-      },
-      {
-        "name": "Off White",
-        "hex": "#f5f0e8"
-      }
-    ],
-    "sizes": [
-      "XS",
-      "S",
-      "M",
-      "L",
-      "XL",
-      "XXL"
-    ],
-    "sizesAvailable": {
-      "XS": true,
-      "S": true,
-      "M": true,
-      "L": true,
-      "XL": false,
-      "XXL": true
-    },
-    "material": "Premium Cotton Blend",
-    "fit": "Regular",
-    "pattern": "Printed",
-    "occasion": "Casual",
-    "season": "All Season",
-    "stock": 70,
-    "isTrending": false,
-    "isNewArrival": false,
-    "isBestSeller": false,
-    "tags": [
-      "fashion",
-      "premium",
-      "topwear",
-      "men"
-    ],
-    "specifications": {
-      "Fabric": "Premium Cotton Blend",
-      "Fit": "Regular/Slim",
-      "Wash Care": "Machine Wash"
-    },
-    "reviews": [
-      {
-        "id": "rev_6fngm",
-        "userName": "Customer",
-        "rating": 5,
-        "comment": "Excellent product, highly recommended!",
-        "date": "2024-12-15",
-        "helpful": 4,
-        "verified": true
-      }
-    ]
-  },
-  {
-    "id": "prod_034",
-    "name": "Levi's Men's Premium Shirts",
-    "brand": "Levi's",
-    "description": "Premium quality shirts from Levi's. Features comfortable fit and excellent material suitable for everyday wear.",
-    "category": "Men",
-    "subCategory": "Shirts",
-    "type": "Topwear",
-    "price": 4590,
-    "mrp": 10202,
-    "discount": 55,
-    "currency": "₹",
-    "rating": 4.9,
-    "reviewCount": 2634,
-    "images": [
-      "https://images.unsplash.com/photo-1598033129183-c4f50c736f10?w=600&q=80",
-      "https://images.unsplash.com/photo-1602810318383-e386cc2a3ce3?w=600&q=80",
-      "https://images.unsplash.com/photo-1598033129183-c4f50c736f10?w=600&q=80",
-      "https://images.unsplash.com/photo-1602810318383-e386cc2a3ce3?w=600&q=80"
-    ],
-    "colors": [
-      {
-        "name": "Navy Blue",
-        "hex": "#000080"
-      },
-      {
-        "name": "Charcoal Black",
-        "hex": "#1a1a1a"
-      },
-      {
-        "name": "Olive",
-        "hex": "#556B2F"
-      }
-    ],
-    "sizes": [
-      "XS",
-      "S",
-      "M",
-      "L",
-      "XL",
-      "XXL"
-    ],
-    "sizesAvailable": {
-      "XS": false,
-      "S": true,
-      "M": true,
-      "L": true,
-      "XL": false,
-      "XXL": false
-    },
-    "material": "Premium Cotton Blend",
-    "fit": "Regular",
-    "pattern": "Printed",
-    "occasion": "Casual",
-    "season": "All Season",
-    "stock": 87,
-    "isTrending": false,
-    "isNewArrival": false,
-    "isBestSeller": false,
-    "tags": [
-      "fashion",
-      "premium",
-      "topwear",
-      "men"
-    ],
-    "specifications": {
-      "Fabric": "Premium Cotton Blend",
-      "Fit": "Regular/Slim",
-      "Wash Care": "Machine Wash"
-    },
-    "reviews": [
-      {
-        "id": "rev_9syh6",
-        "userName": "Customer",
-        "rating": 5,
-        "comment": "Excellent product, highly recommended!",
-        "date": "2024-12-15",
-        "helpful": 44,
-        "verified": true
-      }
-    ]
-  },
-  {
-    "id": "prod_035",
-    "name": "AURA Men's Premium Jeans",
-    "brand": "AURA",
-    "description": "Premium quality jeans from AURA. Features comfortable fit and excellent material suitable for everyday wear.",
-    "category": "Men",
-    "subCategory": "Jeans",
-    "type": "Bottomwear",
-    "price": 9219,
-    "mrp": 12131,
-    "discount": 24,
-    "currency": "₹",
-    "rating": 4.5,
-    "reviewCount": 308,
-    "images": [
-      "https://images.unsplash.com/photo-1604176354204-926873812d4e?w=600&q=80",
-      "https://images.unsplash.com/photo-1542272604-787c3835535d?w=600&q=80",
-      "https://images.unsplash.com/photo-1604176354204-926873812d4e?w=600&q=80",
-      "https://images.unsplash.com/photo-1542272604-787c3835535d?w=600&q=80"
-    ],
-    "colors": [
-      {
-        "name": "Mustard",
-        "hex": "#FFDB58"
-      },
-      {
-        "name": "Olive",
-        "hex": "#556B2F"
-      },
-      {
-        "name": "Off White",
-        "hex": "#f5f0e8"
-      }
-    ],
-    "sizes": [
-      "XS",
-      "S",
-      "M",
-      "L",
-      "XL",
-      "XXL"
-    ],
-    "sizesAvailable": {
-      "XS": false,
-      "S": true,
-      "M": true,
-      "L": true,
-      "XL": true,
-      "XXL": false
-    },
-    "material": "Premium Cotton Blend",
-    "fit": "Slim",
-    "pattern": "Solid",
-    "occasion": "Casual",
-    "season": "All Season",
-    "stock": 80,
-    "isTrending": false,
-    "isNewArrival": true,
-    "isBestSeller": true,
-    "tags": [
-      "fashion",
-      "premium",
-      "bottomwear",
-      "men"
-    ],
-    "specifications": {
-      "Fabric": "Premium Cotton Blend",
-      "Fit": "Regular/Slim",
-      "Wash Care": "Machine Wash"
-    },
-    "reviews": [
-      {
-        "id": "rev_etl48",
-        "userName": "Customer",
-        "rating": 5,
-        "comment": "Excellent product, highly recommended!",
-        "date": "2024-12-15",
-        "helpful": 45,
-        "verified": true
-      }
-    ]
-  },
-  {
-    "id": "prod_036",
-    "name": "DRIFT Men's Premium Jeans",
-    "brand": "DRIFT",
-    "description": "Premium quality jeans from DRIFT. Features comfortable fit and excellent material suitable for everyday wear.",
-    "category": "Men",
-    "subCategory": "Jeans",
-    "type": "Bottomwear",
-    "price": 10778,
-    "mrp": 14371,
-    "discount": 25,
-    "currency": "₹",
-    "rating": 4.6,
-    "reviewCount": 2975,
-    "images": [
-      "https://images.unsplash.com/photo-1542272604-787c3835535d?w=600&q=80",
-      "https://images.unsplash.com/photo-1604176354204-926873812d4e?w=600&q=80",
-      "https://images.unsplash.com/photo-1542272604-787c3835535d?w=600&q=80",
-      "https://images.unsplash.com/photo-1604176354204-926873812d4e?w=600&q=80"
-    ],
-    "colors": [
-      {
-        "name": "Off White",
-        "hex": "#f5f0e8"
-      },
-      {
-        "name": "Olive",
-        "hex": "#556B2F"
-      },
-      {
-        "name": "Mustard",
-        "hex": "#FFDB58"
-      }
-    ],
-    "sizes": [
-      "XS",
-      "S",
-      "M",
-      "L",
-      "XL",
-      "XXL"
-    ],
-    "sizesAvailable": {
-      "XS": true,
-      "S": true,
-      "M": true,
-      "L": true,
-      "XL": false,
-      "XXL": false
-    },
-    "material": "Premium Cotton Blend",
-    "fit": "Slim",
-    "pattern": "Printed",
-    "occasion": "Casual",
-    "season": "All Season",
-    "stock": 86,
-    "isTrending": false,
-    "isNewArrival": false,
-    "isBestSeller": false,
-    "tags": [
-      "fashion",
-      "premium",
-      "bottomwear",
-      "men"
-    ],
-    "specifications": {
-      "Fabric": "Premium Cotton Blend",
-      "Fit": "Regular/Slim",
-      "Wash Care": "Machine Wash"
-    },
-    "reviews": [
-      {
-        "id": "rev_d0j9u",
-        "userName": "Customer",
-        "rating": 5,
-        "comment": "Excellent product, highly recommended!",
-        "date": "2024-12-15",
-        "helpful": 45,
-        "verified": true
-      }
-    ]
-  },
-  {
-    "id": "prod_037",
-    "name": "Global Desi Men's Premium Accessories",
-    "brand": "Global Desi",
-    "description": "Premium quality accessories from Global Desi. Features comfortable fit and excellent material suitable for everyday wear.",
-    "category": "Men",
-    "subCategory": "Accessories",
-    "type": "Accessories",
-    "price": 7252,
-    "mrp": 9543,
-    "discount": 24,
-    "currency": "₹",
-    "rating": 4.1,
-    "reviewCount": 4303,
-    "images": [
-      "https://images.unsplash.com/photo-1511499767150-a48a237f0083?w=600&q=80",
-      "https://images.unsplash.com/photo-1523206489230-c012c64b2b48?w=600&q=80",
-      "https://images.unsplash.com/photo-1511499767150-a48a237f0083?w=600&q=80",
-      "https://images.unsplash.com/photo-1523206489230-c012c64b2b48?w=600&q=80"
-    ],
-    "colors": [
-      {
-        "name": "Charcoal Black",
-        "hex": "#1a1a1a"
-      },
-      {
-        "name": "Mustard",
-        "hex": "#FFDB58"
-      },
-      {
-        "name": "Olive",
-        "hex": "#556B2F"
-      }
-    ],
-    "sizes": [
-      "XS",
-      "S",
-      "M",
-      "L",
-      "XL",
-      "XXL"
-    ],
-    "sizesAvailable": {
-      "XS": true,
-      "S": true,
-      "M": true,
-      "L": true,
-      "XL": true,
-      "XXL": false
-    },
-    "material": "Premium Cotton Blend",
-    "fit": "Regular",
-    "pattern": "Printed",
-    "occasion": "Casual",
-    "season": "All Season",
     "stock": 27,
     "isTrending": false,
     "isNewArrival": false,
     "isBestSeller": false,
     "tags": [
-      "fashion",
       "premium",
-      "accessories",
-      "men"
+      "comfortable",
+      "shirts"
     ],
     "specifications": {
-      "Fabric": "Premium Cotton Blend",
-      "Fit": "Regular/Slim",
+      "Fabric": "Premium Quality",
+      "Fit": "Regular",
       "Wash Care": "Machine Wash"
     },
     "reviews": [
       {
-        "id": "rev_gto5c",
-        "userName": "Customer",
+        "id": "rev_9_1",
+        "userName": "Verified Buyer",
         "rating": 5,
-        "comment": "Excellent product, highly recommended!",
-        "date": "2024-12-15",
-        "helpful": 48,
+        "comment": "Absolutely love this product! The quality is amazing for the price.",
+        "date": "2024-03-15",
+        "helpful": 13,
         "verified": true
       }
     ]
   },
   {
-    "id": "prod_038",
-    "name": "H&M Men's Premium T-Shirts",
-    "brand": "H&M",
-    "description": "Premium quality t-shirts from H&M. Features comfortable fit and excellent material suitable for everyday wear.",
+    "id": "prod_010",
+    "name": "Premium Shirts - Style 2",
+    "brand": "URBAN EDGE",
+    "description": "Experience ultimate comfort and style with our latest shirts. Perfect for everyday wear, featuring premium materials and exceptional craftsmanship.",
     "category": "Men",
-    "subCategory": "T-Shirts",
+    "subCategory": "Shirts",
     "type": "Topwear",
-    "price": 7887,
-    "mrp": 12930,
-    "discount": 39,
+    "price": 299,
+    "mrp": 1498,
+    "discount": 80,
     "currency": "₹",
-    "rating": 4.9,
-    "reviewCount": 2587,
+    "rating": "4.5",
+    "reviewCount": 4035,
     "images": [
-      "https://images.unsplash.com/photo-1521572163474-6864f9cf17ab?w=600&q=80",
-      "https://images.unsplash.com/photo-1583743814966-8936f5b7be1a?w=600&q=80",
-      "https://images.unsplash.com/photo-1521572163474-6864f9cf17ab?w=600&q=80",
-      "https://images.unsplash.com/photo-1583743814966-8936f5b7be1a?w=600&q=80"
+      "https://images.unsplash.com/photo-1596755094514-f87e34085b2c?w=600&q=80",
+      "https://images.unsplash.com/photo-1598033129183-9be1a2c85a81?w=600&q=80",
+      "https://images.unsplash.com/photo-1602810318383-e386cc2a3ccf?w=600&q=80"
     ],
     "colors": [
       {
-        "name": "Charcoal Black",
+        "name": "Standard",
         "hex": "#1a1a1a"
       },
       {
-        "name": "Mustard",
-        "hex": "#FFDB58"
-      },
-      {
-        "name": "Olive",
-        "hex": "#556B2F"
+        "name": "Variant",
+        "hex": "#f5f5f5"
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -3076,245 +693,72 @@ export const products = [
       "XXL"
     ],
     "sizesAvailable": {
-      "XS": true,
       "S": true,
       "M": true,
       "L": true,
-      "XL": true,
+      "XL": false,
       "XXL": false
     },
-    "material": "Premium Cotton Blend",
-    "fit": "Slim",
-    "pattern": "Printed",
-    "occasion": "Casual",
-    "season": "All Season",
-    "stock": 55,
-    "isTrending": false,
-    "isNewArrival": true,
-    "isBestSeller": false,
-    "tags": [
-      "fashion",
-      "premium",
-      "topwear",
-      "men"
-    ],
-    "specifications": {
-      "Fabric": "Premium Cotton Blend",
-      "Fit": "Regular/Slim",
-      "Wash Care": "Machine Wash"
-    },
-    "reviews": [
-      {
-        "id": "rev_j1w4f",
-        "userName": "Customer",
-        "rating": 5,
-        "comment": "Excellent product, highly recommended!",
-        "date": "2024-12-15",
-        "helpful": 35,
-        "verified": true
-      }
-    ]
-  },
-  {
-    "id": "prod_039",
-    "name": "AURA Men's Premium Hoodies & Sweatshirts",
-    "brand": "AURA",
-    "description": "Premium quality hoodies & sweatshirts from AURA. Features comfortable fit and excellent material suitable for everyday wear.",
-    "category": "Men",
-    "subCategory": "Hoodies & Sweatshirts",
-    "type": "Topwear",
-    "price": 10442,
-    "mrp": 12285,
-    "discount": 15,
-    "currency": "₹",
-    "rating": 4.9,
-    "reviewCount": 4272,
-    "images": [
-      "https://images.unsplash.com/photo-1620799140408-edc6dcb6d633?w=600&q=80",
-      "https://images.unsplash.com/photo-1556821840-3a63f95609a7?w=600&q=80",
-      "https://images.unsplash.com/photo-1620799140408-edc6dcb6d633?w=600&q=80",
-      "https://images.unsplash.com/photo-1556821840-3a63f95609a7?w=600&q=80"
-    ],
-    "colors": [
-      {
-        "name": "Off White",
-        "hex": "#f5f0e8"
-      },
-      {
-        "name": "Olive",
-        "hex": "#556B2F"
-      },
-      {
-        "name": "Maroon",
-        "hex": "#800000"
-      }
-    ],
-    "sizes": [
-      "XS",
-      "S",
-      "M",
-      "L",
-      "XL",
-      "XXL"
-    ],
-    "sizesAvailable": {
-      "XS": true,
-      "S": true,
-      "M": true,
-      "L": true,
-      "XL": true,
-      "XXL": true
-    },
-    "material": "Premium Cotton Blend",
+    "material": "100% Premium Material",
     "fit": "Regular",
-    "pattern": "Printed",
+    "pattern": "Solid",
     "occasion": "Casual",
-    "season": "All Season",
-    "stock": 26,
+    "stock": 105,
     "isTrending": false,
     "isNewArrival": false,
     "isBestSeller": false,
     "tags": [
-      "fashion",
       "premium",
-      "topwear",
-      "men"
+      "comfortable",
+      "shirts"
     ],
     "specifications": {
-      "Fabric": "Premium Cotton Blend",
-      "Fit": "Regular/Slim",
+      "Fabric": "Premium Quality",
+      "Fit": "Regular",
       "Wash Care": "Machine Wash"
     },
     "reviews": [
       {
-        "id": "rev_7zjwc",
-        "userName": "Customer",
+        "id": "rev_10_1",
+        "userName": "Verified Buyer",
         "rating": 5,
-        "comment": "Excellent product, highly recommended!",
-        "date": "2024-12-15",
-        "helpful": 7,
-        "verified": true
-      }
-    ]
-  },
-  {
-    "id": "prod_040",
-    "name": "H&M Men's Premium Shirts",
-    "brand": "H&M",
-    "description": "Premium quality shirts from H&M. Features comfortable fit and excellent material suitable for everyday wear.",
-    "category": "Men",
-    "subCategory": "Shirts",
-    "type": "Topwear",
-    "price": 3463,
-    "mrp": 8880,
-    "discount": 61,
-    "currency": "₹",
-    "rating": 4.1,
-    "reviewCount": 844,
-    "images": [
-      "https://images.unsplash.com/photo-1598033129183-c4f50c736f10?w=600&q=80",
-      "https://images.unsplash.com/photo-1602810318383-e386cc2a3ce3?w=600&q=80",
-      "https://images.unsplash.com/photo-1598033129183-c4f50c736f10?w=600&q=80",
-      "https://images.unsplash.com/photo-1602810318383-e386cc2a3ce3?w=600&q=80"
-    ],
-    "colors": [
-      {
-        "name": "Off White",
-        "hex": "#f5f0e8"
-      },
-      {
-        "name": "Maroon",
-        "hex": "#800000"
-      },
-      {
-        "name": "Mustard",
-        "hex": "#FFDB58"
-      }
-    ],
-    "sizes": [
-      "XS",
-      "S",
-      "M",
-      "L",
-      "XL",
-      "XXL"
-    ],
-    "sizesAvailable": {
-      "XS": true,
-      "S": true,
-      "M": true,
-      "L": true,
-      "XL": true,
-      "XXL": false
-    },
-    "material": "Premium Cotton Blend",
-    "fit": "Slim",
-    "pattern": "Solid",
-    "occasion": "Casual",
-    "season": "All Season",
-    "stock": 89,
-    "isTrending": false,
-    "isNewArrival": true,
-    "isBestSeller": false,
-    "tags": [
-      "fashion",
-      "premium",
-      "topwear",
-      "men"
-    ],
-    "specifications": {
-      "Fabric": "Premium Cotton Blend",
-      "Fit": "Regular/Slim",
-      "Wash Care": "Machine Wash"
-    },
-    "reviews": [
-      {
-        "id": "rev_jsalh",
-        "userName": "Customer",
-        "rating": 5,
-        "comment": "Excellent product, highly recommended!",
-        "date": "2024-12-15",
+        "comment": "Absolutely love this product! The quality is amazing for the price.",
+        "date": "2024-03-15",
         "helpful": 16,
         "verified": true
       }
     ]
   },
   {
-    "id": "prod_041",
-    "name": "Zara Men's Premium Shorts",
-    "brand": "Zara",
-    "description": "Premium quality shorts from Zara. Features comfortable fit and excellent material suitable for everyday wear.",
+    "id": "prod_011",
+    "name": "Premium Shirts - Style 3",
+    "brand": "Nike",
+    "description": "Experience ultimate comfort and style with our latest shirts. Perfect for everyday wear, featuring premium materials and exceptional craftsmanship.",
     "category": "Men",
-    "subCategory": "Shorts",
-    "type": "Bottomwear",
-    "price": 6559,
-    "mrp": 11310,
-    "discount": 42,
+    "subCategory": "Shirts",
+    "type": "Topwear",
+    "price": 699,
+    "mrp": 2098,
+    "discount": 67,
     "currency": "₹",
-    "rating": 3.6,
-    "reviewCount": 3566,
+    "rating": "4.5",
+    "reviewCount": 3761,
     "images": [
-      "https://images.unsplash.com/photo-1552374196-1ab2a1c593e8?w=600&q=80",
-      "https://images.unsplash.com/photo-1490578474895-699bc4e3f49f?w=600&q=80",
-      "https://images.unsplash.com/photo-1552374196-1ab2a1c593e8?w=600&q=80",
-      "https://images.unsplash.com/photo-1490578474895-699bc4e3f49f?w=600&q=80"
+      "https://images.unsplash.com/photo-1598033129183-9be1a2c85a81?w=600&q=80",
+      "https://images.unsplash.com/photo-1602810318383-e386cc2a3ccf?w=600&q=80",
+      "https://images.unsplash.com/photo-1588359348347-9bc6cbbb689e?w=600&q=80"
     ],
     "colors": [
       {
-        "name": "Charcoal Black",
+        "name": "Standard",
         "hex": "#1a1a1a"
       },
       {
-        "name": "Navy Blue",
-        "hex": "#000080"
-      },
-      {
-        "name": "Mustard",
-        "hex": "#FFDB58"
+        "name": "Variant",
+        "hex": "#f5f5f5"
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -3322,40 +766,2227 @@ export const products = [
       "XXL"
     ],
     "sizesAvailable": {
-      "XS": false,
+      "S": true,
+      "M": true,
+      "L": true,
+      "XL": false,
+      "XXL": false
+    },
+    "material": "100% Premium Material",
+    "fit": "Regular",
+    "pattern": "Solid",
+    "occasion": "Casual",
+    "stock": 27,
+    "isTrending": true,
+    "isNewArrival": false,
+    "isBestSeller": false,
+    "tags": [
+      "premium",
+      "comfortable",
+      "shirts"
+    ],
+    "specifications": {
+      "Fabric": "Premium Quality",
+      "Fit": "Regular",
+      "Wash Care": "Machine Wash"
+    },
+    "reviews": [
+      {
+        "id": "rev_11_1",
+        "userName": "Verified Buyer",
+        "rating": 5,
+        "comment": "Absolutely love this product! The quality is amazing for the price.",
+        "date": "2024-03-15",
+        "helpful": 16,
+        "verified": true
+      }
+    ]
+  },
+  {
+    "id": "prod_012",
+    "name": "Premium Shirts - Style 4",
+    "brand": "Puma",
+    "description": "Experience ultimate comfort and style with our latest shirts. Perfect for everyday wear, featuring premium materials and exceptional craftsmanship.",
+    "category": "Men",
+    "subCategory": "Shirts",
+    "type": "Topwear",
+    "price": 99,
+    "mrp": 1298,
+    "discount": 92,
+    "currency": "₹",
+    "rating": "4.6",
+    "reviewCount": 2426,
+    "images": [
+      "https://images.unsplash.com/photo-1602810318383-e386cc2a3ccf?w=600&q=80",
+      "https://images.unsplash.com/photo-1588359348347-9bc6cbbb689e?w=600&q=80",
+      "https://images.unsplash.com/photo-1607345566856-3cf6ec9d90e9?w=600&q=80"
+    ],
+    "colors": [
+      {
+        "name": "Standard",
+        "hex": "#1a1a1a"
+      },
+      {
+        "name": "Variant",
+        "hex": "#f5f5f5"
+      }
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "sizesAvailable": {
       "S": true,
       "M": true,
       "L": true,
       "XL": true,
       "XXL": false
     },
-    "material": "Premium Cotton Blend",
+    "material": "100% Premium Material",
     "fit": "Regular",
-    "pattern": "Printed",
+    "pattern": "Solid",
     "occasion": "Casual",
-    "season": "All Season",
-    "stock": 43,
+    "stock": 63,
     "isTrending": true,
     "isNewArrival": false,
     "isBestSeller": false,
     "tags": [
-      "fashion",
       "premium",
-      "bottomwear",
-      "men"
+      "comfortable",
+      "shirts"
     ],
     "specifications": {
-      "Fabric": "Premium Cotton Blend",
-      "Fit": "Regular/Slim",
+      "Fabric": "Premium Quality",
+      "Fit": "Regular",
       "Wash Care": "Machine Wash"
     },
     "reviews": [
       {
-        "id": "rev_uedsr",
-        "userName": "Customer",
+        "id": "rev_12_1",
+        "userName": "Verified Buyer",
         "rating": 5,
-        "comment": "Excellent product, highly recommended!",
-        "date": "2024-12-15",
+        "comment": "Absolutely love this product! The quality is amazing for the price.",
+        "date": "2024-03-15",
+        "helpful": 17,
+        "verified": true
+      }
+    ]
+  },
+  {
+    "id": "prod_013",
+    "name": "Premium Shirts - Style 5",
+    "brand": "Nike",
+    "description": "Experience ultimate comfort and style with our latest shirts. Perfect for everyday wear, featuring premium materials and exceptional craftsmanship.",
+    "category": "Men",
+    "subCategory": "Shirts",
+    "type": "Topwear",
+    "price": 299,
+    "mrp": 1598,
+    "discount": 81,
+    "currency": "₹",
+    "rating": "4.4",
+    "reviewCount": 3010,
+    "images": [
+      "https://images.unsplash.com/photo-1588359348347-9bc6cbbb689e?w=600&q=80",
+      "https://images.unsplash.com/photo-1607345566856-3cf6ec9d90e9?w=600&q=80",
+      "https://images.unsplash.com/photo-1617137984306-f5064c99e16a?w=600&q=80"
+    ],
+    "colors": [
+      {
+        "name": "Standard",
+        "hex": "#1a1a1a"
+      },
+      {
+        "name": "Variant",
+        "hex": "#f5f5f5"
+      }
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "sizesAvailable": {
+      "S": true,
+      "M": true,
+      "L": true,
+      "XL": true,
+      "XXL": true
+    },
+    "material": "100% Premium Material",
+    "fit": "Regular",
+    "pattern": "Solid",
+    "occasion": "Casual",
+    "stock": 80,
+    "isTrending": true,
+    "isNewArrival": false,
+    "isBestSeller": false,
+    "tags": [
+      "premium",
+      "comfortable",
+      "shirts"
+    ],
+    "specifications": {
+      "Fabric": "Premium Quality",
+      "Fit": "Regular",
+      "Wash Care": "Machine Wash"
+    },
+    "reviews": [
+      {
+        "id": "rev_13_1",
+        "userName": "Verified Buyer",
+        "rating": 5,
+        "comment": "Absolutely love this product! The quality is amazing for the price.",
+        "date": "2024-03-15",
+        "helpful": 42,
+        "verified": true
+      }
+    ]
+  },
+  {
+    "id": "prod_014",
+    "name": "Premium Shirts - Style 6",
+    "brand": "Zara",
+    "description": "Experience ultimate comfort and style with our latest shirts. Perfect for everyday wear, featuring premium materials and exceptional craftsmanship.",
+    "category": "Men",
+    "subCategory": "Shirts",
+    "type": "Topwear",
+    "price": 399,
+    "mrp": 1498,
+    "discount": 73,
+    "currency": "₹",
+    "rating": "4.5",
+    "reviewCount": 1329,
+    "images": [
+      "https://images.unsplash.com/photo-1607345566856-3cf6ec9d90e9?w=600&q=80",
+      "https://images.unsplash.com/photo-1617137984306-f5064c99e16a?w=600&q=80",
+      "https://images.unsplash.com/photo-1571019614242-c5c5dee9f50b?w=600&q=80"
+    ],
+    "colors": [
+      {
+        "name": "Standard",
+        "hex": "#1a1a1a"
+      },
+      {
+        "name": "Variant",
+        "hex": "#f5f5f5"
+      }
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "sizesAvailable": {
+      "S": true,
+      "M": true,
+      "L": true,
+      "XL": false,
+      "XXL": true
+    },
+    "material": "100% Premium Material",
+    "fit": "Regular",
+    "pattern": "Solid",
+    "occasion": "Casual",
+    "stock": 19,
+    "isTrending": false,
+    "isNewArrival": false,
+    "isBestSeller": false,
+    "tags": [
+      "premium",
+      "comfortable",
+      "shirts"
+    ],
+    "specifications": {
+      "Fabric": "Premium Quality",
+      "Fit": "Regular",
+      "Wash Care": "Machine Wash"
+    },
+    "reviews": [
+      {
+        "id": "rev_14_1",
+        "userName": "Verified Buyer",
+        "rating": 5,
+        "comment": "Absolutely love this product! The quality is amazing for the price.",
+        "date": "2024-03-15",
+        "helpful": 12,
+        "verified": true
+      }
+    ]
+  },
+  {
+    "id": "prod_015",
+    "name": "Premium Shirts - Style 7",
+    "brand": "W",
+    "description": "Experience ultimate comfort and style with our latest shirts. Perfect for everyday wear, featuring premium materials and exceptional craftsmanship.",
+    "category": "Men",
+    "subCategory": "Shirts",
+    "type": "Topwear",
+    "price": 99,
+    "mrp": 298,
+    "discount": 67,
+    "currency": "₹",
+    "rating": "4.9",
+    "reviewCount": 3071,
+    "images": [
+      "https://images.unsplash.com/photo-1617137984306-f5064c99e16a?w=600&q=80",
+      "https://images.unsplash.com/photo-1571019614242-c5c5dee9f50b?w=600&q=80",
+      "https://images.unsplash.com/photo-1572635196237-14b3f281503f?w=600&q=80"
+    ],
+    "colors": [
+      {
+        "name": "Standard",
+        "hex": "#1a1a1a"
+      },
+      {
+        "name": "Variant",
+        "hex": "#f5f5f5"
+      }
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "sizesAvailable": {
+      "S": true,
+      "M": true,
+      "L": true,
+      "XL": true,
+      "XXL": false
+    },
+    "material": "100% Premium Material",
+    "fit": "Regular",
+    "pattern": "Solid",
+    "occasion": "Casual",
+    "stock": 30,
+    "isTrending": false,
+    "isNewArrival": false,
+    "isBestSeller": false,
+    "tags": [
+      "premium",
+      "comfortable",
+      "shirts"
+    ],
+    "specifications": {
+      "Fabric": "Premium Quality",
+      "Fit": "Regular",
+      "Wash Care": "Machine Wash"
+    },
+    "reviews": [
+      {
+        "id": "rev_15_1",
+        "userName": "Verified Buyer",
+        "rating": 5,
+        "comment": "Absolutely love this product! The quality is amazing for the price.",
+        "date": "2024-03-15",
+        "helpful": 30,
+        "verified": true
+      }
+    ]
+  },
+  {
+    "id": "prod_016",
+    "name": "Premium Shirts - Style 8",
+    "brand": "Van Heusen",
+    "description": "Experience ultimate comfort and style with our latest shirts. Perfect for everyday wear, featuring premium materials and exceptional craftsmanship.",
+    "category": "Men",
+    "subCategory": "Shirts",
+    "type": "Topwear",
+    "price": 799,
+    "mrp": 2198,
+    "discount": 64,
+    "currency": "₹",
+    "rating": "4.5",
+    "reviewCount": 657,
+    "images": [
+      "https://images.unsplash.com/photo-1571019614242-c5c5dee9f50b?w=600&q=80",
+      "https://images.unsplash.com/photo-1572635196237-14b3f281503f?w=600&q=80",
+      "https://images.unsplash.com/photo-1620799140408-edb9a42271d6?w=600&q=80"
+    ],
+    "colors": [
+      {
+        "name": "Standard",
+        "hex": "#1a1a1a"
+      },
+      {
+        "name": "Variant",
+        "hex": "#f5f5f5"
+      }
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "sizesAvailable": {
+      "S": true,
+      "M": true,
+      "L": true,
+      "XL": false,
+      "XXL": false
+    },
+    "material": "100% Premium Material",
+    "fit": "Regular",
+    "pattern": "Solid",
+    "occasion": "Casual",
+    "stock": 12,
+    "isTrending": true,
+    "isNewArrival": false,
+    "isBestSeller": false,
+    "tags": [
+      "premium",
+      "comfortable",
+      "shirts"
+    ],
+    "specifications": {
+      "Fabric": "Premium Quality",
+      "Fit": "Regular",
+      "Wash Care": "Machine Wash"
+    },
+    "reviews": [
+      {
+        "id": "rev_16_1",
+        "userName": "Verified Buyer",
+        "rating": 5,
+        "comment": "Absolutely love this product! The quality is amazing for the price.",
+        "date": "2024-03-15",
+        "helpful": 29,
+        "verified": true
+      }
+    ]
+  },
+  {
+    "id": "prod_017",
+    "name": "Premium Jeans - Style 1",
+    "brand": "Zara",
+    "description": "Experience ultimate comfort and style with our latest jeans. Perfect for everyday wear, featuring premium materials and exceptional craftsmanship.",
+    "category": "Men",
+    "subCategory": "Jeans",
+    "type": "Bottomwear",
+    "price": 599,
+    "mrp": 1198,
+    "discount": 50,
+    "currency": "₹",
+    "rating": "4.1",
+    "reviewCount": 2237,
+    "images": [
+      "https://images.unsplash.com/photo-1542272604-787c3835535d?w=600&q=80",
+      "https://images.unsplash.com/photo-1475178626620-a4d074967452?w=600&q=80",
+      "https://images.unsplash.com/photo-1565084888279-aca607bb00b4?w=600&q=80"
+    ],
+    "colors": [
+      {
+        "name": "Standard",
+        "hex": "#1a1a1a"
+      },
+      {
+        "name": "Variant",
+        "hex": "#f5f5f5"
+      }
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "sizesAvailable": {
+      "S": true,
+      "M": true,
+      "L": true,
+      "XL": true,
+      "XXL": true
+    },
+    "material": "100% Premium Material",
+    "fit": "Regular",
+    "pattern": "Solid",
+    "occasion": "Casual",
+    "stock": 30,
+    "isTrending": false,
+    "isNewArrival": false,
+    "isBestSeller": false,
+    "tags": [
+      "premium",
+      "comfortable",
+      "jeans"
+    ],
+    "specifications": {
+      "Fabric": "Premium Quality",
+      "Fit": "Regular",
+      "Wash Care": "Machine Wash"
+    },
+    "reviews": [
+      {
+        "id": "rev_17_1",
+        "userName": "Verified Buyer",
+        "rating": 5,
+        "comment": "Absolutely love this product! The quality is amazing for the price.",
+        "date": "2024-03-15",
+        "helpful": 25,
+        "verified": true
+      }
+    ]
+  },
+  {
+    "id": "prod_018",
+    "name": "Premium Jeans - Style 2",
+    "brand": "Allen Solly",
+    "description": "Experience ultimate comfort and style with our latest jeans. Perfect for everyday wear, featuring premium materials and exceptional craftsmanship.",
+    "category": "Men",
+    "subCategory": "Jeans",
+    "type": "Bottomwear",
+    "price": 299,
+    "mrp": 1598,
+    "discount": 81,
+    "currency": "₹",
+    "rating": "4.6",
+    "reviewCount": 4114,
+    "images": [
+      "https://images.unsplash.com/photo-1475178626620-a4d074967452?w=600&q=80",
+      "https://images.unsplash.com/photo-1565084888279-aca607bb00b4?w=600&q=80",
+      "https://images.unsplash.com/photo-1624378439799-0b1afa4b5097?w=600&q=80"
+    ],
+    "colors": [
+      {
+        "name": "Standard",
+        "hex": "#1a1a1a"
+      },
+      {
+        "name": "Variant",
+        "hex": "#f5f5f5"
+      }
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "sizesAvailable": {
+      "S": true,
+      "M": true,
+      "L": true,
+      "XL": true,
+      "XXL": false
+    },
+    "material": "100% Premium Material",
+    "fit": "Regular",
+    "pattern": "Solid",
+    "occasion": "Casual",
+    "stock": 19,
+    "isTrending": false,
+    "isNewArrival": false,
+    "isBestSeller": false,
+    "tags": [
+      "premium",
+      "comfortable",
+      "jeans"
+    ],
+    "specifications": {
+      "Fabric": "Premium Quality",
+      "Fit": "Regular",
+      "Wash Care": "Machine Wash"
+    },
+    "reviews": [
+      {
+        "id": "rev_18_1",
+        "userName": "Verified Buyer",
+        "rating": 5,
+        "comment": "Absolutely love this product! The quality is amazing for the price.",
+        "date": "2024-03-15",
+        "helpful": 33,
+        "verified": true
+      }
+    ]
+  },
+  {
+    "id": "prod_019",
+    "name": "Premium Jeans - Style 3",
+    "brand": "Allen Solly",
+    "description": "Experience ultimate comfort and style with our latest jeans. Perfect for everyday wear, featuring premium materials and exceptional craftsmanship.",
+    "category": "Men",
+    "subCategory": "Jeans",
+    "type": "Bottomwear",
+    "price": 99,
+    "mrp": 598,
+    "discount": 83,
+    "currency": "₹",
+    "rating": "5.0",
+    "reviewCount": 2318,
+    "images": [
+      "https://images.unsplash.com/photo-1565084888279-aca607bb00b4?w=600&q=80",
+      "https://images.unsplash.com/photo-1624378439799-0b1afa4b5097?w=600&q=80",
+      "https://images.unsplash.com/photo-1555689502-c4b22b7b5f28?w=600&q=80"
+    ],
+    "colors": [
+      {
+        "name": "Standard",
+        "hex": "#1a1a1a"
+      },
+      {
+        "name": "Variant",
+        "hex": "#f5f5f5"
+      }
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "sizesAvailable": {
+      "S": true,
+      "M": true,
+      "L": true,
+      "XL": false,
+      "XXL": false
+    },
+    "material": "100% Premium Material",
+    "fit": "Regular",
+    "pattern": "Solid",
+    "occasion": "Casual",
+    "stock": 80,
+    "isTrending": true,
+    "isNewArrival": false,
+    "isBestSeller": false,
+    "tags": [
+      "premium",
+      "comfortable",
+      "jeans"
+    ],
+    "specifications": {
+      "Fabric": "Premium Quality",
+      "Fit": "Regular",
+      "Wash Care": "Machine Wash"
+    },
+    "reviews": [
+      {
+        "id": "rev_19_1",
+        "userName": "Verified Buyer",
+        "rating": 5,
+        "comment": "Absolutely love this product! The quality is amazing for the price.",
+        "date": "2024-03-15",
+        "helpful": 11,
+        "verified": true
+      }
+    ]
+  },
+  {
+    "id": "prod_020",
+    "name": "Premium Jeans - Style 4",
+    "brand": "BLOOM",
+    "description": "Experience ultimate comfort and style with our latest jeans. Perfect for everyday wear, featuring premium materials and exceptional craftsmanship.",
+    "category": "Men",
+    "subCategory": "Jeans",
+    "type": "Bottomwear",
+    "price": 499,
+    "mrp": 1398,
+    "discount": 64,
+    "currency": "₹",
+    "rating": "4.4",
+    "reviewCount": 2252,
+    "images": [
+      "https://images.unsplash.com/photo-1624378439799-0b1afa4b5097?w=600&q=80",
+      "https://images.unsplash.com/photo-1555689502-c4b22b7b5f28?w=600&q=80",
+      "https://images.unsplash.com/photo-1506629082-1e364e0b4099?w=600&q=80"
+    ],
+    "colors": [
+      {
+        "name": "Standard",
+        "hex": "#1a1a1a"
+      },
+      {
+        "name": "Variant",
+        "hex": "#f5f5f5"
+      }
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "sizesAvailable": {
+      "S": true,
+      "M": true,
+      "L": true,
+      "XL": true,
+      "XXL": true
+    },
+    "material": "100% Premium Material",
+    "fit": "Regular",
+    "pattern": "Solid",
+    "occasion": "Casual",
+    "stock": 47,
+    "isTrending": true,
+    "isNewArrival": false,
+    "isBestSeller": false,
+    "tags": [
+      "premium",
+      "comfortable",
+      "jeans"
+    ],
+    "specifications": {
+      "Fabric": "Premium Quality",
+      "Fit": "Regular",
+      "Wash Care": "Machine Wash"
+    },
+    "reviews": [
+      {
+        "id": "rev_20_1",
+        "userName": "Verified Buyer",
+        "rating": 5,
+        "comment": "Absolutely love this product! The quality is amazing for the price.",
+        "date": "2024-03-15",
+        "helpful": 7,
+        "verified": true
+      }
+    ]
+  },
+  {
+    "id": "prod_021",
+    "name": "Premium Jeans - Style 5",
+    "brand": "AURA",
+    "description": "Experience ultimate comfort and style with our latest jeans. Perfect for everyday wear, featuring premium materials and exceptional craftsmanship.",
+    "category": "Men",
+    "subCategory": "Jeans",
+    "type": "Bottomwear",
+    "price": 499,
+    "mrp": 1398,
+    "discount": 64,
+    "currency": "₹",
+    "rating": "4.5",
+    "reviewCount": 1040,
+    "images": [
+      "https://images.unsplash.com/photo-1555689502-c4b22b7b5f28?w=600&q=80",
+      "https://images.unsplash.com/photo-1506629082-1e364e0b4099?w=600&q=80",
+      "https://images.unsplash.com/photo-1473966968600-fa4f40a38293?w=600&q=80"
+    ],
+    "colors": [
+      {
+        "name": "Standard",
+        "hex": "#1a1a1a"
+      },
+      {
+        "name": "Variant",
+        "hex": "#f5f5f5"
+      }
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "sizesAvailable": {
+      "S": true,
+      "M": true,
+      "L": true,
+      "XL": false,
+      "XXL": true
+    },
+    "material": "100% Premium Material",
+    "fit": "Regular",
+    "pattern": "Solid",
+    "occasion": "Casual",
+    "stock": 25,
+    "isTrending": false,
+    "isNewArrival": true,
+    "isBestSeller": false,
+    "tags": [
+      "premium",
+      "comfortable",
+      "jeans"
+    ],
+    "specifications": {
+      "Fabric": "Premium Quality",
+      "Fit": "Regular",
+      "Wash Care": "Machine Wash"
+    },
+    "reviews": [
+      {
+        "id": "rev_21_1",
+        "userName": "Verified Buyer",
+        "rating": 5,
+        "comment": "Absolutely love this product! The quality is amazing for the price.",
+        "date": "2024-03-15",
+        "helpful": 23,
+        "verified": true
+      }
+    ]
+  },
+  {
+    "id": "prod_022",
+    "name": "Premium Jeans - Style 6",
+    "brand": "Levi's",
+    "description": "Experience ultimate comfort and style with our latest jeans. Perfect for everyday wear, featuring premium materials and exceptional craftsmanship.",
+    "category": "Men",
+    "subCategory": "Jeans",
+    "type": "Bottomwear",
+    "price": 1199,
+    "mrp": 1498,
+    "discount": 20,
+    "currency": "₹",
+    "rating": "4.7",
+    "reviewCount": 2807,
+    "images": [
+      "https://images.unsplash.com/photo-1506629082-1e364e0b4099?w=600&q=80",
+      "https://images.unsplash.com/photo-1473966968600-fa4f40a38293?w=600&q=80",
+      "https://images.unsplash.com/photo-1541099649105-f69ad21f3246?w=600&q=80"
+    ],
+    "colors": [
+      {
+        "name": "Standard",
+        "hex": "#1a1a1a"
+      },
+      {
+        "name": "Variant",
+        "hex": "#f5f5f5"
+      }
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "sizesAvailable": {
+      "S": true,
+      "M": true,
+      "L": true,
+      "XL": false,
+      "XXL": false
+    },
+    "material": "100% Premium Material",
+    "fit": "Regular",
+    "pattern": "Solid",
+    "occasion": "Casual",
+    "stock": 52,
+    "isTrending": true,
+    "isNewArrival": false,
+    "isBestSeller": false,
+    "tags": [
+      "premium",
+      "comfortable",
+      "jeans"
+    ],
+    "specifications": {
+      "Fabric": "Premium Quality",
+      "Fit": "Regular",
+      "Wash Care": "Machine Wash"
+    },
+    "reviews": [
+      {
+        "id": "rev_22_1",
+        "userName": "Verified Buyer",
+        "rating": 5,
+        "comment": "Absolutely love this product! The quality is amazing for the price.",
+        "date": "2024-03-15",
+        "helpful": 16,
+        "verified": true
+      }
+    ]
+  },
+  {
+    "id": "prod_023",
+    "name": "Premium Jeans - Style 7",
+    "brand": "Vero Moda",
+    "description": "Experience ultimate comfort and style with our latest jeans. Perfect for everyday wear, featuring premium materials and exceptional craftsmanship.",
+    "category": "Men",
+    "subCategory": "Jeans",
+    "type": "Bottomwear",
+    "price": 799,
+    "mrp": 998,
+    "discount": 20,
+    "currency": "₹",
+    "rating": "4.5",
+    "reviewCount": 219,
+    "images": [
+      "https://images.unsplash.com/photo-1473966968600-fa4f40a38293?w=600&q=80",
+      "https://images.unsplash.com/photo-1541099649105-f69ad21f3246?w=600&q=80",
+      "https://images.unsplash.com/photo-1560472354-b33ff0ad4a4d?w=600&q=80"
+    ],
+    "colors": [
+      {
+        "name": "Standard",
+        "hex": "#1a1a1a"
+      },
+      {
+        "name": "Variant",
+        "hex": "#f5f5f5"
+      }
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "sizesAvailable": {
+      "S": true,
+      "M": true,
+      "L": true,
+      "XL": true,
+      "XXL": false
+    },
+    "material": "100% Premium Material",
+    "fit": "Regular",
+    "pattern": "Solid",
+    "occasion": "Casual",
+    "stock": 45,
+    "isTrending": false,
+    "isNewArrival": false,
+    "isBestSeller": false,
+    "tags": [
+      "premium",
+      "comfortable",
+      "jeans"
+    ],
+    "specifications": {
+      "Fabric": "Premium Quality",
+      "Fit": "Regular",
+      "Wash Care": "Machine Wash"
+    },
+    "reviews": [
+      {
+        "id": "rev_23_1",
+        "userName": "Verified Buyer",
+        "rating": 5,
+        "comment": "Absolutely love this product! The quality is amazing for the price.",
+        "date": "2024-03-15",
+        "helpful": 30,
+        "verified": true
+      }
+    ]
+  },
+  {
+    "id": "prod_024",
+    "name": "Premium Jeans - Style 8",
+    "brand": "W",
+    "description": "Experience ultimate comfort and style with our latest jeans. Perfect for everyday wear, featuring premium materials and exceptional craftsmanship.",
+    "category": "Men",
+    "subCategory": "Jeans",
+    "type": "Bottomwear",
+    "price": 799,
+    "mrp": 1998,
+    "discount": 60,
+    "currency": "₹",
+    "rating": "4.3",
+    "reviewCount": 3878,
+    "images": [
+      "https://images.unsplash.com/photo-1541099649105-f69ad21f3246?w=600&q=80",
+      "https://images.unsplash.com/photo-1560472354-b33ff0ad4a4d?w=600&q=80",
+      "https://images.unsplash.com/photo-1598554747436-c9293a239af8?w=600&q=80"
+    ],
+    "colors": [
+      {
+        "name": "Standard",
+        "hex": "#1a1a1a"
+      },
+      {
+        "name": "Variant",
+        "hex": "#f5f5f5"
+      }
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "sizesAvailable": {
+      "S": true,
+      "M": true,
+      "L": true,
+      "XL": true,
+      "XXL": false
+    },
+    "material": "100% Premium Material",
+    "fit": "Regular",
+    "pattern": "Solid",
+    "occasion": "Casual",
+    "stock": 83,
+    "isTrending": false,
+    "isNewArrival": false,
+    "isBestSeller": false,
+    "tags": [
+      "premium",
+      "comfortable",
+      "jeans"
+    ],
+    "specifications": {
+      "Fabric": "Premium Quality",
+      "Fit": "Regular",
+      "Wash Care": "Machine Wash"
+    },
+    "reviews": [
+      {
+        "id": "rev_24_1",
+        "userName": "Verified Buyer",
+        "rating": 5,
+        "comment": "Absolutely love this product! The quality is amazing for the price.",
+        "date": "2024-03-15",
+        "helpful": 1,
+        "verified": true
+      }
+    ]
+  },
+  {
+    "id": "prod_025",
+    "name": "Premium Jackets - Style 1",
+    "brand": "Vero Moda",
+    "description": "Experience ultimate comfort and style with our latest jackets. Perfect for everyday wear, featuring premium materials and exceptional craftsmanship.",
+    "category": "Men",
+    "subCategory": "Jackets",
+    "type": "Outerwear",
+    "price": 1999,
+    "mrp": 7398,
+    "discount": 73,
+    "currency": "₹",
+    "rating": "4.6",
+    "reviewCount": 1508,
+    "images": [
+      "https://images.unsplash.com/photo-1591047139829-d91aecb6caea?w=600&q=80",
+      "https://images.unsplash.com/photo-1608233546809-a3bec2e8e4c8?w=600&q=80",
+      "https://images.unsplash.com/photo-1516257984-14f30e0d8a15?w=600&q=80"
+    ],
+    "colors": [
+      {
+        "name": "Standard",
+        "hex": "#1a1a1a"
+      },
+      {
+        "name": "Variant",
+        "hex": "#f5f5f5"
+      }
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "sizesAvailable": {
+      "S": true,
+      "M": true,
+      "L": true,
+      "XL": false,
+      "XXL": true
+    },
+    "material": "100% Premium Material",
+    "fit": "Regular",
+    "pattern": "Solid",
+    "occasion": "Casual",
+    "stock": 80,
+    "isTrending": false,
+    "isNewArrival": false,
+    "isBestSeller": false,
+    "tags": [
+      "premium",
+      "comfortable",
+      "jackets"
+    ],
+    "specifications": {
+      "Fabric": "Premium Quality",
+      "Fit": "Regular",
+      "Wash Care": "Machine Wash"
+    },
+    "reviews": [
+      {
+        "id": "rev_25_1",
+        "userName": "Verified Buyer",
+        "rating": 5,
+        "comment": "Absolutely love this product! The quality is amazing for the price.",
+        "date": "2024-03-15",
+        "helpful": 32,
+        "verified": true
+      }
+    ]
+  },
+  {
+    "id": "prod_026",
+    "name": "Premium Jackets - Style 2",
+    "brand": "BLOOM",
+    "description": "Experience ultimate comfort and style with our latest jackets. Perfect for everyday wear, featuring premium materials and exceptional craftsmanship.",
+    "category": "Men",
+    "subCategory": "Jackets",
+    "type": "Outerwear",
+    "price": 699,
+    "mrp": 2298,
+    "discount": 70,
+    "currency": "₹",
+    "rating": "4.2",
+    "reviewCount": 830,
+    "images": [
+      "https://images.unsplash.com/photo-1608233546809-a3bec2e8e4c8?w=600&q=80",
+      "https://images.unsplash.com/photo-1516257984-14f30e0d8a15?w=600&q=80",
+      "https://images.unsplash.com/photo-1548126032-079a0fb0099d?w=600&q=80"
+    ],
+    "colors": [
+      {
+        "name": "Standard",
+        "hex": "#1a1a1a"
+      },
+      {
+        "name": "Variant",
+        "hex": "#f5f5f5"
+      }
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "sizesAvailable": {
+      "S": true,
+      "M": true,
+      "L": true,
+      "XL": true,
+      "XXL": false
+    },
+    "material": "100% Premium Material",
+    "fit": "Regular",
+    "pattern": "Solid",
+    "occasion": "Casual",
+    "stock": 76,
+    "isTrending": false,
+    "isNewArrival": false,
+    "isBestSeller": false,
+    "tags": [
+      "premium",
+      "comfortable",
+      "jackets"
+    ],
+    "specifications": {
+      "Fabric": "Premium Quality",
+      "Fit": "Regular",
+      "Wash Care": "Machine Wash"
+    },
+    "reviews": [
+      {
+        "id": "rev_26_1",
+        "userName": "Verified Buyer",
+        "rating": 5,
+        "comment": "Absolutely love this product! The quality is amazing for the price.",
+        "date": "2024-03-15",
+        "helpful": 36,
+        "verified": true
+      }
+    ]
+  },
+  {
+    "id": "prod_027",
+    "name": "Premium Jackets - Style 3",
+    "brand": "Vero Moda",
+    "description": "Experience ultimate comfort and style with our latest jackets. Perfect for everyday wear, featuring premium materials and exceptional craftsmanship.",
+    "category": "Men",
+    "subCategory": "Jackets",
+    "type": "Outerwear",
+    "price": 2399,
+    "mrp": 2798,
+    "discount": 14,
+    "currency": "₹",
+    "rating": "4.4",
+    "reviewCount": 2267,
+    "images": [
+      "https://images.unsplash.com/photo-1516257984-14f30e0d8a15?w=600&q=80",
+      "https://images.unsplash.com/photo-1548126032-079a0fb0099d?w=600&q=80",
+      "https://images.unsplash.com/photo-1578681994506-b8774fb5f9e6?w=600&q=80"
+    ],
+    "colors": [
+      {
+        "name": "Standard",
+        "hex": "#1a1a1a"
+      },
+      {
+        "name": "Variant",
+        "hex": "#f5f5f5"
+      }
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "sizesAvailable": {
+      "S": true,
+      "M": true,
+      "L": true,
+      "XL": false,
+      "XXL": false
+    },
+    "material": "100% Premium Material",
+    "fit": "Regular",
+    "pattern": "Solid",
+    "occasion": "Casual",
+    "stock": 90,
+    "isTrending": false,
+    "isNewArrival": false,
+    "isBestSeller": false,
+    "tags": [
+      "premium",
+      "comfortable",
+      "jackets"
+    ],
+    "specifications": {
+      "Fabric": "Premium Quality",
+      "Fit": "Regular",
+      "Wash Care": "Machine Wash"
+    },
+    "reviews": [
+      {
+        "id": "rev_27_1",
+        "userName": "Verified Buyer",
+        "rating": 5,
+        "comment": "Absolutely love this product! The quality is amazing for the price.",
+        "date": "2024-03-15",
+        "helpful": 32,
+        "verified": true
+      }
+    ]
+  },
+  {
+    "id": "prod_028",
+    "name": "Premium Jackets - Style 4",
+    "brand": "FabIndia",
+    "description": "Experience ultimate comfort and style with our latest jackets. Perfect for everyday wear, featuring premium materials and exceptional craftsmanship.",
+    "category": "Men",
+    "subCategory": "Jackets",
+    "type": "Outerwear",
+    "price": 399,
+    "mrp": 4198,
+    "discount": 90,
+    "currency": "₹",
+    "rating": "4.9",
+    "reviewCount": 4325,
+    "images": [
+      "https://images.unsplash.com/photo-1548126032-079a0fb0099d?w=600&q=80",
+      "https://images.unsplash.com/photo-1578681994506-b8774fb5f9e6?w=600&q=80",
+      "https://images.unsplash.com/photo-1551698618-1dbb9277e63e?w=600&q=80"
+    ],
+    "colors": [
+      {
+        "name": "Standard",
+        "hex": "#1a1a1a"
+      },
+      {
+        "name": "Variant",
+        "hex": "#f5f5f5"
+      }
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "sizesAvailable": {
+      "S": true,
+      "M": true,
+      "L": true,
+      "XL": true,
+      "XXL": false
+    },
+    "material": "100% Premium Material",
+    "fit": "Regular",
+    "pattern": "Solid",
+    "occasion": "Casual",
+    "stock": 12,
+    "isTrending": false,
+    "isNewArrival": false,
+    "isBestSeller": false,
+    "tags": [
+      "premium",
+      "comfortable",
+      "jackets"
+    ],
+    "specifications": {
+      "Fabric": "Premium Quality",
+      "Fit": "Regular",
+      "Wash Care": "Machine Wash"
+    },
+    "reviews": [
+      {
+        "id": "rev_28_1",
+        "userName": "Verified Buyer",
+        "rating": 5,
+        "comment": "Absolutely love this product! The quality is amazing for the price.",
+        "date": "2024-03-15",
+        "helpful": 29,
+        "verified": true
+      }
+    ]
+  },
+  {
+    "id": "prod_029",
+    "name": "Premium Jackets - Style 5",
+    "brand": "FabIndia",
+    "description": "Experience ultimate comfort and style with our latest jackets. Perfect for everyday wear, featuring premium materials and exceptional craftsmanship.",
+    "category": "Men",
+    "subCategory": "Jackets",
+    "type": "Outerwear",
+    "price": 3499,
+    "mrp": 6098,
+    "discount": 43,
+    "currency": "₹",
+    "rating": "4.2",
+    "reviewCount": 1823,
+    "images": [
+      "https://images.unsplash.com/photo-1578681994506-b8774fb5f9e6?w=600&q=80",
+      "https://images.unsplash.com/photo-1551698618-1dbb9277e63e?w=600&q=80",
+      "https://images.unsplash.com/photo-1547861985-e1c2c9d5dff0?w=600&q=80"
+    ],
+    "colors": [
+      {
+        "name": "Standard",
+        "hex": "#1a1a1a"
+      },
+      {
+        "name": "Variant",
+        "hex": "#f5f5f5"
+      }
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "sizesAvailable": {
+      "S": true,
+      "M": true,
+      "L": true,
+      "XL": true,
+      "XXL": true
+    },
+    "material": "100% Premium Material",
+    "fit": "Regular",
+    "pattern": "Solid",
+    "occasion": "Casual",
+    "stock": 52,
+    "isTrending": false,
+    "isNewArrival": true,
+    "isBestSeller": false,
+    "tags": [
+      "premium",
+      "comfortable",
+      "jackets"
+    ],
+    "specifications": {
+      "Fabric": "Premium Quality",
+      "Fit": "Regular",
+      "Wash Care": "Machine Wash"
+    },
+    "reviews": [
+      {
+        "id": "rev_29_1",
+        "userName": "Verified Buyer",
+        "rating": 5,
+        "comment": "Absolutely love this product! The quality is amazing for the price.",
+        "date": "2024-03-15",
+        "helpful": 8,
+        "verified": true
+      }
+    ]
+  },
+  {
+    "id": "prod_030",
+    "name": "Premium Jackets - Style 6",
+    "brand": "Allen Solly",
+    "description": "Experience ultimate comfort and style with our latest jackets. Perfect for everyday wear, featuring premium materials and exceptional craftsmanship.",
+    "category": "Men",
+    "subCategory": "Jackets",
+    "type": "Outerwear",
+    "price": 1999,
+    "mrp": 7398,
+    "discount": 73,
+    "currency": "₹",
+    "rating": "4.0",
+    "reviewCount": 3862,
+    "images": [
+      "https://images.unsplash.com/photo-1551698618-1dbb9277e63e?w=600&q=80",
+      "https://images.unsplash.com/photo-1547861985-e1c2c9d5dff0?w=600&q=80",
+      "https://images.unsplash.com/photo-1601924994987-daa67f6e1b39?w=600&q=80"
+    ],
+    "colors": [
+      {
+        "name": "Standard",
+        "hex": "#1a1a1a"
+      },
+      {
+        "name": "Variant",
+        "hex": "#f5f5f5"
+      }
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "sizesAvailable": {
+      "S": true,
+      "M": true,
+      "L": true,
+      "XL": false,
+      "XXL": false
+    },
+    "material": "100% Premium Material",
+    "fit": "Regular",
+    "pattern": "Solid",
+    "occasion": "Casual",
+    "stock": 75,
+    "isTrending": false,
+    "isNewArrival": false,
+    "isBestSeller": true,
+    "tags": [
+      "premium",
+      "comfortable",
+      "jackets"
+    ],
+    "specifications": {
+      "Fabric": "Premium Quality",
+      "Fit": "Regular",
+      "Wash Care": "Machine Wash"
+    },
+    "reviews": [
+      {
+        "id": "rev_30_1",
+        "userName": "Verified Buyer",
+        "rating": 5,
+        "comment": "Absolutely love this product! The quality is amazing for the price.",
+        "date": "2024-03-15",
+        "helpful": 11,
+        "verified": true
+      }
+    ]
+  },
+  {
+    "id": "prod_031",
+    "name": "Premium Trousers - Style 1",
+    "brand": "Van Heusen",
+    "description": "Experience ultimate comfort and style with our latest trousers. Perfect for everyday wear, featuring premium materials and exceptional craftsmanship.",
+    "category": "Men",
+    "subCategory": "Trousers",
+    "type": "Bottomwear",
+    "price": 599,
+    "mrp": 1398,
+    "discount": 57,
+    "currency": "₹",
+    "rating": "4.3",
+    "reviewCount": 2807,
+    "images": [
+      "https://images.unsplash.com/photo-1473966968600-fa4f40a38293?w=600&q=80",
+      "https://images.unsplash.com/photo-1560472354-b33ff0ad4a4d?w=600&q=80",
+      "https://images.unsplash.com/photo-1598300042738-398e8c14ce78?w=600&q=80"
+    ],
+    "colors": [
+      {
+        "name": "Standard",
+        "hex": "#1a1a1a"
+      },
+      {
+        "name": "Variant",
+        "hex": "#f5f5f5"
+      }
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "sizesAvailable": {
+      "S": true,
+      "M": true,
+      "L": true,
+      "XL": true,
+      "XXL": true
+    },
+    "material": "100% Premium Material",
+    "fit": "Regular",
+    "pattern": "Solid",
+    "occasion": "Casual",
+    "stock": 84,
+    "isTrending": true,
+    "isNewArrival": false,
+    "isBestSeller": true,
+    "tags": [
+      "premium",
+      "comfortable",
+      "trousers"
+    ],
+    "specifications": {
+      "Fabric": "Premium Quality",
+      "Fit": "Regular",
+      "Wash Care": "Machine Wash"
+    },
+    "reviews": [
+      {
+        "id": "rev_31_1",
+        "userName": "Verified Buyer",
+        "rating": 5,
+        "comment": "Absolutely love this product! The quality is amazing for the price.",
+        "date": "2024-03-15",
+        "helpful": 48,
+        "verified": true
+      }
+    ]
+  },
+  {
+    "id": "prod_032",
+    "name": "Premium Trousers - Style 2",
+    "brand": "Van Heusen",
+    "description": "Experience ultimate comfort and style with our latest trousers. Perfect for everyday wear, featuring premium materials and exceptional craftsmanship.",
+    "category": "Men",
+    "subCategory": "Trousers",
+    "type": "Bottomwear",
+    "price": 999,
+    "mrp": 2898,
+    "discount": 66,
+    "currency": "₹",
+    "rating": "4.7",
+    "reviewCount": 1682,
+    "images": [
+      "https://images.unsplash.com/photo-1560472354-b33ff0ad4a4d?w=600&q=80",
+      "https://images.unsplash.com/photo-1598300042738-398e8c14ce78?w=600&q=80",
+      "https://images.unsplash.com/photo-1536430034589-47b11f66b18d?w=600&q=80"
+    ],
+    "colors": [
+      {
+        "name": "Standard",
+        "hex": "#1a1a1a"
+      },
+      {
+        "name": "Variant",
+        "hex": "#f5f5f5"
+      }
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "sizesAvailable": {
+      "S": true,
+      "M": true,
+      "L": true,
+      "XL": false,
+      "XXL": true
+    },
+    "material": "100% Premium Material",
+    "fit": "Regular",
+    "pattern": "Solid",
+    "occasion": "Casual",
+    "stock": 11,
+    "isTrending": false,
+    "isNewArrival": false,
+    "isBestSeller": false,
+    "tags": [
+      "premium",
+      "comfortable",
+      "trousers"
+    ],
+    "specifications": {
+      "Fabric": "Premium Quality",
+      "Fit": "Regular",
+      "Wash Care": "Machine Wash"
+    },
+    "reviews": [
+      {
+        "id": "rev_32_1",
+        "userName": "Verified Buyer",
+        "rating": 5,
+        "comment": "Absolutely love this product! The quality is amazing for the price.",
+        "date": "2024-03-15",
+        "helpful": 21,
+        "verified": true
+      }
+    ]
+  },
+  {
+    "id": "prod_033",
+    "name": "Premium Trousers - Style 3",
+    "brand": "Adidas",
+    "description": "Experience ultimate comfort and style with our latest trousers. Perfect for everyday wear, featuring premium materials and exceptional craftsmanship.",
+    "category": "Men",
+    "subCategory": "Trousers",
+    "type": "Bottomwear",
+    "price": 499,
+    "mrp": 1698,
+    "discount": 71,
+    "currency": "₹",
+    "rating": "4.4",
+    "reviewCount": 937,
+    "images": [
+      "https://images.unsplash.com/photo-1598300042738-398e8c14ce78?w=600&q=80",
+      "https://images.unsplash.com/photo-1536430034589-47b11f66b18d?w=600&q=80",
+      "https://images.unsplash.com/photo-1489987707849-d49b7b13e4d7?w=600&q=80"
+    ],
+    "colors": [
+      {
+        "name": "Standard",
+        "hex": "#1a1a1a"
+      },
+      {
+        "name": "Variant",
+        "hex": "#f5f5f5"
+      }
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "sizesAvailable": {
+      "S": true,
+      "M": true,
+      "L": true,
+      "XL": false,
+      "XXL": true
+    },
+    "material": "100% Premium Material",
+    "fit": "Regular",
+    "pattern": "Solid",
+    "occasion": "Casual",
+    "stock": 74,
+    "isTrending": false,
+    "isNewArrival": false,
+    "isBestSeller": false,
+    "tags": [
+      "premium",
+      "comfortable",
+      "trousers"
+    ],
+    "specifications": {
+      "Fabric": "Premium Quality",
+      "Fit": "Regular",
+      "Wash Care": "Machine Wash"
+    },
+    "reviews": [
+      {
+        "id": "rev_33_1",
+        "userName": "Verified Buyer",
+        "rating": 5,
+        "comment": "Absolutely love this product! The quality is amazing for the price.",
+        "date": "2024-03-15",
+        "helpful": 30,
+        "verified": true
+      }
+    ]
+  },
+  {
+    "id": "prod_034",
+    "name": "Premium Trousers - Style 4",
+    "brand": "H&M",
+    "description": "Experience ultimate comfort and style with our latest trousers. Perfect for everyday wear, featuring premium materials and exceptional craftsmanship.",
+    "category": "Men",
+    "subCategory": "Trousers",
+    "type": "Bottomwear",
+    "price": 299,
+    "mrp": 1798,
+    "discount": 83,
+    "currency": "₹",
+    "rating": "4.3",
+    "reviewCount": 1324,
+    "images": [
+      "https://images.unsplash.com/photo-1536430034589-47b11f66b18d?w=600&q=80",
+      "https://images.unsplash.com/photo-1489987707849-d49b7b13e4d7?w=600&q=80",
+      "https://images.unsplash.com/photo-1519238263173-4f5f7d5a4cb2?w=600&q=80"
+    ],
+    "colors": [
+      {
+        "name": "Standard",
+        "hex": "#1a1a1a"
+      },
+      {
+        "name": "Variant",
+        "hex": "#f5f5f5"
+      }
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "sizesAvailable": {
+      "S": true,
+      "M": true,
+      "L": true,
+      "XL": true,
+      "XXL": false
+    },
+    "material": "100% Premium Material",
+    "fit": "Regular",
+    "pattern": "Solid",
+    "occasion": "Casual",
+    "stock": 57,
+    "isTrending": false,
+    "isNewArrival": false,
+    "isBestSeller": false,
+    "tags": [
+      "premium",
+      "comfortable",
+      "trousers"
+    ],
+    "specifications": {
+      "Fabric": "Premium Quality",
+      "Fit": "Regular",
+      "Wash Care": "Machine Wash"
+    },
+    "reviews": [
+      {
+        "id": "rev_34_1",
+        "userName": "Verified Buyer",
+        "rating": 5,
+        "comment": "Absolutely love this product! The quality is amazing for the price.",
+        "date": "2024-03-15",
+        "helpful": 38,
+        "verified": true
+      }
+    ]
+  },
+  {
+    "id": "prod_035",
+    "name": "Premium Trousers - Style 5",
+    "brand": "Adidas",
+    "description": "Experience ultimate comfort and style with our latest trousers. Perfect for everyday wear, featuring premium materials and exceptional craftsmanship.",
+    "category": "Men",
+    "subCategory": "Trousers",
+    "type": "Bottomwear",
+    "price": 899,
+    "mrp": 1098,
+    "discount": 18,
+    "currency": "₹",
+    "rating": "4.4",
+    "reviewCount": 157,
+    "images": [
+      "https://images.unsplash.com/photo-1489987707849-d49b7b13e4d7?w=600&q=80",
+      "https://images.unsplash.com/photo-1519238263173-4f5f7d5a4cb2?w=600&q=80",
+      "https://images.unsplash.com/photo-1552902865-b72c031ac5ea?w=600&q=80"
+    ],
+    "colors": [
+      {
+        "name": "Standard",
+        "hex": "#1a1a1a"
+      },
+      {
+        "name": "Variant",
+        "hex": "#f5f5f5"
+      }
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "sizesAvailable": {
+      "S": true,
+      "M": true,
+      "L": true,
+      "XL": false,
+      "XXL": true
+    },
+    "material": "100% Premium Material",
+    "fit": "Regular",
+    "pattern": "Solid",
+    "occasion": "Casual",
+    "stock": 19,
+    "isTrending": false,
+    "isNewArrival": false,
+    "isBestSeller": false,
+    "tags": [
+      "premium",
+      "comfortable",
+      "trousers"
+    ],
+    "specifications": {
+      "Fabric": "Premium Quality",
+      "Fit": "Regular",
+      "Wash Care": "Machine Wash"
+    },
+    "reviews": [
+      {
+        "id": "rev_35_1",
+        "userName": "Verified Buyer",
+        "rating": 5,
+        "comment": "Absolutely love this product! The quality is amazing for the price.",
+        "date": "2024-03-15",
+        "helpful": 9,
+        "verified": true
+      }
+    ]
+  },
+  {
+    "id": "prod_036",
+    "name": "Premium Trousers - Style 6",
+    "brand": "AURA",
+    "description": "Experience ultimate comfort and style with our latest trousers. Perfect for everyday wear, featuring premium materials and exceptional craftsmanship.",
+    "category": "Men",
+    "subCategory": "Trousers",
+    "type": "Bottomwear",
+    "price": 299,
+    "mrp": 1398,
+    "discount": 79,
+    "currency": "₹",
+    "rating": "4.7",
+    "reviewCount": 412,
+    "images": [
+      "https://images.unsplash.com/photo-1519238263173-4f5f7d5a4cb2?w=600&q=80",
+      "https://images.unsplash.com/photo-1552902865-b72c031ac5ea?w=600&q=80",
+      "https://images.unsplash.com/photo-1602810316536-a5dd7e2d07f0?w=600&q=80"
+    ],
+    "colors": [
+      {
+        "name": "Standard",
+        "hex": "#1a1a1a"
+      },
+      {
+        "name": "Variant",
+        "hex": "#f5f5f5"
+      }
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "sizesAvailable": {
+      "S": true,
+      "M": true,
+      "L": true,
+      "XL": true,
+      "XXL": false
+    },
+    "material": "100% Premium Material",
+    "fit": "Regular",
+    "pattern": "Solid",
+    "occasion": "Casual",
+    "stock": 101,
+    "isTrending": true,
+    "isNewArrival": false,
+    "isBestSeller": false,
+    "tags": [
+      "premium",
+      "comfortable",
+      "trousers"
+    ],
+    "specifications": {
+      "Fabric": "Premium Quality",
+      "Fit": "Regular",
+      "Wash Care": "Machine Wash"
+    },
+    "reviews": [
+      {
+        "id": "rev_36_1",
+        "userName": "Verified Buyer",
+        "rating": 5,
+        "comment": "Absolutely love this product! The quality is amazing for the price.",
+        "date": "2024-03-15",
+        "helpful": 7,
+        "verified": true
+      }
+    ]
+  },
+  {
+    "id": "prod_037",
+    "name": "Premium Shorts - Style 1",
+    "brand": "Puma",
+    "description": "Experience ultimate comfort and style with our latest shorts. Perfect for everyday wear, featuring premium materials and exceptional craftsmanship.",
+    "category": "Men",
+    "subCategory": "Shorts",
+    "type": "Bottomwear",
+    "price": 499,
+    "mrp": 1198,
+    "discount": 58,
+    "currency": "₹",
+    "rating": "4.5",
+    "reviewCount": 2603,
+    "images": [
+      "https://images.unsplash.com/photo-1562183241-840b8af23be7?w=600&q=80",
+      "https://images.unsplash.com/photo-1531310197839-ccf54634509e?w=600&q=80",
+      "https://images.unsplash.com/photo-1519143343419-63a1f685c2e1?w=600&q=80"
+    ],
+    "colors": [
+      {
+        "name": "Standard",
+        "hex": "#1a1a1a"
+      },
+      {
+        "name": "Variant",
+        "hex": "#f5f5f5"
+      }
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "sizesAvailable": {
+      "S": true,
+      "M": true,
+      "L": true,
+      "XL": true,
+      "XXL": true
+    },
+    "material": "100% Premium Material",
+    "fit": "Regular",
+    "pattern": "Solid",
+    "occasion": "Casual",
+    "stock": 95,
+    "isTrending": true,
+    "isNewArrival": false,
+    "isBestSeller": true,
+    "tags": [
+      "premium",
+      "comfortable",
+      "shorts"
+    ],
+    "specifications": {
+      "Fabric": "Premium Quality",
+      "Fit": "Regular",
+      "Wash Care": "Machine Wash"
+    },
+    "reviews": [
+      {
+        "id": "rev_37_1",
+        "userName": "Verified Buyer",
+        "rating": 5,
+        "comment": "Absolutely love this product! The quality is amazing for the price.",
+        "date": "2024-03-15",
+        "helpful": 12,
+        "verified": true
+      }
+    ]
+  },
+  {
+    "id": "prod_038",
+    "name": "Premium Shorts - Style 2",
+    "brand": "Vero Moda",
+    "description": "Experience ultimate comfort and style with our latest shorts. Perfect for everyday wear, featuring premium materials and exceptional craftsmanship.",
+    "category": "Men",
+    "subCategory": "Shorts",
+    "type": "Bottomwear",
+    "price": 99,
+    "mrp": 798,
+    "discount": 88,
+    "currency": "₹",
+    "rating": "4.6",
+    "reviewCount": 1184,
+    "images": [
+      "https://images.unsplash.com/photo-1531310197839-ccf54634509e?w=600&q=80",
+      "https://images.unsplash.com/photo-1519143343419-63a1f685c2e1?w=600&q=80",
+      "https://images.unsplash.com/photo-1516478177764-9fe5bd7e9717?w=600&q=80"
+    ],
+    "colors": [
+      {
+        "name": "Standard",
+        "hex": "#1a1a1a"
+      },
+      {
+        "name": "Variant",
+        "hex": "#f5f5f5"
+      }
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "sizesAvailable": {
+      "S": true,
+      "M": true,
+      "L": true,
+      "XL": true,
+      "XXL": false
+    },
+    "material": "100% Premium Material",
+    "fit": "Regular",
+    "pattern": "Solid",
+    "occasion": "Casual",
+    "stock": 16,
+    "isTrending": false,
+    "isNewArrival": false,
+    "isBestSeller": false,
+    "tags": [
+      "premium",
+      "comfortable",
+      "shorts"
+    ],
+    "specifications": {
+      "Fabric": "Premium Quality",
+      "Fit": "Regular",
+      "Wash Care": "Machine Wash"
+    },
+    "reviews": [
+      {
+        "id": "rev_38_1",
+        "userName": "Verified Buyer",
+        "rating": 5,
+        "comment": "Absolutely love this product! The quality is amazing for the price.",
+        "date": "2024-03-15",
+        "helpful": 48,
+        "verified": true
+      }
+    ]
+  },
+  {
+    "id": "prod_039",
+    "name": "Premium Shorts - Style 3",
+    "brand": "ONLY",
+    "description": "Experience ultimate comfort and style with our latest shorts. Perfect for everyday wear, featuring premium materials and exceptional craftsmanship.",
+    "category": "Men",
+    "subCategory": "Shorts",
+    "type": "Bottomwear",
+    "price": 299,
+    "mrp": 1098,
+    "discount": 73,
+    "currency": "₹",
+    "rating": "4.6",
+    "reviewCount": 2873,
+    "images": [
+      "https://images.unsplash.com/photo-1519143343419-63a1f685c2e1?w=600&q=80",
+      "https://images.unsplash.com/photo-1516478177764-9fe5bd7e9717?w=600&q=80",
+      "https://images.unsplash.com/photo-1544194759-7f7e4b1da15e?w=600&q=80"
+    ],
+    "colors": [
+      {
+        "name": "Standard",
+        "hex": "#1a1a1a"
+      },
+      {
+        "name": "Variant",
+        "hex": "#f5f5f5"
+      }
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "sizesAvailable": {
+      "S": true,
+      "M": true,
+      "L": true,
+      "XL": false,
+      "XXL": true
+    },
+    "material": "100% Premium Material",
+    "fit": "Regular",
+    "pattern": "Solid",
+    "occasion": "Casual",
+    "stock": 10,
+    "isTrending": false,
+    "isNewArrival": false,
+    "isBestSeller": false,
+    "tags": [
+      "premium",
+      "comfortable",
+      "shorts"
+    ],
+    "specifications": {
+      "Fabric": "Premium Quality",
+      "Fit": "Regular",
+      "Wash Care": "Machine Wash"
+    },
+    "reviews": [
+      {
+        "id": "rev_39_1",
+        "userName": "Verified Buyer",
+        "rating": 5,
+        "comment": "Absolutely love this product! The quality is amazing for the price.",
+        "date": "2024-03-15",
+        "helpful": 44,
+        "verified": true
+      }
+    ]
+  },
+  {
+    "id": "prod_040",
+    "name": "Premium Shorts - Style 4",
+    "brand": "DRIFT",
+    "description": "Experience ultimate comfort and style with our latest shorts. Perfect for everyday wear, featuring premium materials and exceptional craftsmanship.",
+    "category": "Men",
+    "subCategory": "Shorts",
+    "type": "Bottomwear",
+    "price": 399,
+    "mrp": 1498,
+    "discount": 73,
+    "currency": "₹",
+    "rating": "4.1",
+    "reviewCount": 4448,
+    "images": [
+      "https://images.unsplash.com/photo-1516478177764-9fe5bd7e9717?w=600&q=80",
+      "https://images.unsplash.com/photo-1544194759-7f7e4b1da15e?w=600&q=80",
+      "https://images.unsplash.com/photo-1562183241-840b8af23be7?w=600&q=80"
+    ],
+    "colors": [
+      {
+        "name": "Standard",
+        "hex": "#1a1a1a"
+      },
+      {
+        "name": "Variant",
+        "hex": "#f5f5f5"
+      }
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "sizesAvailable": {
+      "S": true,
+      "M": true,
+      "L": true,
+      "XL": false,
+      "XXL": false
+    },
+    "material": "100% Premium Material",
+    "fit": "Regular",
+    "pattern": "Solid",
+    "occasion": "Casual",
+    "stock": 62,
+    "isTrending": false,
+    "isNewArrival": false,
+    "isBestSeller": false,
+    "tags": [
+      "premium",
+      "comfortable",
+      "shorts"
+    ],
+    "specifications": {
+      "Fabric": "Premium Quality",
+      "Fit": "Regular",
+      "Wash Care": "Machine Wash"
+    },
+    "reviews": [
+      {
+        "id": "rev_40_1",
+        "userName": "Verified Buyer",
+        "rating": 5,
+        "comment": "Absolutely love this product! The quality is amazing for the price.",
+        "date": "2024-03-15",
+        "helpful": 22,
+        "verified": true
+      }
+    ]
+  },
+  {
+    "id": "prod_041",
+    "name": "Premium Shorts - Style 5",
+    "brand": "Van Heusen",
+    "description": "Experience ultimate comfort and style with our latest shorts. Perfect for everyday wear, featuring premium materials and exceptional craftsmanship.",
+    "category": "Men",
+    "subCategory": "Shorts",
+    "type": "Bottomwear",
+    "price": 99,
+    "mrp": 1098,
+    "discount": 91,
+    "currency": "₹",
+    "rating": "4.8",
+    "reviewCount": 4272,
+    "images": [
+      "https://images.unsplash.com/photo-1544194759-7f7e4b1da15e?w=600&q=80",
+      "https://images.unsplash.com/photo-1562183241-840b8af23be7?w=600&q=80",
+      "https://images.unsplash.com/photo-1531310197839-ccf54634509e?w=600&q=80"
+    ],
+    "colors": [
+      {
+        "name": "Standard",
+        "hex": "#1a1a1a"
+      },
+      {
+        "name": "Variant",
+        "hex": "#f5f5f5"
+      }
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "sizesAvailable": {
+      "S": true,
+      "M": true,
+      "L": true,
+      "XL": true,
+      "XXL": false
+    },
+    "material": "100% Premium Material",
+    "fit": "Regular",
+    "pattern": "Solid",
+    "occasion": "Casual",
+    "stock": 91,
+    "isTrending": true,
+    "isNewArrival": false,
+    "isBestSeller": false,
+    "tags": [
+      "premium",
+      "comfortable",
+      "shorts"
+    ],
+    "specifications": {
+      "Fabric": "Premium Quality",
+      "Fit": "Regular",
+      "Wash Care": "Machine Wash"
+    },
+    "reviews": [
+      {
+        "id": "rev_41_1",
+        "userName": "Verified Buyer",
+        "rating": 5,
+        "comment": "Absolutely love this product! The quality is amazing for the price.",
+        "date": "2024-03-15",
         "helpful": 45,
         "verified": true
       }
@@ -3363,40 +2994,34 @@ export const products = [
   },
   {
     "id": "prod_042",
-    "name": "Global Desi Men's Premium Shirts",
-    "brand": "Global Desi",
-    "description": "Premium quality shirts from Global Desi. Features comfortable fit and excellent material suitable for everyday wear.",
+    "name": "Premium Shoes - Style 1",
+    "brand": "Zara",
+    "description": "Experience ultimate comfort and style with our latest shoes. Perfect for everyday wear, featuring premium materials and exceptional craftsmanship.",
     "category": "Men",
-    "subCategory": "Shirts",
-    "type": "Topwear",
-    "price": 703,
-    "mrp": 1034,
-    "discount": 32,
+    "subCategory": "Shoes",
+    "type": "Footwear",
+    "price": 199,
+    "mrp": 598,
+    "discount": 67,
     "currency": "₹",
-    "rating": 4.4,
-    "reviewCount": 1280,
+    "rating": "4.2",
+    "reviewCount": 2426,
     "images": [
-      "https://images.unsplash.com/photo-1598033129183-c4f50c736f10?w=600&q=80",
-      "https://images.unsplash.com/photo-1602810318383-e386cc2a3ce3?w=600&q=80",
-      "https://images.unsplash.com/photo-1598033129183-c4f50c736f10?w=600&q=80",
-      "https://images.unsplash.com/photo-1602810318383-e386cc2a3ce3?w=600&q=80"
+      "https://images.unsplash.com/photo-1542291026-5ff9e5a5f4e5?w=600&q=80",
+      "https://images.unsplash.com/photo-1608231387042-605f89de8193?w=600&q=80",
+      "https://images.unsplash.com/photo-1622921-430c-4a3d-8f3e-b3b4a2e5a5c1?w=600&q=80"
     ],
     "colors": [
       {
-        "name": "Off White",
-        "hex": "#f5f0e8"
-      },
-      {
-        "name": "Navy Blue",
-        "hex": "#000080"
-      },
-      {
-        "name": "Charcoal Black",
+        "name": "Standard",
         "hex": "#1a1a1a"
+      },
+      {
+        "name": "Variant",
+        "hex": "#f5f5f5"
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -3404,81 +3029,72 @@ export const products = [
       "XXL"
     ],
     "sizesAvailable": {
-      "XS": false,
       "S": true,
       "M": true,
       "L": true,
-      "XL": true,
+      "XL": false,
       "XXL": false
     },
-    "material": "Premium Cotton Blend",
-    "fit": "Slim",
+    "material": "100% Premium Material",
+    "fit": "Regular",
     "pattern": "Solid",
     "occasion": "Casual",
-    "season": "All Season",
-    "stock": 37,
-    "isTrending": true,
+    "stock": 66,
+    "isTrending": false,
     "isNewArrival": false,
     "isBestSeller": false,
     "tags": [
-      "fashion",
       "premium",
-      "topwear",
-      "men"
+      "comfortable",
+      "shoes"
     ],
     "specifications": {
-      "Fabric": "Premium Cotton Blend",
-      "Fit": "Regular/Slim",
+      "Fabric": "Premium Quality",
+      "Fit": "Regular",
       "Wash Care": "Machine Wash"
     },
     "reviews": [
       {
-        "id": "rev_gg6op",
-        "userName": "Customer",
+        "id": "rev_42_1",
+        "userName": "Verified Buyer",
         "rating": 5,
-        "comment": "Excellent product, highly recommended!",
-        "date": "2024-12-15",
-        "helpful": 7,
+        "comment": "Absolutely love this product! The quality is amazing for the price.",
+        "date": "2024-03-15",
+        "helpful": 13,
         "verified": true
       }
     ]
   },
   {
     "id": "prod_043",
-    "name": "FabIndia Men's Premium Shoes",
-    "brand": "FabIndia",
-    "description": "Premium quality shoes from FabIndia. Features comfortable fit and excellent material suitable for everyday wear.",
+    "name": "Premium Shoes - Style 2",
+    "brand": "W",
+    "description": "Experience ultimate comfort and style with our latest shoes. Perfect for everyday wear, featuring premium materials and exceptional craftsmanship.",
     "category": "Men",
     "subCategory": "Shoes",
     "type": "Footwear",
-    "price": 3005,
-    "mrp": 6678,
-    "discount": 55,
+    "price": 1299,
+    "mrp": 3798,
+    "discount": 66,
     "currency": "₹",
-    "rating": 3.6,
-    "reviewCount": 2181,
+    "rating": "4.2",
+    "reviewCount": 744,
     "images": [
-      "https://images.unsplash.com/photo-1525966222134-fcfa99b8ae77?w=600&q=80",
-      "https://images.unsplash.com/photo-1542291026-7eec264c27ff?w=600&q=80",
-      "https://images.unsplash.com/photo-1525966222134-fcfa99b8ae77?w=600&q=80",
-      "https://images.unsplash.com/photo-1542291026-7eec264c27ff?w=600&q=80"
+      "https://images.unsplash.com/photo-1608231387042-605f89de8193?w=600&q=80",
+      "https://images.unsplash.com/photo-1622921-430c-4a3d-8f3e-b3b4a2e5a5c1?w=600&q=80",
+      "https://images.unsplash.com/photo-1549298916-b41d501d3772?w=600&q=80"
     ],
     "colors": [
       {
-        "name": "Navy Blue",
-        "hex": "#000080"
+        "name": "Standard",
+        "hex": "#1a1a1a"
       },
       {
-        "name": "Off White",
-        "hex": "#f5f0e8"
-      },
-      {
-        "name": "Olive",
-        "hex": "#556B2F"
+        "name": "Variant",
+        "hex": "#f5f5f5"
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -3486,81 +3102,72 @@ export const products = [
       "XXL"
     ],
     "sizesAvailable": {
-      "XS": false,
       "S": true,
       "M": true,
       "L": true,
       "XL": true,
       "XXL": false
     },
-    "material": "Premium Cotton Blend",
-    "fit": "Slim",
+    "material": "100% Premium Material",
+    "fit": "Regular",
     "pattern": "Solid",
     "occasion": "Casual",
-    "season": "All Season",
-    "stock": 98,
+    "stock": 35,
     "isTrending": false,
-    "isNewArrival": true,
+    "isNewArrival": false,
     "isBestSeller": false,
     "tags": [
-      "fashion",
       "premium",
-      "footwear",
-      "men"
+      "comfortable",
+      "shoes"
     ],
     "specifications": {
-      "Fabric": "Premium Cotton Blend",
-      "Fit": "Regular/Slim",
+      "Fabric": "Premium Quality",
+      "Fit": "Regular",
       "Wash Care": "Machine Wash"
     },
     "reviews": [
       {
-        "id": "rev_ua1gg",
-        "userName": "Customer",
+        "id": "rev_43_1",
+        "userName": "Verified Buyer",
         "rating": 5,
-        "comment": "Excellent product, highly recommended!",
-        "date": "2024-12-15",
-        "helpful": 11,
+        "comment": "Absolutely love this product! The quality is amazing for the price.",
+        "date": "2024-03-15",
+        "helpful": 26,
         "verified": true
       }
     ]
   },
   {
     "id": "prod_044",
-    "name": "Allen Solly Men's Premium Activewear",
-    "brand": "Allen Solly",
-    "description": "Premium quality activewear from Allen Solly. Features comfortable fit and excellent material suitable for everyday wear.",
+    "name": "Premium Shoes - Style 3",
+    "brand": "BLOOM",
+    "description": "Experience ultimate comfort and style with our latest shoes. Perfect for everyday wear, featuring premium materials and exceptional craftsmanship.",
     "category": "Men",
-    "subCategory": "Activewear",
-    "type": "Activewear",
-    "price": 469,
-    "mrp": 770,
-    "discount": 39,
+    "subCategory": "Shoes",
+    "type": "Footwear",
+    "price": 2099,
+    "mrp": 4898,
+    "discount": 57,
     "currency": "₹",
-    "rating": 3.4,
-    "reviewCount": 930,
+    "rating": "4.9",
+    "reviewCount": 3833,
     "images": [
-      "https://images.unsplash.com/photo-1490578474895-699bc4e3f49f?w=600&q=80",
-      "https://images.unsplash.com/photo-1552374196-1ab2a1c593e8?w=600&q=80",
-      "https://images.unsplash.com/photo-1490578474895-699bc4e3f49f?w=600&q=80",
-      "https://images.unsplash.com/photo-1552374196-1ab2a1c593e8?w=600&q=80"
+      "https://images.unsplash.com/photo-1622921-430c-4a3d-8f3e-b3b4a2e5a5c1?w=600&q=80",
+      "https://images.unsplash.com/photo-1549298916-b41d501d3772?w=600&q=80",
+      "https://images.unsplash.com/photo-1463100099-8ae50e0a8b3b?w=600&q=80"
     ],
     "colors": [
       {
-        "name": "Maroon",
-        "hex": "#800000"
+        "name": "Standard",
+        "hex": "#1a1a1a"
       },
       {
-        "name": "Mustard",
-        "hex": "#FFDB58"
-      },
-      {
-        "name": "Olive",
-        "hex": "#556B2F"
+        "name": "Variant",
+        "hex": "#f5f5f5"
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -3568,163 +3175,72 @@ export const products = [
       "XXL"
     ],
     "sizesAvailable": {
-      "XS": false,
       "S": true,
       "M": true,
       "L": true,
       "XL": true,
-      "XXL": true
+      "XXL": false
     },
-    "material": "Premium Cotton Blend",
-    "fit": "Slim",
+    "material": "100% Premium Material",
+    "fit": "Regular",
     "pattern": "Solid",
     "occasion": "Casual",
-    "season": "All Season",
-    "stock": 97,
-    "isTrending": false,
+    "stock": 106,
+    "isTrending": true,
     "isNewArrival": false,
     "isBestSeller": false,
     "tags": [
-      "fashion",
       "premium",
-      "activewear",
-      "men"
+      "comfortable",
+      "shoes"
     ],
     "specifications": {
-      "Fabric": "Premium Cotton Blend",
-      "Fit": "Regular/Slim",
+      "Fabric": "Premium Quality",
+      "Fit": "Regular",
       "Wash Care": "Machine Wash"
     },
     "reviews": [
       {
-        "id": "rev_qmbp7",
-        "userName": "Customer",
+        "id": "rev_44_1",
+        "userName": "Verified Buyer",
         "rating": 5,
-        "comment": "Excellent product, highly recommended!",
-        "date": "2024-12-15",
-        "helpful": 46,
+        "comment": "Absolutely love this product! The quality is amazing for the price.",
+        "date": "2024-03-15",
+        "helpful": 6,
         "verified": true
       }
     ]
   },
   {
     "id": "prod_045",
-    "name": "Vero Moda Men's Premium Jackets",
-    "brand": "Vero Moda",
-    "description": "Premium quality jackets from Vero Moda. Features comfortable fit and excellent material suitable for everyday wear.",
+    "name": "Premium Shoes - Style 4",
+    "brand": "ONLY",
+    "description": "Experience ultimate comfort and style with our latest shoes. Perfect for everyday wear, featuring premium materials and exceptional craftsmanship.",
     "category": "Men",
-    "subCategory": "Jackets",
-    "type": "Topwear",
-    "price": 6141,
-    "mrp": 8901,
-    "discount": 31,
+    "subCategory": "Shoes",
+    "type": "Footwear",
+    "price": 2599,
+    "mrp": 5298,
+    "discount": 51,
     "currency": "₹",
-    "rating": 4.2,
-    "reviewCount": 2141,
+    "rating": "5.0",
+    "reviewCount": 4998,
     "images": [
-      "https://images.unsplash.com/photo-1591047139829-d91aecb6caea?w=600&q=80",
-      "https://images.unsplash.com/photo-1551028719-00167b16eac5?w=600&q=80",
-      "https://images.unsplash.com/photo-1591047139829-d91aecb6caea?w=600&q=80",
-      "https://images.unsplash.com/photo-1551028719-00167b16eac5?w=600&q=80"
+      "https://images.unsplash.com/photo-1549298916-b41d501d3772?w=600&q=80",
+      "https://images.unsplash.com/photo-1463100099-8ae50e0a8b3b?w=600&q=80",
+      "https://images.unsplash.com/photo-1600585154340-be6161a56a0c?w=600&q=80"
     ],
     "colors": [
       {
-        "name": "Mustard",
-        "hex": "#FFDB58"
-      },
-      {
-        "name": "Maroon",
-        "hex": "#800000"
-      },
-      {
-        "name": "Navy Blue",
-        "hex": "#000080"
-      }
-    ],
-    "sizes": [
-      "XS",
-      "S",
-      "M",
-      "L",
-      "XL",
-      "XXL"
-    ],
-    "sizesAvailable": {
-      "XS": true,
-      "S": true,
-      "M": true,
-      "L": true,
-      "XL": true,
-      "XXL": false
-    },
-    "material": "Premium Cotton Blend",
-    "fit": "Slim",
-    "pattern": "Printed",
-    "occasion": "Casual",
-    "season": "All Season",
-    "stock": 34,
-    "isTrending": false,
-    "isNewArrival": false,
-    "isBestSeller": true,
-    "tags": [
-      "fashion",
-      "premium",
-      "topwear",
-      "men"
-    ],
-    "specifications": {
-      "Fabric": "Premium Cotton Blend",
-      "Fit": "Regular/Slim",
-      "Wash Care": "Machine Wash"
-    },
-    "reviews": [
-      {
-        "id": "rev_piukx",
-        "userName": "Customer",
-        "rating": 5,
-        "comment": "Excellent product, highly recommended!",
-        "date": "2024-12-15",
-        "helpful": 18,
-        "verified": true
-      }
-    ]
-  },
-  {
-    "id": "prod_046",
-    "name": "Levi's Men's Premium Jeans",
-    "brand": "Levi's",
-    "description": "Premium quality jeans from Levi's. Features comfortable fit and excellent material suitable for everyday wear.",
-    "category": "Men",
-    "subCategory": "Jeans",
-    "type": "Bottomwear",
-    "price": 4683,
-    "mrp": 9965,
-    "discount": 53,
-    "currency": "₹",
-    "rating": 4.4,
-    "reviewCount": 4450,
-    "images": [
-      "https://images.unsplash.com/photo-1542272604-787c3835535d?w=600&q=80",
-      "https://images.unsplash.com/photo-1604176354204-926873812d4e?w=600&q=80",
-      "https://images.unsplash.com/photo-1542272604-787c3835535d?w=600&q=80",
-      "https://images.unsplash.com/photo-1604176354204-926873812d4e?w=600&q=80"
-    ],
-    "colors": [
-      {
-        "name": "Charcoal Black",
+        "name": "Standard",
         "hex": "#1a1a1a"
       },
       {
-        "name": "Navy Blue",
-        "hex": "#000080"
-      },
-      {
-        "name": "Olive",
-        "hex": "#556B2F"
+        "name": "Variant",
+        "hex": "#f5f5f5"
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -3732,163 +3248,218 @@ export const products = [
       "XXL"
     ],
     "sizesAvailable": {
-      "XS": false,
-      "S": true,
-      "M": true,
-      "L": true,
-      "XL": true,
-      "XXL": false
-    },
-    "material": "Premium Cotton Blend",
-    "fit": "Regular",
-    "pattern": "Solid",
-    "occasion": "Casual",
-    "season": "All Season",
-    "stock": 24,
-    "isTrending": false,
-    "isNewArrival": true,
-    "isBestSeller": false,
-    "tags": [
-      "fashion",
-      "premium",
-      "bottomwear",
-      "men"
-    ],
-    "specifications": {
-      "Fabric": "Premium Cotton Blend",
-      "Fit": "Regular/Slim",
-      "Wash Care": "Machine Wash"
-    },
-    "reviews": [
-      {
-        "id": "rev_1832l",
-        "userName": "Customer",
-        "rating": 5,
-        "comment": "Excellent product, highly recommended!",
-        "date": "2024-12-15",
-        "helpful": 42,
-        "verified": true
-      }
-    ]
-  },
-  {
-    "id": "prod_047",
-    "name": "Jack & Jones Men's Premium Hoodies & Sweatshirts",
-    "brand": "Jack & Jones",
-    "description": "Premium quality hoodies & sweatshirts from Jack & Jones. Features comfortable fit and excellent material suitable for everyday wear.",
-    "category": "Men",
-    "subCategory": "Hoodies & Sweatshirts",
-    "type": "Topwear",
-    "price": 4900,
-    "mrp": 7207,
-    "discount": 32,
-    "currency": "₹",
-    "rating": 3.7,
-    "reviewCount": 2002,
-    "images": [
-      "https://images.unsplash.com/photo-1620799140408-edc6dcb6d633?w=600&q=80",
-      "https://images.unsplash.com/photo-1556821840-3a63f95609a7?w=600&q=80",
-      "https://images.unsplash.com/photo-1620799140408-edc6dcb6d633?w=600&q=80",
-      "https://images.unsplash.com/photo-1556821840-3a63f95609a7?w=600&q=80"
-    ],
-    "colors": [
-      {
-        "name": "Charcoal Black",
-        "hex": "#1a1a1a"
-      },
-      {
-        "name": "Navy Blue",
-        "hex": "#000080"
-      },
-      {
-        "name": "Off White",
-        "hex": "#f5f0e8"
-      }
-    ],
-    "sizes": [
-      "XS",
-      "S",
-      "M",
-      "L",
-      "XL",
-      "XXL"
-    ],
-    "sizesAvailable": {
-      "XS": true,
       "S": true,
       "M": true,
       "L": true,
       "XL": true,
       "XXL": true
     },
-    "material": "Premium Cotton Blend",
+    "material": "100% Premium Material",
     "fit": "Regular",
-    "pattern": "Printed",
+    "pattern": "Solid",
     "occasion": "Casual",
-    "season": "All Season",
-    "stock": 87,
+    "stock": 12,
     "isTrending": false,
     "isNewArrival": false,
     "isBestSeller": false,
     "tags": [
-      "fashion",
       "premium",
-      "topwear",
-      "men"
+      "comfortable",
+      "shoes"
     ],
     "specifications": {
-      "Fabric": "Premium Cotton Blend",
-      "Fit": "Regular/Slim",
+      "Fabric": "Premium Quality",
+      "Fit": "Regular",
       "Wash Care": "Machine Wash"
     },
     "reviews": [
       {
-        "id": "rev_am34x",
-        "userName": "Customer",
+        "id": "rev_45_1",
+        "userName": "Verified Buyer",
         "rating": 5,
-        "comment": "Excellent product, highly recommended!",
-        "date": "2024-12-15",
-        "helpful": 24,
+        "comment": "Absolutely love this product! The quality is amazing for the price.",
+        "date": "2024-03-15",
+        "helpful": 13,
+        "verified": true
+      }
+    ]
+  },
+  {
+    "id": "prod_046",
+    "name": "Premium Shoes - Style 5",
+    "brand": "W",
+    "description": "Experience ultimate comfort and style with our latest shoes. Perfect for everyday wear, featuring premium materials and exceptional craftsmanship.",
+    "category": "Men",
+    "subCategory": "Shoes",
+    "type": "Footwear",
+    "price": 399,
+    "mrp": 2998,
+    "discount": 87,
+    "currency": "₹",
+    "rating": "4.9",
+    "reviewCount": 2761,
+    "images": [
+      "https://images.unsplash.com/photo-1463100099-8ae50e0a8b3b?w=600&q=80",
+      "https://images.unsplash.com/photo-1600585154340-be6161a56a0c?w=600&q=80",
+      "https://images.unsplash.com/photo-1551107696-a3b23f2f3f57?w=600&q=80"
+    ],
+    "colors": [
+      {
+        "name": "Standard",
+        "hex": "#1a1a1a"
+      },
+      {
+        "name": "Variant",
+        "hex": "#f5f5f5"
+      }
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "sizesAvailable": {
+      "S": true,
+      "M": true,
+      "L": true,
+      "XL": false,
+      "XXL": false
+    },
+    "material": "100% Premium Material",
+    "fit": "Regular",
+    "pattern": "Solid",
+    "occasion": "Casual",
+    "stock": 18,
+    "isTrending": false,
+    "isNewArrival": false,
+    "isBestSeller": false,
+    "tags": [
+      "premium",
+      "comfortable",
+      "shoes"
+    ],
+    "specifications": {
+      "Fabric": "Premium Quality",
+      "Fit": "Regular",
+      "Wash Care": "Machine Wash"
+    },
+    "reviews": [
+      {
+        "id": "rev_46_1",
+        "userName": "Verified Buyer",
+        "rating": 5,
+        "comment": "Absolutely love this product! The quality is amazing for the price.",
+        "date": "2024-03-15",
+        "helpful": 18,
+        "verified": true
+      }
+    ]
+  },
+  {
+    "id": "prod_047",
+    "name": "Premium Shoes - Style 6",
+    "brand": "Levi's",
+    "description": "Experience ultimate comfort and style with our latest shoes. Perfect for everyday wear, featuring premium materials and exceptional craftsmanship.",
+    "category": "Men",
+    "subCategory": "Shoes",
+    "type": "Footwear",
+    "price": 1999,
+    "mrp": 2998,
+    "discount": 33,
+    "currency": "₹",
+    "rating": "4.0",
+    "reviewCount": 4325,
+    "images": [
+      "https://images.unsplash.com/photo-1600585154340-be6161a56a0c?w=600&q=80",
+      "https://images.unsplash.com/photo-1551107696-a3b23f2f3f57?w=600&q=80",
+      "https://images.unsplash.com/photo-1581142348-3-7c9b8a4d5f3e?w=600&q=80"
+    ],
+    "colors": [
+      {
+        "name": "Standard",
+        "hex": "#1a1a1a"
+      },
+      {
+        "name": "Variant",
+        "hex": "#f5f5f5"
+      }
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "sizesAvailable": {
+      "S": true,
+      "M": true,
+      "L": true,
+      "XL": true,
+      "XXL": false
+    },
+    "material": "100% Premium Material",
+    "fit": "Regular",
+    "pattern": "Solid",
+    "occasion": "Casual",
+    "stock": 65,
+    "isTrending": true,
+    "isNewArrival": true,
+    "isBestSeller": false,
+    "tags": [
+      "premium",
+      "comfortable",
+      "shoes"
+    ],
+    "specifications": {
+      "Fabric": "Premium Quality",
+      "Fit": "Regular",
+      "Wash Care": "Machine Wash"
+    },
+    "reviews": [
+      {
+        "id": "rev_47_1",
+        "userName": "Verified Buyer",
+        "rating": 5,
+        "comment": "Absolutely love this product! The quality is amazing for the price.",
+        "date": "2024-03-15",
+        "helpful": 23,
         "verified": true
       }
     ]
   },
   {
     "id": "prod_048",
-    "name": "URBAN EDGE Men's Premium Jackets",
-    "brand": "URBAN EDGE",
-    "description": "Premium quality jackets from URBAN EDGE. Features comfortable fit and excellent material suitable for everyday wear.",
+    "name": "Premium Ethnic - Style 1",
+    "brand": "Zara",
+    "description": "Experience ultimate comfort and style with our latest ethnic. Perfect for everyday wear, featuring premium materials and exceptional craftsmanship.",
     "category": "Men",
-    "subCategory": "Jackets",
-    "type": "Topwear",
-    "price": 3920,
-    "mrp": 9117,
-    "discount": 57,
+    "subCategory": "Ethnic",
+    "type": "Ethnic",
+    "price": 1899,
+    "mrp": 2898,
+    "discount": 34,
     "currency": "₹",
-    "rating": 4.2,
-    "reviewCount": 480,
+    "rating": "4.2",
+    "reviewCount": 2731,
     "images": [
-      "https://images.unsplash.com/photo-1551028719-00167b16eac5?w=600&q=80",
-      "https://images.unsplash.com/photo-1591047139829-d91aecb6caea?w=600&q=80",
-      "https://images.unsplash.com/photo-1551028719-00167b16eac5?w=600&q=80",
-      "https://images.unsplash.com/photo-1591047139829-d91aecb6caea?w=600&q=80"
+      "https://images.unsplash.com/photo-1583391099893-28f6c9cb0b4c?w=600&q=80",
+      "https://images.unsplash.com/photo-1598300042738-398e8c14ce78?w=600&q=80",
+      "https://images.unsplash.com/photo-1606050986-8d2b37b5f6d6?w=600&q=80"
     ],
     "colors": [
       {
-        "name": "Charcoal Black",
+        "name": "Standard",
         "hex": "#1a1a1a"
       },
       {
-        "name": "Off White",
-        "hex": "#f5f0e8"
-      },
-      {
-        "name": "Olive",
-        "hex": "#556B2F"
+        "name": "Variant",
+        "hex": "#f5f5f5"
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -3896,409 +3467,72 @@ export const products = [
       "XXL"
     ],
     "sizesAvailable": {
-      "XS": false,
       "S": true,
       "M": true,
       "L": true,
-      "XL": true,
+      "XL": false,
       "XXL": false
     },
-    "material": "Premium Cotton Blend",
-    "fit": "Slim",
+    "material": "100% Premium Material",
+    "fit": "Regular",
     "pattern": "Solid",
     "occasion": "Casual",
-    "season": "All Season",
-    "stock": 83,
-    "isTrending": true,
-    "isNewArrival": true,
-    "isBestSeller": false,
-    "tags": [
-      "fashion",
-      "premium",
-      "topwear",
-      "men"
-    ],
-    "specifications": {
-      "Fabric": "Premium Cotton Blend",
-      "Fit": "Regular/Slim",
-      "Wash Care": "Machine Wash"
-    },
-    "reviews": [
-      {
-        "id": "rev_2hgfg",
-        "userName": "Customer",
-        "rating": 5,
-        "comment": "Excellent product, highly recommended!",
-        "date": "2024-12-15",
-        "helpful": 11,
-        "verified": true
-      }
-    ]
-  },
-  {
-    "id": "prod_049",
-    "name": "Vero Moda Men's Premium Shorts",
-    "brand": "Vero Moda",
-    "description": "Premium quality shorts from Vero Moda. Features comfortable fit and excellent material suitable for everyday wear.",
-    "category": "Men",
-    "subCategory": "Shorts",
-    "type": "Bottomwear",
-    "price": 5492,
-    "mrp": 6103,
-    "discount": 10,
-    "currency": "₹",
-    "rating": 3.5,
-    "reviewCount": 3414,
-    "images": [
-      "https://images.unsplash.com/photo-1552374196-1ab2a1c593e8?w=600&q=80",
-      "https://images.unsplash.com/photo-1490578474895-699bc4e3f49f?w=600&q=80",
-      "https://images.unsplash.com/photo-1552374196-1ab2a1c593e8?w=600&q=80",
-      "https://images.unsplash.com/photo-1490578474895-699bc4e3f49f?w=600&q=80"
-    ],
-    "colors": [
-      {
-        "name": "Charcoal Black",
-        "hex": "#1a1a1a"
-      },
-      {
-        "name": "Off White",
-        "hex": "#f5f0e8"
-      },
-      {
-        "name": "Olive",
-        "hex": "#556B2F"
-      }
-    ],
-    "sizes": [
-      "XS",
-      "S",
-      "M",
-      "L",
-      "XL",
-      "XXL"
-    ],
-    "sizesAvailable": {
-      "XS": false,
-      "S": true,
-      "M": true,
-      "L": true,
-      "XL": false,
-      "XXL": false
-    },
-    "material": "Premium Cotton Blend",
-    "fit": "Slim",
-    "pattern": "Printed",
-    "occasion": "Casual",
-    "season": "All Season",
-    "stock": 28,
-    "isTrending": false,
-    "isNewArrival": true,
-    "isBestSeller": false,
-    "tags": [
-      "fashion",
-      "premium",
-      "bottomwear",
-      "men"
-    ],
-    "specifications": {
-      "Fabric": "Premium Cotton Blend",
-      "Fit": "Regular/Slim",
-      "Wash Care": "Machine Wash"
-    },
-    "reviews": [
-      {
-        "id": "rev_085xp",
-        "userName": "Customer",
-        "rating": 5,
-        "comment": "Excellent product, highly recommended!",
-        "date": "2024-12-15",
-        "helpful": 14,
-        "verified": true
-      }
-    ]
-  },
-  {
-    "id": "prod_050",
-    "name": "Vero Moda Men's Premium Ethnic Wear",
-    "brand": "Vero Moda",
-    "description": "Premium quality ethnic wear from Vero Moda. Features comfortable fit and excellent material suitable for everyday wear.",
-    "category": "Men",
-    "subCategory": "Ethnic Wear",
-    "type": "Topwear",
-    "price": 5818,
-    "mrp": 11189,
-    "discount": 48,
-    "currency": "₹",
-    "rating": 4,
-    "reviewCount": 1593,
-    "images": [
-      "https://images.unsplash.com/photo-1583391733959-1f510f214314?w=600&q=80",
-      "https://images.unsplash.com/photo-1596455607563-ad6193f76b46?w=600&q=80",
-      "https://images.unsplash.com/photo-1583391733959-1f510f214314?w=600&q=80",
-      "https://images.unsplash.com/photo-1596455607563-ad6193f76b46?w=600&q=80"
-    ],
-    "colors": [
-      {
-        "name": "Charcoal Black",
-        "hex": "#1a1a1a"
-      },
-      {
-        "name": "Off White",
-        "hex": "#f5f0e8"
-      },
-      {
-        "name": "Olive",
-        "hex": "#556B2F"
-      }
-    ],
-    "sizes": [
-      "XS",
-      "S",
-      "M",
-      "L",
-      "XL",
-      "XXL"
-    ],
-    "sizesAvailable": {
-      "XS": true,
-      "S": true,
-      "M": true,
-      "L": true,
-      "XL": true,
-      "XXL": false
-    },
-    "material": "Premium Cotton Blend",
-    "fit": "Slim",
-    "pattern": "Printed",
-    "occasion": "Casual",
-    "season": "All Season",
-    "stock": 9,
-    "isTrending": false,
-    "isNewArrival": true,
-    "isBestSeller": false,
-    "tags": [
-      "fashion",
-      "premium",
-      "topwear",
-      "men"
-    ],
-    "specifications": {
-      "Fabric": "Premium Cotton Blend",
-      "Fit": "Regular/Slim",
-      "Wash Care": "Machine Wash"
-    },
-    "reviews": [
-      {
-        "id": "rev_k15u6",
-        "userName": "Customer",
-        "rating": 5,
-        "comment": "Excellent product, highly recommended!",
-        "date": "2024-12-15",
-        "helpful": 11,
-        "verified": true
-      }
-    ]
-  },
-  {
-    "id": "prod_051",
-    "name": "Adidas Men's Premium Shoes",
-    "brand": "Adidas",
-    "description": "Premium quality shoes from Adidas. Features comfortable fit and excellent material suitable for everyday wear.",
-    "category": "Men",
-    "subCategory": "Shoes",
-    "type": "Footwear",
-    "price": 1149,
-    "mrp": 2947,
-    "discount": 61,
-    "currency": "₹",
-    "rating": 4.6,
-    "reviewCount": 1162,
-    "images": [
-      "https://images.unsplash.com/photo-1525966222134-fcfa99b8ae77?w=600&q=80",
-      "https://images.unsplash.com/photo-1542291026-7eec264c27ff?w=600&q=80",
-      "https://images.unsplash.com/photo-1525966222134-fcfa99b8ae77?w=600&q=80",
-      "https://images.unsplash.com/photo-1542291026-7eec264c27ff?w=600&q=80"
-    ],
-    "colors": [
-      {
-        "name": "Maroon",
-        "hex": "#800000"
-      },
-      {
-        "name": "Olive",
-        "hex": "#556B2F"
-      },
-      {
-        "name": "Navy Blue",
-        "hex": "#000080"
-      }
-    ],
-    "sizes": [
-      "XS",
-      "S",
-      "M",
-      "L",
-      "XL",
-      "XXL"
-    ],
-    "sizesAvailable": {
-      "XS": false,
-      "S": true,
-      "M": true,
-      "L": true,
-      "XL": false,
-      "XXL": false
-    },
-    "material": "Premium Cotton Blend",
-    "fit": "Regular",
-    "pattern": "Printed",
-    "occasion": "Casual",
-    "season": "All Season",
-    "stock": 76,
-    "isTrending": false,
-    "isNewArrival": false,
-    "isBestSeller": true,
-    "tags": [
-      "fashion",
-      "premium",
-      "footwear",
-      "men"
-    ],
-    "specifications": {
-      "Fabric": "Premium Cotton Blend",
-      "Fit": "Regular/Slim",
-      "Wash Care": "Machine Wash"
-    },
-    "reviews": [
-      {
-        "id": "rev_7220j",
-        "userName": "Customer",
-        "rating": 5,
-        "comment": "Excellent product, highly recommended!",
-        "date": "2024-12-15",
-        "helpful": 40,
-        "verified": true
-      }
-    ]
-  },
-  {
-    "id": "prod_052",
-    "name": "Van Heusen Men's Premium Accessories",
-    "brand": "Van Heusen",
-    "description": "Premium quality accessories from Van Heusen. Features comfortable fit and excellent material suitable for everyday wear.",
-    "category": "Men",
-    "subCategory": "Accessories",
-    "type": "Accessories",
-    "price": 5846,
-    "mrp": 12709,
-    "discount": 54,
-    "currency": "₹",
-    "rating": 3.3,
-    "reviewCount": 1741,
-    "images": [
-      "https://images.unsplash.com/photo-1523206489230-c012c64b2b48?w=600&q=80",
-      "https://images.unsplash.com/photo-1511499767150-a48a237f0083?w=600&q=80",
-      "https://images.unsplash.com/photo-1523206489230-c012c64b2b48?w=600&q=80",
-      "https://images.unsplash.com/photo-1511499767150-a48a237f0083?w=600&q=80"
-    ],
-    "colors": [
-      {
-        "name": "Navy Blue",
-        "hex": "#000080"
-      },
-      {
-        "name": "Charcoal Black",
-        "hex": "#1a1a1a"
-      },
-      {
-        "name": "Off White",
-        "hex": "#f5f0e8"
-      }
-    ],
-    "sizes": [
-      "XS",
-      "S",
-      "M",
-      "L",
-      "XL",
-      "XXL"
-    ],
-    "sizesAvailable": {
-      "XS": false,
-      "S": true,
-      "M": true,
-      "L": true,
-      "XL": true,
-      "XXL": false
-    },
-    "material": "Premium Cotton Blend",
-    "fit": "Slim",
-    "pattern": "Printed",
-    "occasion": "Casual",
-    "season": "All Season",
-    "stock": 38,
+    "stock": 86,
     "isTrending": false,
     "isNewArrival": false,
     "isBestSeller": false,
     "tags": [
-      "fashion",
       "premium",
-      "accessories",
-      "men"
+      "comfortable",
+      "ethnic"
     ],
     "specifications": {
-      "Fabric": "Premium Cotton Blend",
-      "Fit": "Regular/Slim",
+      "Fabric": "Premium Quality",
+      "Fit": "Regular",
       "Wash Care": "Machine Wash"
     },
     "reviews": [
       {
-        "id": "rev_p4fqg",
-        "userName": "Customer",
+        "id": "rev_48_1",
+        "userName": "Verified Buyer",
         "rating": 5,
-        "comment": "Excellent product, highly recommended!",
-        "date": "2024-12-15",
+        "comment": "Absolutely love this product! The quality is amazing for the price.",
+        "date": "2024-03-15",
         "helpful": 5,
         "verified": true
       }
     ]
   },
   {
-    "id": "prod_053",
-    "name": "Nike Men's Premium Accessories",
-    "brand": "Nike",
-    "description": "Premium quality accessories from Nike. Features comfortable fit and excellent material suitable for everyday wear.",
+    "id": "prod_049",
+    "name": "Premium Ethnic - Style 2",
+    "brand": "Vero Moda",
+    "description": "Experience ultimate comfort and style with our latest ethnic. Perfect for everyday wear, featuring premium materials and exceptional craftsmanship.",
     "category": "Men",
-    "subCategory": "Accessories",
-    "type": "Accessories",
-    "price": 3857,
-    "mrp": 12445,
-    "discount": 69,
+    "subCategory": "Ethnic",
+    "type": "Ethnic",
+    "price": 399,
+    "mrp": 1898,
+    "discount": 79,
     "currency": "₹",
-    "rating": 3.1,
-    "reviewCount": 1093,
+    "rating": "4.4",
+    "reviewCount": 2656,
     "images": [
-      "https://images.unsplash.com/photo-1511499767150-a48a237f0083?w=600&q=80",
-      "https://images.unsplash.com/photo-1523206489230-c012c64b2b48?w=600&q=80",
-      "https://images.unsplash.com/photo-1511499767150-a48a237f0083?w=600&q=80",
-      "https://images.unsplash.com/photo-1523206489230-c012c64b2b48?w=600&q=80"
+      "https://images.unsplash.com/photo-1598300042738-398e8c14ce78?w=600&q=80",
+      "https://images.unsplash.com/photo-1606050986-8d2b37b5f6d6?w=600&q=80",
+      "https://images.unsplash.com/photo-1591047139829-d91aecb6caea?w=600&q=80"
     ],
     "colors": [
       {
-        "name": "Maroon",
-        "hex": "#800000"
-      },
-      {
-        "name": "Olive",
-        "hex": "#556B2F"
-      },
-      {
-        "name": "Charcoal Black",
+        "name": "Standard",
         "hex": "#1a1a1a"
+      },
+      {
+        "name": "Variant",
+        "hex": "#f5f5f5"
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -4306,81 +3540,364 @@ export const products = [
       "XXL"
     ],
     "sizesAvailable": {
-      "XS": false,
+      "S": true,
+      "M": true,
+      "L": true,
+      "XL": false,
+      "XXL": false
+    },
+    "material": "100% Premium Material",
+    "fit": "Regular",
+    "pattern": "Solid",
+    "occasion": "Casual",
+    "stock": 31,
+    "isTrending": true,
+    "isNewArrival": false,
+    "isBestSeller": false,
+    "tags": [
+      "premium",
+      "comfortable",
+      "ethnic"
+    ],
+    "specifications": {
+      "Fabric": "Premium Quality",
+      "Fit": "Regular",
+      "Wash Care": "Machine Wash"
+    },
+    "reviews": [
+      {
+        "id": "rev_49_1",
+        "userName": "Verified Buyer",
+        "rating": 5,
+        "comment": "Absolutely love this product! The quality is amazing for the price.",
+        "date": "2024-03-15",
+        "helpful": 15,
+        "verified": true
+      }
+    ]
+  },
+  {
+    "id": "prod_050",
+    "name": "Premium Ethnic - Style 3",
+    "brand": "H&M",
+    "description": "Experience ultimate comfort and style with our latest ethnic. Perfect for everyday wear, featuring premium materials and exceptional craftsmanship.",
+    "category": "Men",
+    "subCategory": "Ethnic",
+    "type": "Ethnic",
+    "price": 1099,
+    "mrp": 3398,
+    "discount": 68,
+    "currency": "₹",
+    "rating": "4.4",
+    "reviewCount": 3167,
+    "images": [
+      "https://images.unsplash.com/photo-1606050986-8d2b37b5f6d6?w=600&q=80",
+      "https://images.unsplash.com/photo-1591047139829-d91aecb6caea?w=600&q=80",
+      "https://images.unsplash.com/photo-1564564321-bfdc0c47e36e?w=600&q=80"
+    ],
+    "colors": [
+      {
+        "name": "Standard",
+        "hex": "#1a1a1a"
+      },
+      {
+        "name": "Variant",
+        "hex": "#f5f5f5"
+      }
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "sizesAvailable": {
+      "S": true,
+      "M": true,
+      "L": true,
+      "XL": false,
+      "XXL": false
+    },
+    "material": "100% Premium Material",
+    "fit": "Regular",
+    "pattern": "Solid",
+    "occasion": "Casual",
+    "stock": 85,
+    "isTrending": false,
+    "isNewArrival": false,
+    "isBestSeller": false,
+    "tags": [
+      "premium",
+      "comfortable",
+      "ethnic"
+    ],
+    "specifications": {
+      "Fabric": "Premium Quality",
+      "Fit": "Regular",
+      "Wash Care": "Machine Wash"
+    },
+    "reviews": [
+      {
+        "id": "rev_50_1",
+        "userName": "Verified Buyer",
+        "rating": 5,
+        "comment": "Absolutely love this product! The quality is amazing for the price.",
+        "date": "2024-03-15",
+        "helpful": 42,
+        "verified": true
+      }
+    ]
+  },
+  {
+    "id": "prod_051",
+    "name": "Premium Ethnic - Style 4",
+    "brand": "BLOOM",
+    "description": "Experience ultimate comfort and style with our latest ethnic. Perfect for everyday wear, featuring premium materials and exceptional craftsmanship.",
+    "category": "Men",
+    "subCategory": "Ethnic",
+    "type": "Ethnic",
+    "price": 1299,
+    "mrp": 1998,
+    "discount": 35,
+    "currency": "₹",
+    "rating": "4.8",
+    "reviewCount": 5007,
+    "images": [
+      "https://images.unsplash.com/photo-1591047139829-d91aecb6caea?w=600&q=80",
+      "https://images.unsplash.com/photo-1564564321-bfdc0c47e36e?w=600&q=80",
+      "https://images.unsplash.com/photo-1583391099893-28f6c9cb0b4c?w=600&q=80"
+    ],
+    "colors": [
+      {
+        "name": "Standard",
+        "hex": "#1a1a1a"
+      },
+      {
+        "name": "Variant",
+        "hex": "#f5f5f5"
+      }
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "sizesAvailable": {
+      "S": true,
+      "M": true,
+      "L": true,
+      "XL": false,
+      "XXL": false
+    },
+    "material": "100% Premium Material",
+    "fit": "Regular",
+    "pattern": "Solid",
+    "occasion": "Casual",
+    "stock": 33,
+    "isTrending": false,
+    "isNewArrival": false,
+    "isBestSeller": true,
+    "tags": [
+      "premium",
+      "comfortable",
+      "ethnic"
+    ],
+    "specifications": {
+      "Fabric": "Premium Quality",
+      "Fit": "Regular",
+      "Wash Care": "Machine Wash"
+    },
+    "reviews": [
+      {
+        "id": "rev_51_1",
+        "userName": "Verified Buyer",
+        "rating": 5,
+        "comment": "Absolutely love this product! The quality is amazing for the price.",
+        "date": "2024-03-15",
+        "helpful": 26,
+        "verified": true
+      }
+    ]
+  },
+  {
+    "id": "prod_052",
+    "name": "Premium Ethnic - Style 5",
+    "brand": "H&M",
+    "description": "Experience ultimate comfort and style with our latest ethnic. Perfect for everyday wear, featuring premium materials and exceptional craftsmanship.",
+    "category": "Men",
+    "subCategory": "Ethnic",
+    "type": "Ethnic",
+    "price": 599,
+    "mrp": 1098,
+    "discount": 45,
+    "currency": "₹",
+    "rating": "4.6",
+    "reviewCount": 4907,
+    "images": [
+      "https://images.unsplash.com/photo-1564564321-bfdc0c47e36e?w=600&q=80",
+      "https://images.unsplash.com/photo-1583391099893-28f6c9cb0b4c?w=600&q=80",
+      "https://images.unsplash.com/photo-1598300042738-398e8c14ce78?w=600&q=80"
+    ],
+    "colors": [
+      {
+        "name": "Standard",
+        "hex": "#1a1a1a"
+      },
+      {
+        "name": "Variant",
+        "hex": "#f5f5f5"
+      }
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "sizesAvailable": {
       "S": true,
       "M": true,
       "L": true,
       "XL": true,
       "XXL": false
     },
-    "material": "Premium Cotton Blend",
-    "fit": "Slim",
-    "pattern": "Printed",
+    "material": "100% Premium Material",
+    "fit": "Regular",
+    "pattern": "Solid",
     "occasion": "Casual",
-    "season": "All Season",
-    "stock": 14,
+    "stock": 20,
     "isTrending": false,
     "isNewArrival": false,
     "isBestSeller": false,
     "tags": [
-      "fashion",
       "premium",
-      "accessories",
-      "men"
+      "comfortable",
+      "ethnic"
     ],
     "specifications": {
-      "Fabric": "Premium Cotton Blend",
-      "Fit": "Regular/Slim",
+      "Fabric": "Premium Quality",
+      "Fit": "Regular",
       "Wash Care": "Machine Wash"
     },
     "reviews": [
       {
-        "id": "rev_wr187",
-        "userName": "Customer",
+        "id": "rev_52_1",
+        "userName": "Verified Buyer",
         "rating": 5,
-        "comment": "Excellent product, highly recommended!",
-        "date": "2024-12-15",
-        "helpful": 39,
+        "comment": "Absolutely love this product! The quality is amazing for the price.",
+        "date": "2024-03-15",
+        "helpful": 27,
+        "verified": true
+      }
+    ]
+  },
+  {
+    "id": "prod_053",
+    "name": "Premium Activewear - Style 1",
+    "brand": "Nike",
+    "description": "Experience ultimate comfort and style with our latest activewear. Perfect for everyday wear, featuring premium materials and exceptional craftsmanship.",
+    "category": "Men",
+    "subCategory": "Activewear",
+    "type": "Activewear",
+    "price": 399,
+    "mrp": 598,
+    "discount": 33,
+    "currency": "₹",
+    "rating": "4.4",
+    "reviewCount": 2384,
+    "images": [
+      "https://images.unsplash.com/photo-1571019614242-c5c5dee9f50b?w=600&q=80",
+      "https://images.unsplash.com/photo-1574680096400-f6ec1b7c36a4?w=600&q=80",
+      "https://images.unsplash.com/photo-1546519638-68e109498ffc?w=600&q=80"
+    ],
+    "colors": [
+      {
+        "name": "Standard",
+        "hex": "#1a1a1a"
+      },
+      {
+        "name": "Variant",
+        "hex": "#f5f5f5"
+      }
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "sizesAvailable": {
+      "S": true,
+      "M": true,
+      "L": true,
+      "XL": false,
+      "XXL": true
+    },
+    "material": "100% Premium Material",
+    "fit": "Regular",
+    "pattern": "Solid",
+    "occasion": "Casual",
+    "stock": 109,
+    "isTrending": false,
+    "isNewArrival": false,
+    "isBestSeller": false,
+    "tags": [
+      "premium",
+      "comfortable",
+      "activewear"
+    ],
+    "specifications": {
+      "Fabric": "Premium Quality",
+      "Fit": "Regular",
+      "Wash Care": "Machine Wash"
+    },
+    "reviews": [
+      {
+        "id": "rev_53_1",
+        "userName": "Verified Buyer",
+        "rating": 5,
+        "comment": "Absolutely love this product! The quality is amazing for the price.",
+        "date": "2024-03-15",
+        "helpful": 4,
         "verified": true
       }
     ]
   },
   {
     "id": "prod_054",
-    "name": "H&M Men's Premium Ethnic Wear",
-    "brand": "H&M",
-    "description": "Premium quality ethnic wear from H&M. Features comfortable fit and excellent material suitable for everyday wear.",
+    "name": "Premium Activewear - Style 2",
+    "brand": "Adidas",
+    "description": "Experience ultimate comfort and style with our latest activewear. Perfect for everyday wear, featuring premium materials and exceptional craftsmanship.",
     "category": "Men",
-    "subCategory": "Ethnic Wear",
-    "type": "Topwear",
-    "price": 1601,
-    "mrp": 3079,
-    "discount": 48,
+    "subCategory": "Activewear",
+    "type": "Activewear",
+    "price": 499,
+    "mrp": 1698,
+    "discount": 71,
     "currency": "₹",
-    "rating": 3.1,
-    "reviewCount": 2938,
+    "rating": "4.2",
+    "reviewCount": 4369,
     "images": [
-      "https://images.unsplash.com/photo-1583391733959-1f510f214314?w=600&q=80",
-      "https://images.unsplash.com/photo-1596455607563-ad6193f76b46?w=600&q=80",
-      "https://images.unsplash.com/photo-1583391733959-1f510f214314?w=600&q=80",
-      "https://images.unsplash.com/photo-1596455607563-ad6193f76b46?w=600&q=80"
+      "https://images.unsplash.com/photo-1574680096400-f6ec1b7c36a4?w=600&q=80",
+      "https://images.unsplash.com/photo-1546519638-68e109498ffc?w=600&q=80",
+      "https://images.unsplash.com/photo-1485727220344-cd7ff9b2d4d2?w=600&q=80"
     ],
     "colors": [
       {
-        "name": "Charcoal Black",
+        "name": "Standard",
         "hex": "#1a1a1a"
       },
       {
-        "name": "Off White",
-        "hex": "#f5f0e8"
-      },
-      {
-        "name": "Navy Blue",
-        "hex": "#000080"
+        "name": "Variant",
+        "hex": "#f5f5f5"
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -4388,40 +3905,37 @@ export const products = [
       "XXL"
     ],
     "sizesAvailable": {
-      "XS": true,
       "S": true,
       "M": true,
       "L": true,
-      "XL": true,
+      "XL": false,
       "XXL": false
     },
-    "material": "Premium Cotton Blend",
+    "material": "100% Premium Material",
     "fit": "Regular",
     "pattern": "Solid",
     "occasion": "Casual",
-    "season": "All Season",
-    "stock": 90,
+    "stock": 63,
     "isTrending": false,
     "isNewArrival": false,
     "isBestSeller": false,
     "tags": [
-      "fashion",
       "premium",
-      "topwear",
-      "men"
+      "comfortable",
+      "activewear"
     ],
     "specifications": {
-      "Fabric": "Premium Cotton Blend",
-      "Fit": "Regular/Slim",
+      "Fabric": "Premium Quality",
+      "Fit": "Regular",
       "Wash Care": "Machine Wash"
     },
     "reviews": [
       {
-        "id": "rev_w84k9",
-        "userName": "Customer",
+        "id": "rev_54_1",
+        "userName": "Verified Buyer",
         "rating": 5,
-        "comment": "Excellent product, highly recommended!",
-        "date": "2024-12-15",
+        "comment": "Absolutely love this product! The quality is amazing for the price.",
+        "date": "2024-03-15",
         "helpful": 24,
         "verified": true
       }
@@ -4429,40 +3943,34 @@ export const products = [
   },
   {
     "id": "prod_055",
-    "name": "DRIFT Men's Premium T-Shirts",
-    "brand": "DRIFT",
-    "description": "Premium quality t-shirts from DRIFT. Features comfortable fit and excellent material suitable for everyday wear.",
+    "name": "Premium Activewear - Style 3",
+    "brand": "Zara",
+    "description": "Experience ultimate comfort and style with our latest activewear. Perfect for everyday wear, featuring premium materials and exceptional craftsmanship.",
     "category": "Men",
-    "subCategory": "T-Shirts",
-    "type": "Topwear",
-    "price": 1760,
-    "mrp": 2412,
-    "discount": 27,
+    "subCategory": "Activewear",
+    "type": "Activewear",
+    "price": 299,
+    "mrp": 1698,
+    "discount": 82,
     "currency": "₹",
-    "rating": 4.1,
-    "reviewCount": 1221,
+    "rating": "4.7",
+    "reviewCount": 4321,
     "images": [
-      "https://images.unsplash.com/photo-1583743814966-8936f5b7be1a?w=600&q=80",
-      "https://images.unsplash.com/photo-1521572163474-6864f9cf17ab?w=600&q=80",
-      "https://images.unsplash.com/photo-1583743814966-8936f5b7be1a?w=600&q=80",
-      "https://images.unsplash.com/photo-1521572163474-6864f9cf17ab?w=600&q=80"
+      "https://images.unsplash.com/photo-1546519638-68e109498ffc?w=600&q=80",
+      "https://images.unsplash.com/photo-1485727220344-cd7ff9b2d4d2?w=600&q=80",
+      "https://images.unsplash.com/photo-1594381898411-846ced2a6b36?w=600&q=80"
     ],
     "colors": [
       {
-        "name": "Olive",
-        "hex": "#556B2F"
-      },
-      {
-        "name": "Charcoal Black",
+        "name": "Standard",
         "hex": "#1a1a1a"
       },
       {
-        "name": "Off White",
-        "hex": "#f5f0e8"
+        "name": "Variant",
+        "hex": "#f5f5f5"
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -4470,81 +3978,72 @@ export const products = [
       "XXL"
     ],
     "sizesAvailable": {
-      "XS": false,
       "S": true,
       "M": true,
       "L": true,
       "XL": true,
-      "XXL": false
+      "XXL": true
     },
-    "material": "Premium Cotton Blend",
+    "material": "100% Premium Material",
     "fit": "Regular",
     "pattern": "Solid",
     "occasion": "Casual",
-    "season": "All Season",
-    "stock": 72,
+    "stock": 89,
     "isTrending": false,
     "isNewArrival": false,
     "isBestSeller": false,
     "tags": [
-      "fashion",
       "premium",
-      "topwear",
-      "men"
+      "comfortable",
+      "activewear"
     ],
     "specifications": {
-      "Fabric": "Premium Cotton Blend",
-      "Fit": "Regular/Slim",
+      "Fabric": "Premium Quality",
+      "Fit": "Regular",
       "Wash Care": "Machine Wash"
     },
     "reviews": [
       {
-        "id": "rev_l7b9z",
-        "userName": "Customer",
+        "id": "rev_55_1",
+        "userName": "Verified Buyer",
         "rating": 5,
-        "comment": "Excellent product, highly recommended!",
-        "date": "2024-12-15",
-        "helpful": 41,
+        "comment": "Absolutely love this product! The quality is amazing for the price.",
+        "date": "2024-03-15",
+        "helpful": 3,
         "verified": true
       }
     ]
   },
   {
     "id": "prod_056",
-    "name": "Vero Moda Men's Premium Ethnic Wear",
-    "brand": "Vero Moda",
-    "description": "Premium quality ethnic wear from Vero Moda. Features comfortable fit and excellent material suitable for everyday wear.",
+    "name": "Premium Activewear - Style 4",
+    "brand": "DRIFT",
+    "description": "Experience ultimate comfort and style with our latest activewear. Perfect for everyday wear, featuring premium materials and exceptional craftsmanship.",
     "category": "Men",
-    "subCategory": "Ethnic Wear",
-    "type": "Topwear",
-    "price": 563,
-    "mrp": 679,
-    "discount": 17,
+    "subCategory": "Activewear",
+    "type": "Activewear",
+    "price": 899,
+    "mrp": 2398,
+    "discount": 63,
     "currency": "₹",
-    "rating": 4.8,
-    "reviewCount": 1809,
+    "rating": "4.4",
+    "reviewCount": 4030,
     "images": [
-      "https://images.unsplash.com/photo-1583391733959-1f510f214314?w=600&q=80",
-      "https://images.unsplash.com/photo-1596455607563-ad6193f76b46?w=600&q=80",
-      "https://images.unsplash.com/photo-1583391733959-1f510f214314?w=600&q=80",
-      "https://images.unsplash.com/photo-1596455607563-ad6193f76b46?w=600&q=80"
+      "https://images.unsplash.com/photo-1485727220344-cd7ff9b2d4d2?w=600&q=80",
+      "https://images.unsplash.com/photo-1594381898411-846ced2a6b36?w=600&q=80",
+      "https://images.unsplash.com/photo-1571019614242-c5c5dee9f50b?w=600&q=80"
     ],
     "colors": [
       {
-        "name": "Maroon",
-        "hex": "#800000"
+        "name": "Standard",
+        "hex": "#1a1a1a"
       },
       {
-        "name": "Mustard",
-        "hex": "#FFDB58"
-      },
-      {
-        "name": "Off White",
-        "hex": "#f5f0e8"
+        "name": "Variant",
+        "hex": "#f5f5f5"
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -4552,81 +4051,72 @@ export const products = [
       "XXL"
     ],
     "sizesAvailable": {
-      "XS": true,
       "S": true,
       "M": true,
       "L": true,
       "XL": true,
       "XXL": false
     },
-    "material": "Premium Cotton Blend",
+    "material": "100% Premium Material",
     "fit": "Regular",
-    "pattern": "Printed",
+    "pattern": "Solid",
     "occasion": "Casual",
-    "season": "All Season",
-    "stock": 57,
+    "stock": 30,
     "isTrending": false,
     "isNewArrival": false,
     "isBestSeller": false,
     "tags": [
-      "fashion",
       "premium",
-      "topwear",
-      "men"
+      "comfortable",
+      "activewear"
     ],
     "specifications": {
-      "Fabric": "Premium Cotton Blend",
-      "Fit": "Regular/Slim",
+      "Fabric": "Premium Quality",
+      "Fit": "Regular",
       "Wash Care": "Machine Wash"
     },
     "reviews": [
       {
-        "id": "rev_kl2j6",
-        "userName": "Customer",
+        "id": "rev_56_1",
+        "userName": "Verified Buyer",
         "rating": 5,
-        "comment": "Excellent product, highly recommended!",
-        "date": "2024-12-15",
-        "helpful": 44,
+        "comment": "Absolutely love this product! The quality is amazing for the price.",
+        "date": "2024-03-15",
+        "helpful": 18,
         "verified": true
       }
     ]
   },
   {
     "id": "prod_057",
-    "name": "Zara Men's Premium Shoes",
-    "brand": "Zara",
-    "description": "Premium quality shoes from Zara. Features comfortable fit and excellent material suitable for everyday wear.",
+    "name": "Premium Activewear - Style 5",
+    "brand": "AURA",
+    "description": "Experience ultimate comfort and style with our latest activewear. Perfect for everyday wear, featuring premium materials and exceptional craftsmanship.",
     "category": "Men",
-    "subCategory": "Shoes",
-    "type": "Footwear",
-    "price": 6584,
-    "mrp": 10795,
-    "discount": 39,
+    "subCategory": "Activewear",
+    "type": "Activewear",
+    "price": 699,
+    "mrp": 1198,
+    "discount": 42,
     "currency": "₹",
-    "rating": 4.3,
-    "reviewCount": 4522,
+    "rating": "5.0",
+    "reviewCount": 2125,
     "images": [
-      "https://images.unsplash.com/photo-1525966222134-fcfa99b8ae77?w=600&q=80",
-      "https://images.unsplash.com/photo-1542291026-7eec264c27ff?w=600&q=80",
-      "https://images.unsplash.com/photo-1525966222134-fcfa99b8ae77?w=600&q=80",
-      "https://images.unsplash.com/photo-1542291026-7eec264c27ff?w=600&q=80"
+      "https://images.unsplash.com/photo-1594381898411-846ced2a6b36?w=600&q=80",
+      "https://images.unsplash.com/photo-1571019614242-c5c5dee9f50b?w=600&q=80",
+      "https://images.unsplash.com/photo-1574680096400-f6ec1b7c36a4?w=600&q=80"
     ],
     "colors": [
       {
-        "name": "Navy Blue",
-        "hex": "#000080"
+        "name": "Standard",
+        "hex": "#1a1a1a"
       },
       {
-        "name": "Off White",
-        "hex": "#f5f0e8"
-      },
-      {
-        "name": "Mustard",
-        "hex": "#FFDB58"
+        "name": "Variant",
+        "hex": "#f5f5f5"
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -4634,81 +4124,72 @@ export const products = [
       "XXL"
     ],
     "sizesAvailable": {
-      "XS": true,
       "S": true,
       "M": true,
       "L": true,
       "XL": true,
-      "XXL": false
+      "XXL": true
     },
-    "material": "Premium Cotton Blend",
-    "fit": "Slim",
+    "material": "100% Premium Material",
+    "fit": "Regular",
     "pattern": "Solid",
     "occasion": "Casual",
-    "season": "All Season",
-    "stock": 19,
-    "isTrending": false,
+    "stock": 81,
+    "isTrending": true,
     "isNewArrival": false,
-    "isBestSeller": false,
+    "isBestSeller": true,
     "tags": [
-      "fashion",
       "premium",
-      "footwear",
-      "men"
+      "comfortable",
+      "activewear"
     ],
     "specifications": {
-      "Fabric": "Premium Cotton Blend",
-      "Fit": "Regular/Slim",
+      "Fabric": "Premium Quality",
+      "Fit": "Regular",
       "Wash Care": "Machine Wash"
     },
     "reviews": [
       {
-        "id": "rev_32the",
-        "userName": "Customer",
+        "id": "rev_57_1",
+        "userName": "Verified Buyer",
         "rating": 5,
-        "comment": "Excellent product, highly recommended!",
-        "date": "2024-12-15",
-        "helpful": 27,
+        "comment": "Absolutely love this product! The quality is amazing for the price.",
+        "date": "2024-03-15",
+        "helpful": 37,
         "verified": true
       }
     ]
   },
   {
     "id": "prod_058",
-    "name": "AURA Men's Premium Hoodies & Sweatshirts",
-    "brand": "AURA",
-    "description": "Premium quality hoodies & sweatshirts from AURA. Features comfortable fit and excellent material suitable for everyday wear.",
+    "name": "Premium Accessories - Style 1",
+    "brand": "Van Heusen",
+    "description": "Experience ultimate comfort and style with our latest accessories. Perfect for everyday wear, featuring premium materials and exceptional craftsmanship.",
     "category": "Men",
-    "subCategory": "Hoodies & Sweatshirts",
-    "type": "Topwear",
-    "price": 1439,
-    "mrp": 4233,
-    "discount": 66,
+    "subCategory": "Accessories",
+    "type": "Accessories",
+    "price": 299,
+    "mrp": 1298,
+    "discount": 77,
     "currency": "₹",
-    "rating": 3.9,
-    "reviewCount": 854,
+    "rating": "4.6",
+    "reviewCount": 1474,
     "images": [
-      "https://images.unsplash.com/photo-1556821840-3a63f95609a7?w=600&q=80",
-      "https://images.unsplash.com/photo-1620799140408-edc6dcb6d633?w=600&q=80",
-      "https://images.unsplash.com/photo-1556821840-3a63f95609a7?w=600&q=80",
-      "https://images.unsplash.com/photo-1620799140408-edc6dcb6d633?w=600&q=80"
+      "https://images.unsplash.com/photo-1523170335258-f937568f9114?w=600&q=80",
+      "https://images.unsplash.com/photo-1553062407-98eeb64c6a62?w=600&q=80",
+      "https://images.unsplash.com/photo-1585386959604-a52873a8ef95?w=600&q=80"
     ],
     "colors": [
       {
-        "name": "Off White",
-        "hex": "#f5f0e8"
-      },
-      {
-        "name": "Mustard",
-        "hex": "#FFDB58"
-      },
-      {
-        "name": "Charcoal Black",
+        "name": "Standard",
         "hex": "#1a1a1a"
+      },
+      {
+        "name": "Variant",
+        "hex": "#f5f5f5"
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -4716,81 +4197,72 @@ export const products = [
       "XXL"
     ],
     "sizesAvailable": {
-      "XS": true,
       "S": true,
       "M": true,
       "L": true,
-      "XL": true,
+      "XL": false,
       "XXL": false
     },
-    "material": "Premium Cotton Blend",
+    "material": "100% Premium Material",
     "fit": "Regular",
     "pattern": "Solid",
     "occasion": "Casual",
-    "season": "All Season",
-    "stock": 99,
+    "stock": 51,
     "isTrending": false,
     "isNewArrival": false,
     "isBestSeller": false,
     "tags": [
-      "fashion",
       "premium",
-      "topwear",
-      "men"
+      "comfortable",
+      "accessories"
     ],
     "specifications": {
-      "Fabric": "Premium Cotton Blend",
-      "Fit": "Regular/Slim",
+      "Fabric": "Premium Quality",
+      "Fit": "Regular",
       "Wash Care": "Machine Wash"
     },
     "reviews": [
       {
-        "id": "rev_jcrla",
-        "userName": "Customer",
+        "id": "rev_58_1",
+        "userName": "Verified Buyer",
         "rating": 5,
-        "comment": "Excellent product, highly recommended!",
-        "date": "2024-12-15",
-        "helpful": 1,
+        "comment": "Absolutely love this product! The quality is amazing for the price.",
+        "date": "2024-03-15",
+        "helpful": 29,
         "verified": true
       }
     ]
   },
   {
     "id": "prod_059",
-    "name": "Vero Moda Men's Premium Hoodies & Sweatshirts",
+    "name": "Premium Accessories - Style 2",
     "brand": "Vero Moda",
-    "description": "Premium quality hoodies & sweatshirts from Vero Moda. Features comfortable fit and excellent material suitable for everyday wear.",
+    "description": "Experience ultimate comfort and style with our latest accessories. Perfect for everyday wear, featuring premium materials and exceptional craftsmanship.",
     "category": "Men",
-    "subCategory": "Hoodies & Sweatshirts",
-    "type": "Topwear",
-    "price": 6508,
-    "mrp": 9039,
-    "discount": 28,
+    "subCategory": "Accessories",
+    "type": "Accessories",
+    "price": 499,
+    "mrp": 1898,
+    "discount": 74,
     "currency": "₹",
-    "rating": 3.9,
-    "reviewCount": 4118,
+    "rating": "4.3",
+    "reviewCount": 1374,
     "images": [
-      "https://images.unsplash.com/photo-1620799140408-edc6dcb6d633?w=600&q=80",
-      "https://images.unsplash.com/photo-1556821840-3a63f95609a7?w=600&q=80",
-      "https://images.unsplash.com/photo-1620799140408-edc6dcb6d633?w=600&q=80",
-      "https://images.unsplash.com/photo-1556821840-3a63f95609a7?w=600&q=80"
+      "https://images.unsplash.com/photo-1553062407-98eeb64c6a62?w=600&q=80",
+      "https://images.unsplash.com/photo-1585386959604-a52873a8ef95?w=600&q=80",
+      "https://images.unsplash.com/photo-1491553397782-43399d6b5a4e?w=600&q=80"
     ],
     "colors": [
       {
-        "name": "Olive",
-        "hex": "#556B2F"
+        "name": "Standard",
+        "hex": "#1a1a1a"
       },
       {
-        "name": "Navy Blue",
-        "hex": "#000080"
-      },
-      {
-        "name": "Off White",
-        "hex": "#f5f0e8"
+        "name": "Variant",
+        "hex": "#f5f5f5"
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -4798,81 +4270,72 @@ export const products = [
       "XXL"
     ],
     "sizesAvailable": {
-      "XS": false,
       "S": true,
       "M": true,
       "L": true,
-      "XL": true,
-      "XXL": true
+      "XL": false,
+      "XXL": false
     },
-    "material": "Premium Cotton Blend",
+    "material": "100% Premium Material",
     "fit": "Regular",
     "pattern": "Solid",
     "occasion": "Casual",
-    "season": "All Season",
-    "stock": 95,
+    "stock": 69,
     "isTrending": false,
     "isNewArrival": false,
     "isBestSeller": false,
     "tags": [
-      "fashion",
       "premium",
-      "topwear",
-      "men"
+      "comfortable",
+      "accessories"
     ],
     "specifications": {
-      "Fabric": "Premium Cotton Blend",
-      "Fit": "Regular/Slim",
+      "Fabric": "Premium Quality",
+      "Fit": "Regular",
       "Wash Care": "Machine Wash"
     },
     "reviews": [
       {
-        "id": "rev_dlrlp",
-        "userName": "Customer",
+        "id": "rev_59_1",
+        "userName": "Verified Buyer",
         "rating": 5,
-        "comment": "Excellent product, highly recommended!",
-        "date": "2024-12-15",
-        "helpful": 0,
+        "comment": "Absolutely love this product! The quality is amazing for the price.",
+        "date": "2024-03-15",
+        "helpful": 31,
         "verified": true
       }
     ]
   },
   {
     "id": "prod_060",
-    "name": "Levi's Men's Premium Jackets",
-    "brand": "Levi's",
-    "description": "Premium quality jackets from Levi's. Features comfortable fit and excellent material suitable for everyday wear.",
+    "name": "Premium Accessories - Style 3",
+    "brand": "URBAN EDGE",
+    "description": "Experience ultimate comfort and style with our latest accessories. Perfect for everyday wear, featuring premium materials and exceptional craftsmanship.",
     "category": "Men",
-    "subCategory": "Jackets",
-    "type": "Topwear",
-    "price": 2237,
-    "mrp": 3729,
-    "discount": 40,
+    "subCategory": "Accessories",
+    "type": "Accessories",
+    "price": 699,
+    "mrp": 1998,
+    "discount": 65,
     "currency": "₹",
-    "rating": 4.1,
-    "reviewCount": 4243,
+    "rating": "4.4",
+    "reviewCount": 1616,
     "images": [
-      "https://images.unsplash.com/photo-1551028719-00167b16eac5?w=600&q=80",
-      "https://images.unsplash.com/photo-1591047139829-d91aecb6caea?w=600&q=80",
-      "https://images.unsplash.com/photo-1551028719-00167b16eac5?w=600&q=80",
-      "https://images.unsplash.com/photo-1591047139829-d91aecb6caea?w=600&q=80"
+      "https://images.unsplash.com/photo-1585386959604-a52873a8ef95?w=600&q=80",
+      "https://images.unsplash.com/photo-1491553397782-43399d6b5a4e?w=600&q=80",
+      "https://images.unsplash.com/photo-1583391099893-28f6c9cb0b4c?w=600&q=80"
     ],
     "colors": [
       {
-        "name": "Mustard",
-        "hex": "#FFDB58"
+        "name": "Standard",
+        "hex": "#1a1a1a"
       },
       {
-        "name": "Off White",
-        "hex": "#f5f0e8"
-      },
-      {
-        "name": "Navy Blue",
-        "hex": "#000080"
+        "name": "Variant",
+        "hex": "#f5f5f5"
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -4880,245 +4343,72 @@ export const products = [
       "XXL"
     ],
     "sizesAvailable": {
-      "XS": true,
       "S": true,
       "M": true,
       "L": true,
-      "XL": false,
+      "XL": true,
       "XXL": true
     },
-    "material": "Premium Cotton Blend",
+    "material": "100% Premium Material",
     "fit": "Regular",
     "pattern": "Solid",
     "occasion": "Casual",
-    "season": "All Season",
-    "stock": 8,
-    "isTrending": true,
+    "stock": 10,
+    "isTrending": false,
     "isNewArrival": false,
     "isBestSeller": false,
     "tags": [
-      "fashion",
       "premium",
-      "topwear",
-      "men"
+      "comfortable",
+      "accessories"
     ],
     "specifications": {
-      "Fabric": "Premium Cotton Blend",
-      "Fit": "Regular/Slim",
+      "Fabric": "Premium Quality",
+      "Fit": "Regular",
       "Wash Care": "Machine Wash"
     },
     "reviews": [
       {
-        "id": "rev_ueanb",
-        "userName": "Customer",
+        "id": "rev_60_1",
+        "userName": "Verified Buyer",
         "rating": 5,
-        "comment": "Excellent product, highly recommended!",
-        "date": "2024-12-15",
-        "helpful": 21,
+        "comment": "Absolutely love this product! The quality is amazing for the price.",
+        "date": "2024-03-15",
+        "helpful": 8,
         "verified": true
       }
     ]
   },
   {
     "id": "prod_061",
-    "name": "Allen Solly Men's Premium Jackets",
-    "brand": "Allen Solly",
-    "description": "Premium quality jackets from Allen Solly. Features comfortable fit and excellent material suitable for everyday wear.",
-    "category": "Men",
-    "subCategory": "Jackets",
-    "type": "Topwear",
-    "price": 12816,
-    "mrp": 14241,
-    "discount": 10,
-    "currency": "₹",
-    "rating": 3.1,
-    "reviewCount": 3393,
-    "images": [
-      "https://images.unsplash.com/photo-1591047139829-d91aecb6caea?w=600&q=80",
-      "https://images.unsplash.com/photo-1551028719-00167b16eac5?w=600&q=80",
-      "https://images.unsplash.com/photo-1591047139829-d91aecb6caea?w=600&q=80",
-      "https://images.unsplash.com/photo-1551028719-00167b16eac5?w=600&q=80"
-    ],
-    "colors": [
-      {
-        "name": "Charcoal Black",
-        "hex": "#1a1a1a"
-      },
-      {
-        "name": "Olive",
-        "hex": "#556B2F"
-      },
-      {
-        "name": "Navy Blue",
-        "hex": "#000080"
-      }
-    ],
-    "sizes": [
-      "XS",
-      "S",
-      "M",
-      "L",
-      "XL",
-      "XXL"
-    ],
-    "sizesAvailable": {
-      "XS": true,
-      "S": true,
-      "M": true,
-      "L": true,
-      "XL": true,
-      "XXL": false
-    },
-    "material": "Premium Cotton Blend",
-    "fit": "Slim",
-    "pattern": "Printed",
-    "occasion": "Casual",
-    "season": "All Season",
-    "stock": 43,
-    "isTrending": false,
-    "isNewArrival": false,
-    "isBestSeller": false,
-    "tags": [
-      "fashion",
-      "premium",
-      "topwear",
-      "men"
-    ],
-    "specifications": {
-      "Fabric": "Premium Cotton Blend",
-      "Fit": "Regular/Slim",
-      "Wash Care": "Machine Wash"
-    },
-    "reviews": [
-      {
-        "id": "rev_ik4r5",
-        "userName": "Customer",
-        "rating": 5,
-        "comment": "Excellent product, highly recommended!",
-        "date": "2024-12-15",
-        "helpful": 47,
-        "verified": true
-      }
-    ]
-  },
-  {
-    "id": "prod_062",
-    "name": "AURA Men's Premium Ethnic Wear",
-    "brand": "AURA",
-    "description": "Premium quality ethnic wear from AURA. Features comfortable fit and excellent material suitable for everyday wear.",
-    "category": "Men",
-    "subCategory": "Ethnic Wear",
-    "type": "Topwear",
-    "price": 6423,
-    "mrp": 7469,
-    "discount": 14,
-    "currency": "₹",
-    "rating": 4,
-    "reviewCount": 1925,
-    "images": [
-      "https://images.unsplash.com/photo-1583391733959-1f510f214314?w=600&q=80",
-      "https://images.unsplash.com/photo-1596455607563-ad6193f76b46?w=600&q=80",
-      "https://images.unsplash.com/photo-1583391733959-1f510f214314?w=600&q=80",
-      "https://images.unsplash.com/photo-1596455607563-ad6193f76b46?w=600&q=80"
-    ],
-    "colors": [
-      {
-        "name": "Navy Blue",
-        "hex": "#000080"
-      },
-      {
-        "name": "Mustard",
-        "hex": "#FFDB58"
-      },
-      {
-        "name": "Olive",
-        "hex": "#556B2F"
-      }
-    ],
-    "sizes": [
-      "XS",
-      "S",
-      "M",
-      "L",
-      "XL",
-      "XXL"
-    ],
-    "sizesAvailable": {
-      "XS": false,
-      "S": true,
-      "M": true,
-      "L": true,
-      "XL": false,
-      "XXL": true
-    },
-    "material": "Premium Cotton Blend",
-    "fit": "Regular",
-    "pattern": "Solid",
-    "occasion": "Casual",
-    "season": "All Season",
-    "stock": 40,
-    "isTrending": false,
-    "isNewArrival": false,
-    "isBestSeller": true,
-    "tags": [
-      "fashion",
-      "premium",
-      "topwear",
-      "men"
-    ],
-    "specifications": {
-      "Fabric": "Premium Cotton Blend",
-      "Fit": "Regular/Slim",
-      "Wash Care": "Machine Wash"
-    },
-    "reviews": [
-      {
-        "id": "rev_2ahyb",
-        "userName": "Customer",
-        "rating": 5,
-        "comment": "Excellent product, highly recommended!",
-        "date": "2024-12-15",
-        "helpful": 26,
-        "verified": true
-      }
-    ]
-  },
-  {
-    "id": "prod_063",
-    "name": "H&M Men's Premium Accessories",
-    "brand": "H&M",
-    "description": "Premium quality accessories from H&M. Features comfortable fit and excellent material suitable for everyday wear.",
+    "name": "Premium Accessories - Style 4",
+    "brand": "BLOOM",
+    "description": "Experience ultimate comfort and style with our latest accessories. Perfect for everyday wear, featuring premium materials and exceptional craftsmanship.",
     "category": "Men",
     "subCategory": "Accessories",
     "type": "Accessories",
-    "price": 7984,
-    "mrp": 15065,
-    "discount": 47,
+    "price": 599,
+    "mrp": 1398,
+    "discount": 57,
     "currency": "₹",
-    "rating": 3.3,
-    "reviewCount": 2225,
+    "rating": "4.7",
+    "reviewCount": 896,
     "images": [
-      "https://images.unsplash.com/photo-1511499767150-a48a237f0083?w=600&q=80",
-      "https://images.unsplash.com/photo-1523206489230-c012c64b2b48?w=600&q=80",
-      "https://images.unsplash.com/photo-1511499767150-a48a237f0083?w=600&q=80",
-      "https://images.unsplash.com/photo-1523206489230-c012c64b2b48?w=600&q=80"
+      "https://images.unsplash.com/photo-1491553397782-43399d6b5a4e?w=600&q=80",
+      "https://images.unsplash.com/photo-1583391099893-28f6c9cb0b4c?w=600&q=80",
+      "https://images.unsplash.com/photo-1523170335258-f937568f9114?w=600&q=80"
     ],
     "colors": [
       {
-        "name": "Maroon",
-        "hex": "#800000"
-      },
-      {
-        "name": "Charcoal Black",
+        "name": "Standard",
         "hex": "#1a1a1a"
       },
       {
-        "name": "Off White",
-        "hex": "#f5f0e8"
+        "name": "Variant",
+        "hex": "#f5f5f5"
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -5126,7051 +4416,72 @@ export const products = [
       "XXL"
     ],
     "sizesAvailable": {
-      "XS": false,
-      "S": true,
-      "M": true,
-      "L": true,
-      "XL": true,
-      "XXL": true
-    },
-    "material": "Premium Cotton Blend",
-    "fit": "Regular",
-    "pattern": "Printed",
-    "occasion": "Casual",
-    "season": "All Season",
-    "stock": 59,
-    "isTrending": false,
-    "isNewArrival": false,
-    "isBestSeller": false,
-    "tags": [
-      "fashion",
-      "premium",
-      "accessories",
-      "men"
-    ],
-    "specifications": {
-      "Fabric": "Premium Cotton Blend",
-      "Fit": "Regular/Slim",
-      "Wash Care": "Machine Wash"
-    },
-    "reviews": [
-      {
-        "id": "rev_ho9nj",
-        "userName": "Customer",
-        "rating": 5,
-        "comment": "Excellent product, highly recommended!",
-        "date": "2024-12-15",
-        "helpful": 21,
-        "verified": true
-      }
-    ]
-  },
-  {
-    "id": "prod_064",
-    "name": "Zara Men's Premium Accessories",
-    "brand": "Zara",
-    "description": "Premium quality accessories from Zara. Features comfortable fit and excellent material suitable for everyday wear.",
-    "category": "Men",
-    "subCategory": "Accessories",
-    "type": "Accessories",
-    "price": 4659,
-    "mrp": 14119,
-    "discount": 67,
-    "currency": "₹",
-    "rating": 3.5,
-    "reviewCount": 430,
-    "images": [
-      "https://images.unsplash.com/photo-1523206489230-c012c64b2b48?w=600&q=80",
-      "https://images.unsplash.com/photo-1511499767150-a48a237f0083?w=600&q=80",
-      "https://images.unsplash.com/photo-1523206489230-c012c64b2b48?w=600&q=80",
-      "https://images.unsplash.com/photo-1511499767150-a48a237f0083?w=600&q=80"
-    ],
-    "colors": [
-      {
-        "name": "Off White",
-        "hex": "#f5f0e8"
-      },
-      {
-        "name": "Maroon",
-        "hex": "#800000"
-      },
-      {
-        "name": "Navy Blue",
-        "hex": "#000080"
-      }
-    ],
-    "sizes": [
-      "XS",
-      "S",
-      "M",
-      "L",
-      "XL",
-      "XXL"
-    ],
-    "sizesAvailable": {
-      "XS": true,
-      "S": true,
-      "M": true,
-      "L": true,
-      "XL": true,
-      "XXL": false
-    },
-    "material": "Premium Cotton Blend",
-    "fit": "Slim",
-    "pattern": "Solid",
-    "occasion": "Casual",
-    "season": "All Season",
-    "stock": 30,
-    "isTrending": false,
-    "isNewArrival": false,
-    "isBestSeller": false,
-    "tags": [
-      "fashion",
-      "premium",
-      "accessories",
-      "men"
-    ],
-    "specifications": {
-      "Fabric": "Premium Cotton Blend",
-      "Fit": "Regular/Slim",
-      "Wash Care": "Machine Wash"
-    },
-    "reviews": [
-      {
-        "id": "rev_kfx7h",
-        "userName": "Customer",
-        "rating": 5,
-        "comment": "Excellent product, highly recommended!",
-        "date": "2024-12-15",
-        "helpful": 34,
-        "verified": true
-      }
-    ]
-  },
-  {
-    "id": "prod_065",
-    "name": "Adidas Men's Premium Activewear",
-    "brand": "Adidas",
-    "description": "Premium quality activewear from Adidas. Features comfortable fit and excellent material suitable for everyday wear.",
-    "category": "Men",
-    "subCategory": "Activewear",
-    "type": "Activewear",
-    "price": 3516,
-    "mrp": 4042,
-    "discount": 13,
-    "currency": "₹",
-    "rating": 3.1,
-    "reviewCount": 1716,
-    "images": [
-      "https://images.unsplash.com/photo-1552374196-1ab2a1c593e8?w=600&q=80",
-      "https://images.unsplash.com/photo-1490578474895-699bc4e3f49f?w=600&q=80",
-      "https://images.unsplash.com/photo-1552374196-1ab2a1c593e8?w=600&q=80",
-      "https://images.unsplash.com/photo-1490578474895-699bc4e3f49f?w=600&q=80"
-    ],
-    "colors": [
-      {
-        "name": "Charcoal Black",
-        "hex": "#1a1a1a"
-      },
-      {
-        "name": "Off White",
-        "hex": "#f5f0e8"
-      },
-      {
-        "name": "Olive",
-        "hex": "#556B2F"
-      }
-    ],
-    "sizes": [
-      "XS",
-      "S",
-      "M",
-      "L",
-      "XL",
-      "XXL"
-    ],
-    "sizesAvailable": {
-      "XS": false,
-      "S": true,
-      "M": true,
-      "L": true,
-      "XL": true,
-      "XXL": false
-    },
-    "material": "Premium Cotton Blend",
-    "fit": "Regular",
-    "pattern": "Printed",
-    "occasion": "Casual",
-    "season": "All Season",
-    "stock": 47,
-    "isTrending": false,
-    "isNewArrival": false,
-    "isBestSeller": false,
-    "tags": [
-      "fashion",
-      "premium",
-      "activewear",
-      "men"
-    ],
-    "specifications": {
-      "Fabric": "Premium Cotton Blend",
-      "Fit": "Regular/Slim",
-      "Wash Care": "Machine Wash"
-    },
-    "reviews": [
-      {
-        "id": "rev_j8o1a",
-        "userName": "Customer",
-        "rating": 5,
-        "comment": "Excellent product, highly recommended!",
-        "date": "2024-12-15",
-        "helpful": 16,
-        "verified": true
-      }
-    ]
-  },
-  {
-    "id": "prod_066",
-    "name": "NOIR Men's Premium Shorts",
-    "brand": "NOIR",
-    "description": "Premium quality shorts from NOIR. Features comfortable fit and excellent material suitable for everyday wear.",
-    "category": "Men",
-    "subCategory": "Shorts",
-    "type": "Bottomwear",
-    "price": 4828,
-    "mrp": 9286,
-    "discount": 48,
-    "currency": "₹",
-    "rating": 3.3,
-    "reviewCount": 4596,
-    "images": [
-      "https://images.unsplash.com/photo-1490578474895-699bc4e3f49f?w=600&q=80",
-      "https://images.unsplash.com/photo-1552374196-1ab2a1c593e8?w=600&q=80",
-      "https://images.unsplash.com/photo-1490578474895-699bc4e3f49f?w=600&q=80",
-      "https://images.unsplash.com/photo-1552374196-1ab2a1c593e8?w=600&q=80"
-    ],
-    "colors": [
-      {
-        "name": "Off White",
-        "hex": "#f5f0e8"
-      },
-      {
-        "name": "Olive",
-        "hex": "#556B2F"
-      },
-      {
-        "name": "Charcoal Black",
-        "hex": "#1a1a1a"
-      }
-    ],
-    "sizes": [
-      "XS",
-      "S",
-      "M",
-      "L",
-      "XL",
-      "XXL"
-    ],
-    "sizesAvailable": {
-      "XS": false,
       "S": true,
       "M": true,
       "L": true,
       "XL": false,
       "XXL": false
     },
-    "material": "Premium Cotton Blend",
-    "fit": "Regular",
-    "pattern": "Printed",
-    "occasion": "Casual",
-    "season": "All Season",
-    "stock": 30,
-    "isTrending": false,
-    "isNewArrival": false,
-    "isBestSeller": false,
-    "tags": [
-      "fashion",
-      "premium",
-      "bottomwear",
-      "men"
-    ],
-    "specifications": {
-      "Fabric": "Premium Cotton Blend",
-      "Fit": "Regular/Slim",
-      "Wash Care": "Machine Wash"
-    },
-    "reviews": [
-      {
-        "id": "rev_ywy57",
-        "userName": "Customer",
-        "rating": 5,
-        "comment": "Excellent product, highly recommended!",
-        "date": "2024-12-15",
-        "helpful": 40,
-        "verified": true
-      }
-    ]
-  },
-  {
-    "id": "prod_067",
-    "name": "Van Heusen Men's Premium Shorts",
-    "brand": "Van Heusen",
-    "description": "Premium quality shorts from Van Heusen. Features comfortable fit and excellent material suitable for everyday wear.",
-    "category": "Men",
-    "subCategory": "Shorts",
-    "type": "Bottomwear",
-    "price": 1904,
-    "mrp": 2801,
-    "discount": 32,
-    "currency": "₹",
-    "rating": 4.7,
-    "reviewCount": 3616,
-    "images": [
-      "https://images.unsplash.com/photo-1552374196-1ab2a1c593e8?w=600&q=80",
-      "https://images.unsplash.com/photo-1490578474895-699bc4e3f49f?w=600&q=80",
-      "https://images.unsplash.com/photo-1552374196-1ab2a1c593e8?w=600&q=80",
-      "https://images.unsplash.com/photo-1490578474895-699bc4e3f49f?w=600&q=80"
-    ],
-    "colors": [
-      {
-        "name": "Off White",
-        "hex": "#f5f0e8"
-      },
-      {
-        "name": "Mustard",
-        "hex": "#FFDB58"
-      },
-      {
-        "name": "Charcoal Black",
-        "hex": "#1a1a1a"
-      }
-    ],
-    "sizes": [
-      "XS",
-      "S",
-      "M",
-      "L",
-      "XL",
-      "XXL"
-    ],
-    "sizesAvailable": {
-      "XS": true,
-      "S": true,
-      "M": true,
-      "L": true,
-      "XL": false,
-      "XXL": false
-    },
-    "material": "Premium Cotton Blend",
-    "fit": "Regular",
-    "pattern": "Printed",
-    "occasion": "Casual",
-    "season": "All Season",
-    "stock": 22,
-    "isTrending": true,
-    "isNewArrival": false,
-    "isBestSeller": false,
-    "tags": [
-      "fashion",
-      "premium",
-      "bottomwear",
-      "men"
-    ],
-    "specifications": {
-      "Fabric": "Premium Cotton Blend",
-      "Fit": "Regular/Slim",
-      "Wash Care": "Machine Wash"
-    },
-    "reviews": [
-      {
-        "id": "rev_cfrh8",
-        "userName": "Customer",
-        "rating": 5,
-        "comment": "Excellent product, highly recommended!",
-        "date": "2024-12-15",
-        "helpful": 21,
-        "verified": true
-      }
-    ]
-  },
-  {
-    "id": "prod_068",
-    "name": "DRIFT Men's Premium Shoes",
-    "brand": "DRIFT",
-    "description": "Premium quality shoes from DRIFT. Features comfortable fit and excellent material suitable for everyday wear.",
-    "category": "Men",
-    "subCategory": "Shoes",
-    "type": "Footwear",
-    "price": 3220,
-    "mrp": 8476,
-    "discount": 62,
-    "currency": "₹",
-    "rating": 4.9,
-    "reviewCount": 2210,
-    "images": [
-      "https://images.unsplash.com/photo-1542291026-7eec264c27ff?w=600&q=80",
-      "https://images.unsplash.com/photo-1525966222134-fcfa99b8ae77?w=600&q=80",
-      "https://images.unsplash.com/photo-1542291026-7eec264c27ff?w=600&q=80",
-      "https://images.unsplash.com/photo-1525966222134-fcfa99b8ae77?w=600&q=80"
-    ],
-    "colors": [
-      {
-        "name": "Mustard",
-        "hex": "#FFDB58"
-      },
-      {
-        "name": "Off White",
-        "hex": "#f5f0e8"
-      },
-      {
-        "name": "Navy Blue",
-        "hex": "#000080"
-      }
-    ],
-    "sizes": [
-      "XS",
-      "S",
-      "M",
-      "L",
-      "XL",
-      "XXL"
-    ],
-    "sizesAvailable": {
-      "XS": false,
-      "S": true,
-      "M": true,
-      "L": true,
-      "XL": false,
-      "XXL": true
-    },
-    "material": "Premium Cotton Blend",
+    "material": "100% Premium Material",
     "fit": "Regular",
     "pattern": "Solid",
     "occasion": "Casual",
-    "season": "All Season",
-    "stock": 72,
-    "isTrending": false,
-    "isNewArrival": false,
-    "isBestSeller": true,
-    "tags": [
-      "fashion",
-      "premium",
-      "footwear",
-      "men"
-    ],
-    "specifications": {
-      "Fabric": "Premium Cotton Blend",
-      "Fit": "Regular/Slim",
-      "Wash Care": "Machine Wash"
-    },
-    "reviews": [
-      {
-        "id": "rev_lp07c",
-        "userName": "Customer",
-        "rating": 5,
-        "comment": "Excellent product, highly recommended!",
-        "date": "2024-12-15",
-        "helpful": 21,
-        "verified": true
-      }
-    ]
-  },
-  {
-    "id": "prod_069",
-    "name": "DRIFT Men's Premium Activewear",
-    "brand": "DRIFT",
-    "description": "Premium quality activewear from DRIFT. Features comfortable fit and excellent material suitable for everyday wear.",
-    "category": "Men",
-    "subCategory": "Activewear",
-    "type": "Activewear",
-    "price": 8638,
-    "mrp": 13088,
-    "discount": 34,
-    "currency": "₹",
-    "rating": 4.7,
-    "reviewCount": 3732,
-    "images": [
-      "https://images.unsplash.com/photo-1552374196-1ab2a1c593e8?w=600&q=80",
-      "https://images.unsplash.com/photo-1490578474895-699bc4e3f49f?w=600&q=80",
-      "https://images.unsplash.com/photo-1552374196-1ab2a1c593e8?w=600&q=80",
-      "https://images.unsplash.com/photo-1490578474895-699bc4e3f49f?w=600&q=80"
-    ],
-    "colors": [
-      {
-        "name": "Navy Blue",
-        "hex": "#000080"
-      },
-      {
-        "name": "Mustard",
-        "hex": "#FFDB58"
-      },
-      {
-        "name": "Off White",
-        "hex": "#f5f0e8"
-      }
-    ],
-    "sizes": [
-      "XS",
-      "S",
-      "M",
-      "L",
-      "XL",
-      "XXL"
-    ],
-    "sizesAvailable": {
-      "XS": true,
-      "S": true,
-      "M": true,
-      "L": true,
-      "XL": true,
-      "XXL": false
-    },
-    "material": "Premium Cotton Blend",
-    "fit": "Regular",
-    "pattern": "Printed",
-    "occasion": "Casual",
-    "season": "All Season",
-    "stock": 78,
-    "isTrending": false,
-    "isNewArrival": true,
-    "isBestSeller": false,
-    "tags": [
-      "fashion",
-      "premium",
-      "activewear",
-      "men"
-    ],
-    "specifications": {
-      "Fabric": "Premium Cotton Blend",
-      "Fit": "Regular/Slim",
-      "Wash Care": "Machine Wash"
-    },
-    "reviews": [
-      {
-        "id": "rev_8y8sk",
-        "userName": "Customer",
-        "rating": 5,
-        "comment": "Excellent product, highly recommended!",
-        "date": "2024-12-15",
-        "helpful": 20,
-        "verified": true
-      }
-    ]
-  },
-  {
-    "id": "prod_070",
-    "name": "ONLY Men's Premium Jackets",
-    "brand": "ONLY",
-    "description": "Premium quality jackets from ONLY. Features comfortable fit and excellent material suitable for everyday wear.",
-    "category": "Men",
-    "subCategory": "Jackets",
-    "type": "Topwear",
-    "price": 9057,
-    "mrp": 11763,
-    "discount": 23,
-    "currency": "₹",
-    "rating": 3.8,
-    "reviewCount": 4159,
-    "images": [
-      "https://images.unsplash.com/photo-1551028719-00167b16eac5?w=600&q=80",
-      "https://images.unsplash.com/photo-1591047139829-d91aecb6caea?w=600&q=80",
-      "https://images.unsplash.com/photo-1551028719-00167b16eac5?w=600&q=80",
-      "https://images.unsplash.com/photo-1591047139829-d91aecb6caea?w=600&q=80"
-    ],
-    "colors": [
-      {
-        "name": "Maroon",
-        "hex": "#800000"
-      },
-      {
-        "name": "Off White",
-        "hex": "#f5f0e8"
-      },
-      {
-        "name": "Charcoal Black",
-        "hex": "#1a1a1a"
-      }
-    ],
-    "sizes": [
-      "XS",
-      "S",
-      "M",
-      "L",
-      "XL",
-      "XXL"
-    ],
-    "sizesAvailable": {
-      "XS": false,
-      "S": true,
-      "M": true,
-      "L": true,
-      "XL": true,
-      "XXL": false
-    },
-    "material": "Premium Cotton Blend",
-    "fit": "Slim",
-    "pattern": "Printed",
-    "occasion": "Casual",
-    "season": "All Season",
-    "stock": 38,
-    "isTrending": false,
-    "isNewArrival": true,
-    "isBestSeller": true,
-    "tags": [
-      "fashion",
-      "premium",
-      "topwear",
-      "men"
-    ],
-    "specifications": {
-      "Fabric": "Premium Cotton Blend",
-      "Fit": "Regular/Slim",
-      "Wash Care": "Machine Wash"
-    },
-    "reviews": [
-      {
-        "id": "rev_qt8m8",
-        "userName": "Customer",
-        "rating": 5,
-        "comment": "Excellent product, highly recommended!",
-        "date": "2024-12-15",
-        "helpful": 21,
-        "verified": true
-      }
-    ]
-  },
-  {
-    "id": "prod_071",
-    "name": "NOIR Men's Premium Trousers",
-    "brand": "NOIR",
-    "description": "Premium quality trousers from NOIR. Features comfortable fit and excellent material suitable for everyday wear.",
-    "category": "Men",
-    "subCategory": "Trousers",
-    "type": "Bottomwear",
-    "price": 266,
-    "mrp": 634,
-    "discount": 58,
-    "currency": "₹",
-    "rating": 4.5,
-    "reviewCount": 3384,
-    "images": [
-      "https://images.unsplash.com/photo-1594938298603-c8148c4dae35?w=600&q=80",
-      "https://images.unsplash.com/photo-1624378439575-d8705ad7ae80?w=600&q=80",
-      "https://images.unsplash.com/photo-1594938298603-c8148c4dae35?w=600&q=80",
-      "https://images.unsplash.com/photo-1624378439575-d8705ad7ae80?w=600&q=80"
-    ],
-    "colors": [
-      {
-        "name": "Off White",
-        "hex": "#f5f0e8"
-      },
-      {
-        "name": "Mustard",
-        "hex": "#FFDB58"
-      },
-      {
-        "name": "Navy Blue",
-        "hex": "#000080"
-      }
-    ],
-    "sizes": [
-      "XS",
-      "S",
-      "M",
-      "L",
-      "XL",
-      "XXL"
-    ],
-    "sizesAvailable": {
-      "XS": true,
-      "S": true,
-      "M": true,
-      "L": true,
-      "XL": true,
-      "XXL": false
-    },
-    "material": "Premium Cotton Blend",
-    "fit": "Slim",
-    "pattern": "Printed",
-    "occasion": "Casual",
-    "season": "All Season",
-    "stock": 67,
-    "isTrending": true,
-    "isNewArrival": false,
-    "isBestSeller": false,
-    "tags": [
-      "fashion",
-      "premium",
-      "bottomwear",
-      "men"
-    ],
-    "specifications": {
-      "Fabric": "Premium Cotton Blend",
-      "Fit": "Regular/Slim",
-      "Wash Care": "Machine Wash"
-    },
-    "reviews": [
-      {
-        "id": "rev_8g0b3",
-        "userName": "Customer",
-        "rating": 5,
-        "comment": "Excellent product, highly recommended!",
-        "date": "2024-12-15",
-        "helpful": 43,
-        "verified": true
-      }
-    ]
-  },
-  {
-    "id": "prod_072",
-    "name": "Puma Men's Premium Shorts",
-    "brand": "Puma",
-    "description": "Premium quality shorts from Puma. Features comfortable fit and excellent material suitable for everyday wear.",
-    "category": "Men",
-    "subCategory": "Shorts",
-    "type": "Bottomwear",
-    "price": 2846,
-    "mrp": 3795,
-    "discount": 25,
-    "currency": "₹",
-    "rating": 4.5,
-    "reviewCount": 2048,
-    "images": [
-      "https://images.unsplash.com/photo-1490578474895-699bc4e3f49f?w=600&q=80",
-      "https://images.unsplash.com/photo-1552374196-1ab2a1c593e8?w=600&q=80",
-      "https://images.unsplash.com/photo-1490578474895-699bc4e3f49f?w=600&q=80",
-      "https://images.unsplash.com/photo-1552374196-1ab2a1c593e8?w=600&q=80"
-    ],
-    "colors": [
-      {
-        "name": "Off White",
-        "hex": "#f5f0e8"
-      },
-      {
-        "name": "Mustard",
-        "hex": "#FFDB58"
-      },
-      {
-        "name": "Navy Blue",
-        "hex": "#000080"
-      }
-    ],
-    "sizes": [
-      "XS",
-      "S",
-      "M",
-      "L",
-      "XL",
-      "XXL"
-    ],
-    "sizesAvailable": {
-      "XS": false,
-      "S": true,
-      "M": true,
-      "L": true,
-      "XL": false,
-      "XXL": false
-    },
-    "material": "Premium Cotton Blend",
-    "fit": "Regular",
-    "pattern": "Solid",
-    "occasion": "Casual",
-    "season": "All Season",
-    "stock": 19,
-    "isTrending": true,
-    "isNewArrival": false,
-    "isBestSeller": false,
-    "tags": [
-      "fashion",
-      "premium",
-      "bottomwear",
-      "men"
-    ],
-    "specifications": {
-      "Fabric": "Premium Cotton Blend",
-      "Fit": "Regular/Slim",
-      "Wash Care": "Machine Wash"
-    },
-    "reviews": [
-      {
-        "id": "rev_y6478",
-        "userName": "Customer",
-        "rating": 5,
-        "comment": "Excellent product, highly recommended!",
-        "date": "2024-12-15",
-        "helpful": 10,
-        "verified": true
-      }
-    ]
-  },
-  {
-    "id": "prod_073",
-    "name": "Van Heusen Men's Premium Trousers",
-    "brand": "Van Heusen",
-    "description": "Premium quality trousers from Van Heusen. Features comfortable fit and excellent material suitable for everyday wear.",
-    "category": "Men",
-    "subCategory": "Trousers",
-    "type": "Bottomwear",
-    "price": 5715,
-    "mrp": 10584,
-    "discount": 46,
-    "currency": "₹",
-    "rating": 4.8,
-    "reviewCount": 3090,
-    "images": [
-      "https://images.unsplash.com/photo-1594938298603-c8148c4dae35?w=600&q=80",
-      "https://images.unsplash.com/photo-1624378439575-d8705ad7ae80?w=600&q=80",
-      "https://images.unsplash.com/photo-1594938298603-c8148c4dae35?w=600&q=80",
-      "https://images.unsplash.com/photo-1624378439575-d8705ad7ae80?w=600&q=80"
-    ],
-    "colors": [
-      {
-        "name": "Navy Blue",
-        "hex": "#000080"
-      },
-      {
-        "name": "Olive",
-        "hex": "#556B2F"
-      },
-      {
-        "name": "Mustard",
-        "hex": "#FFDB58"
-      }
-    ],
-    "sizes": [
-      "XS",
-      "S",
-      "M",
-      "L",
-      "XL",
-      "XXL"
-    ],
-    "sizesAvailable": {
-      "XS": true,
-      "S": true,
-      "M": true,
-      "L": true,
-      "XL": true,
-      "XXL": false
-    },
-    "material": "Premium Cotton Blend",
-    "fit": "Slim",
-    "pattern": "Solid",
-    "occasion": "Casual",
-    "season": "All Season",
-    "stock": 47,
+    "stock": 73,
     "isTrending": false,
     "isNewArrival": false,
     "isBestSeller": false,
     "tags": [
-      "fashion",
       "premium",
-      "bottomwear",
-      "men"
+      "comfortable",
+      "accessories"
     ],
     "specifications": {
-      "Fabric": "Premium Cotton Blend",
-      "Fit": "Regular/Slim",
+      "Fabric": "Premium Quality",
+      "Fit": "Regular",
       "Wash Care": "Machine Wash"
     },
     "reviews": [
       {
-        "id": "rev_f3lq6",
-        "userName": "Customer",
+        "id": "rev_61_1",
+        "userName": "Verified Buyer",
         "rating": 5,
-        "comment": "Excellent product, highly recommended!",
-        "date": "2024-12-15",
-        "helpful": 2,
-        "verified": true
-      }
-    ]
-  },
-  {
-    "id": "prod_074",
-    "name": "Global Desi Men's Premium Shoes",
-    "brand": "Global Desi",
-    "description": "Premium quality shoes from Global Desi. Features comfortable fit and excellent material suitable for everyday wear.",
-    "category": "Men",
-    "subCategory": "Shoes",
-    "type": "Footwear",
-    "price": 3701,
-    "mrp": 6169,
-    "discount": 40,
-    "currency": "₹",
-    "rating": 4.6,
-    "reviewCount": 180,
-    "images": [
-      "https://images.unsplash.com/photo-1542291026-7eec264c27ff?w=600&q=80",
-      "https://images.unsplash.com/photo-1525966222134-fcfa99b8ae77?w=600&q=80",
-      "https://images.unsplash.com/photo-1542291026-7eec264c27ff?w=600&q=80",
-      "https://images.unsplash.com/photo-1525966222134-fcfa99b8ae77?w=600&q=80"
-    ],
-    "colors": [
-      {
-        "name": "Navy Blue",
-        "hex": "#000080"
-      },
-      {
-        "name": "Off White",
-        "hex": "#f5f0e8"
-      },
-      {
-        "name": "Charcoal Black",
-        "hex": "#1a1a1a"
-      }
-    ],
-    "sizes": [
-      "XS",
-      "S",
-      "M",
-      "L",
-      "XL",
-      "XXL"
-    ],
-    "sizesAvailable": {
-      "XS": true,
-      "S": true,
-      "M": true,
-      "L": true,
-      "XL": true,
-      "XXL": true
-    },
-    "material": "Premium Cotton Blend",
-    "fit": "Slim",
-    "pattern": "Printed",
-    "occasion": "Casual",
-    "season": "All Season",
-    "stock": 79,
-    "isTrending": false,
-    "isNewArrival": false,
-    "isBestSeller": false,
-    "tags": [
-      "fashion",
-      "premium",
-      "footwear",
-      "men"
-    ],
-    "specifications": {
-      "Fabric": "Premium Cotton Blend",
-      "Fit": "Regular/Slim",
-      "Wash Care": "Machine Wash"
-    },
-    "reviews": [
-      {
-        "id": "rev_4zyim",
-        "userName": "Customer",
-        "rating": 5,
-        "comment": "Excellent product, highly recommended!",
-        "date": "2024-12-15",
-        "helpful": 47,
-        "verified": true
-      }
-    ]
-  },
-  {
-    "id": "prod_075",
-    "name": "Puma Men's Premium Shorts",
-    "brand": "Puma",
-    "description": "Premium quality shorts from Puma. Features comfortable fit and excellent material suitable for everyday wear.",
-    "category": "Men",
-    "subCategory": "Shorts",
-    "type": "Bottomwear",
-    "price": 4794,
-    "mrp": 5847,
-    "discount": 18,
-    "currency": "₹",
-    "rating": 3.6,
-    "reviewCount": 2636,
-    "images": [
-      "https://images.unsplash.com/photo-1552374196-1ab2a1c593e8?w=600&q=80",
-      "https://images.unsplash.com/photo-1490578474895-699bc4e3f49f?w=600&q=80",
-      "https://images.unsplash.com/photo-1552374196-1ab2a1c593e8?w=600&q=80",
-      "https://images.unsplash.com/photo-1490578474895-699bc4e3f49f?w=600&q=80"
-    ],
-    "colors": [
-      {
-        "name": "Off White",
-        "hex": "#f5f0e8"
-      },
-      {
-        "name": "Maroon",
-        "hex": "#800000"
-      },
-      {
-        "name": "Navy Blue",
-        "hex": "#000080"
-      }
-    ],
-    "sizes": [
-      "XS",
-      "S",
-      "M",
-      "L",
-      "XL",
-      "XXL"
-    ],
-    "sizesAvailable": {
-      "XS": false,
-      "S": true,
-      "M": true,
-      "L": true,
-      "XL": true,
-      "XXL": true
-    },
-    "material": "Premium Cotton Blend",
-    "fit": "Slim",
-    "pattern": "Solid",
-    "occasion": "Casual",
-    "season": "All Season",
-    "stock": 44,
-    "isTrending": false,
-    "isNewArrival": false,
-    "isBestSeller": false,
-    "tags": [
-      "fashion",
-      "premium",
-      "bottomwear",
-      "men"
-    ],
-    "specifications": {
-      "Fabric": "Premium Cotton Blend",
-      "Fit": "Regular/Slim",
-      "Wash Care": "Machine Wash"
-    },
-    "reviews": [
-      {
-        "id": "rev_coqho",
-        "userName": "Customer",
-        "rating": 5,
-        "comment": "Excellent product, highly recommended!",
-        "date": "2024-12-15",
-        "helpful": 31,
-        "verified": true
-      }
-    ]
-  },
-  {
-    "id": "prod_076",
-    "name": "DRIFT Men's Premium Ethnic Wear",
-    "brand": "DRIFT",
-    "description": "Premium quality ethnic wear from DRIFT. Features comfortable fit and excellent material suitable for everyday wear.",
-    "category": "Men",
-    "subCategory": "Ethnic Wear",
-    "type": "Topwear",
-    "price": 1793,
-    "mrp": 2062,
-    "discount": 13,
-    "currency": "₹",
-    "rating": 3.8,
-    "reviewCount": 419,
-    "images": [
-      "https://images.unsplash.com/photo-1583391733959-1f510f214314?w=600&q=80",
-      "https://images.unsplash.com/photo-1596455607563-ad6193f76b46?w=600&q=80",
-      "https://images.unsplash.com/photo-1583391733959-1f510f214314?w=600&q=80",
-      "https://images.unsplash.com/photo-1596455607563-ad6193f76b46?w=600&q=80"
-    ],
-    "colors": [
-      {
-        "name": "Mustard",
-        "hex": "#FFDB58"
-      },
-      {
-        "name": "Olive",
-        "hex": "#556B2F"
-      },
-      {
-        "name": "Charcoal Black",
-        "hex": "#1a1a1a"
-      }
-    ],
-    "sizes": [
-      "XS",
-      "S",
-      "M",
-      "L",
-      "XL",
-      "XXL"
-    ],
-    "sizesAvailable": {
-      "XS": false,
-      "S": true,
-      "M": true,
-      "L": true,
-      "XL": true,
-      "XXL": false
-    },
-    "material": "Premium Cotton Blend",
-    "fit": "Slim",
-    "pattern": "Printed",
-    "occasion": "Casual",
-    "season": "All Season",
-    "stock": 82,
-    "isTrending": false,
-    "isNewArrival": false,
-    "isBestSeller": false,
-    "tags": [
-      "fashion",
-      "premium",
-      "topwear",
-      "men"
-    ],
-    "specifications": {
-      "Fabric": "Premium Cotton Blend",
-      "Fit": "Regular/Slim",
-      "Wash Care": "Machine Wash"
-    },
-    "reviews": [
-      {
-        "id": "rev_p8iox",
-        "userName": "Customer",
-        "rating": 5,
-        "comment": "Excellent product, highly recommended!",
-        "date": "2024-12-15",
-        "helpful": 40,
-        "verified": true
-      }
-    ]
-  },
-  {
-    "id": "prod_077",
-    "name": "Allen Solly Men's Premium Jeans",
-    "brand": "Allen Solly",
-    "description": "Premium quality jeans from Allen Solly. Features comfortable fit and excellent material suitable for everyday wear.",
-    "category": "Men",
-    "subCategory": "Jeans",
-    "type": "Bottomwear",
-    "price": 570,
-    "mrp": 935,
-    "discount": 39,
-    "currency": "₹",
-    "rating": 3.9,
-    "reviewCount": 754,
-    "images": [
-      "https://images.unsplash.com/photo-1604176354204-926873812d4e?w=600&q=80",
-      "https://images.unsplash.com/photo-1542272604-787c3835535d?w=600&q=80",
-      "https://images.unsplash.com/photo-1604176354204-926873812d4e?w=600&q=80",
-      "https://images.unsplash.com/photo-1542272604-787c3835535d?w=600&q=80"
-    ],
-    "colors": [
-      {
-        "name": "Maroon",
-        "hex": "#800000"
-      },
-      {
-        "name": "Navy Blue",
-        "hex": "#000080"
-      },
-      {
-        "name": "Mustard",
-        "hex": "#FFDB58"
-      }
-    ],
-    "sizes": [
-      "XS",
-      "S",
-      "M",
-      "L",
-      "XL",
-      "XXL"
-    ],
-    "sizesAvailable": {
-      "XS": false,
-      "S": true,
-      "M": true,
-      "L": true,
-      "XL": true,
-      "XXL": false
-    },
-    "material": "Premium Cotton Blend",
-    "fit": "Regular",
-    "pattern": "Printed",
-    "occasion": "Casual",
-    "season": "All Season",
-    "stock": 22,
-    "isTrending": false,
-    "isNewArrival": false,
-    "isBestSeller": false,
-    "tags": [
-      "fashion",
-      "premium",
-      "bottomwear",
-      "men"
-    ],
-    "specifications": {
-      "Fabric": "Premium Cotton Blend",
-      "Fit": "Regular/Slim",
-      "Wash Care": "Machine Wash"
-    },
-    "reviews": [
-      {
-        "id": "rev_mo88z",
-        "userName": "Customer",
-        "rating": 5,
-        "comment": "Excellent product, highly recommended!",
-        "date": "2024-12-15",
-        "helpful": 13,
-        "verified": true
-      }
-    ]
-  },
-  {
-    "id": "prod_078",
-    "name": "Van Heusen Men's Premium Jackets",
-    "brand": "Van Heusen",
-    "description": "Premium quality jackets from Van Heusen. Features comfortable fit and excellent material suitable for everyday wear.",
-    "category": "Men",
-    "subCategory": "Jackets",
-    "type": "Topwear",
-    "price": 4360,
-    "mrp": 6508,
-    "discount": 33,
-    "currency": "₹",
-    "rating": 3.4,
-    "reviewCount": 3686,
-    "images": [
-      "https://images.unsplash.com/photo-1551028719-00167b16eac5?w=600&q=80",
-      "https://images.unsplash.com/photo-1591047139829-d91aecb6caea?w=600&q=80",
-      "https://images.unsplash.com/photo-1551028719-00167b16eac5?w=600&q=80",
-      "https://images.unsplash.com/photo-1591047139829-d91aecb6caea?w=600&q=80"
-    ],
-    "colors": [
-      {
-        "name": "Mustard",
-        "hex": "#FFDB58"
-      },
-      {
-        "name": "Olive",
-        "hex": "#556B2F"
-      },
-      {
-        "name": "Off White",
-        "hex": "#f5f0e8"
-      }
-    ],
-    "sizes": [
-      "XS",
-      "S",
-      "M",
-      "L",
-      "XL",
-      "XXL"
-    ],
-    "sizesAvailable": {
-      "XS": false,
-      "S": true,
-      "M": true,
-      "L": true,
-      "XL": true,
-      "XXL": false
-    },
-    "material": "Premium Cotton Blend",
-    "fit": "Slim",
-    "pattern": "Solid",
-    "occasion": "Casual",
-    "season": "All Season",
-    "stock": 82,
-    "isTrending": false,
-    "isNewArrival": false,
-    "isBestSeller": false,
-    "tags": [
-      "fashion",
-      "premium",
-      "topwear",
-      "men"
-    ],
-    "specifications": {
-      "Fabric": "Premium Cotton Blend",
-      "Fit": "Regular/Slim",
-      "Wash Care": "Machine Wash"
-    },
-    "reviews": [
-      {
-        "id": "rev_ua8fo",
-        "userName": "Customer",
-        "rating": 5,
-        "comment": "Excellent product, highly recommended!",
-        "date": "2024-12-15",
-        "helpful": 21,
-        "verified": true
-      }
-    ]
-  },
-  {
-    "id": "prod_079",
-    "name": "DRIFT Men's Premium Shorts",
-    "brand": "DRIFT",
-    "description": "Premium quality shorts from DRIFT. Features comfortable fit and excellent material suitable for everyday wear.",
-    "category": "Men",
-    "subCategory": "Shorts",
-    "type": "Bottomwear",
-    "price": 11267,
-    "mrp": 15023,
-    "discount": 25,
-    "currency": "₹",
-    "rating": 3.3,
-    "reviewCount": 2644,
-    "images": [
-      "https://images.unsplash.com/photo-1552374196-1ab2a1c593e8?w=600&q=80",
-      "https://images.unsplash.com/photo-1490578474895-699bc4e3f49f?w=600&q=80",
-      "https://images.unsplash.com/photo-1552374196-1ab2a1c593e8?w=600&q=80",
-      "https://images.unsplash.com/photo-1490578474895-699bc4e3f49f?w=600&q=80"
-    ],
-    "colors": [
-      {
-        "name": "Maroon",
-        "hex": "#800000"
-      },
-      {
-        "name": "Olive",
-        "hex": "#556B2F"
-      },
-      {
-        "name": "Mustard",
-        "hex": "#FFDB58"
-      }
-    ],
-    "sizes": [
-      "XS",
-      "S",
-      "M",
-      "L",
-      "XL",
-      "XXL"
-    ],
-    "sizesAvailable": {
-      "XS": true,
-      "S": true,
-      "M": true,
-      "L": true,
-      "XL": true,
-      "XXL": true
-    },
-    "material": "Premium Cotton Blend",
-    "fit": "Slim",
-    "pattern": "Solid",
-    "occasion": "Casual",
-    "season": "All Season",
-    "stock": 27,
-    "isTrending": false,
-    "isNewArrival": false,
-    "isBestSeller": false,
-    "tags": [
-      "fashion",
-      "premium",
-      "bottomwear",
-      "men"
-    ],
-    "specifications": {
-      "Fabric": "Premium Cotton Blend",
-      "Fit": "Regular/Slim",
-      "Wash Care": "Machine Wash"
-    },
-    "reviews": [
-      {
-        "id": "rev_kctv6",
-        "userName": "Customer",
-        "rating": 5,
-        "comment": "Excellent product, highly recommended!",
-        "date": "2024-12-15",
-        "helpful": 30,
-        "verified": true
-      }
-    ]
-  },
-  {
-    "id": "prod_080",
-    "name": "H&M Men's Premium Activewear",
-    "brand": "H&M",
-    "description": "Premium quality activewear from H&M. Features comfortable fit and excellent material suitable for everyday wear.",
-    "category": "Men",
-    "subCategory": "Activewear",
-    "type": "Activewear",
-    "price": 12016,
-    "mrp": 13655,
-    "discount": 12,
-    "currency": "₹",
-    "rating": 4.2,
-    "reviewCount": 2679,
-    "images": [
-      "https://images.unsplash.com/photo-1490578474895-699bc4e3f49f?w=600&q=80",
-      "https://images.unsplash.com/photo-1552374196-1ab2a1c593e8?w=600&q=80",
-      "https://images.unsplash.com/photo-1490578474895-699bc4e3f49f?w=600&q=80",
-      "https://images.unsplash.com/photo-1552374196-1ab2a1c593e8?w=600&q=80"
-    ],
-    "colors": [
-      {
-        "name": "Off White",
-        "hex": "#f5f0e8"
-      },
-      {
-        "name": "Maroon",
-        "hex": "#800000"
-      },
-      {
-        "name": "Navy Blue",
-        "hex": "#000080"
-      }
-    ],
-    "sizes": [
-      "XS",
-      "S",
-      "M",
-      "L",
-      "XL",
-      "XXL"
-    ],
-    "sizesAvailable": {
-      "XS": true,
-      "S": true,
-      "M": true,
-      "L": true,
-      "XL": false,
-      "XXL": true
-    },
-    "material": "Premium Cotton Blend",
-    "fit": "Slim",
-    "pattern": "Printed",
-    "occasion": "Casual",
-    "season": "All Season",
-    "stock": 59,
-    "isTrending": false,
-    "isNewArrival": false,
-    "isBestSeller": false,
-    "tags": [
-      "fashion",
-      "premium",
-      "activewear",
-      "men"
-    ],
-    "specifications": {
-      "Fabric": "Premium Cotton Blend",
-      "Fit": "Regular/Slim",
-      "Wash Care": "Machine Wash"
-    },
-    "reviews": [
-      {
-        "id": "rev_6r2r6",
-        "userName": "Customer",
-        "rating": 5,
-        "comment": "Excellent product, highly recommended!",
-        "date": "2024-12-15",
-        "helpful": 4,
-        "verified": true
-      }
-    ]
-  },
-  {
-    "id": "prod_081",
-    "name": "Allen Solly Men's Premium Ethnic Wear",
-    "brand": "Allen Solly",
-    "description": "Premium quality ethnic wear from Allen Solly. Features comfortable fit and excellent material suitable for everyday wear.",
-    "category": "Men",
-    "subCategory": "Ethnic Wear",
-    "type": "Topwear",
-    "price": 4368,
-    "mrp": 13650,
-    "discount": 68,
-    "currency": "₹",
-    "rating": 4.8,
-    "reviewCount": 2871,
-    "images": [
-      "https://images.unsplash.com/photo-1596455607563-ad6193f76b46?w=600&q=80",
-      "https://images.unsplash.com/photo-1583391733959-1f510f214314?w=600&q=80",
-      "https://images.unsplash.com/photo-1596455607563-ad6193f76b46?w=600&q=80",
-      "https://images.unsplash.com/photo-1583391733959-1f510f214314?w=600&q=80"
-    ],
-    "colors": [
-      {
-        "name": "Navy Blue",
-        "hex": "#000080"
-      },
-      {
-        "name": "Off White",
-        "hex": "#f5f0e8"
-      },
-      {
-        "name": "Olive",
-        "hex": "#556B2F"
-      }
-    ],
-    "sizes": [
-      "XS",
-      "S",
-      "M",
-      "L",
-      "XL",
-      "XXL"
-    ],
-    "sizesAvailable": {
-      "XS": false,
-      "S": true,
-      "M": true,
-      "L": true,
-      "XL": true,
-      "XXL": false
-    },
-    "material": "Premium Cotton Blend",
-    "fit": "Regular",
-    "pattern": "Solid",
-    "occasion": "Casual",
-    "season": "All Season",
-    "stock": 36,
-    "isTrending": false,
-    "isNewArrival": false,
-    "isBestSeller": false,
-    "tags": [
-      "fashion",
-      "premium",
-      "topwear",
-      "men"
-    ],
-    "specifications": {
-      "Fabric": "Premium Cotton Blend",
-      "Fit": "Regular/Slim",
-      "Wash Care": "Machine Wash"
-    },
-    "reviews": [
-      {
-        "id": "rev_2ax1b",
-        "userName": "Customer",
-        "rating": 5,
-        "comment": "Excellent product, highly recommended!",
-        "date": "2024-12-15",
-        "helpful": 18,
-        "verified": true
-      }
-    ]
-  },
-  {
-    "id": "prod_082",
-    "name": "URBAN EDGE Men's Premium Hoodies & Sweatshirts",
-    "brand": "URBAN EDGE",
-    "description": "Premium quality hoodies & sweatshirts from URBAN EDGE. Features comfortable fit and excellent material suitable for everyday wear.",
-    "category": "Men",
-    "subCategory": "Hoodies & Sweatshirts",
-    "type": "Topwear",
-    "price": 7296,
-    "mrp": 12581,
-    "discount": 42,
-    "currency": "₹",
-    "rating": 4.6,
-    "reviewCount": 1411,
-    "images": [
-      "https://images.unsplash.com/photo-1556821840-3a63f95609a7?w=600&q=80",
-      "https://images.unsplash.com/photo-1620799140408-edc6dcb6d633?w=600&q=80",
-      "https://images.unsplash.com/photo-1556821840-3a63f95609a7?w=600&q=80",
-      "https://images.unsplash.com/photo-1620799140408-edc6dcb6d633?w=600&q=80"
-    ],
-    "colors": [
-      {
-        "name": "Maroon",
-        "hex": "#800000"
-      },
-      {
-        "name": "Mustard",
-        "hex": "#FFDB58"
-      },
-      {
-        "name": "Charcoal Black",
-        "hex": "#1a1a1a"
-      }
-    ],
-    "sizes": [
-      "XS",
-      "S",
-      "M",
-      "L",
-      "XL",
-      "XXL"
-    ],
-    "sizesAvailable": {
-      "XS": true,
-      "S": true,
-      "M": true,
-      "L": true,
-      "XL": false,
-      "XXL": false
-    },
-    "material": "Premium Cotton Blend",
-    "fit": "Slim",
-    "pattern": "Printed",
-    "occasion": "Casual",
-    "season": "All Season",
-    "stock": 15,
-    "isTrending": false,
-    "isNewArrival": false,
-    "isBestSeller": false,
-    "tags": [
-      "fashion",
-      "premium",
-      "topwear",
-      "men"
-    ],
-    "specifications": {
-      "Fabric": "Premium Cotton Blend",
-      "Fit": "Regular/Slim",
-      "Wash Care": "Machine Wash"
-    },
-    "reviews": [
-      {
-        "id": "rev_1l21w",
-        "userName": "Customer",
-        "rating": 5,
-        "comment": "Excellent product, highly recommended!",
-        "date": "2024-12-15",
-        "helpful": 27,
-        "verified": true
-      }
-    ]
-  },
-  {
-    "id": "prod_083",
-    "name": "URBAN EDGE Men's Premium Shirts",
-    "brand": "URBAN EDGE",
-    "description": "Premium quality shirts from URBAN EDGE. Features comfortable fit and excellent material suitable for everyday wear.",
-    "category": "Men",
-    "subCategory": "Shirts",
-    "type": "Topwear",
-    "price": 3689,
-    "mrp": 7529,
-    "discount": 51,
-    "currency": "₹",
-    "rating": 3.4,
-    "reviewCount": 4329,
-    "images": [
-      "https://images.unsplash.com/photo-1602810318383-e386cc2a3ce3?w=600&q=80",
-      "https://images.unsplash.com/photo-1598033129183-c4f50c736f10?w=600&q=80",
-      "https://images.unsplash.com/photo-1602810318383-e386cc2a3ce3?w=600&q=80",
-      "https://images.unsplash.com/photo-1598033129183-c4f50c736f10?w=600&q=80"
-    ],
-    "colors": [
-      {
-        "name": "Maroon",
-        "hex": "#800000"
-      },
-      {
-        "name": "Mustard",
-        "hex": "#FFDB58"
-      },
-      {
-        "name": "Navy Blue",
-        "hex": "#000080"
-      }
-    ],
-    "sizes": [
-      "XS",
-      "S",
-      "M",
-      "L",
-      "XL",
-      "XXL"
-    ],
-    "sizesAvailable": {
-      "XS": false,
-      "S": true,
-      "M": true,
-      "L": true,
-      "XL": false,
-      "XXL": false
-    },
-    "material": "Premium Cotton Blend",
-    "fit": "Slim",
-    "pattern": "Printed",
-    "occasion": "Casual",
-    "season": "All Season",
-    "stock": 23,
-    "isTrending": false,
-    "isNewArrival": false,
-    "isBestSeller": false,
-    "tags": [
-      "fashion",
-      "premium",
-      "topwear",
-      "men"
-    ],
-    "specifications": {
-      "Fabric": "Premium Cotton Blend",
-      "Fit": "Regular/Slim",
-      "Wash Care": "Machine Wash"
-    },
-    "reviews": [
-      {
-        "id": "rev_295a8",
-        "userName": "Customer",
-        "rating": 5,
-        "comment": "Excellent product, highly recommended!",
-        "date": "2024-12-15",
-        "helpful": 7,
-        "verified": true
-      }
-    ]
-  },
-  {
-    "id": "prod_084",
-    "name": "Puma Men's Premium Shorts",
-    "brand": "Puma",
-    "description": "Premium quality shorts from Puma. Features comfortable fit and excellent material suitable for everyday wear.",
-    "category": "Men",
-    "subCategory": "Shorts",
-    "type": "Bottomwear",
-    "price": 4428,
-    "mrp": 13419,
-    "discount": 67,
-    "currency": "₹",
-    "rating": 4.1,
-    "reviewCount": 833,
-    "images": [
-      "https://images.unsplash.com/photo-1490578474895-699bc4e3f49f?w=600&q=80",
-      "https://images.unsplash.com/photo-1552374196-1ab2a1c593e8?w=600&q=80",
-      "https://images.unsplash.com/photo-1490578474895-699bc4e3f49f?w=600&q=80",
-      "https://images.unsplash.com/photo-1552374196-1ab2a1c593e8?w=600&q=80"
-    ],
-    "colors": [
-      {
-        "name": "Maroon",
-        "hex": "#800000"
-      },
-      {
-        "name": "Navy Blue",
-        "hex": "#000080"
-      },
-      {
-        "name": "Mustard",
-        "hex": "#FFDB58"
-      }
-    ],
-    "sizes": [
-      "XS",
-      "S",
-      "M",
-      "L",
-      "XL",
-      "XXL"
-    ],
-    "sizesAvailable": {
-      "XS": false,
-      "S": true,
-      "M": true,
-      "L": true,
-      "XL": true,
-      "XXL": false
-    },
-    "material": "Premium Cotton Blend",
-    "fit": "Regular",
-    "pattern": "Solid",
-    "occasion": "Casual",
-    "season": "All Season",
-    "stock": 35,
-    "isTrending": false,
-    "isNewArrival": false,
-    "isBestSeller": false,
-    "tags": [
-      "fashion",
-      "premium",
-      "bottomwear",
-      "men"
-    ],
-    "specifications": {
-      "Fabric": "Premium Cotton Blend",
-      "Fit": "Regular/Slim",
-      "Wash Care": "Machine Wash"
-    },
-    "reviews": [
-      {
-        "id": "rev_sbgz7",
-        "userName": "Customer",
-        "rating": 5,
-        "comment": "Excellent product, highly recommended!",
-        "date": "2024-12-15",
-        "helpful": 1,
-        "verified": true
-      }
-    ]
-  },
-  {
-    "id": "prod_085",
-    "name": "URBAN EDGE Men's Premium Trousers",
-    "brand": "URBAN EDGE",
-    "description": "Premium quality trousers from URBAN EDGE. Features comfortable fit and excellent material suitable for everyday wear.",
-    "category": "Men",
-    "subCategory": "Trousers",
-    "type": "Bottomwear",
-    "price": 1758,
-    "mrp": 3663,
-    "discount": 52,
-    "currency": "₹",
-    "rating": 3.2,
-    "reviewCount": 3456,
-    "images": [
-      "https://images.unsplash.com/photo-1594938298603-c8148c4dae35?w=600&q=80",
-      "https://images.unsplash.com/photo-1624378439575-d8705ad7ae80?w=600&q=80",
-      "https://images.unsplash.com/photo-1594938298603-c8148c4dae35?w=600&q=80",
-      "https://images.unsplash.com/photo-1624378439575-d8705ad7ae80?w=600&q=80"
-    ],
-    "colors": [
-      {
-        "name": "Olive",
-        "hex": "#556B2F"
-      },
-      {
-        "name": "Charcoal Black",
-        "hex": "#1a1a1a"
-      },
-      {
-        "name": "Maroon",
-        "hex": "#800000"
-      }
-    ],
-    "sizes": [
-      "XS",
-      "S",
-      "M",
-      "L",
-      "XL",
-      "XXL"
-    ],
-    "sizesAvailable": {
-      "XS": true,
-      "S": true,
-      "M": true,
-      "L": true,
-      "XL": false,
-      "XXL": false
-    },
-    "material": "Premium Cotton Blend",
-    "fit": "Regular",
-    "pattern": "Printed",
-    "occasion": "Casual",
-    "season": "All Season",
-    "stock": 9,
-    "isTrending": false,
-    "isNewArrival": true,
-    "isBestSeller": false,
-    "tags": [
-      "fashion",
-      "premium",
-      "bottomwear",
-      "men"
-    ],
-    "specifications": {
-      "Fabric": "Premium Cotton Blend",
-      "Fit": "Regular/Slim",
-      "Wash Care": "Machine Wash"
-    },
-    "reviews": [
-      {
-        "id": "rev_jyv1y",
-        "userName": "Customer",
-        "rating": 5,
-        "comment": "Excellent product, highly recommended!",
-        "date": "2024-12-15",
-        "helpful": 17,
-        "verified": true
-      }
-    ]
-  },
-  {
-    "id": "prod_086",
-    "name": "Nike Men's Premium Shorts",
-    "brand": "Nike",
-    "description": "Premium quality shorts from Nike. Features comfortable fit and excellent material suitable for everyday wear.",
-    "category": "Men",
-    "subCategory": "Shorts",
-    "type": "Bottomwear",
-    "price": 9407,
-    "mrp": 13835,
-    "discount": 32,
-    "currency": "₹",
-    "rating": 4,
-    "reviewCount": 1803,
-    "images": [
-      "https://images.unsplash.com/photo-1490578474895-699bc4e3f49f?w=600&q=80",
-      "https://images.unsplash.com/photo-1552374196-1ab2a1c593e8?w=600&q=80",
-      "https://images.unsplash.com/photo-1490578474895-699bc4e3f49f?w=600&q=80",
-      "https://images.unsplash.com/photo-1552374196-1ab2a1c593e8?w=600&q=80"
-    ],
-    "colors": [
-      {
-        "name": "Olive",
-        "hex": "#556B2F"
-      },
-      {
-        "name": "Charcoal Black",
-        "hex": "#1a1a1a"
-      },
-      {
-        "name": "Off White",
-        "hex": "#f5f0e8"
-      }
-    ],
-    "sizes": [
-      "XS",
-      "S",
-      "M",
-      "L",
-      "XL",
-      "XXL"
-    ],
-    "sizesAvailable": {
-      "XS": false,
-      "S": true,
-      "M": true,
-      "L": true,
-      "XL": true,
-      "XXL": true
-    },
-    "material": "Premium Cotton Blend",
-    "fit": "Regular",
-    "pattern": "Printed",
-    "occasion": "Casual",
-    "season": "All Season",
-    "stock": 102,
-    "isTrending": false,
-    "isNewArrival": false,
-    "isBestSeller": false,
-    "tags": [
-      "fashion",
-      "premium",
-      "bottomwear",
-      "men"
-    ],
-    "specifications": {
-      "Fabric": "Premium Cotton Blend",
-      "Fit": "Regular/Slim",
-      "Wash Care": "Machine Wash"
-    },
-    "reviews": [
-      {
-        "id": "rev_k4tq1",
-        "userName": "Customer",
-        "rating": 5,
-        "comment": "Excellent product, highly recommended!",
-        "date": "2024-12-15",
-        "helpful": 29,
-        "verified": true
-      }
-    ]
-  },
-  {
-    "id": "prod_087",
-    "name": "ONLY Men's Premium T-Shirts",
-    "brand": "ONLY",
-    "description": "Premium quality t-shirts from ONLY. Features comfortable fit and excellent material suitable for everyday wear.",
-    "category": "Men",
-    "subCategory": "T-Shirts",
-    "type": "Topwear",
-    "price": 10871,
-    "mrp": 14304,
-    "discount": 24,
-    "currency": "₹",
-    "rating": 4.2,
-    "reviewCount": 4796,
-    "images": [
-      "https://images.unsplash.com/photo-1583743814966-8936f5b7be1a?w=600&q=80",
-      "https://images.unsplash.com/photo-1521572163474-6864f9cf17ab?w=600&q=80",
-      "https://images.unsplash.com/photo-1583743814966-8936f5b7be1a?w=600&q=80",
-      "https://images.unsplash.com/photo-1521572163474-6864f9cf17ab?w=600&q=80"
-    ],
-    "colors": [
-      {
-        "name": "Charcoal Black",
-        "hex": "#1a1a1a"
-      },
-      {
-        "name": "Navy Blue",
-        "hex": "#000080"
-      },
-      {
-        "name": "Olive",
-        "hex": "#556B2F"
-      }
-    ],
-    "sizes": [
-      "XS",
-      "S",
-      "M",
-      "L",
-      "XL",
-      "XXL"
-    ],
-    "sizesAvailable": {
-      "XS": true,
-      "S": true,
-      "M": true,
-      "L": true,
-      "XL": false,
-      "XXL": true
-    },
-    "material": "Premium Cotton Blend",
-    "fit": "Slim",
-    "pattern": "Printed",
-    "occasion": "Casual",
-    "season": "All Season",
-    "stock": 72,
-    "isTrending": true,
-    "isNewArrival": false,
-    "isBestSeller": false,
-    "tags": [
-      "fashion",
-      "premium",
-      "topwear",
-      "men"
-    ],
-    "specifications": {
-      "Fabric": "Premium Cotton Blend",
-      "Fit": "Regular/Slim",
-      "Wash Care": "Machine Wash"
-    },
-    "reviews": [
-      {
-        "id": "rev_y3pkr",
-        "userName": "Customer",
-        "rating": 5,
-        "comment": "Excellent product, highly recommended!",
-        "date": "2024-12-15",
-        "helpful": 16,
-        "verified": true
-      }
-    ]
-  },
-  {
-    "id": "prod_088",
-    "name": "Jack & Jones Men's Premium Activewear",
-    "brand": "Jack & Jones",
-    "description": "Premium quality activewear from Jack & Jones. Features comfortable fit and excellent material suitable for everyday wear.",
-    "category": "Men",
-    "subCategory": "Activewear",
-    "type": "Activewear",
-    "price": 3497,
-    "mrp": 4726,
-    "discount": 26,
-    "currency": "₹",
-    "rating": 4.3,
-    "reviewCount": 4782,
-    "images": [
-      "https://images.unsplash.com/photo-1490578474895-699bc4e3f49f?w=600&q=80",
-      "https://images.unsplash.com/photo-1552374196-1ab2a1c593e8?w=600&q=80",
-      "https://images.unsplash.com/photo-1490578474895-699bc4e3f49f?w=600&q=80",
-      "https://images.unsplash.com/photo-1552374196-1ab2a1c593e8?w=600&q=80"
-    ],
-    "colors": [
-      {
-        "name": "Charcoal Black",
-        "hex": "#1a1a1a"
-      },
-      {
-        "name": "Navy Blue",
-        "hex": "#000080"
-      },
-      {
-        "name": "Olive",
-        "hex": "#556B2F"
-      }
-    ],
-    "sizes": [
-      "XS",
-      "S",
-      "M",
-      "L",
-      "XL",
-      "XXL"
-    ],
-    "sizesAvailable": {
-      "XS": false,
-      "S": true,
-      "M": true,
-      "L": true,
-      "XL": true,
-      "XXL": false
-    },
-    "material": "Premium Cotton Blend",
-    "fit": "Slim",
-    "pattern": "Solid",
-    "occasion": "Casual",
-    "season": "All Season",
-    "stock": 67,
-    "isTrending": false,
-    "isNewArrival": true,
-    "isBestSeller": false,
-    "tags": [
-      "fashion",
-      "premium",
-      "activewear",
-      "men"
-    ],
-    "specifications": {
-      "Fabric": "Premium Cotton Blend",
-      "Fit": "Regular/Slim",
-      "Wash Care": "Machine Wash"
-    },
-    "reviews": [
-      {
-        "id": "rev_tk4y6",
-        "userName": "Customer",
-        "rating": 5,
-        "comment": "Excellent product, highly recommended!",
-        "date": "2024-12-15",
-        "helpful": 40,
-        "verified": true
-      }
-    ]
-  },
-  {
-    "id": "prod_089",
-    "name": "Zara Men's Premium Jeans",
-    "brand": "Zara",
-    "description": "Premium quality jeans from Zara. Features comfortable fit and excellent material suitable for everyday wear.",
-    "category": "Men",
-    "subCategory": "Jeans",
-    "type": "Bottomwear",
-    "price": 6175,
-    "mrp": 12351,
-    "discount": 50,
-    "currency": "₹",
-    "rating": 4.1,
-    "reviewCount": 4838,
-    "images": [
-      "https://images.unsplash.com/photo-1604176354204-926873812d4e?w=600&q=80",
-      "https://images.unsplash.com/photo-1542272604-787c3835535d?w=600&q=80",
-      "https://images.unsplash.com/photo-1604176354204-926873812d4e?w=600&q=80",
-      "https://images.unsplash.com/photo-1542272604-787c3835535d?w=600&q=80"
-    ],
-    "colors": [
-      {
-        "name": "Navy Blue",
-        "hex": "#000080"
-      },
-      {
-        "name": "Olive",
-        "hex": "#556B2F"
-      },
-      {
-        "name": "Maroon",
-        "hex": "#800000"
-      }
-    ],
-    "sizes": [
-      "XS",
-      "S",
-      "M",
-      "L",
-      "XL",
-      "XXL"
-    ],
-    "sizesAvailable": {
-      "XS": true,
-      "S": true,
-      "M": true,
-      "L": true,
-      "XL": true,
-      "XXL": false
-    },
-    "material": "Premium Cotton Blend",
-    "fit": "Regular",
-    "pattern": "Printed",
-    "occasion": "Casual",
-    "season": "All Season",
-    "stock": 50,
-    "isTrending": false,
-    "isNewArrival": false,
-    "isBestSeller": false,
-    "tags": [
-      "fashion",
-      "premium",
-      "bottomwear",
-      "men"
-    ],
-    "specifications": {
-      "Fabric": "Premium Cotton Blend",
-      "Fit": "Regular/Slim",
-      "Wash Care": "Machine Wash"
-    },
-    "reviews": [
-      {
-        "id": "rev_03nfc",
-        "userName": "Customer",
-        "rating": 5,
-        "comment": "Excellent product, highly recommended!",
-        "date": "2024-12-15",
-        "helpful": 49,
-        "verified": true
-      }
-    ]
-  },
-  {
-    "id": "prod_090",
-    "name": "Zara Men's Premium Jackets",
-    "brand": "Zara",
-    "description": "Premium quality jackets from Zara. Features comfortable fit and excellent material suitable for everyday wear.",
-    "category": "Men",
-    "subCategory": "Jackets",
-    "type": "Topwear",
-    "price": 8368,
-    "mrp": 15215,
-    "discount": 45,
-    "currency": "₹",
-    "rating": 3,
-    "reviewCount": 1340,
-    "images": [
-      "https://images.unsplash.com/photo-1551028719-00167b16eac5?w=600&q=80",
-      "https://images.unsplash.com/photo-1591047139829-d91aecb6caea?w=600&q=80",
-      "https://images.unsplash.com/photo-1551028719-00167b16eac5?w=600&q=80",
-      "https://images.unsplash.com/photo-1591047139829-d91aecb6caea?w=600&q=80"
-    ],
-    "colors": [
-      {
-        "name": "Off White",
-        "hex": "#f5f0e8"
-      },
-      {
-        "name": "Maroon",
-        "hex": "#800000"
-      },
-      {
-        "name": "Olive",
-        "hex": "#556B2F"
-      }
-    ],
-    "sizes": [
-      "XS",
-      "S",
-      "M",
-      "L",
-      "XL",
-      "XXL"
-    ],
-    "sizesAvailable": {
-      "XS": false,
-      "S": true,
-      "M": true,
-      "L": true,
-      "XL": true,
-      "XXL": false
-    },
-    "material": "Premium Cotton Blend",
-    "fit": "Regular",
-    "pattern": "Printed",
-    "occasion": "Casual",
-    "season": "All Season",
-    "stock": 40,
-    "isTrending": false,
-    "isNewArrival": false,
-    "isBestSeller": true,
-    "tags": [
-      "fashion",
-      "premium",
-      "topwear",
-      "men"
-    ],
-    "specifications": {
-      "Fabric": "Premium Cotton Blend",
-      "Fit": "Regular/Slim",
-      "Wash Care": "Machine Wash"
-    },
-    "reviews": [
-      {
-        "id": "rev_j6b1a",
-        "userName": "Customer",
-        "rating": 5,
-        "comment": "Excellent product, highly recommended!",
-        "date": "2024-12-15",
+        "comment": "Absolutely love this product! The quality is amazing for the price.",
+        "date": "2024-03-15",
         "helpful": 15,
         "verified": true
       }
     ]
   },
   {
-    "id": "prod_091",
-    "name": "Adidas Women's Premium Shoes",
-    "brand": "Adidas",
-    "description": "Premium quality shoes from Adidas. Features comfortable fit and excellent material suitable for everyday wear.",
-    "category": "Women",
-    "subCategory": "Shoes",
-    "type": "Footwear",
-    "price": 4355,
-    "mrp": 4839,
-    "discount": 10,
-    "currency": "₹",
-    "rating": 4.2,
-    "reviewCount": 4634,
-    "images": [
-      "https://images.unsplash.com/photo-1525966222134-fcfa99b8ae77?w=600&q=80",
-      "https://images.unsplash.com/photo-1542291026-7eec264c27ff?w=600&q=80",
-      "https://images.unsplash.com/photo-1525966222134-fcfa99b8ae77?w=600&q=80",
-      "https://images.unsplash.com/photo-1542291026-7eec264c27ff?w=600&q=80"
-    ],
-    "colors": [
-      {
-        "name": "Mustard",
-        "hex": "#FFDB58"
-      },
-      {
-        "name": "Navy Blue",
-        "hex": "#000080"
-      },
-      {
-        "name": "Charcoal Black",
-        "hex": "#1a1a1a"
-      }
-    ],
-    "sizes": [
-      "XS",
-      "S",
-      "M",
-      "L",
-      "XL",
-      "XXL"
-    ],
-    "sizesAvailable": {
-      "XS": true,
-      "S": true,
-      "M": true,
-      "L": true,
-      "XL": true,
-      "XXL": true
-    },
-    "material": "Premium Cotton Blend",
-    "fit": "Regular",
-    "pattern": "Printed",
-    "occasion": "Casual",
-    "season": "All Season",
-    "stock": 30,
-    "isTrending": true,
-    "isNewArrival": false,
-    "isBestSeller": false,
-    "tags": [
-      "fashion",
-      "premium",
-      "footwear",
-      "women"
-    ],
-    "specifications": {
-      "Fabric": "Premium Cotton Blend",
-      "Fit": "Regular/Slim",
-      "Wash Care": "Machine Wash"
-    },
-    "reviews": [
-      {
-        "id": "rev_15wkq",
-        "userName": "Customer",
-        "rating": 5,
-        "comment": "Excellent product, highly recommended!",
-        "date": "2024-12-15",
-        "helpful": 8,
-        "verified": true
-      }
-    ]
-  },
-  {
-    "id": "prod_092",
-    "name": "Levi's Women's Premium Skirts",
+    "id": "prod_062",
+    "name": "Premium Accessories - Style 5",
     "brand": "Levi's",
-    "description": "Premium quality skirts from Levi's. Features comfortable fit and excellent material suitable for everyday wear.",
-    "category": "Women",
-    "subCategory": "Skirts",
-    "type": "Bottomwear",
-    "price": 159,
-    "mrp": 514,
-    "discount": 69,
-    "currency": "₹",
-    "rating": 3.7,
-    "reviewCount": 4653,
-    "images": [
-      "https://images.unsplash.com/photo-1490578474895-699bc4e3f49f?w=600&q=80",
-      "https://images.unsplash.com/photo-1552374196-1ab2a1c593e8?w=600&q=80",
-      "https://images.unsplash.com/photo-1490578474895-699bc4e3f49f?w=600&q=80",
-      "https://images.unsplash.com/photo-1552374196-1ab2a1c593e8?w=600&q=80"
-    ],
-    "colors": [
-      {
-        "name": "Maroon",
-        "hex": "#800000"
-      },
-      {
-        "name": "Olive",
-        "hex": "#556B2F"
-      },
-      {
-        "name": "Navy Blue",
-        "hex": "#000080"
-      }
-    ],
-    "sizes": [
-      "XS",
-      "S",
-      "M",
-      "L",
-      "XL",
-      "XXL"
-    ],
-    "sizesAvailable": {
-      "XS": false,
-      "S": true,
-      "M": true,
-      "L": true,
-      "XL": true,
-      "XXL": false
-    },
-    "material": "Premium Cotton Blend",
-    "fit": "Regular",
-    "pattern": "Printed",
-    "occasion": "Casual",
-    "season": "All Season",
-    "stock": 42,
-    "isTrending": false,
-    "isNewArrival": false,
-    "isBestSeller": true,
-    "tags": [
-      "fashion",
-      "premium",
-      "bottomwear",
-      "women"
-    ],
-    "specifications": {
-      "Fabric": "Premium Cotton Blend",
-      "Fit": "Regular/Slim",
-      "Wash Care": "Machine Wash"
-    },
-    "reviews": [
-      {
-        "id": "rev_n5jlu",
-        "userName": "Customer",
-        "rating": 5,
-        "comment": "Excellent product, highly recommended!",
-        "date": "2024-12-15",
-        "helpful": 22,
-        "verified": true
-      }
-    ]
-  },
-  {
-    "id": "prod_093",
-    "name": "Zara Women's Premium Skirts",
-    "brand": "Zara",
-    "description": "Premium quality skirts from Zara. Features comfortable fit and excellent material suitable for everyday wear.",
-    "category": "Women",
-    "subCategory": "Skirts",
-    "type": "Bottomwear",
-    "price": 2752,
-    "mrp": 3093,
-    "discount": 11,
-    "currency": "₹",
-    "rating": 4.8,
-    "reviewCount": 4769,
-    "images": [
-      "https://images.unsplash.com/photo-1552374196-1ab2a1c593e8?w=600&q=80",
-      "https://images.unsplash.com/photo-1490578474895-699bc4e3f49f?w=600&q=80",
-      "https://images.unsplash.com/photo-1552374196-1ab2a1c593e8?w=600&q=80",
-      "https://images.unsplash.com/photo-1490578474895-699bc4e3f49f?w=600&q=80"
-    ],
-    "colors": [
-      {
-        "name": "Navy Blue",
-        "hex": "#000080"
-      },
-      {
-        "name": "Off White",
-        "hex": "#f5f0e8"
-      },
-      {
-        "name": "Charcoal Black",
-        "hex": "#1a1a1a"
-      }
-    ],
-    "sizes": [
-      "XS",
-      "S",
-      "M",
-      "L",
-      "XL",
-      "XXL"
-    ],
-    "sizesAvailable": {
-      "XS": false,
-      "S": true,
-      "M": true,
-      "L": true,
-      "XL": false,
-      "XXL": false
-    },
-    "material": "Premium Cotton Blend",
-    "fit": "Slim",
-    "pattern": "Solid",
-    "occasion": "Casual",
-    "season": "All Season",
-    "stock": 104,
-    "isTrending": false,
-    "isNewArrival": false,
-    "isBestSeller": false,
-    "tags": [
-      "fashion",
-      "premium",
-      "bottomwear",
-      "women"
-    ],
-    "specifications": {
-      "Fabric": "Premium Cotton Blend",
-      "Fit": "Regular/Slim",
-      "Wash Care": "Machine Wash"
-    },
-    "reviews": [
-      {
-        "id": "rev_7d8cj",
-        "userName": "Customer",
-        "rating": 5,
-        "comment": "Excellent product, highly recommended!",
-        "date": "2024-12-15",
-        "helpful": 16,
-        "verified": true
-      }
-    ]
-  },
-  {
-    "id": "prod_094",
-    "name": "Allen Solly Women's Premium Tops",
-    "brand": "Allen Solly",
-    "description": "Premium quality tops from Allen Solly. Features comfortable fit and excellent material suitable for everyday wear.",
-    "category": "Women",
-    "subCategory": "Tops",
-    "type": "Topwear",
-    "price": 6612,
-    "mrp": 8266,
-    "discount": 20,
-    "currency": "₹",
-    "rating": 4.2,
-    "reviewCount": 1179,
-    "images": [
-      "https://images.unsplash.com/photo-1503342217505-b0a15ec3261c?w=600&q=80",
-      "https://images.unsplash.com/photo-1515886657613-9f3515b0c78f?w=600&q=80",
-      "https://images.unsplash.com/photo-1503342217505-b0a15ec3261c?w=600&q=80",
-      "https://images.unsplash.com/photo-1515886657613-9f3515b0c78f?w=600&q=80"
-    ],
-    "colors": [
-      {
-        "name": "Maroon",
-        "hex": "#800000"
-      },
-      {
-        "name": "Navy Blue",
-        "hex": "#000080"
-      },
-      {
-        "name": "Off White",
-        "hex": "#f5f0e8"
-      }
-    ],
-    "sizes": [
-      "XS",
-      "S",
-      "M",
-      "L",
-      "XL",
-      "XXL"
-    ],
-    "sizesAvailable": {
-      "XS": false,
-      "S": true,
-      "M": true,
-      "L": true,
-      "XL": true,
-      "XXL": false
-    },
-    "material": "Premium Cotton Blend",
-    "fit": "Slim",
-    "pattern": "Solid",
-    "occasion": "Casual",
-    "season": "All Season",
-    "stock": 33,
-    "isTrending": true,
-    "isNewArrival": false,
-    "isBestSeller": false,
-    "tags": [
-      "fashion",
-      "premium",
-      "topwear",
-      "women"
-    ],
-    "specifications": {
-      "Fabric": "Premium Cotton Blend",
-      "Fit": "Regular/Slim",
-      "Wash Care": "Machine Wash"
-    },
-    "reviews": [
-      {
-        "id": "rev_5e79k",
-        "userName": "Customer",
-        "rating": 5,
-        "comment": "Excellent product, highly recommended!",
-        "date": "2024-12-15",
-        "helpful": 11,
-        "verified": true
-      }
-    ]
-  },
-  {
-    "id": "prod_095",
-    "name": "Vero Moda Women's Premium Ethnic",
-    "brand": "Vero Moda",
-    "description": "Premium quality ethnic from Vero Moda. Features comfortable fit and excellent material suitable for everyday wear.",
-    "category": "Women",
-    "subCategory": "Ethnic",
-    "type": "Topwear",
-    "price": 2355,
-    "mrp": 3271,
-    "discount": 28,
-    "currency": "₹",
-    "rating": 3.8,
-    "reviewCount": 1212,
-    "images": [
-      "https://images.unsplash.com/photo-1552374196-1ab2a1c593e8?w=600&q=80",
-      "https://images.unsplash.com/photo-1490578474895-699bc4e3f49f?w=600&q=80",
-      "https://images.unsplash.com/photo-1552374196-1ab2a1c593e8?w=600&q=80",
-      "https://images.unsplash.com/photo-1490578474895-699bc4e3f49f?w=600&q=80"
-    ],
-    "colors": [
-      {
-        "name": "Off White",
-        "hex": "#f5f0e8"
-      },
-      {
-        "name": "Maroon",
-        "hex": "#800000"
-      },
-      {
-        "name": "Charcoal Black",
-        "hex": "#1a1a1a"
-      }
-    ],
-    "sizes": [
-      "XS",
-      "S",
-      "M",
-      "L",
-      "XL",
-      "XXL"
-    ],
-    "sizesAvailable": {
-      "XS": false,
-      "S": true,
-      "M": true,
-      "L": true,
-      "XL": true,
-      "XXL": true
-    },
-    "material": "Premium Cotton Blend",
-    "fit": "Slim",
-    "pattern": "Printed",
-    "occasion": "Casual",
-    "season": "All Season",
-    "stock": 79,
-    "isTrending": false,
-    "isNewArrival": true,
-    "isBestSeller": false,
-    "tags": [
-      "fashion",
-      "premium",
-      "topwear",
-      "women"
-    ],
-    "specifications": {
-      "Fabric": "Premium Cotton Blend",
-      "Fit": "Regular/Slim",
-      "Wash Care": "Machine Wash"
-    },
-    "reviews": [
-      {
-        "id": "rev_qoqfr",
-        "userName": "Customer",
-        "rating": 5,
-        "comment": "Excellent product, highly recommended!",
-        "date": "2024-12-15",
-        "helpful": 46,
-        "verified": true
-      }
-    ]
-  },
-  {
-    "id": "prod_096",
-    "name": "ONLY Women's Premium Skirts",
-    "brand": "ONLY",
-    "description": "Premium quality skirts from ONLY. Features comfortable fit and excellent material suitable for everyday wear.",
-    "category": "Women",
-    "subCategory": "Skirts",
-    "type": "Bottomwear",
-    "price": 3711,
-    "mrp": 4582,
-    "discount": 19,
-    "currency": "₹",
-    "rating": 4.4,
-    "reviewCount": 1163,
-    "images": [
-      "https://images.unsplash.com/photo-1490578474895-699bc4e3f49f?w=600&q=80",
-      "https://images.unsplash.com/photo-1552374196-1ab2a1c593e8?w=600&q=80",
-      "https://images.unsplash.com/photo-1490578474895-699bc4e3f49f?w=600&q=80",
-      "https://images.unsplash.com/photo-1552374196-1ab2a1c593e8?w=600&q=80"
-    ],
-    "colors": [
-      {
-        "name": "Olive",
-        "hex": "#556B2F"
-      },
-      {
-        "name": "Maroon",
-        "hex": "#800000"
-      },
-      {
-        "name": "Navy Blue",
-        "hex": "#000080"
-      }
-    ],
-    "sizes": [
-      "XS",
-      "S",
-      "M",
-      "L",
-      "XL",
-      "XXL"
-    ],
-    "sizesAvailable": {
-      "XS": true,
-      "S": true,
-      "M": true,
-      "L": true,
-      "XL": false,
-      "XXL": false
-    },
-    "material": "Premium Cotton Blend",
-    "fit": "Slim",
-    "pattern": "Printed",
-    "occasion": "Casual",
-    "season": "All Season",
-    "stock": 69,
-    "isTrending": false,
-    "isNewArrival": false,
-    "isBestSeller": false,
-    "tags": [
-      "fashion",
-      "premium",
-      "bottomwear",
-      "women"
-    ],
-    "specifications": {
-      "Fabric": "Premium Cotton Blend",
-      "Fit": "Regular/Slim",
-      "Wash Care": "Machine Wash"
-    },
-    "reviews": [
-      {
-        "id": "rev_j1fyq",
-        "userName": "Customer",
-        "rating": 5,
-        "comment": "Excellent product, highly recommended!",
-        "date": "2024-12-15",
-        "helpful": 12,
-        "verified": true
-      }
-    ]
-  },
-  {
-    "id": "prod_097",
-    "name": "Jack & Jones Women's Premium Skirts",
-    "brand": "Jack & Jones",
-    "description": "Premium quality skirts from Jack & Jones. Features comfortable fit and excellent material suitable for everyday wear.",
-    "category": "Women",
-    "subCategory": "Skirts",
-    "type": "Bottomwear",
-    "price": 697,
-    "mrp": 1342,
-    "discount": 48,
-    "currency": "₹",
-    "rating": 4.7,
-    "reviewCount": 3818,
-    "images": [
-      "https://images.unsplash.com/photo-1552374196-1ab2a1c593e8?w=600&q=80",
-      "https://images.unsplash.com/photo-1490578474895-699bc4e3f49f?w=600&q=80",
-      "https://images.unsplash.com/photo-1552374196-1ab2a1c593e8?w=600&q=80",
-      "https://images.unsplash.com/photo-1490578474895-699bc4e3f49f?w=600&q=80"
-    ],
-    "colors": [
-      {
-        "name": "Olive",
-        "hex": "#556B2F"
-      },
-      {
-        "name": "Maroon",
-        "hex": "#800000"
-      },
-      {
-        "name": "Navy Blue",
-        "hex": "#000080"
-      }
-    ],
-    "sizes": [
-      "XS",
-      "S",
-      "M",
-      "L",
-      "XL",
-      "XXL"
-    ],
-    "sizesAvailable": {
-      "XS": false,
-      "S": true,
-      "M": true,
-      "L": true,
-      "XL": true,
-      "XXL": false
-    },
-    "material": "Premium Cotton Blend",
-    "fit": "Regular",
-    "pattern": "Printed",
-    "occasion": "Casual",
-    "season": "All Season",
-    "stock": 52,
-    "isTrending": false,
-    "isNewArrival": false,
-    "isBestSeller": false,
-    "tags": [
-      "fashion",
-      "premium",
-      "bottomwear",
-      "women"
-    ],
-    "specifications": {
-      "Fabric": "Premium Cotton Blend",
-      "Fit": "Regular/Slim",
-      "Wash Care": "Machine Wash"
-    },
-    "reviews": [
-      {
-        "id": "rev_sjoie",
-        "userName": "Customer",
-        "rating": 5,
-        "comment": "Excellent product, highly recommended!",
-        "date": "2024-12-15",
-        "helpful": 39,
-        "verified": true
-      }
-    ]
-  },
-  {
-    "id": "prod_098",
-    "name": "AURA Women's Premium Dresses",
-    "brand": "AURA",
-    "description": "Premium quality dresses from AURA. Features comfortable fit and excellent material suitable for everyday wear.",
-    "category": "Women",
-    "subCategory": "Dresses",
-    "type": "Topwear",
-    "price": 9107,
-    "mrp": 11828,
-    "discount": 23,
-    "currency": "₹",
-    "rating": 4.1,
-    "reviewCount": 1413,
-    "images": [
-      "https://images.unsplash.com/photo-1595777457583-95e059d581b8?w=600&q=80",
-      "https://images.unsplash.com/photo-1572804013309-59a88b7e92f1?w=600&q=80",
-      "https://images.unsplash.com/photo-1595777457583-95e059d581b8?w=600&q=80",
-      "https://images.unsplash.com/photo-1572804013309-59a88b7e92f1?w=600&q=80"
-    ],
-    "colors": [
-      {
-        "name": "Maroon",
-        "hex": "#800000"
-      },
-      {
-        "name": "Mustard",
-        "hex": "#FFDB58"
-      },
-      {
-        "name": "Charcoal Black",
-        "hex": "#1a1a1a"
-      }
-    ],
-    "sizes": [
-      "XS",
-      "S",
-      "M",
-      "L",
-      "XL",
-      "XXL"
-    ],
-    "sizesAvailable": {
-      "XS": false,
-      "S": true,
-      "M": true,
-      "L": true,
-      "XL": false,
-      "XXL": false
-    },
-    "material": "Premium Cotton Blend",
-    "fit": "Slim",
-    "pattern": "Solid",
-    "occasion": "Casual",
-    "season": "All Season",
-    "stock": 69,
-    "isTrending": false,
-    "isNewArrival": true,
-    "isBestSeller": false,
-    "tags": [
-      "fashion",
-      "premium",
-      "topwear",
-      "women"
-    ],
-    "specifications": {
-      "Fabric": "Premium Cotton Blend",
-      "Fit": "Regular/Slim",
-      "Wash Care": "Machine Wash"
-    },
-    "reviews": [
-      {
-        "id": "rev_hhdci",
-        "userName": "Customer",
-        "rating": 5,
-        "comment": "Excellent product, highly recommended!",
-        "date": "2024-12-15",
-        "helpful": 37,
-        "verified": true
-      }
-    ]
-  },
-  {
-    "id": "prod_099",
-    "name": "Van Heusen Women's Premium Skirts",
-    "brand": "Van Heusen",
-    "description": "Premium quality skirts from Van Heusen. Features comfortable fit and excellent material suitable for everyday wear.",
-    "category": "Women",
-    "subCategory": "Skirts",
-    "type": "Bottomwear",
-    "price": 1580,
-    "mrp": 3363,
-    "discount": 53,
-    "currency": "₹",
-    "rating": 4,
-    "reviewCount": 2762,
-    "images": [
-      "https://images.unsplash.com/photo-1552374196-1ab2a1c593e8?w=600&q=80",
-      "https://images.unsplash.com/photo-1490578474895-699bc4e3f49f?w=600&q=80",
-      "https://images.unsplash.com/photo-1552374196-1ab2a1c593e8?w=600&q=80",
-      "https://images.unsplash.com/photo-1490578474895-699bc4e3f49f?w=600&q=80"
-    ],
-    "colors": [
-      {
-        "name": "Off White",
-        "hex": "#f5f0e8"
-      },
-      {
-        "name": "Charcoal Black",
-        "hex": "#1a1a1a"
-      },
-      {
-        "name": "Navy Blue",
-        "hex": "#000080"
-      }
-    ],
-    "sizes": [
-      "XS",
-      "S",
-      "M",
-      "L",
-      "XL",
-      "XXL"
-    ],
-    "sizesAvailable": {
-      "XS": false,
-      "S": true,
-      "M": true,
-      "L": true,
-      "XL": true,
-      "XXL": true
-    },
-    "material": "Premium Cotton Blend",
-    "fit": "Slim",
-    "pattern": "Printed",
-    "occasion": "Casual",
-    "season": "All Season",
-    "stock": 62,
-    "isTrending": false,
-    "isNewArrival": false,
-    "isBestSeller": false,
-    "tags": [
-      "fashion",
-      "premium",
-      "bottomwear",
-      "women"
-    ],
-    "specifications": {
-      "Fabric": "Premium Cotton Blend",
-      "Fit": "Regular/Slim",
-      "Wash Care": "Machine Wash"
-    },
-    "reviews": [
-      {
-        "id": "rev_mp1sd",
-        "userName": "Customer",
-        "rating": 5,
-        "comment": "Excellent product, highly recommended!",
-        "date": "2024-12-15",
-        "helpful": 7,
-        "verified": true
-      }
-    ]
-  },
-  {
-    "id": "prod_100",
-    "name": "DRIFT Women's Premium Co-ord Sets",
-    "brand": "DRIFT",
-    "description": "Premium quality co-ord sets from DRIFT. Features comfortable fit and excellent material suitable for everyday wear.",
-    "category": "Women",
-    "subCategory": "Co-ord Sets",
-    "type": "Topwear",
-    "price": 7641,
-    "mrp": 10189,
-    "discount": 25,
-    "currency": "₹",
-    "rating": 3.3,
-    "reviewCount": 3808,
-    "images": [
-      "https://images.unsplash.com/photo-1490578474895-699bc4e3f49f?w=600&q=80",
-      "https://images.unsplash.com/photo-1552374196-1ab2a1c593e8?w=600&q=80",
-      "https://images.unsplash.com/photo-1490578474895-699bc4e3f49f?w=600&q=80",
-      "https://images.unsplash.com/photo-1552374196-1ab2a1c593e8?w=600&q=80"
-    ],
-    "colors": [
-      {
-        "name": "Mustard",
-        "hex": "#FFDB58"
-      },
-      {
-        "name": "Maroon",
-        "hex": "#800000"
-      },
-      {
-        "name": "Charcoal Black",
-        "hex": "#1a1a1a"
-      }
-    ],
-    "sizes": [
-      "XS",
-      "S",
-      "M",
-      "L",
-      "XL",
-      "XXL"
-    ],
-    "sizesAvailable": {
-      "XS": false,
-      "S": true,
-      "M": true,
-      "L": true,
-      "XL": true,
-      "XXL": false
-    },
-    "material": "Premium Cotton Blend",
-    "fit": "Slim",
-    "pattern": "Solid",
-    "occasion": "Casual",
-    "season": "All Season",
-    "stock": 99,
-    "isTrending": true,
-    "isNewArrival": true,
-    "isBestSeller": false,
-    "tags": [
-      "fashion",
-      "premium",
-      "topwear",
-      "women"
-    ],
-    "specifications": {
-      "Fabric": "Premium Cotton Blend",
-      "Fit": "Regular/Slim",
-      "Wash Care": "Machine Wash"
-    },
-    "reviews": [
-      {
-        "id": "rev_5ymfg",
-        "userName": "Customer",
-        "rating": 5,
-        "comment": "Excellent product, highly recommended!",
-        "date": "2024-12-15",
-        "helpful": 18,
-        "verified": true
-      }
-    ]
-  },
-  {
-    "id": "prod_101",
-    "name": "Puma Women's Premium Activewear",
-    "brand": "Puma",
-    "description": "Premium quality activewear from Puma. Features comfortable fit and excellent material suitable for everyday wear.",
-    "category": "Women",
-    "subCategory": "Activewear",
-    "type": "Activewear",
-    "price": 10177,
-    "mrp": 12116,
-    "discount": 16,
-    "currency": "₹",
-    "rating": 4.1,
-    "reviewCount": 1222,
-    "images": [
-      "https://images.unsplash.com/photo-1552374196-1ab2a1c593e8?w=600&q=80",
-      "https://images.unsplash.com/photo-1490578474895-699bc4e3f49f?w=600&q=80",
-      "https://images.unsplash.com/photo-1552374196-1ab2a1c593e8?w=600&q=80",
-      "https://images.unsplash.com/photo-1490578474895-699bc4e3f49f?w=600&q=80"
-    ],
-    "colors": [
-      {
-        "name": "Mustard",
-        "hex": "#FFDB58"
-      },
-      {
-        "name": "Off White",
-        "hex": "#f5f0e8"
-      },
-      {
-        "name": "Navy Blue",
-        "hex": "#000080"
-      }
-    ],
-    "sizes": [
-      "XS",
-      "S",
-      "M",
-      "L",
-      "XL",
-      "XXL"
-    ],
-    "sizesAvailable": {
-      "XS": true,
-      "S": true,
-      "M": true,
-      "L": true,
-      "XL": false,
-      "XXL": false
-    },
-    "material": "Premium Cotton Blend",
-    "fit": "Slim",
-    "pattern": "Printed",
-    "occasion": "Casual",
-    "season": "All Season",
-    "stock": 57,
-    "isTrending": false,
-    "isNewArrival": false,
-    "isBestSeller": false,
-    "tags": [
-      "fashion",
-      "premium",
-      "activewear",
-      "women"
-    ],
-    "specifications": {
-      "Fabric": "Premium Cotton Blend",
-      "Fit": "Regular/Slim",
-      "Wash Care": "Machine Wash"
-    },
-    "reviews": [
-      {
-        "id": "rev_gah89",
-        "userName": "Customer",
-        "rating": 5,
-        "comment": "Excellent product, highly recommended!",
-        "date": "2024-12-15",
-        "helpful": 40,
-        "verified": true
-      }
-    ]
-  },
-  {
-    "id": "prod_102",
-    "name": "Puma Women's Premium Shoes",
-    "brand": "Puma",
-    "description": "Premium quality shoes from Puma. Features comfortable fit and excellent material suitable for everyday wear.",
-    "category": "Women",
-    "subCategory": "Shoes",
-    "type": "Footwear",
-    "price": 1503,
-    "mrp": 4421,
-    "discount": 66,
-    "currency": "₹",
-    "rating": 3.7,
-    "reviewCount": 4106,
-    "images": [
-      "https://images.unsplash.com/photo-1542291026-7eec264c27ff?w=600&q=80",
-      "https://images.unsplash.com/photo-1525966222134-fcfa99b8ae77?w=600&q=80",
-      "https://images.unsplash.com/photo-1542291026-7eec264c27ff?w=600&q=80",
-      "https://images.unsplash.com/photo-1525966222134-fcfa99b8ae77?w=600&q=80"
-    ],
-    "colors": [
-      {
-        "name": "Off White",
-        "hex": "#f5f0e8"
-      },
-      {
-        "name": "Navy Blue",
-        "hex": "#000080"
-      },
-      {
-        "name": "Charcoal Black",
-        "hex": "#1a1a1a"
-      }
-    ],
-    "sizes": [
-      "XS",
-      "S",
-      "M",
-      "L",
-      "XL",
-      "XXL"
-    ],
-    "sizesAvailable": {
-      "XS": false,
-      "S": true,
-      "M": true,
-      "L": true,
-      "XL": true,
-      "XXL": true
-    },
-    "material": "Premium Cotton Blend",
-    "fit": "Slim",
-    "pattern": "Printed",
-    "occasion": "Casual",
-    "season": "All Season",
-    "stock": 18,
-    "isTrending": false,
-    "isNewArrival": false,
-    "isBestSeller": true,
-    "tags": [
-      "fashion",
-      "premium",
-      "footwear",
-      "women"
-    ],
-    "specifications": {
-      "Fabric": "Premium Cotton Blend",
-      "Fit": "Regular/Slim",
-      "Wash Care": "Machine Wash"
-    },
-    "reviews": [
-      {
-        "id": "rev_ybzs6",
-        "userName": "Customer",
-        "rating": 5,
-        "comment": "Excellent product, highly recommended!",
-        "date": "2024-12-15",
-        "helpful": 49,
-        "verified": true
-      }
-    ]
-  },
-  {
-    "id": "prod_103",
-    "name": "Puma Women's Premium Co-ord Sets",
-    "brand": "Puma",
-    "description": "Premium quality co-ord sets from Puma. Features comfortable fit and excellent material suitable for everyday wear.",
-    "category": "Women",
-    "subCategory": "Co-ord Sets",
-    "type": "Topwear",
-    "price": 8186,
-    "mrp": 12404,
-    "discount": 34,
-    "currency": "₹",
-    "rating": 3.8,
-    "reviewCount": 4511,
-    "images": [
-      "https://images.unsplash.com/photo-1552374196-1ab2a1c593e8?w=600&q=80",
-      "https://images.unsplash.com/photo-1490578474895-699bc4e3f49f?w=600&q=80",
-      "https://images.unsplash.com/photo-1552374196-1ab2a1c593e8?w=600&q=80",
-      "https://images.unsplash.com/photo-1490578474895-699bc4e3f49f?w=600&q=80"
-    ],
-    "colors": [
-      {
-        "name": "Mustard",
-        "hex": "#FFDB58"
-      },
-      {
-        "name": "Maroon",
-        "hex": "#800000"
-      },
-      {
-        "name": "Off White",
-        "hex": "#f5f0e8"
-      }
-    ],
-    "sizes": [
-      "XS",
-      "S",
-      "M",
-      "L",
-      "XL",
-      "XXL"
-    ],
-    "sizesAvailable": {
-      "XS": true,
-      "S": true,
-      "M": true,
-      "L": true,
-      "XL": true,
-      "XXL": false
-    },
-    "material": "Premium Cotton Blend",
-    "fit": "Slim",
-    "pattern": "Solid",
-    "occasion": "Casual",
-    "season": "All Season",
-    "stock": 39,
-    "isTrending": true,
-    "isNewArrival": true,
-    "isBestSeller": true,
-    "tags": [
-      "fashion",
-      "premium",
-      "topwear",
-      "women"
-    ],
-    "specifications": {
-      "Fabric": "Premium Cotton Blend",
-      "Fit": "Regular/Slim",
-      "Wash Care": "Machine Wash"
-    },
-    "reviews": [
-      {
-        "id": "rev_ji35l",
-        "userName": "Customer",
-        "rating": 5,
-        "comment": "Excellent product, highly recommended!",
-        "date": "2024-12-15",
-        "helpful": 41,
-        "verified": true
-      }
-    ]
-  },
-  {
-    "id": "prod_104",
-    "name": "Nike Women's Premium Skirts",
-    "brand": "Nike",
-    "description": "Premium quality skirts from Nike. Features comfortable fit and excellent material suitable for everyday wear.",
-    "category": "Women",
-    "subCategory": "Skirts",
-    "type": "Bottomwear",
-    "price": 2074,
-    "mrp": 5320,
-    "discount": 61,
-    "currency": "₹",
-    "rating": 4.3,
-    "reviewCount": 2127,
-    "images": [
-      "https://images.unsplash.com/photo-1490578474895-699bc4e3f49f?w=600&q=80",
-      "https://images.unsplash.com/photo-1552374196-1ab2a1c593e8?w=600&q=80",
-      "https://images.unsplash.com/photo-1490578474895-699bc4e3f49f?w=600&q=80",
-      "https://images.unsplash.com/photo-1552374196-1ab2a1c593e8?w=600&q=80"
-    ],
-    "colors": [
-      {
-        "name": "Maroon",
-        "hex": "#800000"
-      },
-      {
-        "name": "Olive",
-        "hex": "#556B2F"
-      },
-      {
-        "name": "Mustard",
-        "hex": "#FFDB58"
-      }
-    ],
-    "sizes": [
-      "XS",
-      "S",
-      "M",
-      "L",
-      "XL",
-      "XXL"
-    ],
-    "sizesAvailable": {
-      "XS": false,
-      "S": true,
-      "M": true,
-      "L": true,
-      "XL": true,
-      "XXL": true
-    },
-    "material": "Premium Cotton Blend",
-    "fit": "Slim",
-    "pattern": "Solid",
-    "occasion": "Casual",
-    "season": "All Season",
-    "stock": 15,
-    "isTrending": false,
-    "isNewArrival": false,
-    "isBestSeller": false,
-    "tags": [
-      "fashion",
-      "premium",
-      "bottomwear",
-      "women"
-    ],
-    "specifications": {
-      "Fabric": "Premium Cotton Blend",
-      "Fit": "Regular/Slim",
-      "Wash Care": "Machine Wash"
-    },
-    "reviews": [
-      {
-        "id": "rev_ur4om",
-        "userName": "Customer",
-        "rating": 5,
-        "comment": "Excellent product, highly recommended!",
-        "date": "2024-12-15",
-        "helpful": 12,
-        "verified": true
-      }
-    ]
-  },
-  {
-    "id": "prod_105",
-    "name": "Global Desi Women's Premium Skirts",
-    "brand": "Global Desi",
-    "description": "Premium quality skirts from Global Desi. Features comfortable fit and excellent material suitable for everyday wear.",
-    "category": "Women",
-    "subCategory": "Skirts",
-    "type": "Bottomwear",
-    "price": 5324,
-    "mrp": 9860,
-    "discount": 46,
-    "currency": "₹",
-    "rating": 3.7,
-    "reviewCount": 4367,
-    "images": [
-      "https://images.unsplash.com/photo-1552374196-1ab2a1c593e8?w=600&q=80",
-      "https://images.unsplash.com/photo-1490578474895-699bc4e3f49f?w=600&q=80",
-      "https://images.unsplash.com/photo-1552374196-1ab2a1c593e8?w=600&q=80",
-      "https://images.unsplash.com/photo-1490578474895-699bc4e3f49f?w=600&q=80"
-    ],
-    "colors": [
-      {
-        "name": "Olive",
-        "hex": "#556B2F"
-      },
-      {
-        "name": "Off White",
-        "hex": "#f5f0e8"
-      },
-      {
-        "name": "Navy Blue",
-        "hex": "#000080"
-      }
-    ],
-    "sizes": [
-      "XS",
-      "S",
-      "M",
-      "L",
-      "XL",
-      "XXL"
-    ],
-    "sizesAvailable": {
-      "XS": false,
-      "S": true,
-      "M": true,
-      "L": true,
-      "XL": true,
-      "XXL": false
-    },
-    "material": "Premium Cotton Blend",
-    "fit": "Regular",
-    "pattern": "Solid",
-    "occasion": "Casual",
-    "season": "All Season",
-    "stock": 74,
-    "isTrending": false,
-    "isNewArrival": false,
-    "isBestSeller": false,
-    "tags": [
-      "fashion",
-      "premium",
-      "bottomwear",
-      "women"
-    ],
-    "specifications": {
-      "Fabric": "Premium Cotton Blend",
-      "Fit": "Regular/Slim",
-      "Wash Care": "Machine Wash"
-    },
-    "reviews": [
-      {
-        "id": "rev_hb14t",
-        "userName": "Customer",
-        "rating": 5,
-        "comment": "Excellent product, highly recommended!",
-        "date": "2024-12-15",
-        "helpful": 20,
-        "verified": true
-      }
-    ]
-  },
-  {
-    "id": "prod_106",
-    "name": "Vero Moda Women's Premium Jackets & Blazers",
-    "brand": "Vero Moda",
-    "description": "Premium quality jackets & blazers from Vero Moda. Features comfortable fit and excellent material suitable for everyday wear.",
-    "category": "Women",
-    "subCategory": "Jackets & Blazers",
-    "type": "Topwear",
-    "price": 2941,
-    "mrp": 6841,
-    "discount": 57,
-    "currency": "₹",
-    "rating": 3.1,
-    "reviewCount": 1221,
-    "images": [
-      "https://images.unsplash.com/photo-1490578474895-699bc4e3f49f?w=600&q=80",
-      "https://images.unsplash.com/photo-1552374196-1ab2a1c593e8?w=600&q=80",
-      "https://images.unsplash.com/photo-1490578474895-699bc4e3f49f?w=600&q=80",
-      "https://images.unsplash.com/photo-1552374196-1ab2a1c593e8?w=600&q=80"
-    ],
-    "colors": [
-      {
-        "name": "Off White",
-        "hex": "#f5f0e8"
-      },
-      {
-        "name": "Navy Blue",
-        "hex": "#000080"
-      },
-      {
-        "name": "Mustard",
-        "hex": "#FFDB58"
-      }
-    ],
-    "sizes": [
-      "XS",
-      "S",
-      "M",
-      "L",
-      "XL",
-      "XXL"
-    ],
-    "sizesAvailable": {
-      "XS": true,
-      "S": true,
-      "M": true,
-      "L": true,
-      "XL": false,
-      "XXL": true
-    },
-    "material": "Premium Cotton Blend",
-    "fit": "Slim",
-    "pattern": "Printed",
-    "occasion": "Casual",
-    "season": "All Season",
-    "stock": 10,
-    "isTrending": false,
-    "isNewArrival": false,
-    "isBestSeller": false,
-    "tags": [
-      "fashion",
-      "premium",
-      "topwear",
-      "women"
-    ],
-    "specifications": {
-      "Fabric": "Premium Cotton Blend",
-      "Fit": "Regular/Slim",
-      "Wash Care": "Machine Wash"
-    },
-    "reviews": [
-      {
-        "id": "rev_9s8vn",
-        "userName": "Customer",
-        "rating": 5,
-        "comment": "Excellent product, highly recommended!",
-        "date": "2024-12-15",
-        "helpful": 20,
-        "verified": true
-      }
-    ]
-  },
-  {
-    "id": "prod_107",
-    "name": "NOIR Women's Premium T-Shirts",
-    "brand": "NOIR",
-    "description": "Premium quality t-shirts from NOIR. Features comfortable fit and excellent material suitable for everyday wear.",
-    "category": "Women",
-    "subCategory": "T-Shirts",
-    "type": "Topwear",
-    "price": 5675,
-    "mrp": 8731,
-    "discount": 35,
-    "currency": "₹",
-    "rating": 3.6,
-    "reviewCount": 4229,
-    "images": [
-      "https://images.unsplash.com/photo-1583743814966-8936f5b7be1a?w=600&q=80",
-      "https://images.unsplash.com/photo-1521572163474-6864f9cf17ab?w=600&q=80",
-      "https://images.unsplash.com/photo-1583743814966-8936f5b7be1a?w=600&q=80",
-      "https://images.unsplash.com/photo-1521572163474-6864f9cf17ab?w=600&q=80"
-    ],
-    "colors": [
-      {
-        "name": "Olive",
-        "hex": "#556B2F"
-      },
-      {
-        "name": "Mustard",
-        "hex": "#FFDB58"
-      },
-      {
-        "name": "Maroon",
-        "hex": "#800000"
-      }
-    ],
-    "sizes": [
-      "XS",
-      "S",
-      "M",
-      "L",
-      "XL",
-      "XXL"
-    ],
-    "sizesAvailable": {
-      "XS": true,
-      "S": true,
-      "M": true,
-      "L": true,
-      "XL": true,
-      "XXL": false
-    },
-    "material": "Premium Cotton Blend",
-    "fit": "Slim",
-    "pattern": "Printed",
-    "occasion": "Casual",
-    "season": "All Season",
-    "stock": 40,
-    "isTrending": false,
-    "isNewArrival": false,
-    "isBestSeller": false,
-    "tags": [
-      "fashion",
-      "premium",
-      "topwear",
-      "women"
-    ],
-    "specifications": {
-      "Fabric": "Premium Cotton Blend",
-      "Fit": "Regular/Slim",
-      "Wash Care": "Machine Wash"
-    },
-    "reviews": [
-      {
-        "id": "rev_i0p4f",
-        "userName": "Customer",
-        "rating": 5,
-        "comment": "Excellent product, highly recommended!",
-        "date": "2024-12-15",
-        "helpful": 11,
-        "verified": true
-      }
-    ]
-  },
-  {
-    "id": "prod_108",
-    "name": "W Women's Premium Skirts",
-    "brand": "W",
-    "description": "Premium quality skirts from W. Features comfortable fit and excellent material suitable for everyday wear.",
-    "category": "Women",
-    "subCategory": "Skirts",
-    "type": "Bottomwear",
-    "price": 3075,
-    "mrp": 8787,
-    "discount": 65,
-    "currency": "₹",
-    "rating": 4.8,
-    "reviewCount": 2697,
-    "images": [
-      "https://images.unsplash.com/photo-1490578474895-699bc4e3f49f?w=600&q=80",
-      "https://images.unsplash.com/photo-1552374196-1ab2a1c593e8?w=600&q=80",
-      "https://images.unsplash.com/photo-1490578474895-699bc4e3f49f?w=600&q=80",
-      "https://images.unsplash.com/photo-1552374196-1ab2a1c593e8?w=600&q=80"
-    ],
-    "colors": [
-      {
-        "name": "Olive",
-        "hex": "#556B2F"
-      },
-      {
-        "name": "Mustard",
-        "hex": "#FFDB58"
-      },
-      {
-        "name": "Charcoal Black",
-        "hex": "#1a1a1a"
-      }
-    ],
-    "sizes": [
-      "XS",
-      "S",
-      "M",
-      "L",
-      "XL",
-      "XXL"
-    ],
-    "sizesAvailable": {
-      "XS": true,
-      "S": true,
-      "M": true,
-      "L": true,
-      "XL": true,
-      "XXL": false
-    },
-    "material": "Premium Cotton Blend",
-    "fit": "Slim",
-    "pattern": "Solid",
-    "occasion": "Casual",
-    "season": "All Season",
-    "stock": 62,
-    "isTrending": true,
-    "isNewArrival": false,
-    "isBestSeller": false,
-    "tags": [
-      "fashion",
-      "premium",
-      "bottomwear",
-      "women"
-    ],
-    "specifications": {
-      "Fabric": "Premium Cotton Blend",
-      "Fit": "Regular/Slim",
-      "Wash Care": "Machine Wash"
-    },
-    "reviews": [
-      {
-        "id": "rev_jorxr",
-        "userName": "Customer",
-        "rating": 5,
-        "comment": "Excellent product, highly recommended!",
-        "date": "2024-12-15",
-        "helpful": 48,
-        "verified": true
-      }
-    ]
-  },
-  {
-    "id": "prod_109",
-    "name": "H&M Women's Premium Activewear",
-    "brand": "H&M",
-    "description": "Premium quality activewear from H&M. Features comfortable fit and excellent material suitable for everyday wear.",
-    "category": "Women",
-    "subCategory": "Activewear",
-    "type": "Activewear",
-    "price": 7076,
-    "mrp": 8737,
-    "discount": 19,
-    "currency": "₹",
-    "rating": 4.8,
-    "reviewCount": 1807,
-    "images": [
-      "https://images.unsplash.com/photo-1552374196-1ab2a1c593e8?w=600&q=80",
-      "https://images.unsplash.com/photo-1490578474895-699bc4e3f49f?w=600&q=80",
-      "https://images.unsplash.com/photo-1552374196-1ab2a1c593e8?w=600&q=80",
-      "https://images.unsplash.com/photo-1490578474895-699bc4e3f49f?w=600&q=80"
-    ],
-    "colors": [
-      {
-        "name": "Off White",
-        "hex": "#f5f0e8"
-      },
-      {
-        "name": "Charcoal Black",
-        "hex": "#1a1a1a"
-      },
-      {
-        "name": "Maroon",
-        "hex": "#800000"
-      }
-    ],
-    "sizes": [
-      "XS",
-      "S",
-      "M",
-      "L",
-      "XL",
-      "XXL"
-    ],
-    "sizesAvailable": {
-      "XS": true,
-      "S": true,
-      "M": true,
-      "L": true,
-      "XL": true,
-      "XXL": true
-    },
-    "material": "Premium Cotton Blend",
-    "fit": "Regular",
-    "pattern": "Printed",
-    "occasion": "Casual",
-    "season": "All Season",
-    "stock": 100,
-    "isTrending": false,
-    "isNewArrival": true,
-    "isBestSeller": false,
-    "tags": [
-      "fashion",
-      "premium",
-      "activewear",
-      "women"
-    ],
-    "specifications": {
-      "Fabric": "Premium Cotton Blend",
-      "Fit": "Regular/Slim",
-      "Wash Care": "Machine Wash"
-    },
-    "reviews": [
-      {
-        "id": "rev_bcxz7",
-        "userName": "Customer",
-        "rating": 5,
-        "comment": "Excellent product, highly recommended!",
-        "date": "2024-12-15",
-        "helpful": 40,
-        "verified": true
-      }
-    ]
-  },
-  {
-    "id": "prod_110",
-    "name": "Jack & Jones Women's Premium Ethnic",
-    "brand": "Jack & Jones",
-    "description": "Premium quality ethnic from Jack & Jones. Features comfortable fit and excellent material suitable for everyday wear.",
-    "category": "Women",
-    "subCategory": "Ethnic",
-    "type": "Topwear",
-    "price": 5331,
-    "mrp": 8885,
-    "discount": 40,
-    "currency": "₹",
-    "rating": 3.8,
-    "reviewCount": 784,
-    "images": [
-      "https://images.unsplash.com/photo-1490578474895-699bc4e3f49f?w=600&q=80",
-      "https://images.unsplash.com/photo-1552374196-1ab2a1c593e8?w=600&q=80",
-      "https://images.unsplash.com/photo-1490578474895-699bc4e3f49f?w=600&q=80",
-      "https://images.unsplash.com/photo-1552374196-1ab2a1c593e8?w=600&q=80"
-    ],
-    "colors": [
-      {
-        "name": "Olive",
-        "hex": "#556B2F"
-      },
-      {
-        "name": "Mustard",
-        "hex": "#FFDB58"
-      },
-      {
-        "name": "Maroon",
-        "hex": "#800000"
-      }
-    ],
-    "sizes": [
-      "XS",
-      "S",
-      "M",
-      "L",
-      "XL",
-      "XXL"
-    ],
-    "sizesAvailable": {
-      "XS": true,
-      "S": true,
-      "M": true,
-      "L": true,
-      "XL": true,
-      "XXL": false
-    },
-    "material": "Premium Cotton Blend",
-    "fit": "Slim",
-    "pattern": "Solid",
-    "occasion": "Casual",
-    "season": "All Season",
-    "stock": 104,
-    "isTrending": false,
-    "isNewArrival": false,
-    "isBestSeller": false,
-    "tags": [
-      "fashion",
-      "premium",
-      "topwear",
-      "women"
-    ],
-    "specifications": {
-      "Fabric": "Premium Cotton Blend",
-      "Fit": "Regular/Slim",
-      "Wash Care": "Machine Wash"
-    },
-    "reviews": [
-      {
-        "id": "rev_eisyo",
-        "userName": "Customer",
-        "rating": 5,
-        "comment": "Excellent product, highly recommended!",
-        "date": "2024-12-15",
-        "helpful": 9,
-        "verified": true
-      }
-    ]
-  },
-  {
-    "id": "prod_111",
-    "name": "H&M Women's Premium Dresses",
-    "brand": "H&M",
-    "description": "Premium quality dresses from H&M. Features comfortable fit and excellent material suitable for everyday wear.",
-    "category": "Women",
-    "subCategory": "Dresses",
-    "type": "Topwear",
-    "price": 1911,
-    "mrp": 2360,
-    "discount": 19,
-    "currency": "₹",
-    "rating": 3.9,
-    "reviewCount": 4422,
-    "images": [
-      "https://images.unsplash.com/photo-1572804013309-59a88b7e92f1?w=600&q=80",
-      "https://images.unsplash.com/photo-1595777457583-95e059d581b8?w=600&q=80",
-      "https://images.unsplash.com/photo-1572804013309-59a88b7e92f1?w=600&q=80",
-      "https://images.unsplash.com/photo-1595777457583-95e059d581b8?w=600&q=80"
-    ],
-    "colors": [
-      {
-        "name": "Off White",
-        "hex": "#f5f0e8"
-      },
-      {
-        "name": "Mustard",
-        "hex": "#FFDB58"
-      },
-      {
-        "name": "Olive",
-        "hex": "#556B2F"
-      }
-    ],
-    "sizes": [
-      "XS",
-      "S",
-      "M",
-      "L",
-      "XL",
-      "XXL"
-    ],
-    "sizesAvailable": {
-      "XS": true,
-      "S": true,
-      "M": true,
-      "L": true,
-      "XL": true,
-      "XXL": false
-    },
-    "material": "Premium Cotton Blend",
-    "fit": "Slim",
-    "pattern": "Solid",
-    "occasion": "Casual",
-    "season": "All Season",
-    "stock": 67,
-    "isTrending": false,
-    "isNewArrival": false,
-    "isBestSeller": false,
-    "tags": [
-      "fashion",
-      "premium",
-      "topwear",
-      "women"
-    ],
-    "specifications": {
-      "Fabric": "Premium Cotton Blend",
-      "Fit": "Regular/Slim",
-      "Wash Care": "Machine Wash"
-    },
-    "reviews": [
-      {
-        "id": "rev_k5ucy",
-        "userName": "Customer",
-        "rating": 5,
-        "comment": "Excellent product, highly recommended!",
-        "date": "2024-12-15",
-        "helpful": 24,
-        "verified": true
-      }
-    ]
-  },
-  {
-    "id": "prod_112",
-    "name": "Adidas Women's Premium Dresses",
-    "brand": "Adidas",
-    "description": "Premium quality dresses from Adidas. Features comfortable fit and excellent material suitable for everyday wear.",
-    "category": "Women",
-    "subCategory": "Dresses",
-    "type": "Topwear",
-    "price": 6170,
-    "mrp": 13414,
-    "discount": 54,
-    "currency": "₹",
-    "rating": 4.7,
-    "reviewCount": 55,
-    "images": [
-      "https://images.unsplash.com/photo-1595777457583-95e059d581b8?w=600&q=80",
-      "https://images.unsplash.com/photo-1572804013309-59a88b7e92f1?w=600&q=80",
-      "https://images.unsplash.com/photo-1595777457583-95e059d581b8?w=600&q=80",
-      "https://images.unsplash.com/photo-1572804013309-59a88b7e92f1?w=600&q=80"
-    ],
-    "colors": [
-      {
-        "name": "Off White",
-        "hex": "#f5f0e8"
-      },
-      {
-        "name": "Mustard",
-        "hex": "#FFDB58"
-      },
-      {
-        "name": "Charcoal Black",
-        "hex": "#1a1a1a"
-      }
-    ],
-    "sizes": [
-      "XS",
-      "S",
-      "M",
-      "L",
-      "XL",
-      "XXL"
-    ],
-    "sizesAvailable": {
-      "XS": false,
-      "S": true,
-      "M": true,
-      "L": true,
-      "XL": true,
-      "XXL": false
-    },
-    "material": "Premium Cotton Blend",
-    "fit": "Slim",
-    "pattern": "Printed",
-    "occasion": "Casual",
-    "season": "All Season",
-    "stock": 36,
-    "isTrending": false,
-    "isNewArrival": false,
-    "isBestSeller": false,
-    "tags": [
-      "fashion",
-      "premium",
-      "topwear",
-      "women"
-    ],
-    "specifications": {
-      "Fabric": "Premium Cotton Blend",
-      "Fit": "Regular/Slim",
-      "Wash Care": "Machine Wash"
-    },
-    "reviews": [
-      {
-        "id": "rev_x6z7w",
-        "userName": "Customer",
-        "rating": 5,
-        "comment": "Excellent product, highly recommended!",
-        "date": "2024-12-15",
-        "helpful": 28,
-        "verified": true
-      }
-    ]
-  },
-  {
-    "id": "prod_113",
-    "name": "Allen Solly Women's Premium Activewear",
-    "brand": "Allen Solly",
-    "description": "Premium quality activewear from Allen Solly. Features comfortable fit and excellent material suitable for everyday wear.",
-    "category": "Women",
-    "subCategory": "Activewear",
-    "type": "Activewear",
-    "price": 350,
-    "mrp": 715,
-    "discount": 51,
-    "currency": "₹",
-    "rating": 4.4,
-    "reviewCount": 2366,
-    "images": [
-      "https://images.unsplash.com/photo-1552374196-1ab2a1c593e8?w=600&q=80",
-      "https://images.unsplash.com/photo-1490578474895-699bc4e3f49f?w=600&q=80",
-      "https://images.unsplash.com/photo-1552374196-1ab2a1c593e8?w=600&q=80",
-      "https://images.unsplash.com/photo-1490578474895-699bc4e3f49f?w=600&q=80"
-    ],
-    "colors": [
-      {
-        "name": "Maroon",
-        "hex": "#800000"
-      },
-      {
-        "name": "Off White",
-        "hex": "#f5f0e8"
-      },
-      {
-        "name": "Mustard",
-        "hex": "#FFDB58"
-      }
-    ],
-    "sizes": [
-      "XS",
-      "S",
-      "M",
-      "L",
-      "XL",
-      "XXL"
-    ],
-    "sizesAvailable": {
-      "XS": true,
-      "S": true,
-      "M": true,
-      "L": true,
-      "XL": true,
-      "XXL": false
-    },
-    "material": "Premium Cotton Blend",
-    "fit": "Regular",
-    "pattern": "Printed",
-    "occasion": "Casual",
-    "season": "All Season",
-    "stock": 49,
-    "isTrending": false,
-    "isNewArrival": true,
-    "isBestSeller": false,
-    "tags": [
-      "fashion",
-      "premium",
-      "activewear",
-      "women"
-    ],
-    "specifications": {
-      "Fabric": "Premium Cotton Blend",
-      "Fit": "Regular/Slim",
-      "Wash Care": "Machine Wash"
-    },
-    "reviews": [
-      {
-        "id": "rev_ikqc7",
-        "userName": "Customer",
-        "rating": 5,
-        "comment": "Excellent product, highly recommended!",
-        "date": "2024-12-15",
-        "helpful": 16,
-        "verified": true
-      }
-    ]
-  },
-  {
-    "id": "prod_114",
-    "name": "AURA Women's Premium Co-ord Sets",
-    "brand": "AURA",
-    "description": "Premium quality co-ord sets from AURA. Features comfortable fit and excellent material suitable for everyday wear.",
-    "category": "Women",
-    "subCategory": "Co-ord Sets",
-    "type": "Topwear",
-    "price": 2155,
-    "mrp": 6954,
-    "discount": 69,
-    "currency": "₹",
-    "rating": 4.1,
-    "reviewCount": 4363,
-    "images": [
-      "https://images.unsplash.com/photo-1490578474895-699bc4e3f49f?w=600&q=80",
-      "https://images.unsplash.com/photo-1552374196-1ab2a1c593e8?w=600&q=80",
-      "https://images.unsplash.com/photo-1490578474895-699bc4e3f49f?w=600&q=80",
-      "https://images.unsplash.com/photo-1552374196-1ab2a1c593e8?w=600&q=80"
-    ],
-    "colors": [
-      {
-        "name": "Maroon",
-        "hex": "#800000"
-      },
-      {
-        "name": "Charcoal Black",
-        "hex": "#1a1a1a"
-      },
-      {
-        "name": "Navy Blue",
-        "hex": "#000080"
-      }
-    ],
-    "sizes": [
-      "XS",
-      "S",
-      "M",
-      "L",
-      "XL",
-      "XXL"
-    ],
-    "sizesAvailable": {
-      "XS": false,
-      "S": true,
-      "M": true,
-      "L": true,
-      "XL": true,
-      "XXL": true
-    },
-    "material": "Premium Cotton Blend",
-    "fit": "Slim",
-    "pattern": "Printed",
-    "occasion": "Casual",
-    "season": "All Season",
-    "stock": 87,
-    "isTrending": false,
-    "isNewArrival": false,
-    "isBestSeller": true,
-    "tags": [
-      "fashion",
-      "premium",
-      "topwear",
-      "women"
-    ],
-    "specifications": {
-      "Fabric": "Premium Cotton Blend",
-      "Fit": "Regular/Slim",
-      "Wash Care": "Machine Wash"
-    },
-    "reviews": [
-      {
-        "id": "rev_mxxe2",
-        "userName": "Customer",
-        "rating": 5,
-        "comment": "Excellent product, highly recommended!",
-        "date": "2024-12-15",
-        "helpful": 43,
-        "verified": true
-      }
-    ]
-  },
-  {
-    "id": "prod_115",
-    "name": "AURA Women's Premium Jeans & Trousers",
-    "brand": "AURA",
-    "description": "Premium quality jeans & trousers from AURA. Features comfortable fit and excellent material suitable for everyday wear.",
-    "category": "Women",
-    "subCategory": "Jeans & Trousers",
-    "type": "Bottomwear",
-    "price": 1364,
-    "mrp": 4263,
-    "discount": 68,
-    "currency": "₹",
-    "rating": 4.3,
-    "reviewCount": 936,
-    "images": [
-      "https://images.unsplash.com/photo-1552374196-1ab2a1c593e8?w=600&q=80",
-      "https://images.unsplash.com/photo-1490578474895-699bc4e3f49f?w=600&q=80",
-      "https://images.unsplash.com/photo-1552374196-1ab2a1c593e8?w=600&q=80",
-      "https://images.unsplash.com/photo-1490578474895-699bc4e3f49f?w=600&q=80"
-    ],
-    "colors": [
-      {
-        "name": "Maroon",
-        "hex": "#800000"
-      },
-      {
-        "name": "Charcoal Black",
-        "hex": "#1a1a1a"
-      },
-      {
-        "name": "Navy Blue",
-        "hex": "#000080"
-      }
-    ],
-    "sizes": [
-      "XS",
-      "S",
-      "M",
-      "L",
-      "XL",
-      "XXL"
-    ],
-    "sizesAvailable": {
-      "XS": false,
-      "S": true,
-      "M": true,
-      "L": true,
-      "XL": true,
-      "XXL": false
-    },
-    "material": "Premium Cotton Blend",
-    "fit": "Slim",
-    "pattern": "Printed",
-    "occasion": "Casual",
-    "season": "All Season",
-    "stock": 42,
-    "isTrending": false,
-    "isNewArrival": false,
-    "isBestSeller": false,
-    "tags": [
-      "fashion",
-      "premium",
-      "bottomwear",
-      "women"
-    ],
-    "specifications": {
-      "Fabric": "Premium Cotton Blend",
-      "Fit": "Regular/Slim",
-      "Wash Care": "Machine Wash"
-    },
-    "reviews": [
-      {
-        "id": "rev_yex6g",
-        "userName": "Customer",
-        "rating": 5,
-        "comment": "Excellent product, highly recommended!",
-        "date": "2024-12-15",
-        "helpful": 40,
-        "verified": true
-      }
-    ]
-  },
-  {
-    "id": "prod_116",
-    "name": "FabIndia Women's Premium Accessories",
-    "brand": "FabIndia",
-    "description": "Premium quality accessories from FabIndia. Features comfortable fit and excellent material suitable for everyday wear.",
-    "category": "Women",
+    "description": "Experience ultimate comfort and style with our latest accessories. Perfect for everyday wear, featuring premium materials and exceptional craftsmanship.",
+    "category": "Men",
     "subCategory": "Accessories",
     "type": "Accessories",
-    "price": 1100,
-    "mrp": 1237,
-    "discount": 11,
-    "currency": "₹",
-    "rating": 4.4,
-    "reviewCount": 3352,
-    "images": [
-      "https://images.unsplash.com/photo-1523206489230-c012c64b2b48?w=600&q=80",
-      "https://images.unsplash.com/photo-1511499767150-a48a237f0083?w=600&q=80",
-      "https://images.unsplash.com/photo-1523206489230-c012c64b2b48?w=600&q=80",
-      "https://images.unsplash.com/photo-1511499767150-a48a237f0083?w=600&q=80"
-    ],
-    "colors": [
-      {
-        "name": "Off White",
-        "hex": "#f5f0e8"
-      },
-      {
-        "name": "Maroon",
-        "hex": "#800000"
-      },
-      {
-        "name": "Olive",
-        "hex": "#556B2F"
-      }
-    ],
-    "sizes": [
-      "XS",
-      "S",
-      "M",
-      "L",
-      "XL",
-      "XXL"
-    ],
-    "sizesAvailable": {
-      "XS": false,
-      "S": true,
-      "M": true,
-      "L": true,
-      "XL": true,
-      "XXL": false
-    },
-    "material": "Premium Cotton Blend",
-    "fit": "Slim",
-    "pattern": "Solid",
-    "occasion": "Casual",
-    "season": "All Season",
-    "stock": 94,
-    "isTrending": true,
-    "isNewArrival": false,
-    "isBestSeller": false,
-    "tags": [
-      "fashion",
-      "premium",
-      "accessories",
-      "women"
-    ],
-    "specifications": {
-      "Fabric": "Premium Cotton Blend",
-      "Fit": "Regular/Slim",
-      "Wash Care": "Machine Wash"
-    },
-    "reviews": [
-      {
-        "id": "rev_pxy44",
-        "userName": "Customer",
-        "rating": 5,
-        "comment": "Excellent product, highly recommended!",
-        "date": "2024-12-15",
-        "helpful": 25,
-        "verified": true
-      }
-    ]
-  },
-  {
-    "id": "prod_117",
-    "name": "Jack & Jones Women's Premium Shoes",
-    "brand": "Jack & Jones",
-    "description": "Premium quality shoes from Jack & Jones. Features comfortable fit and excellent material suitable for everyday wear.",
-    "category": "Women",
-    "subCategory": "Shoes",
-    "type": "Footwear",
-    "price": 4155,
-    "mrp": 7696,
-    "discount": 46,
-    "currency": "₹",
-    "rating": 4.6,
-    "reviewCount": 3821,
-    "images": [
-      "https://images.unsplash.com/photo-1525966222134-fcfa99b8ae77?w=600&q=80",
-      "https://images.unsplash.com/photo-1542291026-7eec264c27ff?w=600&q=80",
-      "https://images.unsplash.com/photo-1525966222134-fcfa99b8ae77?w=600&q=80",
-      "https://images.unsplash.com/photo-1542291026-7eec264c27ff?w=600&q=80"
-    ],
-    "colors": [
-      {
-        "name": "Olive",
-        "hex": "#556B2F"
-      },
-      {
-        "name": "Navy Blue",
-        "hex": "#000080"
-      },
-      {
-        "name": "Maroon",
-        "hex": "#800000"
-      }
-    ],
-    "sizes": [
-      "XS",
-      "S",
-      "M",
-      "L",
-      "XL",
-      "XXL"
-    ],
-    "sizesAvailable": {
-      "XS": false,
-      "S": true,
-      "M": true,
-      "L": true,
-      "XL": true,
-      "XXL": false
-    },
-    "material": "Premium Cotton Blend",
-    "fit": "Regular",
-    "pattern": "Solid",
-    "occasion": "Casual",
-    "season": "All Season",
-    "stock": 27,
-    "isTrending": true,
-    "isNewArrival": true,
-    "isBestSeller": true,
-    "tags": [
-      "fashion",
-      "premium",
-      "footwear",
-      "women"
-    ],
-    "specifications": {
-      "Fabric": "Premium Cotton Blend",
-      "Fit": "Regular/Slim",
-      "Wash Care": "Machine Wash"
-    },
-    "reviews": [
-      {
-        "id": "rev_qvlii",
-        "userName": "Customer",
-        "rating": 5,
-        "comment": "Excellent product, highly recommended!",
-        "date": "2024-12-15",
-        "helpful": 27,
-        "verified": true
-      }
-    ]
-  },
-  {
-    "id": "prod_118",
-    "name": "FabIndia Women's Premium T-Shirts",
-    "brand": "FabIndia",
-    "description": "Premium quality t-shirts from FabIndia. Features comfortable fit and excellent material suitable for everyday wear.",
-    "category": "Women",
-    "subCategory": "T-Shirts",
-    "type": "Topwear",
-    "price": 3408,
-    "mrp": 9469,
-    "discount": 64,
-    "currency": "₹",
-    "rating": 4.4,
-    "reviewCount": 394,
-    "images": [
-      "https://images.unsplash.com/photo-1521572163474-6864f9cf17ab?w=600&q=80",
-      "https://images.unsplash.com/photo-1583743814966-8936f5b7be1a?w=600&q=80",
-      "https://images.unsplash.com/photo-1521572163474-6864f9cf17ab?w=600&q=80",
-      "https://images.unsplash.com/photo-1583743814966-8936f5b7be1a?w=600&q=80"
-    ],
-    "colors": [
-      {
-        "name": "Navy Blue",
-        "hex": "#000080"
-      },
-      {
-        "name": "Olive",
-        "hex": "#556B2F"
-      },
-      {
-        "name": "Off White",
-        "hex": "#f5f0e8"
-      }
-    ],
-    "sizes": [
-      "XS",
-      "S",
-      "M",
-      "L",
-      "XL",
-      "XXL"
-    ],
-    "sizesAvailable": {
-      "XS": false,
-      "S": true,
-      "M": true,
-      "L": true,
-      "XL": true,
-      "XXL": false
-    },
-    "material": "Premium Cotton Blend",
-    "fit": "Regular",
-    "pattern": "Printed",
-    "occasion": "Casual",
-    "season": "All Season",
-    "stock": 32,
-    "isTrending": false,
-    "isNewArrival": false,
-    "isBestSeller": false,
-    "tags": [
-      "fashion",
-      "premium",
-      "topwear",
-      "women"
-    ],
-    "specifications": {
-      "Fabric": "Premium Cotton Blend",
-      "Fit": "Regular/Slim",
-      "Wash Care": "Machine Wash"
-    },
-    "reviews": [
-      {
-        "id": "rev_41sgn",
-        "userName": "Customer",
-        "rating": 5,
-        "comment": "Excellent product, highly recommended!",
-        "date": "2024-12-15",
-        "helpful": 36,
-        "verified": true
-      }
-    ]
-  },
-  {
-    "id": "prod_119",
-    "name": "H&M Women's Premium Activewear",
-    "brand": "H&M",
-    "description": "Premium quality activewear from H&M. Features comfortable fit and excellent material suitable for everyday wear.",
-    "category": "Women",
-    "subCategory": "Activewear",
-    "type": "Activewear",
-    "price": 5910,
-    "mrp": 12849,
-    "discount": 54,
-    "currency": "₹",
-    "rating": 4.4,
-    "reviewCount": 1955,
-    "images": [
-      "https://images.unsplash.com/photo-1552374196-1ab2a1c593e8?w=600&q=80",
-      "https://images.unsplash.com/photo-1490578474895-699bc4e3f49f?w=600&q=80",
-      "https://images.unsplash.com/photo-1552374196-1ab2a1c593e8?w=600&q=80",
-      "https://images.unsplash.com/photo-1490578474895-699bc4e3f49f?w=600&q=80"
-    ],
-    "colors": [
-      {
-        "name": "Mustard",
-        "hex": "#FFDB58"
-      },
-      {
-        "name": "Maroon",
-        "hex": "#800000"
-      },
-      {
-        "name": "Charcoal Black",
-        "hex": "#1a1a1a"
-      }
-    ],
-    "sizes": [
-      "XS",
-      "S",
-      "M",
-      "L",
-      "XL",
-      "XXL"
-    ],
-    "sizesAvailable": {
-      "XS": false,
-      "S": true,
-      "M": true,
-      "L": true,
-      "XL": false,
-      "XXL": false
-    },
-    "material": "Premium Cotton Blend",
-    "fit": "Regular",
-    "pattern": "Solid",
-    "occasion": "Casual",
-    "season": "All Season",
-    "stock": 104,
-    "isTrending": false,
-    "isNewArrival": false,
-    "isBestSeller": true,
-    "tags": [
-      "fashion",
-      "premium",
-      "activewear",
-      "women"
-    ],
-    "specifications": {
-      "Fabric": "Premium Cotton Blend",
-      "Fit": "Regular/Slim",
-      "Wash Care": "Machine Wash"
-    },
-    "reviews": [
-      {
-        "id": "rev_03feq",
-        "userName": "Customer",
-        "rating": 5,
-        "comment": "Excellent product, highly recommended!",
-        "date": "2024-12-15",
-        "helpful": 30,
-        "verified": true
-      }
-    ]
-  },
-  {
-    "id": "prod_120",
-    "name": "Van Heusen Women's Premium Tops",
-    "brand": "Van Heusen",
-    "description": "Premium quality tops from Van Heusen. Features comfortable fit and excellent material suitable for everyday wear.",
-    "category": "Women",
-    "subCategory": "Tops",
-    "type": "Topwear",
-    "price": 8448,
-    "mrp": 15361,
-    "discount": 45,
-    "currency": "₹",
-    "rating": 3.1,
-    "reviewCount": 433,
-    "images": [
-      "https://images.unsplash.com/photo-1503342217505-b0a15ec3261c?w=600&q=80",
-      "https://images.unsplash.com/photo-1515886657613-9f3515b0c78f?w=600&q=80",
-      "https://images.unsplash.com/photo-1503342217505-b0a15ec3261c?w=600&q=80",
-      "https://images.unsplash.com/photo-1515886657613-9f3515b0c78f?w=600&q=80"
-    ],
-    "colors": [
-      {
-        "name": "Mustard",
-        "hex": "#FFDB58"
-      },
-      {
-        "name": "Maroon",
-        "hex": "#800000"
-      },
-      {
-        "name": "Off White",
-        "hex": "#f5f0e8"
-      }
-    ],
-    "sizes": [
-      "XS",
-      "S",
-      "M",
-      "L",
-      "XL",
-      "XXL"
-    ],
-    "sizesAvailable": {
-      "XS": false,
-      "S": true,
-      "M": true,
-      "L": true,
-      "XL": false,
-      "XXL": false
-    },
-    "material": "Premium Cotton Blend",
-    "fit": "Slim",
-    "pattern": "Solid",
-    "occasion": "Casual",
-    "season": "All Season",
-    "stock": 27,
-    "isTrending": false,
-    "isNewArrival": false,
-    "isBestSeller": false,
-    "tags": [
-      "fashion",
-      "premium",
-      "topwear",
-      "women"
-    ],
-    "specifications": {
-      "Fabric": "Premium Cotton Blend",
-      "Fit": "Regular/Slim",
-      "Wash Care": "Machine Wash"
-    },
-    "reviews": [
-      {
-        "id": "rev_tbunn",
-        "userName": "Customer",
-        "rating": 5,
-        "comment": "Excellent product, highly recommended!",
-        "date": "2024-12-15",
-        "helpful": 40,
-        "verified": true
-      }
-    ]
-  },
-  {
-    "id": "prod_121",
-    "name": "NOIR Women's Premium Activewear",
-    "brand": "NOIR",
-    "description": "Premium quality activewear from NOIR. Features comfortable fit and excellent material suitable for everyday wear.",
-    "category": "Women",
-    "subCategory": "Activewear",
-    "type": "Activewear",
-    "price": 3697,
-    "mrp": 4402,
-    "discount": 16,
-    "currency": "₹",
-    "rating": 4.7,
-    "reviewCount": 3974,
-    "images": [
-      "https://images.unsplash.com/photo-1552374196-1ab2a1c593e8?w=600&q=80",
-      "https://images.unsplash.com/photo-1490578474895-699bc4e3f49f?w=600&q=80",
-      "https://images.unsplash.com/photo-1552374196-1ab2a1c593e8?w=600&q=80",
-      "https://images.unsplash.com/photo-1490578474895-699bc4e3f49f?w=600&q=80"
-    ],
-    "colors": [
-      {
-        "name": "Mustard",
-        "hex": "#FFDB58"
-      },
-      {
-        "name": "Maroon",
-        "hex": "#800000"
-      },
-      {
-        "name": "Navy Blue",
-        "hex": "#000080"
-      }
-    ],
-    "sizes": [
-      "XS",
-      "S",
-      "M",
-      "L",
-      "XL",
-      "XXL"
-    ],
-    "sizesAvailable": {
-      "XS": true,
-      "S": true,
-      "M": true,
-      "L": true,
-      "XL": true,
-      "XXL": true
-    },
-    "material": "Premium Cotton Blend",
-    "fit": "Regular",
-    "pattern": "Printed",
-    "occasion": "Casual",
-    "season": "All Season",
-    "stock": 89,
-    "isTrending": false,
-    "isNewArrival": false,
-    "isBestSeller": false,
-    "tags": [
-      "fashion",
-      "premium",
-      "activewear",
-      "women"
-    ],
-    "specifications": {
-      "Fabric": "Premium Cotton Blend",
-      "Fit": "Regular/Slim",
-      "Wash Care": "Machine Wash"
-    },
-    "reviews": [
-      {
-        "id": "rev_caetm",
-        "userName": "Customer",
-        "rating": 5,
-        "comment": "Excellent product, highly recommended!",
-        "date": "2024-12-15",
-        "helpful": 19,
-        "verified": true
-      }
-    ]
-  },
-  {
-    "id": "prod_122",
-    "name": "Zara Women's Premium Co-ord Sets",
-    "brand": "Zara",
-    "description": "Premium quality co-ord sets from Zara. Features comfortable fit and excellent material suitable for everyday wear.",
-    "category": "Women",
-    "subCategory": "Co-ord Sets",
-    "type": "Topwear",
-    "price": 5011,
-    "mrp": 13189,
-    "discount": 62,
-    "currency": "₹",
-    "rating": 3.7,
-    "reviewCount": 4821,
-    "images": [
-      "https://images.unsplash.com/photo-1490578474895-699bc4e3f49f?w=600&q=80",
-      "https://images.unsplash.com/photo-1552374196-1ab2a1c593e8?w=600&q=80",
-      "https://images.unsplash.com/photo-1490578474895-699bc4e3f49f?w=600&q=80",
-      "https://images.unsplash.com/photo-1552374196-1ab2a1c593e8?w=600&q=80"
-    ],
-    "colors": [
-      {
-        "name": "Off White",
-        "hex": "#f5f0e8"
-      },
-      {
-        "name": "Maroon",
-        "hex": "#800000"
-      },
-      {
-        "name": "Charcoal Black",
-        "hex": "#1a1a1a"
-      }
-    ],
-    "sizes": [
-      "XS",
-      "S",
-      "M",
-      "L",
-      "XL",
-      "XXL"
-    ],
-    "sizesAvailable": {
-      "XS": false,
-      "S": true,
-      "M": true,
-      "L": true,
-      "XL": true,
-      "XXL": false
-    },
-    "material": "Premium Cotton Blend",
-    "fit": "Regular",
-    "pattern": "Printed",
-    "occasion": "Casual",
-    "season": "All Season",
-    "stock": 97,
-    "isTrending": false,
-    "isNewArrival": false,
-    "isBestSeller": true,
-    "tags": [
-      "fashion",
-      "premium",
-      "topwear",
-      "women"
-    ],
-    "specifications": {
-      "Fabric": "Premium Cotton Blend",
-      "Fit": "Regular/Slim",
-      "Wash Care": "Machine Wash"
-    },
-    "reviews": [
-      {
-        "id": "rev_hdks2",
-        "userName": "Customer",
-        "rating": 5,
-        "comment": "Excellent product, highly recommended!",
-        "date": "2024-12-15",
-        "helpful": 9,
-        "verified": true
-      }
-    ]
-  },
-  {
-    "id": "prod_123",
-    "name": "Global Desi Women's Premium Dresses",
-    "brand": "Global Desi",
-    "description": "Premium quality dresses from Global Desi. Features comfortable fit and excellent material suitable for everyday wear.",
-    "category": "Women",
-    "subCategory": "Dresses",
-    "type": "Topwear",
-    "price": 739,
-    "mrp": 1344,
-    "discount": 45,
-    "currency": "₹",
-    "rating": 3.6,
-    "reviewCount": 265,
-    "images": [
-      "https://images.unsplash.com/photo-1572804013309-59a88b7e92f1?w=600&q=80",
-      "https://images.unsplash.com/photo-1595777457583-95e059d581b8?w=600&q=80",
-      "https://images.unsplash.com/photo-1572804013309-59a88b7e92f1?w=600&q=80",
-      "https://images.unsplash.com/photo-1595777457583-95e059d581b8?w=600&q=80"
-    ],
-    "colors": [
-      {
-        "name": "Navy Blue",
-        "hex": "#000080"
-      },
-      {
-        "name": "Mustard",
-        "hex": "#FFDB58"
-      },
-      {
-        "name": "Olive",
-        "hex": "#556B2F"
-      }
-    ],
-    "sizes": [
-      "XS",
-      "S",
-      "M",
-      "L",
-      "XL",
-      "XXL"
-    ],
-    "sizesAvailable": {
-      "XS": false,
-      "S": true,
-      "M": true,
-      "L": true,
-      "XL": true,
-      "XXL": false
-    },
-    "material": "Premium Cotton Blend",
-    "fit": "Slim",
-    "pattern": "Printed",
-    "occasion": "Casual",
-    "season": "All Season",
-    "stock": 40,
-    "isTrending": true,
-    "isNewArrival": true,
-    "isBestSeller": false,
-    "tags": [
-      "fashion",
-      "premium",
-      "topwear",
-      "women"
-    ],
-    "specifications": {
-      "Fabric": "Premium Cotton Blend",
-      "Fit": "Regular/Slim",
-      "Wash Care": "Machine Wash"
-    },
-    "reviews": [
-      {
-        "id": "rev_bglty",
-        "userName": "Customer",
-        "rating": 5,
-        "comment": "Excellent product, highly recommended!",
-        "date": "2024-12-15",
-        "helpful": 28,
-        "verified": true
-      }
-    ]
-  },
-  {
-    "id": "prod_124",
-    "name": "Puma Women's Premium Jeans & Trousers",
-    "brand": "Puma",
-    "description": "Premium quality jeans & trousers from Puma. Features comfortable fit and excellent material suitable for everyday wear.",
-    "category": "Women",
-    "subCategory": "Jeans & Trousers",
-    "type": "Bottomwear",
-    "price": 7768,
-    "mrp": 10642,
-    "discount": 27,
-    "currency": "₹",
-    "rating": 4.3,
-    "reviewCount": 1642,
-    "images": [
-      "https://images.unsplash.com/photo-1490578474895-699bc4e3f49f?w=600&q=80",
-      "https://images.unsplash.com/photo-1552374196-1ab2a1c593e8?w=600&q=80",
-      "https://images.unsplash.com/photo-1490578474895-699bc4e3f49f?w=600&q=80",
-      "https://images.unsplash.com/photo-1552374196-1ab2a1c593e8?w=600&q=80"
-    ],
-    "colors": [
-      {
-        "name": "Off White",
-        "hex": "#f5f0e8"
-      },
-      {
-        "name": "Mustard",
-        "hex": "#FFDB58"
-      },
-      {
-        "name": "Maroon",
-        "hex": "#800000"
-      }
-    ],
-    "sizes": [
-      "XS",
-      "S",
-      "M",
-      "L",
-      "XL",
-      "XXL"
-    ],
-    "sizesAvailable": {
-      "XS": false,
-      "S": true,
-      "M": true,
-      "L": true,
-      "XL": true,
-      "XXL": false
-    },
-    "material": "Premium Cotton Blend",
-    "fit": "Regular",
-    "pattern": "Solid",
-    "occasion": "Casual",
-    "season": "All Season",
-    "stock": 6,
-    "isTrending": true,
-    "isNewArrival": false,
-    "isBestSeller": false,
-    "tags": [
-      "fashion",
-      "premium",
-      "bottomwear",
-      "women"
-    ],
-    "specifications": {
-      "Fabric": "Premium Cotton Blend",
-      "Fit": "Regular/Slim",
-      "Wash Care": "Machine Wash"
-    },
-    "reviews": [
-      {
-        "id": "rev_09zyb",
-        "userName": "Customer",
-        "rating": 5,
-        "comment": "Excellent product, highly recommended!",
-        "date": "2024-12-15",
-        "helpful": 28,
-        "verified": true
-      }
-    ]
-  },
-  {
-    "id": "prod_125",
-    "name": "FabIndia Women's Premium Activewear",
-    "brand": "FabIndia",
-    "description": "Premium quality activewear from FabIndia. Features comfortable fit and excellent material suitable for everyday wear.",
-    "category": "Women",
-    "subCategory": "Activewear",
-    "type": "Activewear",
-    "price": 2172,
-    "mrp": 2649,
-    "discount": 18,
-    "currency": "₹",
-    "rating": 4.3,
-    "reviewCount": 2269,
-    "images": [
-      "https://images.unsplash.com/photo-1552374196-1ab2a1c593e8?w=600&q=80",
-      "https://images.unsplash.com/photo-1490578474895-699bc4e3f49f?w=600&q=80",
-      "https://images.unsplash.com/photo-1552374196-1ab2a1c593e8?w=600&q=80",
-      "https://images.unsplash.com/photo-1490578474895-699bc4e3f49f?w=600&q=80"
-    ],
-    "colors": [
-      {
-        "name": "Navy Blue",
-        "hex": "#000080"
-      },
-      {
-        "name": "Maroon",
-        "hex": "#800000"
-      },
-      {
-        "name": "Charcoal Black",
-        "hex": "#1a1a1a"
-      }
-    ],
-    "sizes": [
-      "XS",
-      "S",
-      "M",
-      "L",
-      "XL",
-      "XXL"
-    ],
-    "sizesAvailable": {
-      "XS": false,
-      "S": true,
-      "M": true,
-      "L": true,
-      "XL": true,
-      "XXL": false
-    },
-    "material": "Premium Cotton Blend",
-    "fit": "Slim",
-    "pattern": "Solid",
-    "occasion": "Casual",
-    "season": "All Season",
-    "stock": 30,
-    "isTrending": false,
-    "isNewArrival": false,
-    "isBestSeller": false,
-    "tags": [
-      "fashion",
-      "premium",
-      "activewear",
-      "women"
-    ],
-    "specifications": {
-      "Fabric": "Premium Cotton Blend",
-      "Fit": "Regular/Slim",
-      "Wash Care": "Machine Wash"
-    },
-    "reviews": [
-      {
-        "id": "rev_ns8j3",
-        "userName": "Customer",
-        "rating": 5,
-        "comment": "Excellent product, highly recommended!",
-        "date": "2024-12-15",
-        "helpful": 19,
-        "verified": true
-      }
-    ]
-  },
-  {
-    "id": "prod_126",
-    "name": "Allen Solly Women's Premium Skirts",
-    "brand": "Allen Solly",
-    "description": "Premium quality skirts from Allen Solly. Features comfortable fit and excellent material suitable for everyday wear.",
-    "category": "Women",
-    "subCategory": "Skirts",
-    "type": "Bottomwear",
-    "price": 997,
-    "mrp": 2625,
-    "discount": 62,
-    "currency": "₹",
-    "rating": 5,
-    "reviewCount": 488,
-    "images": [
-      "https://images.unsplash.com/photo-1490578474895-699bc4e3f49f?w=600&q=80",
-      "https://images.unsplash.com/photo-1552374196-1ab2a1c593e8?w=600&q=80",
-      "https://images.unsplash.com/photo-1490578474895-699bc4e3f49f?w=600&q=80",
-      "https://images.unsplash.com/photo-1552374196-1ab2a1c593e8?w=600&q=80"
-    ],
-    "colors": [
-      {
-        "name": "Off White",
-        "hex": "#f5f0e8"
-      },
-      {
-        "name": "Navy Blue",
-        "hex": "#000080"
-      },
-      {
-        "name": "Mustard",
-        "hex": "#FFDB58"
-      }
-    ],
-    "sizes": [
-      "XS",
-      "S",
-      "M",
-      "L",
-      "XL",
-      "XXL"
-    ],
-    "sizesAvailable": {
-      "XS": true,
-      "S": true,
-      "M": true,
-      "L": true,
-      "XL": false,
-      "XXL": true
-    },
-    "material": "Premium Cotton Blend",
-    "fit": "Regular",
-    "pattern": "Printed",
-    "occasion": "Casual",
-    "season": "All Season",
-    "stock": 6,
-    "isTrending": false,
-    "isNewArrival": false,
-    "isBestSeller": false,
-    "tags": [
-      "fashion",
-      "premium",
-      "bottomwear",
-      "women"
-    ],
-    "specifications": {
-      "Fabric": "Premium Cotton Blend",
-      "Fit": "Regular/Slim",
-      "Wash Care": "Machine Wash"
-    },
-    "reviews": [
-      {
-        "id": "rev_s8wfi",
-        "userName": "Customer",
-        "rating": 5,
-        "comment": "Excellent product, highly recommended!",
-        "date": "2024-12-15",
-        "helpful": 46,
-        "verified": true
-      }
-    ]
-  },
-  {
-    "id": "prod_127",
-    "name": "Levi's Women's Premium Dresses",
-    "brand": "Levi's",
-    "description": "Premium quality dresses from Levi's. Features comfortable fit and excellent material suitable for everyday wear.",
-    "category": "Women",
-    "subCategory": "Dresses",
-    "type": "Topwear",
-    "price": 3519,
-    "mrp": 6518,
-    "discount": 46,
-    "currency": "₹",
-    "rating": 3.1,
-    "reviewCount": 3774,
-    "images": [
-      "https://images.unsplash.com/photo-1572804013309-59a88b7e92f1?w=600&q=80",
-      "https://images.unsplash.com/photo-1595777457583-95e059d581b8?w=600&q=80",
-      "https://images.unsplash.com/photo-1572804013309-59a88b7e92f1?w=600&q=80",
-      "https://images.unsplash.com/photo-1595777457583-95e059d581b8?w=600&q=80"
-    ],
-    "colors": [
-      {
-        "name": "Off White",
-        "hex": "#f5f0e8"
-      },
-      {
-        "name": "Navy Blue",
-        "hex": "#000080"
-      },
-      {
-        "name": "Mustard",
-        "hex": "#FFDB58"
-      }
-    ],
-    "sizes": [
-      "XS",
-      "S",
-      "M",
-      "L",
-      "XL",
-      "XXL"
-    ],
-    "sizesAvailable": {
-      "XS": false,
-      "S": true,
-      "M": true,
-      "L": true,
-      "XL": true,
-      "XXL": false
-    },
-    "material": "Premium Cotton Blend",
-    "fit": "Slim",
-    "pattern": "Solid",
-    "occasion": "Casual",
-    "season": "All Season",
-    "stock": 81,
-    "isTrending": false,
-    "isNewArrival": false,
-    "isBestSeller": true,
-    "tags": [
-      "fashion",
-      "premium",
-      "topwear",
-      "women"
-    ],
-    "specifications": {
-      "Fabric": "Premium Cotton Blend",
-      "Fit": "Regular/Slim",
-      "Wash Care": "Machine Wash"
-    },
-    "reviews": [
-      {
-        "id": "rev_nxwww",
-        "userName": "Customer",
-        "rating": 5,
-        "comment": "Excellent product, highly recommended!",
-        "date": "2024-12-15",
-        "helpful": 12,
-        "verified": true
-      }
-    ]
-  },
-  {
-    "id": "prod_128",
-    "name": "AURA Women's Premium Shoes",
-    "brand": "AURA",
-    "description": "Premium quality shoes from AURA. Features comfortable fit and excellent material suitable for everyday wear.",
-    "category": "Women",
-    "subCategory": "Shoes",
-    "type": "Footwear",
-    "price": 8055,
-    "mrp": 14132,
-    "discount": 43,
-    "currency": "₹",
-    "rating": 3.4,
-    "reviewCount": 1094,
-    "images": [
-      "https://images.unsplash.com/photo-1542291026-7eec264c27ff?w=600&q=80",
-      "https://images.unsplash.com/photo-1525966222134-fcfa99b8ae77?w=600&q=80",
-      "https://images.unsplash.com/photo-1542291026-7eec264c27ff?w=600&q=80",
-      "https://images.unsplash.com/photo-1525966222134-fcfa99b8ae77?w=600&q=80"
-    ],
-    "colors": [
-      {
-        "name": "Off White",
-        "hex": "#f5f0e8"
-      },
-      {
-        "name": "Mustard",
-        "hex": "#FFDB58"
-      },
-      {
-        "name": "Charcoal Black",
-        "hex": "#1a1a1a"
-      }
-    ],
-    "sizes": [
-      "XS",
-      "S",
-      "M",
-      "L",
-      "XL",
-      "XXL"
-    ],
-    "sizesAvailable": {
-      "XS": false,
-      "S": true,
-      "M": true,
-      "L": true,
-      "XL": true,
-      "XXL": true
-    },
-    "material": "Premium Cotton Blend",
-    "fit": "Regular",
-    "pattern": "Solid",
-    "occasion": "Casual",
-    "season": "All Season",
-    "stock": 87,
-    "isTrending": false,
-    "isNewArrival": false,
-    "isBestSeller": false,
-    "tags": [
-      "fashion",
-      "premium",
-      "footwear",
-      "women"
-    ],
-    "specifications": {
-      "Fabric": "Premium Cotton Blend",
-      "Fit": "Regular/Slim",
-      "Wash Care": "Machine Wash"
-    },
-    "reviews": [
-      {
-        "id": "rev_o1e5w",
-        "userName": "Customer",
-        "rating": 5,
-        "comment": "Excellent product, highly recommended!",
-        "date": "2024-12-15",
-        "helpful": 42,
-        "verified": true
-      }
-    ]
-  },
-  {
-    "id": "prod_129",
-    "name": "Jack & Jones Women's Premium Accessories",
-    "brand": "Jack & Jones",
-    "description": "Premium quality accessories from Jack & Jones. Features comfortable fit and excellent material suitable for everyday wear.",
-    "category": "Women",
-    "subCategory": "Accessories",
-    "type": "Accessories",
-    "price": 2329,
-    "mrp": 7516,
-    "discount": 69,
-    "currency": "₹",
-    "rating": 3.2,
-    "reviewCount": 169,
-    "images": [
-      "https://images.unsplash.com/photo-1511499767150-a48a237f0083?w=600&q=80",
-      "https://images.unsplash.com/photo-1523206489230-c012c64b2b48?w=600&q=80",
-      "https://images.unsplash.com/photo-1511499767150-a48a237f0083?w=600&q=80",
-      "https://images.unsplash.com/photo-1523206489230-c012c64b2b48?w=600&q=80"
-    ],
-    "colors": [
-      {
-        "name": "Navy Blue",
-        "hex": "#000080"
-      },
-      {
-        "name": "Charcoal Black",
-        "hex": "#1a1a1a"
-      },
-      {
-        "name": "Mustard",
-        "hex": "#FFDB58"
-      }
-    ],
-    "sizes": [
-      "XS",
-      "S",
-      "M",
-      "L",
-      "XL",
-      "XXL"
-    ],
-    "sizesAvailable": {
-      "XS": true,
-      "S": true,
-      "M": true,
-      "L": true,
-      "XL": true,
-      "XXL": true
-    },
-    "material": "Premium Cotton Blend",
-    "fit": "Regular",
-    "pattern": "Solid",
-    "occasion": "Casual",
-    "season": "All Season",
-    "stock": 38,
-    "isTrending": true,
-    "isNewArrival": false,
-    "isBestSeller": true,
-    "tags": [
-      "fashion",
-      "premium",
-      "accessories",
-      "women"
-    ],
-    "specifications": {
-      "Fabric": "Premium Cotton Blend",
-      "Fit": "Regular/Slim",
-      "Wash Care": "Machine Wash"
-    },
-    "reviews": [
-      {
-        "id": "rev_qatg8",
-        "userName": "Customer",
-        "rating": 5,
-        "comment": "Excellent product, highly recommended!",
-        "date": "2024-12-15",
-        "helpful": 30,
-        "verified": true
-      }
-    ]
-  },
-  {
-    "id": "prod_130",
-    "name": "Global Desi Women's Premium Dresses",
-    "brand": "Global Desi",
-    "description": "Premium quality dresses from Global Desi. Features comfortable fit and excellent material suitable for everyday wear.",
-    "category": "Women",
-    "subCategory": "Dresses",
-    "type": "Topwear",
-    "price": 902,
-    "mrp": 1920,
-    "discount": 53,
-    "currency": "₹",
-    "rating": 4.8,
-    "reviewCount": 2317,
-    "images": [
-      "https://images.unsplash.com/photo-1595777457583-95e059d581b8?w=600&q=80",
-      "https://images.unsplash.com/photo-1572804013309-59a88b7e92f1?w=600&q=80",
-      "https://images.unsplash.com/photo-1595777457583-95e059d581b8?w=600&q=80",
-      "https://images.unsplash.com/photo-1572804013309-59a88b7e92f1?w=600&q=80"
-    ],
-    "colors": [
-      {
-        "name": "Mustard",
-        "hex": "#FFDB58"
-      },
-      {
-        "name": "Off White",
-        "hex": "#f5f0e8"
-      },
-      {
-        "name": "Maroon",
-        "hex": "#800000"
-      }
-    ],
-    "sizes": [
-      "XS",
-      "S",
-      "M",
-      "L",
-      "XL",
-      "XXL"
-    ],
-    "sizesAvailable": {
-      "XS": true,
-      "S": true,
-      "M": true,
-      "L": true,
-      "XL": true,
-      "XXL": true
-    },
-    "material": "Premium Cotton Blend",
-    "fit": "Regular",
-    "pattern": "Printed",
-    "occasion": "Casual",
-    "season": "All Season",
-    "stock": 77,
-    "isTrending": true,
-    "isNewArrival": false,
-    "isBestSeller": false,
-    "tags": [
-      "fashion",
-      "premium",
-      "topwear",
-      "women"
-    ],
-    "specifications": {
-      "Fabric": "Premium Cotton Blend",
-      "Fit": "Regular/Slim",
-      "Wash Care": "Machine Wash"
-    },
-    "reviews": [
-      {
-        "id": "rev_8u0ja",
-        "userName": "Customer",
-        "rating": 5,
-        "comment": "Excellent product, highly recommended!",
-        "date": "2024-12-15",
-        "helpful": 33,
-        "verified": true
-      }
-    ]
-  },
-  {
-    "id": "prod_131",
-    "name": "Levi's Women's Premium Accessories",
-    "brand": "Levi's",
-    "description": "Premium quality accessories from Levi's. Features comfortable fit and excellent material suitable for everyday wear.",
-    "category": "Women",
-    "subCategory": "Accessories",
-    "type": "Accessories",
-    "price": 11961,
-    "mrp": 14072,
-    "discount": 15,
-    "currency": "₹",
-    "rating": 5,
-    "reviewCount": 1634,
-    "images": [
-      "https://images.unsplash.com/photo-1511499767150-a48a237f0083?w=600&q=80",
-      "https://images.unsplash.com/photo-1523206489230-c012c64b2b48?w=600&q=80",
-      "https://images.unsplash.com/photo-1511499767150-a48a237f0083?w=600&q=80",
-      "https://images.unsplash.com/photo-1523206489230-c012c64b2b48?w=600&q=80"
-    ],
-    "colors": [
-      {
-        "name": "Mustard",
-        "hex": "#FFDB58"
-      },
-      {
-        "name": "Maroon",
-        "hex": "#800000"
-      },
-      {
-        "name": "Navy Blue",
-        "hex": "#000080"
-      }
-    ],
-    "sizes": [
-      "XS",
-      "S",
-      "M",
-      "L",
-      "XL",
-      "XXL"
-    ],
-    "sizesAvailable": {
-      "XS": true,
-      "S": true,
-      "M": true,
-      "L": true,
-      "XL": true,
-      "XXL": false
-    },
-    "material": "Premium Cotton Blend",
-    "fit": "Regular",
-    "pattern": "Solid",
-    "occasion": "Casual",
-    "season": "All Season",
-    "stock": 11,
-    "isTrending": true,
-    "isNewArrival": false,
-    "isBestSeller": false,
-    "tags": [
-      "fashion",
-      "premium",
-      "accessories",
-      "women"
-    ],
-    "specifications": {
-      "Fabric": "Premium Cotton Blend",
-      "Fit": "Regular/Slim",
-      "Wash Care": "Machine Wash"
-    },
-    "reviews": [
-      {
-        "id": "rev_ixl0s",
-        "userName": "Customer",
-        "rating": 5,
-        "comment": "Excellent product, highly recommended!",
-        "date": "2024-12-15",
-        "helpful": 23,
-        "verified": true
-      }
-    ]
-  },
-  {
-    "id": "prod_132",
-    "name": "FabIndia Women's Premium Ethnic",
-    "brand": "FabIndia",
-    "description": "Premium quality ethnic from FabIndia. Features comfortable fit and excellent material suitable for everyday wear.",
-    "category": "Women",
-    "subCategory": "Ethnic",
-    "type": "Topwear",
-    "price": 441,
-    "mrp": 866,
-    "discount": 49,
-    "currency": "₹",
-    "rating": 3.1,
-    "reviewCount": 1182,
-    "images": [
-      "https://images.unsplash.com/photo-1490578474895-699bc4e3f49f?w=600&q=80",
-      "https://images.unsplash.com/photo-1552374196-1ab2a1c593e8?w=600&q=80",
-      "https://images.unsplash.com/photo-1490578474895-699bc4e3f49f?w=600&q=80",
-      "https://images.unsplash.com/photo-1552374196-1ab2a1c593e8?w=600&q=80"
-    ],
-    "colors": [
-      {
-        "name": "Mustard",
-        "hex": "#FFDB58"
-      },
-      {
-        "name": "Off White",
-        "hex": "#f5f0e8"
-      },
-      {
-        "name": "Olive",
-        "hex": "#556B2F"
-      }
-    ],
-    "sizes": [
-      "XS",
-      "S",
-      "M",
-      "L",
-      "XL",
-      "XXL"
-    ],
-    "sizesAvailable": {
-      "XS": false,
-      "S": true,
-      "M": true,
-      "L": true,
-      "XL": true,
-      "XXL": false
-    },
-    "material": "Premium Cotton Blend",
-    "fit": "Slim",
-    "pattern": "Solid",
-    "occasion": "Casual",
-    "season": "All Season",
-    "stock": 49,
-    "isTrending": false,
-    "isNewArrival": false,
-    "isBestSeller": false,
-    "tags": [
-      "fashion",
-      "premium",
-      "topwear",
-      "women"
-    ],
-    "specifications": {
-      "Fabric": "Premium Cotton Blend",
-      "Fit": "Regular/Slim",
-      "Wash Care": "Machine Wash"
-    },
-    "reviews": [
-      {
-        "id": "rev_sk53k",
-        "userName": "Customer",
-        "rating": 5,
-        "comment": "Excellent product, highly recommended!",
-        "date": "2024-12-15",
-        "helpful": 16,
-        "verified": true
-      }
-    ]
-  },
-  {
-    "id": "prod_133",
-    "name": "Levi's Women's Premium T-Shirts",
-    "brand": "Levi's",
-    "description": "Premium quality t-shirts from Levi's. Features comfortable fit and excellent material suitable for everyday wear.",
-    "category": "Women",
-    "subCategory": "T-Shirts",
-    "type": "Topwear",
-    "price": 9235,
-    "mrp": 14208,
-    "discount": 35,
-    "currency": "₹",
-    "rating": 3.7,
-    "reviewCount": 4500,
-    "images": [
-      "https://images.unsplash.com/photo-1583743814966-8936f5b7be1a?w=600&q=80",
-      "https://images.unsplash.com/photo-1521572163474-6864f9cf17ab?w=600&q=80",
-      "https://images.unsplash.com/photo-1583743814966-8936f5b7be1a?w=600&q=80",
-      "https://images.unsplash.com/photo-1521572163474-6864f9cf17ab?w=600&q=80"
-    ],
-    "colors": [
-      {
-        "name": "Maroon",
-        "hex": "#800000"
-      },
-      {
-        "name": "Olive",
-        "hex": "#556B2F"
-      },
-      {
-        "name": "Navy Blue",
-        "hex": "#000080"
-      }
-    ],
-    "sizes": [
-      "XS",
-      "S",
-      "M",
-      "L",
-      "XL",
-      "XXL"
-    ],
-    "sizesAvailable": {
-      "XS": false,
-      "S": true,
-      "M": true,
-      "L": true,
-      "XL": false,
-      "XXL": false
-    },
-    "material": "Premium Cotton Blend",
-    "fit": "Regular",
-    "pattern": "Printed",
-    "occasion": "Casual",
-    "season": "All Season",
-    "stock": 72,
-    "isTrending": false,
-    "isNewArrival": false,
-    "isBestSeller": false,
-    "tags": [
-      "fashion",
-      "premium",
-      "topwear",
-      "women"
-    ],
-    "specifications": {
-      "Fabric": "Premium Cotton Blend",
-      "Fit": "Regular/Slim",
-      "Wash Care": "Machine Wash"
-    },
-    "reviews": [
-      {
-        "id": "rev_qp1mi",
-        "userName": "Customer",
-        "rating": 5,
-        "comment": "Excellent product, highly recommended!",
-        "date": "2024-12-15",
-        "helpful": 13,
-        "verified": true
-      }
-    ]
-  },
-  {
-    "id": "prod_134",
-    "name": "Adidas Women's Premium Jackets & Blazers",
-    "brand": "Adidas",
-    "description": "Premium quality jackets & blazers from Adidas. Features comfortable fit and excellent material suitable for everyday wear.",
-    "category": "Women",
-    "subCategory": "Jackets & Blazers",
-    "type": "Topwear",
-    "price": 4307,
-    "mrp": 6838,
-    "discount": 37,
-    "currency": "₹",
-    "rating": 3.1,
-    "reviewCount": 385,
-    "images": [
-      "https://images.unsplash.com/photo-1490578474895-699bc4e3f49f?w=600&q=80",
-      "https://images.unsplash.com/photo-1552374196-1ab2a1c593e8?w=600&q=80",
-      "https://images.unsplash.com/photo-1490578474895-699bc4e3f49f?w=600&q=80",
-      "https://images.unsplash.com/photo-1552374196-1ab2a1c593e8?w=600&q=80"
-    ],
-    "colors": [
-      {
-        "name": "Olive",
-        "hex": "#556B2F"
-      },
-      {
-        "name": "Charcoal Black",
-        "hex": "#1a1a1a"
-      },
-      {
-        "name": "Maroon",
-        "hex": "#800000"
-      }
-    ],
-    "sizes": [
-      "XS",
-      "S",
-      "M",
-      "L",
-      "XL",
-      "XXL"
-    ],
-    "sizesAvailable": {
-      "XS": true,
-      "S": true,
-      "M": true,
-      "L": true,
-      "XL": false,
-      "XXL": false
-    },
-    "material": "Premium Cotton Blend",
-    "fit": "Slim",
-    "pattern": "Solid",
-    "occasion": "Casual",
-    "season": "All Season",
-    "stock": 38,
-    "isTrending": false,
-    "isNewArrival": false,
-    "isBestSeller": false,
-    "tags": [
-      "fashion",
-      "premium",
-      "topwear",
-      "women"
-    ],
-    "specifications": {
-      "Fabric": "Premium Cotton Blend",
-      "Fit": "Regular/Slim",
-      "Wash Care": "Machine Wash"
-    },
-    "reviews": [
-      {
-        "id": "rev_nimm9",
-        "userName": "Customer",
-        "rating": 5,
-        "comment": "Excellent product, highly recommended!",
-        "date": "2024-12-15",
-        "helpful": 9,
-        "verified": true
-      }
-    ]
-  },
-  {
-    "id": "prod_135",
-    "name": "AURA Women's Premium Jeans & Trousers",
-    "brand": "AURA",
-    "description": "Premium quality jeans & trousers from AURA. Features comfortable fit and excellent material suitable for everyday wear.",
-    "category": "Women",
-    "subCategory": "Jeans & Trousers",
-    "type": "Bottomwear",
-    "price": 3969,
-    "mrp": 7218,
-    "discount": 45,
-    "currency": "₹",
-    "rating": 4.7,
-    "reviewCount": 4544,
-    "images": [
-      "https://images.unsplash.com/photo-1552374196-1ab2a1c593e8?w=600&q=80",
-      "https://images.unsplash.com/photo-1490578474895-699bc4e3f49f?w=600&q=80",
-      "https://images.unsplash.com/photo-1552374196-1ab2a1c593e8?w=600&q=80",
-      "https://images.unsplash.com/photo-1490578474895-699bc4e3f49f?w=600&q=80"
-    ],
-    "colors": [
-      {
-        "name": "Maroon",
-        "hex": "#800000"
-      },
-      {
-        "name": "Mustard",
-        "hex": "#FFDB58"
-      },
-      {
-        "name": "Navy Blue",
-        "hex": "#000080"
-      }
-    ],
-    "sizes": [
-      "XS",
-      "S",
-      "M",
-      "L",
-      "XL",
-      "XXL"
-    ],
-    "sizesAvailable": {
-      "XS": false,
-      "S": true,
-      "M": true,
-      "L": true,
-      "XL": false,
-      "XXL": false
-    },
-    "material": "Premium Cotton Blend",
-    "fit": "Slim",
-    "pattern": "Printed",
-    "occasion": "Casual",
-    "season": "All Season",
-    "stock": 35,
-    "isTrending": false,
-    "isNewArrival": true,
-    "isBestSeller": false,
-    "tags": [
-      "fashion",
-      "premium",
-      "bottomwear",
-      "women"
-    ],
-    "specifications": {
-      "Fabric": "Premium Cotton Blend",
-      "Fit": "Regular/Slim",
-      "Wash Care": "Machine Wash"
-    },
-    "reviews": [
-      {
-        "id": "rev_f5t2b",
-        "userName": "Customer",
-        "rating": 5,
-        "comment": "Excellent product, highly recommended!",
-        "date": "2024-12-15",
-        "helpful": 45,
-        "verified": true
-      }
-    ]
-  },
-  {
-    "id": "prod_136",
-    "name": "Puma Women's Premium Co-ord Sets",
-    "brand": "Puma",
-    "description": "Premium quality co-ord sets from Puma. Features comfortable fit and excellent material suitable for everyday wear.",
-    "category": "Women",
-    "subCategory": "Co-ord Sets",
-    "type": "Topwear",
-    "price": 5153,
-    "mrp": 6135,
-    "discount": 16,
-    "currency": "₹",
-    "rating": 4.5,
-    "reviewCount": 2249,
-    "images": [
-      "https://images.unsplash.com/photo-1490578474895-699bc4e3f49f?w=600&q=80",
-      "https://images.unsplash.com/photo-1552374196-1ab2a1c593e8?w=600&q=80",
-      "https://images.unsplash.com/photo-1490578474895-699bc4e3f49f?w=600&q=80",
-      "https://images.unsplash.com/photo-1552374196-1ab2a1c593e8?w=600&q=80"
-    ],
-    "colors": [
-      {
-        "name": "Off White",
-        "hex": "#f5f0e8"
-      },
-      {
-        "name": "Charcoal Black",
-        "hex": "#1a1a1a"
-      },
-      {
-        "name": "Navy Blue",
-        "hex": "#000080"
-      }
-    ],
-    "sizes": [
-      "XS",
-      "S",
-      "M",
-      "L",
-      "XL",
-      "XXL"
-    ],
-    "sizesAvailable": {
-      "XS": false,
-      "S": true,
-      "M": true,
-      "L": true,
-      "XL": false,
-      "XXL": false
-    },
-    "material": "Premium Cotton Blend",
-    "fit": "Regular",
-    "pattern": "Printed",
-    "occasion": "Casual",
-    "season": "All Season",
-    "stock": 37,
-    "isTrending": false,
-    "isNewArrival": false,
-    "isBestSeller": true,
-    "tags": [
-      "fashion",
-      "premium",
-      "topwear",
-      "women"
-    ],
-    "specifications": {
-      "Fabric": "Premium Cotton Blend",
-      "Fit": "Regular/Slim",
-      "Wash Care": "Machine Wash"
-    },
-    "reviews": [
-      {
-        "id": "rev_3gjcs",
-        "userName": "Customer",
-        "rating": 5,
-        "comment": "Excellent product, highly recommended!",
-        "date": "2024-12-15",
-        "helpful": 4,
-        "verified": true
-      }
-    ]
-  },
-  {
-    "id": "prod_137",
-    "name": "H&M Women's Premium Dresses",
-    "brand": "H&M",
-    "description": "Premium quality dresses from H&M. Features comfortable fit and excellent material suitable for everyday wear.",
-    "category": "Women",
-    "subCategory": "Dresses",
-    "type": "Topwear",
-    "price": 395,
-    "mrp": 775,
-    "discount": 49,
-    "currency": "₹",
-    "rating": 3.7,
-    "reviewCount": 4643,
-    "images": [
-      "https://images.unsplash.com/photo-1572804013309-59a88b7e92f1?w=600&q=80",
-      "https://images.unsplash.com/photo-1595777457583-95e059d581b8?w=600&q=80",
-      "https://images.unsplash.com/photo-1572804013309-59a88b7e92f1?w=600&q=80",
-      "https://images.unsplash.com/photo-1595777457583-95e059d581b8?w=600&q=80"
-    ],
-    "colors": [
-      {
-        "name": "Navy Blue",
-        "hex": "#000080"
-      },
-      {
-        "name": "Maroon",
-        "hex": "#800000"
-      },
-      {
-        "name": "Off White",
-        "hex": "#f5f0e8"
-      }
-    ],
-    "sizes": [
-      "XS",
-      "S",
-      "M",
-      "L",
-      "XL",
-      "XXL"
-    ],
-    "sizesAvailable": {
-      "XS": true,
-      "S": true,
-      "M": true,
-      "L": true,
-      "XL": true,
-      "XXL": true
-    },
-    "material": "Premium Cotton Blend",
-    "fit": "Regular",
-    "pattern": "Solid",
-    "occasion": "Casual",
-    "season": "All Season",
-    "stock": 55,
-    "isTrending": false,
-    "isNewArrival": true,
-    "isBestSeller": false,
-    "tags": [
-      "fashion",
-      "premium",
-      "topwear",
-      "women"
-    ],
-    "specifications": {
-      "Fabric": "Premium Cotton Blend",
-      "Fit": "Regular/Slim",
-      "Wash Care": "Machine Wash"
-    },
-    "reviews": [
-      {
-        "id": "rev_g92mz",
-        "userName": "Customer",
-        "rating": 5,
-        "comment": "Excellent product, highly recommended!",
-        "date": "2024-12-15",
-        "helpful": 49,
-        "verified": true
-      }
-    ]
-  },
-  {
-    "id": "prod_138",
-    "name": "DRIFT Women's Premium Ethnic",
-    "brand": "DRIFT",
-    "description": "Premium quality ethnic from DRIFT. Features comfortable fit and excellent material suitable for everyday wear.",
-    "category": "Women",
-    "subCategory": "Ethnic",
-    "type": "Topwear",
-    "price": 5196,
-    "mrp": 9805,
-    "discount": 47,
-    "currency": "₹",
-    "rating": 3.3,
-    "reviewCount": 4305,
-    "images": [
-      "https://images.unsplash.com/photo-1490578474895-699bc4e3f49f?w=600&q=80",
-      "https://images.unsplash.com/photo-1552374196-1ab2a1c593e8?w=600&q=80",
-      "https://images.unsplash.com/photo-1490578474895-699bc4e3f49f?w=600&q=80",
-      "https://images.unsplash.com/photo-1552374196-1ab2a1c593e8?w=600&q=80"
-    ],
-    "colors": [
-      {
-        "name": "Off White",
-        "hex": "#f5f0e8"
-      },
-      {
-        "name": "Maroon",
-        "hex": "#800000"
-      },
-      {
-        "name": "Olive",
-        "hex": "#556B2F"
-      }
-    ],
-    "sizes": [
-      "XS",
-      "S",
-      "M",
-      "L",
-      "XL",
-      "XXL"
-    ],
-    "sizesAvailable": {
-      "XS": false,
-      "S": true,
-      "M": true,
-      "L": true,
-      "XL": true,
-      "XXL": false
-    },
-    "material": "Premium Cotton Blend",
-    "fit": "Regular",
-    "pattern": "Solid",
-    "occasion": "Casual",
-    "season": "All Season",
-    "stock": 22,
-    "isTrending": true,
-    "isNewArrival": false,
-    "isBestSeller": false,
-    "tags": [
-      "fashion",
-      "premium",
-      "topwear",
-      "women"
-    ],
-    "specifications": {
-      "Fabric": "Premium Cotton Blend",
-      "Fit": "Regular/Slim",
-      "Wash Care": "Machine Wash"
-    },
-    "reviews": [
-      {
-        "id": "rev_55pk8",
-        "userName": "Customer",
-        "rating": 5,
-        "comment": "Excellent product, highly recommended!",
-        "date": "2024-12-15",
-        "helpful": 0,
-        "verified": true
-      }
-    ]
-  },
-  {
-    "id": "prod_139",
-    "name": "Levi's Women's Premium Co-ord Sets",
-    "brand": "Levi's",
-    "description": "Premium quality co-ord sets from Levi's. Features comfortable fit and excellent material suitable for everyday wear.",
-    "category": "Women",
-    "subCategory": "Co-ord Sets",
-    "type": "Topwear",
-    "price": 8218,
-    "mrp": 10146,
-    "discount": 19,
-    "currency": "₹",
-    "rating": 5,
-    "reviewCount": 1543,
-    "images": [
-      "https://images.unsplash.com/photo-1552374196-1ab2a1c593e8?w=600&q=80",
-      "https://images.unsplash.com/photo-1490578474895-699bc4e3f49f?w=600&q=80",
-      "https://images.unsplash.com/photo-1552374196-1ab2a1c593e8?w=600&q=80",
-      "https://images.unsplash.com/photo-1490578474895-699bc4e3f49f?w=600&q=80"
-    ],
-    "colors": [
-      {
-        "name": "Off White",
-        "hex": "#f5f0e8"
-      },
-      {
-        "name": "Maroon",
-        "hex": "#800000"
-      },
-      {
-        "name": "Navy Blue",
-        "hex": "#000080"
-      }
-    ],
-    "sizes": [
-      "XS",
-      "S",
-      "M",
-      "L",
-      "XL",
-      "XXL"
-    ],
-    "sizesAvailable": {
-      "XS": false,
-      "S": true,
-      "M": true,
-      "L": true,
-      "XL": true,
-      "XXL": false
-    },
-    "material": "Premium Cotton Blend",
-    "fit": "Regular",
-    "pattern": "Printed",
-    "occasion": "Casual",
-    "season": "All Season",
-    "stock": 91,
-    "isTrending": false,
-    "isNewArrival": false,
-    "isBestSeller": false,
-    "tags": [
-      "fashion",
-      "premium",
-      "topwear",
-      "women"
-    ],
-    "specifications": {
-      "Fabric": "Premium Cotton Blend",
-      "Fit": "Regular/Slim",
-      "Wash Care": "Machine Wash"
-    },
-    "reviews": [
-      {
-        "id": "rev_sn7m4",
-        "userName": "Customer",
-        "rating": 5,
-        "comment": "Excellent product, highly recommended!",
-        "date": "2024-12-15",
-        "helpful": 42,
-        "verified": true
-      }
-    ]
-  },
-  {
-    "id": "prod_140",
-    "name": "Van Heusen Women's Premium Dresses",
-    "brand": "Van Heusen",
-    "description": "Premium quality dresses from Van Heusen. Features comfortable fit and excellent material suitable for everyday wear.",
-    "category": "Women",
-    "subCategory": "Dresses",
-    "type": "Topwear",
-    "price": 2415,
-    "mrp": 4237,
-    "discount": 43,
-    "currency": "₹",
-    "rating": 4.4,
-    "reviewCount": 3914,
-    "images": [
-      "https://images.unsplash.com/photo-1595777457583-95e059d581b8?w=600&q=80",
-      "https://images.unsplash.com/photo-1572804013309-59a88b7e92f1?w=600&q=80",
-      "https://images.unsplash.com/photo-1595777457583-95e059d581b8?w=600&q=80",
-      "https://images.unsplash.com/photo-1572804013309-59a88b7e92f1?w=600&q=80"
-    ],
-    "colors": [
-      {
-        "name": "Mustard",
-        "hex": "#FFDB58"
-      },
-      {
-        "name": "Maroon",
-        "hex": "#800000"
-      },
-      {
-        "name": "Charcoal Black",
-        "hex": "#1a1a1a"
-      }
-    ],
-    "sizes": [
-      "XS",
-      "S",
-      "M",
-      "L",
-      "XL",
-      "XXL"
-    ],
-    "sizesAvailable": {
-      "XS": false,
-      "S": true,
-      "M": true,
-      "L": true,
-      "XL": true,
-      "XXL": false
-    },
-    "material": "Premium Cotton Blend",
-    "fit": "Regular",
-    "pattern": "Printed",
-    "occasion": "Casual",
-    "season": "All Season",
-    "stock": 71,
-    "isTrending": false,
-    "isNewArrival": false,
-    "isBestSeller": false,
-    "tags": [
-      "fashion",
-      "premium",
-      "topwear",
-      "women"
-    ],
-    "specifications": {
-      "Fabric": "Premium Cotton Blend",
-      "Fit": "Regular/Slim",
-      "Wash Care": "Machine Wash"
-    },
-    "reviews": [
-      {
-        "id": "rev_h2ei3",
-        "userName": "Customer",
-        "rating": 5,
-        "comment": "Excellent product, highly recommended!",
-        "date": "2024-12-15",
-        "helpful": 43,
-        "verified": true
-      }
-    ]
-  },
-  {
-    "id": "prod_141",
-    "name": "W Women's Premium Skirts",
-    "brand": "W",
-    "description": "Premium quality skirts from W. Features comfortable fit and excellent material suitable for everyday wear.",
-    "category": "Women",
-    "subCategory": "Skirts",
-    "type": "Bottomwear",
-    "price": 7428,
-    "mrp": 9905,
-    "discount": 25,
-    "currency": "₹",
-    "rating": 3.4,
-    "reviewCount": 1285,
-    "images": [
-      "https://images.unsplash.com/photo-1552374196-1ab2a1c593e8?w=600&q=80",
-      "https://images.unsplash.com/photo-1490578474895-699bc4e3f49f?w=600&q=80",
-      "https://images.unsplash.com/photo-1552374196-1ab2a1c593e8?w=600&q=80",
-      "https://images.unsplash.com/photo-1490578474895-699bc4e3f49f?w=600&q=80"
-    ],
-    "colors": [
-      {
-        "name": "Navy Blue",
-        "hex": "#000080"
-      },
-      {
-        "name": "Charcoal Black",
-        "hex": "#1a1a1a"
-      },
-      {
-        "name": "Off White",
-        "hex": "#f5f0e8"
-      }
-    ],
-    "sizes": [
-      "XS",
-      "S",
-      "M",
-      "L",
-      "XL",
-      "XXL"
-    ],
-    "sizesAvailable": {
-      "XS": false,
-      "S": true,
-      "M": true,
-      "L": true,
-      "XL": true,
-      "XXL": true
-    },
-    "material": "Premium Cotton Blend",
-    "fit": "Slim",
-    "pattern": "Printed",
-    "occasion": "Casual",
-    "season": "All Season",
-    "stock": 89,
-    "isTrending": true,
-    "isNewArrival": false,
-    "isBestSeller": false,
-    "tags": [
-      "fashion",
-      "premium",
-      "bottomwear",
-      "women"
-    ],
-    "specifications": {
-      "Fabric": "Premium Cotton Blend",
-      "Fit": "Regular/Slim",
-      "Wash Care": "Machine Wash"
-    },
-    "reviews": [
-      {
-        "id": "rev_tnxdn",
-        "userName": "Customer",
-        "rating": 5,
-        "comment": "Excellent product, highly recommended!",
-        "date": "2024-12-15",
-        "helpful": 11,
-        "verified": true
-      }
-    ]
-  },
-  {
-    "id": "prod_142",
-    "name": "URBAN EDGE Women's Premium Dresses",
-    "brand": "URBAN EDGE",
-    "description": "Premium quality dresses from URBAN EDGE. Features comfortable fit and excellent material suitable for everyday wear.",
-    "category": "Women",
-    "subCategory": "Dresses",
-    "type": "Topwear",
-    "price": 4426,
-    "mrp": 13833,
-    "discount": 68,
-    "currency": "₹",
-    "rating": 4.3,
-    "reviewCount": 4265,
-    "images": [
-      "https://images.unsplash.com/photo-1595777457583-95e059d581b8?w=600&q=80",
-      "https://images.unsplash.com/photo-1572804013309-59a88b7e92f1?w=600&q=80",
-      "https://images.unsplash.com/photo-1595777457583-95e059d581b8?w=600&q=80",
-      "https://images.unsplash.com/photo-1572804013309-59a88b7e92f1?w=600&q=80"
-    ],
-    "colors": [
-      {
-        "name": "Mustard",
-        "hex": "#FFDB58"
-      },
-      {
-        "name": "Olive",
-        "hex": "#556B2F"
-      },
-      {
-        "name": "Charcoal Black",
-        "hex": "#1a1a1a"
-      }
-    ],
-    "sizes": [
-      "XS",
-      "S",
-      "M",
-      "L",
-      "XL",
-      "XXL"
-    ],
-    "sizesAvailable": {
-      "XS": false,
-      "S": true,
-      "M": true,
-      "L": true,
-      "XL": true,
-      "XXL": true
-    },
-    "material": "Premium Cotton Blend",
-    "fit": "Regular",
-    "pattern": "Solid",
-    "occasion": "Casual",
-    "season": "All Season",
-    "stock": 89,
-    "isTrending": true,
-    "isNewArrival": true,
-    "isBestSeller": false,
-    "tags": [
-      "fashion",
-      "premium",
-      "topwear",
-      "women"
-    ],
-    "specifications": {
-      "Fabric": "Premium Cotton Blend",
-      "Fit": "Regular/Slim",
-      "Wash Care": "Machine Wash"
-    },
-    "reviews": [
-      {
-        "id": "rev_cr6yg",
-        "userName": "Customer",
-        "rating": 5,
-        "comment": "Excellent product, highly recommended!",
-        "date": "2024-12-15",
-        "helpful": 33,
-        "verified": true
-      }
-    ]
-  },
-  {
-    "id": "prod_143",
-    "name": "URBAN EDGE Women's Premium T-Shirts",
-    "brand": "URBAN EDGE",
-    "description": "Premium quality t-shirts from URBAN EDGE. Features comfortable fit and excellent material suitable for everyday wear.",
-    "category": "Women",
-    "subCategory": "T-Shirts",
-    "type": "Topwear",
-    "price": 8899,
-    "mrp": 14590,
-    "discount": 39,
-    "currency": "₹",
-    "rating": 4,
-    "reviewCount": 3941,
-    "images": [
-      "https://images.unsplash.com/photo-1583743814966-8936f5b7be1a?w=600&q=80",
-      "https://images.unsplash.com/photo-1521572163474-6864f9cf17ab?w=600&q=80",
-      "https://images.unsplash.com/photo-1583743814966-8936f5b7be1a?w=600&q=80",
-      "https://images.unsplash.com/photo-1521572163474-6864f9cf17ab?w=600&q=80"
-    ],
-    "colors": [
-      {
-        "name": "Off White",
-        "hex": "#f5f0e8"
-      },
-      {
-        "name": "Charcoal Black",
-        "hex": "#1a1a1a"
-      },
-      {
-        "name": "Navy Blue",
-        "hex": "#000080"
-      }
-    ],
-    "sizes": [
-      "XS",
-      "S",
-      "M",
-      "L",
-      "XL",
-      "XXL"
-    ],
-    "sizesAvailable": {
-      "XS": true,
-      "S": true,
-      "M": true,
-      "L": true,
-      "XL": true,
-      "XXL": false
-    },
-    "material": "Premium Cotton Blend",
-    "fit": "Slim",
-    "pattern": "Printed",
-    "occasion": "Casual",
-    "season": "All Season",
-    "stock": 101,
-    "isTrending": false,
-    "isNewArrival": false,
-    "isBestSeller": false,
-    "tags": [
-      "fashion",
-      "premium",
-      "topwear",
-      "women"
-    ],
-    "specifications": {
-      "Fabric": "Premium Cotton Blend",
-      "Fit": "Regular/Slim",
-      "Wash Care": "Machine Wash"
-    },
-    "reviews": [
-      {
-        "id": "rev_f4dv3",
-        "userName": "Customer",
-        "rating": 5,
-        "comment": "Excellent product, highly recommended!",
-        "date": "2024-12-15",
-        "helpful": 18,
-        "verified": true
-      }
-    ]
-  },
-  {
-    "id": "prod_144",
-    "name": "Vero Moda Women's Premium Accessories",
-    "brand": "Vero Moda",
-    "description": "Premium quality accessories from Vero Moda. Features comfortable fit and excellent material suitable for everyday wear.",
-    "category": "Women",
-    "subCategory": "Accessories",
-    "type": "Accessories",
-    "price": 4481,
-    "mrp": 7229,
-    "discount": 38,
-    "currency": "₹",
-    "rating": 4.8,
-    "reviewCount": 3144,
-    "images": [
-      "https://images.unsplash.com/photo-1523206489230-c012c64b2b48?w=600&q=80",
-      "https://images.unsplash.com/photo-1511499767150-a48a237f0083?w=600&q=80",
-      "https://images.unsplash.com/photo-1523206489230-c012c64b2b48?w=600&q=80",
-      "https://images.unsplash.com/photo-1511499767150-a48a237f0083?w=600&q=80"
-    ],
-    "colors": [
-      {
-        "name": "Maroon",
-        "hex": "#800000"
-      },
-      {
-        "name": "Charcoal Black",
-        "hex": "#1a1a1a"
-      },
-      {
-        "name": "Navy Blue",
-        "hex": "#000080"
-      }
-    ],
-    "sizes": [
-      "XS",
-      "S",
-      "M",
-      "L",
-      "XL",
-      "XXL"
-    ],
-    "sizesAvailable": {
-      "XS": false,
-      "S": true,
-      "M": true,
-      "L": true,
-      "XL": false,
-      "XXL": false
-    },
-    "material": "Premium Cotton Blend",
-    "fit": "Slim",
-    "pattern": "Solid",
-    "occasion": "Casual",
-    "season": "All Season",
-    "stock": 47,
-    "isTrending": false,
-    "isNewArrival": false,
-    "isBestSeller": false,
-    "tags": [
-      "fashion",
-      "premium",
-      "accessories",
-      "women"
-    ],
-    "specifications": {
-      "Fabric": "Premium Cotton Blend",
-      "Fit": "Regular/Slim",
-      "Wash Care": "Machine Wash"
-    },
-    "reviews": [
-      {
-        "id": "rev_kdowa",
-        "userName": "Customer",
-        "rating": 5,
-        "comment": "Excellent product, highly recommended!",
-        "date": "2024-12-15",
-        "helpful": 46,
-        "verified": true
-      }
-    ]
-  },
-  {
-    "id": "prod_145",
-    "name": "URBAN EDGE Women's Premium Shoes",
-    "brand": "URBAN EDGE",
-    "description": "Premium quality shoes from URBAN EDGE. Features comfortable fit and excellent material suitable for everyday wear.",
-    "category": "Women",
-    "subCategory": "Shoes",
-    "type": "Footwear",
-    "price": 4311,
-    "mrp": 6533,
-    "discount": 34,
-    "currency": "₹",
-    "rating": 4.2,
-    "reviewCount": 2535,
-    "images": [
-      "https://images.unsplash.com/photo-1525966222134-fcfa99b8ae77?w=600&q=80",
-      "https://images.unsplash.com/photo-1542291026-7eec264c27ff?w=600&q=80",
-      "https://images.unsplash.com/photo-1525966222134-fcfa99b8ae77?w=600&q=80",
-      "https://images.unsplash.com/photo-1542291026-7eec264c27ff?w=600&q=80"
-    ],
-    "colors": [
-      {
-        "name": "Navy Blue",
-        "hex": "#000080"
-      },
-      {
-        "name": "Off White",
-        "hex": "#f5f0e8"
-      },
-      {
-        "name": "Olive",
-        "hex": "#556B2F"
-      }
-    ],
-    "sizes": [
-      "XS",
-      "S",
-      "M",
-      "L",
-      "XL",
-      "XXL"
-    ],
-    "sizesAvailable": {
-      "XS": true,
-      "S": true,
-      "M": true,
-      "L": true,
-      "XL": true,
-      "XXL": false
-    },
-    "material": "Premium Cotton Blend",
-    "fit": "Regular",
-    "pattern": "Printed",
-    "occasion": "Casual",
-    "season": "All Season",
-    "stock": 70,
-    "isTrending": false,
-    "isNewArrival": false,
-    "isBestSeller": false,
-    "tags": [
-      "fashion",
-      "premium",
-      "footwear",
-      "women"
-    ],
-    "specifications": {
-      "Fabric": "Premium Cotton Blend",
-      "Fit": "Regular/Slim",
-      "Wash Care": "Machine Wash"
-    },
-    "reviews": [
-      {
-        "id": "rev_97rg7",
-        "userName": "Customer",
-        "rating": 5,
-        "comment": "Excellent product, highly recommended!",
-        "date": "2024-12-15",
-        "helpful": 37,
-        "verified": true
-      }
-    ]
-  },
-  {
-    "id": "prod_146",
-    "name": "Van Heusen Women's Premium Dresses",
-    "brand": "Van Heusen",
-    "description": "Premium quality dresses from Van Heusen. Features comfortable fit and excellent material suitable for everyday wear.",
-    "category": "Women",
-    "subCategory": "Dresses",
-    "type": "Topwear",
-    "price": 7828,
-    "mrp": 12626,
-    "discount": 38,
-    "currency": "₹",
-    "rating": 3.1,
-    "reviewCount": 4611,
-    "images": [
-      "https://images.unsplash.com/photo-1595777457583-95e059d581b8?w=600&q=80",
-      "https://images.unsplash.com/photo-1572804013309-59a88b7e92f1?w=600&q=80",
-      "https://images.unsplash.com/photo-1595777457583-95e059d581b8?w=600&q=80",
-      "https://images.unsplash.com/photo-1572804013309-59a88b7e92f1?w=600&q=80"
-    ],
-    "colors": [
-      {
-        "name": "Mustard",
-        "hex": "#FFDB58"
-      },
-      {
-        "name": "Maroon",
-        "hex": "#800000"
-      },
-      {
-        "name": "Charcoal Black",
-        "hex": "#1a1a1a"
-      }
-    ],
-    "sizes": [
-      "XS",
-      "S",
-      "M",
-      "L",
-      "XL",
-      "XXL"
-    ],
-    "sizesAvailable": {
-      "XS": true,
-      "S": true,
-      "M": true,
-      "L": true,
-      "XL": false,
-      "XXL": false
-    },
-    "material": "Premium Cotton Blend",
-    "fit": "Slim",
-    "pattern": "Printed",
-    "occasion": "Casual",
-    "season": "All Season",
-    "stock": 20,
-    "isTrending": true,
-    "isNewArrival": false,
-    "isBestSeller": false,
-    "tags": [
-      "fashion",
-      "premium",
-      "topwear",
-      "women"
-    ],
-    "specifications": {
-      "Fabric": "Premium Cotton Blend",
-      "Fit": "Regular/Slim",
-      "Wash Care": "Machine Wash"
-    },
-    "reviews": [
-      {
-        "id": "rev_gxsuf",
-        "userName": "Customer",
-        "rating": 5,
-        "comment": "Excellent product, highly recommended!",
-        "date": "2024-12-15",
-        "helpful": 48,
-        "verified": true
-      }
-    ]
-  },
-  {
-    "id": "prod_147",
-    "name": "Nike Women's Premium Skirts",
-    "brand": "Nike",
-    "description": "Premium quality skirts from Nike. Features comfortable fit and excellent material suitable for everyday wear.",
-    "category": "Women",
-    "subCategory": "Skirts",
-    "type": "Bottomwear",
-    "price": 9003,
-    "mrp": 10231,
-    "discount": 12,
-    "currency": "₹",
-    "rating": 3.2,
-    "reviewCount": 1294,
-    "images": [
-      "https://images.unsplash.com/photo-1552374196-1ab2a1c593e8?w=600&q=80",
-      "https://images.unsplash.com/photo-1490578474895-699bc4e3f49f?w=600&q=80",
-      "https://images.unsplash.com/photo-1552374196-1ab2a1c593e8?w=600&q=80",
-      "https://images.unsplash.com/photo-1490578474895-699bc4e3f49f?w=600&q=80"
-    ],
-    "colors": [
-      {
-        "name": "Mustard",
-        "hex": "#FFDB58"
-      },
-      {
-        "name": "Maroon",
-        "hex": "#800000"
-      },
-      {
-        "name": "Charcoal Black",
-        "hex": "#1a1a1a"
-      }
-    ],
-    "sizes": [
-      "XS",
-      "S",
-      "M",
-      "L",
-      "XL",
-      "XXL"
-    ],
-    "sizesAvailable": {
-      "XS": false,
-      "S": true,
-      "M": true,
-      "L": true,
-      "XL": true,
-      "XXL": false
-    },
-    "material": "Premium Cotton Blend",
-    "fit": "Slim",
-    "pattern": "Printed",
-    "occasion": "Casual",
-    "season": "All Season",
-    "stock": 51,
-    "isTrending": true,
-    "isNewArrival": false,
-    "isBestSeller": false,
-    "tags": [
-      "fashion",
-      "premium",
-      "bottomwear",
-      "women"
-    ],
-    "specifications": {
-      "Fabric": "Premium Cotton Blend",
-      "Fit": "Regular/Slim",
-      "Wash Care": "Machine Wash"
-    },
-    "reviews": [
-      {
-        "id": "rev_1dyr3",
-        "userName": "Customer",
-        "rating": 5,
-        "comment": "Excellent product, highly recommended!",
-        "date": "2024-12-15",
-        "helpful": 42,
-        "verified": true
-      }
-    ]
-  },
-  {
-    "id": "prod_148",
-    "name": "Puma Women's Premium Accessories",
-    "brand": "Puma",
-    "description": "Premium quality accessories from Puma. Features comfortable fit and excellent material suitable for everyday wear.",
-    "category": "Women",
-    "subCategory": "Accessories",
-    "type": "Accessories",
-    "price": 5468,
-    "mrp": 9429,
-    "discount": 42,
-    "currency": "₹",
-    "rating": 4.6,
-    "reviewCount": 883,
-    "images": [
-      "https://images.unsplash.com/photo-1523206489230-c012c64b2b48?w=600&q=80",
-      "https://images.unsplash.com/photo-1511499767150-a48a237f0083?w=600&q=80",
-      "https://images.unsplash.com/photo-1523206489230-c012c64b2b48?w=600&q=80",
-      "https://images.unsplash.com/photo-1511499767150-a48a237f0083?w=600&q=80"
-    ],
-    "colors": [
-      {
-        "name": "Navy Blue",
-        "hex": "#000080"
-      },
-      {
-        "name": "Olive",
-        "hex": "#556B2F"
-      },
-      {
-        "name": "Charcoal Black",
-        "hex": "#1a1a1a"
-      }
-    ],
-    "sizes": [
-      "XS",
-      "S",
-      "M",
-      "L",
-      "XL",
-      "XXL"
-    ],
-    "sizesAvailable": {
-      "XS": true,
-      "S": true,
-      "M": true,
-      "L": true,
-      "XL": true,
-      "XXL": false
-    },
-    "material": "Premium Cotton Blend",
-    "fit": "Regular",
-    "pattern": "Printed",
-    "occasion": "Casual",
-    "season": "All Season",
-    "stock": 15,
-    "isTrending": false,
-    "isNewArrival": false,
-    "isBestSeller": true,
-    "tags": [
-      "fashion",
-      "premium",
-      "accessories",
-      "women"
-    ],
-    "specifications": {
-      "Fabric": "Premium Cotton Blend",
-      "Fit": "Regular/Slim",
-      "Wash Care": "Machine Wash"
-    },
-    "reviews": [
-      {
-        "id": "rev_x6pij",
-        "userName": "Customer",
-        "rating": 5,
-        "comment": "Excellent product, highly recommended!",
-        "date": "2024-12-15",
-        "helpful": 27,
-        "verified": true
-      }
-    ]
-  },
-  {
-    "id": "prod_149",
-    "name": "URBAN EDGE Women's Premium Accessories",
-    "brand": "URBAN EDGE",
-    "description": "Premium quality accessories from URBAN EDGE. Features comfortable fit and excellent material suitable for everyday wear.",
-    "category": "Women",
-    "subCategory": "Accessories",
-    "type": "Accessories",
-    "price": 1344,
-    "mrp": 3361,
+    "price": 599,
+    "mrp": 1498,
     "discount": 60,
     "currency": "₹",
-    "rating": 4.3,
-    "reviewCount": 4927,
+    "rating": "4.1",
+    "reviewCount": 3132,
     "images": [
-      "https://images.unsplash.com/photo-1511499767150-a48a237f0083?w=600&q=80",
-      "https://images.unsplash.com/photo-1523206489230-c012c64b2b48?w=600&q=80",
-      "https://images.unsplash.com/photo-1511499767150-a48a237f0083?w=600&q=80",
-      "https://images.unsplash.com/photo-1523206489230-c012c64b2b48?w=600&q=80"
+      "https://images.unsplash.com/photo-1583391099893-28f6c9cb0b4c?w=600&q=80",
+      "https://images.unsplash.com/photo-1523170335258-f937568f9114?w=600&q=80",
+      "https://images.unsplash.com/photo-1553062407-98eeb64c6a62?w=600&q=80"
     ],
     "colors": [
       {
-        "name": "Off White",
-        "hex": "#f5f0e8"
-      },
-      {
-        "name": "Mustard",
-        "hex": "#FFDB58"
-      },
-      {
-        "name": "Charcoal Black",
+        "name": "Standard",
         "hex": "#1a1a1a"
+      },
+      {
+        "name": "Variant",
+        "hex": "#f5f5f5"
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -12178,2705 +4489,72 @@ export const products = [
       "XXL"
     ],
     "sizesAvailable": {
-      "XS": true,
-      "S": true,
-      "M": true,
-      "L": true,
-      "XL": true,
-      "XXL": true
-    },
-    "material": "Premium Cotton Blend",
-    "fit": "Regular",
-    "pattern": "Printed",
-    "occasion": "Casual",
-    "season": "All Season",
-    "stock": 67,
-    "isTrending": false,
-    "isNewArrival": false,
-    "isBestSeller": false,
-    "tags": [
-      "fashion",
-      "premium",
-      "accessories",
-      "women"
-    ],
-    "specifications": {
-      "Fabric": "Premium Cotton Blend",
-      "Fit": "Regular/Slim",
-      "Wash Care": "Machine Wash"
-    },
-    "reviews": [
-      {
-        "id": "rev_nbi9x",
-        "userName": "Customer",
-        "rating": 5,
-        "comment": "Excellent product, highly recommended!",
-        "date": "2024-12-15",
-        "helpful": 22,
-        "verified": true
-      }
-    ]
-  },
-  {
-    "id": "prod_150",
-    "name": "URBAN EDGE Women's Premium Shoes",
-    "brand": "URBAN EDGE",
-    "description": "Premium quality shoes from URBAN EDGE. Features comfortable fit and excellent material suitable for everyday wear.",
-    "category": "Women",
-    "subCategory": "Shoes",
-    "type": "Footwear",
-    "price": 5057,
-    "mrp": 7548,
-    "discount": 33,
-    "currency": "₹",
-    "rating": 5,
-    "reviewCount": 4413,
-    "images": [
-      "https://images.unsplash.com/photo-1542291026-7eec264c27ff?w=600&q=80",
-      "https://images.unsplash.com/photo-1525966222134-fcfa99b8ae77?w=600&q=80",
-      "https://images.unsplash.com/photo-1542291026-7eec264c27ff?w=600&q=80",
-      "https://images.unsplash.com/photo-1525966222134-fcfa99b8ae77?w=600&q=80"
-    ],
-    "colors": [
-      {
-        "name": "Charcoal Black",
-        "hex": "#1a1a1a"
-      },
-      {
-        "name": "Off White",
-        "hex": "#f5f0e8"
-      },
-      {
-        "name": "Olive",
-        "hex": "#556B2F"
-      }
-    ],
-    "sizes": [
-      "XS",
-      "S",
-      "M",
-      "L",
-      "XL",
-      "XXL"
-    ],
-    "sizesAvailable": {
-      "XS": true,
       "S": true,
       "M": true,
       "L": true,
       "XL": false,
       "XXL": false
     },
-    "material": "Premium Cotton Blend",
-    "fit": "Slim",
-    "pattern": "Solid",
-    "occasion": "Casual",
-    "season": "All Season",
-    "stock": 88,
-    "isTrending": false,
-    "isNewArrival": false,
-    "isBestSeller": false,
-    "tags": [
-      "fashion",
-      "premium",
-      "footwear",
-      "women"
-    ],
-    "specifications": {
-      "Fabric": "Premium Cotton Blend",
-      "Fit": "Regular/Slim",
-      "Wash Care": "Machine Wash"
-    },
-    "reviews": [
-      {
-        "id": "rev_g2oei",
-        "userName": "Customer",
-        "rating": 5,
-        "comment": "Excellent product, highly recommended!",
-        "date": "2024-12-15",
-        "helpful": 23,
-        "verified": true
-      }
-    ]
-  },
-  {
-    "id": "prod_151",
-    "name": "H&M Women's Premium Accessories",
-    "brand": "H&M",
-    "description": "Premium quality accessories from H&M. Features comfortable fit and excellent material suitable for everyday wear.",
-    "category": "Women",
-    "subCategory": "Accessories",
-    "type": "Accessories",
-    "price": 2687,
-    "mrp": 5168,
-    "discount": 48,
-    "currency": "₹",
-    "rating": 4.9,
-    "reviewCount": 2435,
-    "images": [
-      "https://images.unsplash.com/photo-1511499767150-a48a237f0083?w=600&q=80",
-      "https://images.unsplash.com/photo-1523206489230-c012c64b2b48?w=600&q=80",
-      "https://images.unsplash.com/photo-1511499767150-a48a237f0083?w=600&q=80",
-      "https://images.unsplash.com/photo-1523206489230-c012c64b2b48?w=600&q=80"
-    ],
-    "colors": [
-      {
-        "name": "Olive",
-        "hex": "#556B2F"
-      },
-      {
-        "name": "Mustard",
-        "hex": "#FFDB58"
-      },
-      {
-        "name": "Charcoal Black",
-        "hex": "#1a1a1a"
-      }
-    ],
-    "sizes": [
-      "XS",
-      "S",
-      "M",
-      "L",
-      "XL",
-      "XXL"
-    ],
-    "sizesAvailable": {
-      "XS": true,
-      "S": true,
-      "M": true,
-      "L": true,
-      "XL": true,
-      "XXL": false
-    },
-    "material": "Premium Cotton Blend",
-    "fit": "Slim",
-    "pattern": "Printed",
-    "occasion": "Casual",
-    "season": "All Season",
-    "stock": 20,
-    "isTrending": false,
-    "isNewArrival": true,
-    "isBestSeller": false,
-    "tags": [
-      "fashion",
-      "premium",
-      "accessories",
-      "women"
-    ],
-    "specifications": {
-      "Fabric": "Premium Cotton Blend",
-      "Fit": "Regular/Slim",
-      "Wash Care": "Machine Wash"
-    },
-    "reviews": [
-      {
-        "id": "rev_hf8l2",
-        "userName": "Customer",
-        "rating": 5,
-        "comment": "Excellent product, highly recommended!",
-        "date": "2024-12-15",
-        "helpful": 17,
-        "verified": true
-      }
-    ]
-  },
-  {
-    "id": "prod_152",
-    "name": "Puma Women's Premium Activewear",
-    "brand": "Puma",
-    "description": "Premium quality activewear from Puma. Features comfortable fit and excellent material suitable for everyday wear.",
-    "category": "Women",
-    "subCategory": "Activewear",
-    "type": "Activewear",
-    "price": 2978,
-    "mrp": 6205,
-    "discount": 52,
-    "currency": "₹",
-    "rating": 4.1,
-    "reviewCount": 3045,
-    "images": [
-      "https://images.unsplash.com/photo-1490578474895-699bc4e3f49f?w=600&q=80",
-      "https://images.unsplash.com/photo-1552374196-1ab2a1c593e8?w=600&q=80",
-      "https://images.unsplash.com/photo-1490578474895-699bc4e3f49f?w=600&q=80",
-      "https://images.unsplash.com/photo-1552374196-1ab2a1c593e8?w=600&q=80"
-    ],
-    "colors": [
-      {
-        "name": "Olive",
-        "hex": "#556B2F"
-      },
-      {
-        "name": "Charcoal Black",
-        "hex": "#1a1a1a"
-      },
-      {
-        "name": "Mustard",
-        "hex": "#FFDB58"
-      }
-    ],
-    "sizes": [
-      "XS",
-      "S",
-      "M",
-      "L",
-      "XL",
-      "XXL"
-    ],
-    "sizesAvailable": {
-      "XS": false,
-      "S": true,
-      "M": true,
-      "L": true,
-      "XL": true,
-      "XXL": false
-    },
-    "material": "Premium Cotton Blend",
-    "fit": "Regular",
-    "pattern": "Printed",
-    "occasion": "Casual",
-    "season": "All Season",
-    "stock": 59,
-    "isTrending": true,
-    "isNewArrival": false,
-    "isBestSeller": true,
-    "tags": [
-      "fashion",
-      "premium",
-      "activewear",
-      "women"
-    ],
-    "specifications": {
-      "Fabric": "Premium Cotton Blend",
-      "Fit": "Regular/Slim",
-      "Wash Care": "Machine Wash"
-    },
-    "reviews": [
-      {
-        "id": "rev_13agc",
-        "userName": "Customer",
-        "rating": 5,
-        "comment": "Excellent product, highly recommended!",
-        "date": "2024-12-15",
-        "helpful": 42,
-        "verified": true
-      }
-    ]
-  },
-  {
-    "id": "prod_153",
-    "name": "AURA Women's Premium Jeans & Trousers",
-    "brand": "AURA",
-    "description": "Premium quality jeans & trousers from AURA. Features comfortable fit and excellent material suitable for everyday wear.",
-    "category": "Women",
-    "subCategory": "Jeans & Trousers",
-    "type": "Bottomwear",
-    "price": 10106,
-    "mrp": 13298,
-    "discount": 24,
-    "currency": "₹",
-    "rating": 3.8,
-    "reviewCount": 964,
-    "images": [
-      "https://images.unsplash.com/photo-1552374196-1ab2a1c593e8?w=600&q=80",
-      "https://images.unsplash.com/photo-1490578474895-699bc4e3f49f?w=600&q=80",
-      "https://images.unsplash.com/photo-1552374196-1ab2a1c593e8?w=600&q=80",
-      "https://images.unsplash.com/photo-1490578474895-699bc4e3f49f?w=600&q=80"
-    ],
-    "colors": [
-      {
-        "name": "Maroon",
-        "hex": "#800000"
-      },
-      {
-        "name": "Mustard",
-        "hex": "#FFDB58"
-      },
-      {
-        "name": "Off White",
-        "hex": "#f5f0e8"
-      }
-    ],
-    "sizes": [
-      "XS",
-      "S",
-      "M",
-      "L",
-      "XL",
-      "XXL"
-    ],
-    "sizesAvailable": {
-      "XS": false,
-      "S": true,
-      "M": true,
-      "L": true,
-      "XL": false,
-      "XXL": false
-    },
-    "material": "Premium Cotton Blend",
-    "fit": "Slim",
-    "pattern": "Printed",
-    "occasion": "Casual",
-    "season": "All Season",
-    "stock": 5,
-    "isTrending": false,
-    "isNewArrival": false,
-    "isBestSeller": false,
-    "tags": [
-      "fashion",
-      "premium",
-      "bottomwear",
-      "women"
-    ],
-    "specifications": {
-      "Fabric": "Premium Cotton Blend",
-      "Fit": "Regular/Slim",
-      "Wash Care": "Machine Wash"
-    },
-    "reviews": [
-      {
-        "id": "rev_tq4e4",
-        "userName": "Customer",
-        "rating": 5,
-        "comment": "Excellent product, highly recommended!",
-        "date": "2024-12-15",
-        "helpful": 20,
-        "verified": true
-      }
-    ]
-  },
-  {
-    "id": "prod_154",
-    "name": "URBAN EDGE Women's Premium Skirts",
-    "brand": "URBAN EDGE",
-    "description": "Premium quality skirts from URBAN EDGE. Features comfortable fit and excellent material suitable for everyday wear.",
-    "category": "Women",
-    "subCategory": "Skirts",
-    "type": "Bottomwear",
-    "price": 5052,
-    "mrp": 10104,
-    "discount": 50,
-    "currency": "₹",
-    "rating": 3.8,
-    "reviewCount": 2499,
-    "images": [
-      "https://images.unsplash.com/photo-1490578474895-699bc4e3f49f?w=600&q=80",
-      "https://images.unsplash.com/photo-1552374196-1ab2a1c593e8?w=600&q=80",
-      "https://images.unsplash.com/photo-1490578474895-699bc4e3f49f?w=600&q=80",
-      "https://images.unsplash.com/photo-1552374196-1ab2a1c593e8?w=600&q=80"
-    ],
-    "colors": [
-      {
-        "name": "Navy Blue",
-        "hex": "#000080"
-      },
-      {
-        "name": "Charcoal Black",
-        "hex": "#1a1a1a"
-      },
-      {
-        "name": "Olive",
-        "hex": "#556B2F"
-      }
-    ],
-    "sizes": [
-      "XS",
-      "S",
-      "M",
-      "L",
-      "XL",
-      "XXL"
-    ],
-    "sizesAvailable": {
-      "XS": false,
-      "S": true,
-      "M": true,
-      "L": true,
-      "XL": true,
-      "XXL": true
-    },
-    "material": "Premium Cotton Blend",
-    "fit": "Regular",
-    "pattern": "Printed",
-    "occasion": "Casual",
-    "season": "All Season",
-    "stock": 13,
-    "isTrending": false,
-    "isNewArrival": true,
-    "isBestSeller": false,
-    "tags": [
-      "fashion",
-      "premium",
-      "bottomwear",
-      "women"
-    ],
-    "specifications": {
-      "Fabric": "Premium Cotton Blend",
-      "Fit": "Regular/Slim",
-      "Wash Care": "Machine Wash"
-    },
-    "reviews": [
-      {
-        "id": "rev_o4g72",
-        "userName": "Customer",
-        "rating": 5,
-        "comment": "Excellent product, highly recommended!",
-        "date": "2024-12-15",
-        "helpful": 6,
-        "verified": true
-      }
-    ]
-  },
-  {
-    "id": "prod_155",
-    "name": "NOIR Women's Premium Shoes",
-    "brand": "NOIR",
-    "description": "Premium quality shoes from NOIR. Features comfortable fit and excellent material suitable for everyday wear.",
-    "category": "Women",
-    "subCategory": "Shoes",
-    "type": "Footwear",
-    "price": 7333,
-    "mrp": 12222,
-    "discount": 40,
-    "currency": "₹",
-    "rating": 5,
-    "reviewCount": 2269,
-    "images": [
-      "https://images.unsplash.com/photo-1525966222134-fcfa99b8ae77?w=600&q=80",
-      "https://images.unsplash.com/photo-1542291026-7eec264c27ff?w=600&q=80",
-      "https://images.unsplash.com/photo-1525966222134-fcfa99b8ae77?w=600&q=80",
-      "https://images.unsplash.com/photo-1542291026-7eec264c27ff?w=600&q=80"
-    ],
-    "colors": [
-      {
-        "name": "Maroon",
-        "hex": "#800000"
-      },
-      {
-        "name": "Navy Blue",
-        "hex": "#000080"
-      },
-      {
-        "name": "Charcoal Black",
-        "hex": "#1a1a1a"
-      }
-    ],
-    "sizes": [
-      "XS",
-      "S",
-      "M",
-      "L",
-      "XL",
-      "XXL"
-    ],
-    "sizesAvailable": {
-      "XS": true,
-      "S": true,
-      "M": true,
-      "L": true,
-      "XL": true,
-      "XXL": true
-    },
-    "material": "Premium Cotton Blend",
+    "material": "100% Premium Material",
     "fit": "Regular",
     "pattern": "Solid",
     "occasion": "Casual",
-    "season": "All Season",
-    "stock": 72,
+    "stock": 104,
     "isTrending": false,
     "isNewArrival": false,
     "isBestSeller": false,
     "tags": [
-      "fashion",
       "premium",
-      "footwear",
-      "women"
+      "comfortable",
+      "accessories"
     ],
     "specifications": {
-      "Fabric": "Premium Cotton Blend",
-      "Fit": "Regular/Slim",
+      "Fabric": "Premium Quality",
+      "Fit": "Regular",
       "Wash Care": "Machine Wash"
     },
     "reviews": [
       {
-        "id": "rev_yr4ke",
-        "userName": "Customer",
+        "id": "rev_62_1",
+        "userName": "Verified Buyer",
         "rating": 5,
-        "comment": "Excellent product, highly recommended!",
-        "date": "2024-12-15",
-        "helpful": 3,
-        "verified": true
-      }
-    ]
-  },
-  {
-    "id": "prod_156",
-    "name": "Puma Women's Premium Shoes",
-    "brand": "Puma",
-    "description": "Premium quality shoes from Puma. Features comfortable fit and excellent material suitable for everyday wear.",
-    "category": "Women",
-    "subCategory": "Shoes",
-    "type": "Footwear",
-    "price": 11548,
-    "mrp": 14257,
-    "discount": 19,
-    "currency": "₹",
-    "rating": 4.9,
-    "reviewCount": 3680,
-    "images": [
-      "https://images.unsplash.com/photo-1542291026-7eec264c27ff?w=600&q=80",
-      "https://images.unsplash.com/photo-1525966222134-fcfa99b8ae77?w=600&q=80",
-      "https://images.unsplash.com/photo-1542291026-7eec264c27ff?w=600&q=80",
-      "https://images.unsplash.com/photo-1525966222134-fcfa99b8ae77?w=600&q=80"
-    ],
-    "colors": [
-      {
-        "name": "Mustard",
-        "hex": "#FFDB58"
-      },
-      {
-        "name": "Navy Blue",
-        "hex": "#000080"
-      },
-      {
-        "name": "Maroon",
-        "hex": "#800000"
-      }
-    ],
-    "sizes": [
-      "XS",
-      "S",
-      "M",
-      "L",
-      "XL",
-      "XXL"
-    ],
-    "sizesAvailable": {
-      "XS": true,
-      "S": true,
-      "M": true,
-      "L": true,
-      "XL": true,
-      "XXL": true
-    },
-    "material": "Premium Cotton Blend",
-    "fit": "Slim",
-    "pattern": "Solid",
-    "occasion": "Casual",
-    "season": "All Season",
-    "stock": 86,
-    "isTrending": true,
-    "isNewArrival": false,
-    "isBestSeller": false,
-    "tags": [
-      "fashion",
-      "premium",
-      "footwear",
-      "women"
-    ],
-    "specifications": {
-      "Fabric": "Premium Cotton Blend",
-      "Fit": "Regular/Slim",
-      "Wash Care": "Machine Wash"
-    },
-    "reviews": [
-      {
-        "id": "rev_x88nt",
-        "userName": "Customer",
-        "rating": 5,
-        "comment": "Excellent product, highly recommended!",
-        "date": "2024-12-15",
-        "helpful": 42,
-        "verified": true
-      }
-    ]
-  },
-  {
-    "id": "prod_157",
-    "name": "Levi's Women's Premium Dresses",
-    "brand": "Levi's",
-    "description": "Premium quality dresses from Levi's. Features comfortable fit and excellent material suitable for everyday wear.",
-    "category": "Women",
-    "subCategory": "Dresses",
-    "type": "Topwear",
-    "price": 6057,
-    "mrp": 11430,
-    "discount": 47,
-    "currency": "₹",
-    "rating": 3.4,
-    "reviewCount": 3326,
-    "images": [
-      "https://images.unsplash.com/photo-1572804013309-59a88b7e92f1?w=600&q=80",
-      "https://images.unsplash.com/photo-1595777457583-95e059d581b8?w=600&q=80",
-      "https://images.unsplash.com/photo-1572804013309-59a88b7e92f1?w=600&q=80",
-      "https://images.unsplash.com/photo-1595777457583-95e059d581b8?w=600&q=80"
-    ],
-    "colors": [
-      {
-        "name": "Charcoal Black",
-        "hex": "#1a1a1a"
-      },
-      {
-        "name": "Maroon",
-        "hex": "#800000"
-      },
-      {
-        "name": "Olive",
-        "hex": "#556B2F"
-      }
-    ],
-    "sizes": [
-      "XS",
-      "S",
-      "M",
-      "L",
-      "XL",
-      "XXL"
-    ],
-    "sizesAvailable": {
-      "XS": true,
-      "S": true,
-      "M": true,
-      "L": true,
-      "XL": true,
-      "XXL": true
-    },
-    "material": "Premium Cotton Blend",
-    "fit": "Regular",
-    "pattern": "Solid",
-    "occasion": "Casual",
-    "season": "All Season",
-    "stock": 29,
-    "isTrending": false,
-    "isNewArrival": false,
-    "isBestSeller": false,
-    "tags": [
-      "fashion",
-      "premium",
-      "topwear",
-      "women"
-    ],
-    "specifications": {
-      "Fabric": "Premium Cotton Blend",
-      "Fit": "Regular/Slim",
-      "Wash Care": "Machine Wash"
-    },
-    "reviews": [
-      {
-        "id": "rev_2uvx7",
-        "userName": "Customer",
-        "rating": 5,
-        "comment": "Excellent product, highly recommended!",
-        "date": "2024-12-15",
-        "helpful": 9,
-        "verified": true
-      }
-    ]
-  },
-  {
-    "id": "prod_158",
-    "name": "NOIR Women's Premium Activewear",
-    "brand": "NOIR",
-    "description": "Premium quality activewear from NOIR. Features comfortable fit and excellent material suitable for everyday wear.",
-    "category": "Women",
-    "subCategory": "Activewear",
-    "type": "Activewear",
-    "price": 1508,
-    "mrp": 2066,
-    "discount": 27,
-    "currency": "₹",
-    "rating": 4.1,
-    "reviewCount": 3756,
-    "images": [
-      "https://images.unsplash.com/photo-1490578474895-699bc4e3f49f?w=600&q=80",
-      "https://images.unsplash.com/photo-1552374196-1ab2a1c593e8?w=600&q=80",
-      "https://images.unsplash.com/photo-1490578474895-699bc4e3f49f?w=600&q=80",
-      "https://images.unsplash.com/photo-1552374196-1ab2a1c593e8?w=600&q=80"
-    ],
-    "colors": [
-      {
-        "name": "Off White",
-        "hex": "#f5f0e8"
-      },
-      {
-        "name": "Olive",
-        "hex": "#556B2F"
-      },
-      {
-        "name": "Maroon",
-        "hex": "#800000"
-      }
-    ],
-    "sizes": [
-      "XS",
-      "S",
-      "M",
-      "L",
-      "XL",
-      "XXL"
-    ],
-    "sizesAvailable": {
-      "XS": true,
-      "S": true,
-      "M": true,
-      "L": true,
-      "XL": true,
-      "XXL": false
-    },
-    "material": "Premium Cotton Blend",
-    "fit": "Regular",
-    "pattern": "Solid",
-    "occasion": "Casual",
-    "season": "All Season",
-    "stock": 46,
-    "isTrending": false,
-    "isNewArrival": true,
-    "isBestSeller": false,
-    "tags": [
-      "fashion",
-      "premium",
-      "activewear",
-      "women"
-    ],
-    "specifications": {
-      "Fabric": "Premium Cotton Blend",
-      "Fit": "Regular/Slim",
-      "Wash Care": "Machine Wash"
-    },
-    "reviews": [
-      {
-        "id": "rev_j3sfx",
-        "userName": "Customer",
-        "rating": 5,
-        "comment": "Excellent product, highly recommended!",
-        "date": "2024-12-15",
-        "helpful": 27,
-        "verified": true
-      }
-    ]
-  },
-  {
-    "id": "prod_159",
-    "name": "Zara Women's Premium Jeans & Trousers",
-    "brand": "Zara",
-    "description": "Premium quality jeans & trousers from Zara. Features comfortable fit and excellent material suitable for everyday wear.",
-    "category": "Women",
-    "subCategory": "Jeans & Trousers",
-    "type": "Bottomwear",
-    "price": 2963,
-    "mrp": 4060,
-    "discount": 27,
-    "currency": "₹",
-    "rating": 4.2,
-    "reviewCount": 1084,
-    "images": [
-      "https://images.unsplash.com/photo-1552374196-1ab2a1c593e8?w=600&q=80",
-      "https://images.unsplash.com/photo-1490578474895-699bc4e3f49f?w=600&q=80",
-      "https://images.unsplash.com/photo-1552374196-1ab2a1c593e8?w=600&q=80",
-      "https://images.unsplash.com/photo-1490578474895-699bc4e3f49f?w=600&q=80"
-    ],
-    "colors": [
-      {
-        "name": "Charcoal Black",
-        "hex": "#1a1a1a"
-      },
-      {
-        "name": "Olive",
-        "hex": "#556B2F"
-      },
-      {
-        "name": "Off White",
-        "hex": "#f5f0e8"
-      }
-    ],
-    "sizes": [
-      "XS",
-      "S",
-      "M",
-      "L",
-      "XL",
-      "XXL"
-    ],
-    "sizesAvailable": {
-      "XS": true,
-      "S": true,
-      "M": true,
-      "L": true,
-      "XL": true,
-      "XXL": false
-    },
-    "material": "Premium Cotton Blend",
-    "fit": "Slim",
-    "pattern": "Printed",
-    "occasion": "Casual",
-    "season": "All Season",
-    "stock": 101,
-    "isTrending": false,
-    "isNewArrival": false,
-    "isBestSeller": false,
-    "tags": [
-      "fashion",
-      "premium",
-      "bottomwear",
-      "women"
-    ],
-    "specifications": {
-      "Fabric": "Premium Cotton Blend",
-      "Fit": "Regular/Slim",
-      "Wash Care": "Machine Wash"
-    },
-    "reviews": [
-      {
-        "id": "rev_cqjt7",
-        "userName": "Customer",
-        "rating": 5,
-        "comment": "Excellent product, highly recommended!",
-        "date": "2024-12-15",
-        "helpful": 7,
-        "verified": true
-      }
-    ]
-  },
-  {
-    "id": "prod_160",
-    "name": "Nike Women's Premium Ethnic",
-    "brand": "Nike",
-    "description": "Premium quality ethnic from Nike. Features comfortable fit and excellent material suitable for everyday wear.",
-    "category": "Women",
-    "subCategory": "Ethnic",
-    "type": "Topwear",
-    "price": 5172,
-    "mrp": 9075,
-    "discount": 43,
-    "currency": "₹",
-    "rating": 3.8,
-    "reviewCount": 1414,
-    "images": [
-      "https://images.unsplash.com/photo-1490578474895-699bc4e3f49f?w=600&q=80",
-      "https://images.unsplash.com/photo-1552374196-1ab2a1c593e8?w=600&q=80",
-      "https://images.unsplash.com/photo-1490578474895-699bc4e3f49f?w=600&q=80",
-      "https://images.unsplash.com/photo-1552374196-1ab2a1c593e8?w=600&q=80"
-    ],
-    "colors": [
-      {
-        "name": "Maroon",
-        "hex": "#800000"
-      },
-      {
-        "name": "Mustard",
-        "hex": "#FFDB58"
-      },
-      {
-        "name": "Navy Blue",
-        "hex": "#000080"
-      }
-    ],
-    "sizes": [
-      "XS",
-      "S",
-      "M",
-      "L",
-      "XL",
-      "XXL"
-    ],
-    "sizesAvailable": {
-      "XS": true,
-      "S": true,
-      "M": true,
-      "L": true,
-      "XL": true,
-      "XXL": false
-    },
-    "material": "Premium Cotton Blend",
-    "fit": "Regular",
-    "pattern": "Solid",
-    "occasion": "Casual",
-    "season": "All Season",
-    "stock": 79,
-    "isTrending": false,
-    "isNewArrival": false,
-    "isBestSeller": true,
-    "tags": [
-      "fashion",
-      "premium",
-      "topwear",
-      "women"
-    ],
-    "specifications": {
-      "Fabric": "Premium Cotton Blend",
-      "Fit": "Regular/Slim",
-      "Wash Care": "Machine Wash"
-    },
-    "reviews": [
-      {
-        "id": "rev_qi9tg",
-        "userName": "Customer",
-        "rating": 5,
-        "comment": "Excellent product, highly recommended!",
-        "date": "2024-12-15",
-        "helpful": 10,
-        "verified": true
-      }
-    ]
-  },
-  {
-    "id": "prod_161",
-    "name": "H&M Women's Premium Shoes",
-    "brand": "H&M",
-    "description": "Premium quality shoes from H&M. Features comfortable fit and excellent material suitable for everyday wear.",
-    "category": "Women",
-    "subCategory": "Shoes",
-    "type": "Footwear",
-    "price": 4276,
-    "mrp": 8552,
-    "discount": 50,
-    "currency": "₹",
-    "rating": 3.4,
-    "reviewCount": 2946,
-    "images": [
-      "https://images.unsplash.com/photo-1525966222134-fcfa99b8ae77?w=600&q=80",
-      "https://images.unsplash.com/photo-1542291026-7eec264c27ff?w=600&q=80",
-      "https://images.unsplash.com/photo-1525966222134-fcfa99b8ae77?w=600&q=80",
-      "https://images.unsplash.com/photo-1542291026-7eec264c27ff?w=600&q=80"
-    ],
-    "colors": [
-      {
-        "name": "Maroon",
-        "hex": "#800000"
-      },
-      {
-        "name": "Off White",
-        "hex": "#f5f0e8"
-      },
-      {
-        "name": "Charcoal Black",
-        "hex": "#1a1a1a"
-      }
-    ],
-    "sizes": [
-      "XS",
-      "S",
-      "M",
-      "L",
-      "XL",
-      "XXL"
-    ],
-    "sizesAvailable": {
-      "XS": true,
-      "S": true,
-      "M": true,
-      "L": true,
-      "XL": false,
-      "XXL": false
-    },
-    "material": "Premium Cotton Blend",
-    "fit": "Slim",
-    "pattern": "Solid",
-    "occasion": "Casual",
-    "season": "All Season",
-    "stock": 26,
-    "isTrending": false,
-    "isNewArrival": false,
-    "isBestSeller": true,
-    "tags": [
-      "fashion",
-      "premium",
-      "footwear",
-      "women"
-    ],
-    "specifications": {
-      "Fabric": "Premium Cotton Blend",
-      "Fit": "Regular/Slim",
-      "Wash Care": "Machine Wash"
-    },
-    "reviews": [
-      {
-        "id": "rev_0dwpv",
-        "userName": "Customer",
-        "rating": 5,
-        "comment": "Excellent product, highly recommended!",
-        "date": "2024-12-15",
-        "helpful": 16,
-        "verified": true
-      }
-    ]
-  },
-  {
-    "id": "prod_162",
-    "name": "URBAN EDGE Women's Premium Tops",
-    "brand": "URBAN EDGE",
-    "description": "Premium quality tops from URBAN EDGE. Features comfortable fit and excellent material suitable for everyday wear.",
-    "category": "Women",
-    "subCategory": "Tops",
-    "type": "Topwear",
-    "price": 2636,
-    "mrp": 4794,
-    "discount": 45,
-    "currency": "₹",
-    "rating": 3.4,
-    "reviewCount": 3429,
-    "images": [
-      "https://images.unsplash.com/photo-1503342217505-b0a15ec3261c?w=600&q=80",
-      "https://images.unsplash.com/photo-1515886657613-9f3515b0c78f?w=600&q=80",
-      "https://images.unsplash.com/photo-1503342217505-b0a15ec3261c?w=600&q=80",
-      "https://images.unsplash.com/photo-1515886657613-9f3515b0c78f?w=600&q=80"
-    ],
-    "colors": [
-      {
-        "name": "Charcoal Black",
-        "hex": "#1a1a1a"
-      },
-      {
-        "name": "Maroon",
-        "hex": "#800000"
-      },
-      {
-        "name": "Navy Blue",
-        "hex": "#000080"
-      }
-    ],
-    "sizes": [
-      "XS",
-      "S",
-      "M",
-      "L",
-      "XL",
-      "XXL"
-    ],
-    "sizesAvailable": {
-      "XS": false,
-      "S": true,
-      "M": true,
-      "L": true,
-      "XL": true,
-      "XXL": false
-    },
-    "material": "Premium Cotton Blend",
-    "fit": "Slim",
-    "pattern": "Printed",
-    "occasion": "Casual",
-    "season": "All Season",
-    "stock": 76,
-    "isTrending": true,
-    "isNewArrival": false,
-    "isBestSeller": false,
-    "tags": [
-      "fashion",
-      "premium",
-      "topwear",
-      "women"
-    ],
-    "specifications": {
-      "Fabric": "Premium Cotton Blend",
-      "Fit": "Regular/Slim",
-      "Wash Care": "Machine Wash"
-    },
-    "reviews": [
-      {
-        "id": "rev_2y81w",
-        "userName": "Customer",
-        "rating": 5,
-        "comment": "Excellent product, highly recommended!",
-        "date": "2024-12-15",
-        "helpful": 36,
-        "verified": true
-      }
-    ]
-  },
-  {
-    "id": "prod_163",
-    "name": "H&M Women's Premium Accessories",
-    "brand": "H&M",
-    "description": "Premium quality accessories from H&M. Features comfortable fit and excellent material suitable for everyday wear.",
-    "category": "Women",
-    "subCategory": "Accessories",
-    "type": "Accessories",
-    "price": 10559,
-    "mrp": 15303,
-    "discount": 31,
-    "currency": "₹",
-    "rating": 3.9,
-    "reviewCount": 4697,
-    "images": [
-      "https://images.unsplash.com/photo-1511499767150-a48a237f0083?w=600&q=80",
-      "https://images.unsplash.com/photo-1523206489230-c012c64b2b48?w=600&q=80",
-      "https://images.unsplash.com/photo-1511499767150-a48a237f0083?w=600&q=80",
-      "https://images.unsplash.com/photo-1523206489230-c012c64b2b48?w=600&q=80"
-    ],
-    "colors": [
-      {
-        "name": "Charcoal Black",
-        "hex": "#1a1a1a"
-      },
-      {
-        "name": "Maroon",
-        "hex": "#800000"
-      },
-      {
-        "name": "Navy Blue",
-        "hex": "#000080"
-      }
-    ],
-    "sizes": [
-      "XS",
-      "S",
-      "M",
-      "L",
-      "XL",
-      "XXL"
-    ],
-    "sizesAvailable": {
-      "XS": false,
-      "S": true,
-      "M": true,
-      "L": true,
-      "XL": true,
-      "XXL": true
-    },
-    "material": "Premium Cotton Blend",
-    "fit": "Regular",
-    "pattern": "Printed",
-    "occasion": "Casual",
-    "season": "All Season",
-    "stock": 30,
-    "isTrending": false,
-    "isNewArrival": false,
-    "isBestSeller": true,
-    "tags": [
-      "fashion",
-      "premium",
-      "accessories",
-      "women"
-    ],
-    "specifications": {
-      "Fabric": "Premium Cotton Blend",
-      "Fit": "Regular/Slim",
-      "Wash Care": "Machine Wash"
-    },
-    "reviews": [
-      {
-        "id": "rev_f5pyi",
-        "userName": "Customer",
-        "rating": 5,
-        "comment": "Excellent product, highly recommended!",
-        "date": "2024-12-15",
-        "helpful": 8,
-        "verified": true
-      }
-    ]
-  },
-  {
-    "id": "prod_164",
-    "name": "Allen Solly Women's Premium Jeans & Trousers",
-    "brand": "Allen Solly",
-    "description": "Premium quality jeans & trousers from Allen Solly. Features comfortable fit and excellent material suitable for everyday wear.",
-    "category": "Women",
-    "subCategory": "Jeans & Trousers",
-    "type": "Bottomwear",
-    "price": 6017,
-    "mrp": 11144,
-    "discount": 46,
-    "currency": "₹",
-    "rating": 4.6,
-    "reviewCount": 4404,
-    "images": [
-      "https://images.unsplash.com/photo-1490578474895-699bc4e3f49f?w=600&q=80",
-      "https://images.unsplash.com/photo-1552374196-1ab2a1c593e8?w=600&q=80",
-      "https://images.unsplash.com/photo-1490578474895-699bc4e3f49f?w=600&q=80",
-      "https://images.unsplash.com/photo-1552374196-1ab2a1c593e8?w=600&q=80"
-    ],
-    "colors": [
-      {
-        "name": "Maroon",
-        "hex": "#800000"
-      },
-      {
-        "name": "Olive",
-        "hex": "#556B2F"
-      },
-      {
-        "name": "Charcoal Black",
-        "hex": "#1a1a1a"
-      }
-    ],
-    "sizes": [
-      "XS",
-      "S",
-      "M",
-      "L",
-      "XL",
-      "XXL"
-    ],
-    "sizesAvailable": {
-      "XS": true,
-      "S": true,
-      "M": true,
-      "L": true,
-      "XL": true,
-      "XXL": true
-    },
-    "material": "Premium Cotton Blend",
-    "fit": "Slim",
-    "pattern": "Printed",
-    "occasion": "Casual",
-    "season": "All Season",
-    "stock": 62,
-    "isTrending": false,
-    "isNewArrival": false,
-    "isBestSeller": false,
-    "tags": [
-      "fashion",
-      "premium",
-      "bottomwear",
-      "women"
-    ],
-    "specifications": {
-      "Fabric": "Premium Cotton Blend",
-      "Fit": "Regular/Slim",
-      "Wash Care": "Machine Wash"
-    },
-    "reviews": [
-      {
-        "id": "rev_8yxoy",
-        "userName": "Customer",
-        "rating": 5,
-        "comment": "Excellent product, highly recommended!",
-        "date": "2024-12-15",
-        "helpful": 34,
-        "verified": true
-      }
-    ]
-  },
-  {
-    "id": "prod_165",
-    "name": "Van Heusen Women's Premium Accessories",
-    "brand": "Van Heusen",
-    "description": "Premium quality accessories from Van Heusen. Features comfortable fit and excellent material suitable for everyday wear.",
-    "category": "Women",
-    "subCategory": "Accessories",
-    "type": "Accessories",
-    "price": 2843,
-    "mrp": 4374,
-    "discount": 35,
-    "currency": "₹",
-    "rating": 4.2,
-    "reviewCount": 2248,
-    "images": [
-      "https://images.unsplash.com/photo-1511499767150-a48a237f0083?w=600&q=80",
-      "https://images.unsplash.com/photo-1523206489230-c012c64b2b48?w=600&q=80",
-      "https://images.unsplash.com/photo-1511499767150-a48a237f0083?w=600&q=80",
-      "https://images.unsplash.com/photo-1523206489230-c012c64b2b48?w=600&q=80"
-    ],
-    "colors": [
-      {
-        "name": "Charcoal Black",
-        "hex": "#1a1a1a"
-      },
-      {
-        "name": "Maroon",
-        "hex": "#800000"
-      },
-      {
-        "name": "Mustard",
-        "hex": "#FFDB58"
-      }
-    ],
-    "sizes": [
-      "XS",
-      "S",
-      "M",
-      "L",
-      "XL",
-      "XXL"
-    ],
-    "sizesAvailable": {
-      "XS": false,
-      "S": true,
-      "M": true,
-      "L": true,
-      "XL": true,
-      "XXL": false
-    },
-    "material": "Premium Cotton Blend",
-    "fit": "Regular",
-    "pattern": "Solid",
-    "occasion": "Casual",
-    "season": "All Season",
-    "stock": 74,
-    "isTrending": false,
-    "isNewArrival": true,
-    "isBestSeller": false,
-    "tags": [
-      "fashion",
-      "premium",
-      "accessories",
-      "women"
-    ],
-    "specifications": {
-      "Fabric": "Premium Cotton Blend",
-      "Fit": "Regular/Slim",
-      "Wash Care": "Machine Wash"
-    },
-    "reviews": [
-      {
-        "id": "rev_dk7jy",
-        "userName": "Customer",
-        "rating": 5,
-        "comment": "Excellent product, highly recommended!",
-        "date": "2024-12-15",
-        "helpful": 1,
-        "verified": true
-      }
-    ]
-  },
-  {
-    "id": "prod_166",
-    "name": "Global Desi Women's Premium Tops",
-    "brand": "Global Desi",
-    "description": "Premium quality tops from Global Desi. Features comfortable fit and excellent material suitable for everyday wear.",
-    "category": "Women",
-    "subCategory": "Tops",
-    "type": "Topwear",
-    "price": 6275,
-    "mrp": 7297,
-    "discount": 14,
-    "currency": "₹",
-    "rating": 3.7,
-    "reviewCount": 4425,
-    "images": [
-      "https://images.unsplash.com/photo-1503342217505-b0a15ec3261c?w=600&q=80",
-      "https://images.unsplash.com/photo-1515886657613-9f3515b0c78f?w=600&q=80",
-      "https://images.unsplash.com/photo-1503342217505-b0a15ec3261c?w=600&q=80",
-      "https://images.unsplash.com/photo-1515886657613-9f3515b0c78f?w=600&q=80"
-    ],
-    "colors": [
-      {
-        "name": "Charcoal Black",
-        "hex": "#1a1a1a"
-      },
-      {
-        "name": "Maroon",
-        "hex": "#800000"
-      },
-      {
-        "name": "Olive",
-        "hex": "#556B2F"
-      }
-    ],
-    "sizes": [
-      "XS",
-      "S",
-      "M",
-      "L",
-      "XL",
-      "XXL"
-    ],
-    "sizesAvailable": {
-      "XS": false,
-      "S": true,
-      "M": true,
-      "L": true,
-      "XL": true,
-      "XXL": true
-    },
-    "material": "Premium Cotton Blend",
-    "fit": "Slim",
-    "pattern": "Solid",
-    "occasion": "Casual",
-    "season": "All Season",
-    "stock": 16,
-    "isTrending": false,
-    "isNewArrival": false,
-    "isBestSeller": false,
-    "tags": [
-      "fashion",
-      "premium",
-      "topwear",
-      "women"
-    ],
-    "specifications": {
-      "Fabric": "Premium Cotton Blend",
-      "Fit": "Regular/Slim",
-      "Wash Care": "Machine Wash"
-    },
-    "reviews": [
-      {
-        "id": "rev_6r0lj",
-        "userName": "Customer",
-        "rating": 5,
-        "comment": "Excellent product, highly recommended!",
-        "date": "2024-12-15",
-        "helpful": 5,
-        "verified": true
-      }
-    ]
-  },
-  {
-    "id": "prod_167",
-    "name": "DRIFT Women's Premium Co-ord Sets",
-    "brand": "DRIFT",
-    "description": "Premium quality co-ord sets from DRIFT. Features comfortable fit and excellent material suitable for everyday wear.",
-    "category": "Women",
-    "subCategory": "Co-ord Sets",
-    "type": "Topwear",
-    "price": 534,
-    "mrp": 955,
-    "discount": 44,
-    "currency": "₹",
-    "rating": 3.3,
-    "reviewCount": 4037,
-    "images": [
-      "https://images.unsplash.com/photo-1552374196-1ab2a1c593e8?w=600&q=80",
-      "https://images.unsplash.com/photo-1490578474895-699bc4e3f49f?w=600&q=80",
-      "https://images.unsplash.com/photo-1552374196-1ab2a1c593e8?w=600&q=80",
-      "https://images.unsplash.com/photo-1490578474895-699bc4e3f49f?w=600&q=80"
-    ],
-    "colors": [
-      {
-        "name": "Olive",
-        "hex": "#556B2F"
-      },
-      {
-        "name": "Navy Blue",
-        "hex": "#000080"
-      },
-      {
-        "name": "Mustard",
-        "hex": "#FFDB58"
-      }
-    ],
-    "sizes": [
-      "XS",
-      "S",
-      "M",
-      "L",
-      "XL",
-      "XXL"
-    ],
-    "sizesAvailable": {
-      "XS": true,
-      "S": true,
-      "M": true,
-      "L": true,
-      "XL": true,
-      "XXL": false
-    },
-    "material": "Premium Cotton Blend",
-    "fit": "Regular",
-    "pattern": "Printed",
-    "occasion": "Casual",
-    "season": "All Season",
-    "stock": 66,
-    "isTrending": true,
-    "isNewArrival": false,
-    "isBestSeller": false,
-    "tags": [
-      "fashion",
-      "premium",
-      "topwear",
-      "women"
-    ],
-    "specifications": {
-      "Fabric": "Premium Cotton Blend",
-      "Fit": "Regular/Slim",
-      "Wash Care": "Machine Wash"
-    },
-    "reviews": [
-      {
-        "id": "rev_1wf0h",
-        "userName": "Customer",
-        "rating": 5,
-        "comment": "Excellent product, highly recommended!",
-        "date": "2024-12-15",
-        "helpful": 24,
-        "verified": true
-      }
-    ]
-  },
-  {
-    "id": "prod_168",
-    "name": "Adidas Women's Premium Ethnic",
-    "brand": "Adidas",
-    "description": "Premium quality ethnic from Adidas. Features comfortable fit and excellent material suitable for everyday wear.",
-    "category": "Women",
-    "subCategory": "Ethnic",
-    "type": "Topwear",
-    "price": 3113,
-    "mrp": 5560,
-    "discount": 44,
-    "currency": "₹",
-    "rating": 4.4,
-    "reviewCount": 3902,
-    "images": [
-      "https://images.unsplash.com/photo-1490578474895-699bc4e3f49f?w=600&q=80",
-      "https://images.unsplash.com/photo-1552374196-1ab2a1c593e8?w=600&q=80",
-      "https://images.unsplash.com/photo-1490578474895-699bc4e3f49f?w=600&q=80",
-      "https://images.unsplash.com/photo-1552374196-1ab2a1c593e8?w=600&q=80"
-    ],
-    "colors": [
-      {
-        "name": "Charcoal Black",
-        "hex": "#1a1a1a"
-      },
-      {
-        "name": "Maroon",
-        "hex": "#800000"
-      },
-      {
-        "name": "Off White",
-        "hex": "#f5f0e8"
-      }
-    ],
-    "sizes": [
-      "XS",
-      "S",
-      "M",
-      "L",
-      "XL",
-      "XXL"
-    ],
-    "sizesAvailable": {
-      "XS": false,
-      "S": true,
-      "M": true,
-      "L": true,
-      "XL": false,
-      "XXL": true
-    },
-    "material": "Premium Cotton Blend",
-    "fit": "Slim",
-    "pattern": "Solid",
-    "occasion": "Casual",
-    "season": "All Season",
-    "stock": 39,
-    "isTrending": false,
-    "isNewArrival": false,
-    "isBestSeller": false,
-    "tags": [
-      "fashion",
-      "premium",
-      "topwear",
-      "women"
-    ],
-    "specifications": {
-      "Fabric": "Premium Cotton Blend",
-      "Fit": "Regular/Slim",
-      "Wash Care": "Machine Wash"
-    },
-    "reviews": [
-      {
-        "id": "rev_vji16",
-        "userName": "Customer",
-        "rating": 5,
-        "comment": "Excellent product, highly recommended!",
-        "date": "2024-12-15",
-        "helpful": 26,
-        "verified": true
-      }
-    ]
-  },
-  {
-    "id": "prod_169",
-    "name": "Allen Solly Women's Premium Ethnic",
-    "brand": "Allen Solly",
-    "description": "Premium quality ethnic from Allen Solly. Features comfortable fit and excellent material suitable for everyday wear.",
-    "category": "Women",
-    "subCategory": "Ethnic",
-    "type": "Topwear",
-    "price": 7695,
-    "mrp": 9272,
-    "discount": 17,
-    "currency": "₹",
-    "rating": 4.2,
-    "reviewCount": 3894,
-    "images": [
-      "https://images.unsplash.com/photo-1552374196-1ab2a1c593e8?w=600&q=80",
-      "https://images.unsplash.com/photo-1490578474895-699bc4e3f49f?w=600&q=80",
-      "https://images.unsplash.com/photo-1552374196-1ab2a1c593e8?w=600&q=80",
-      "https://images.unsplash.com/photo-1490578474895-699bc4e3f49f?w=600&q=80"
-    ],
-    "colors": [
-      {
-        "name": "Off White",
-        "hex": "#f5f0e8"
-      },
-      {
-        "name": "Maroon",
-        "hex": "#800000"
-      },
-      {
-        "name": "Mustard",
-        "hex": "#FFDB58"
-      }
-    ],
-    "sizes": [
-      "XS",
-      "S",
-      "M",
-      "L",
-      "XL",
-      "XXL"
-    ],
-    "sizesAvailable": {
-      "XS": false,
-      "S": true,
-      "M": true,
-      "L": true,
-      "XL": false,
-      "XXL": true
-    },
-    "material": "Premium Cotton Blend",
-    "fit": "Slim",
-    "pattern": "Solid",
-    "occasion": "Casual",
-    "season": "All Season",
-    "stock": 59,
-    "isTrending": true,
-    "isNewArrival": false,
-    "isBestSeller": false,
-    "tags": [
-      "fashion",
-      "premium",
-      "topwear",
-      "women"
-    ],
-    "specifications": {
-      "Fabric": "Premium Cotton Blend",
-      "Fit": "Regular/Slim",
-      "Wash Care": "Machine Wash"
-    },
-    "reviews": [
-      {
-        "id": "rev_49bs2",
-        "userName": "Customer",
-        "rating": 5,
-        "comment": "Excellent product, highly recommended!",
-        "date": "2024-12-15",
-        "helpful": 2,
-        "verified": true
-      }
-    ]
-  },
-  {
-    "id": "prod_170",
-    "name": "DRIFT Women's Premium Co-ord Sets",
-    "brand": "DRIFT",
-    "description": "Premium quality co-ord sets from DRIFT. Features comfortable fit and excellent material suitable for everyday wear.",
-    "category": "Women",
-    "subCategory": "Co-ord Sets",
-    "type": "Topwear",
-    "price": 5817,
-    "mrp": 11872,
-    "discount": 51,
-    "currency": "₹",
-    "rating": 4.6,
-    "reviewCount": 1226,
-    "images": [
-      "https://images.unsplash.com/photo-1490578474895-699bc4e3f49f?w=600&q=80",
-      "https://images.unsplash.com/photo-1552374196-1ab2a1c593e8?w=600&q=80",
-      "https://images.unsplash.com/photo-1490578474895-699bc4e3f49f?w=600&q=80",
-      "https://images.unsplash.com/photo-1552374196-1ab2a1c593e8?w=600&q=80"
-    ],
-    "colors": [
-      {
-        "name": "Charcoal Black",
-        "hex": "#1a1a1a"
-      },
-      {
-        "name": "Navy Blue",
-        "hex": "#000080"
-      },
-      {
-        "name": "Off White",
-        "hex": "#f5f0e8"
-      }
-    ],
-    "sizes": [
-      "XS",
-      "S",
-      "M",
-      "L",
-      "XL",
-      "XXL"
-    ],
-    "sizesAvailable": {
-      "XS": true,
-      "S": true,
-      "M": true,
-      "L": true,
-      "XL": true,
-      "XXL": false
-    },
-    "material": "Premium Cotton Blend",
-    "fit": "Slim",
-    "pattern": "Printed",
-    "occasion": "Casual",
-    "season": "All Season",
-    "stock": 50,
-    "isTrending": true,
-    "isNewArrival": false,
-    "isBestSeller": false,
-    "tags": [
-      "fashion",
-      "premium",
-      "topwear",
-      "women"
-    ],
-    "specifications": {
-      "Fabric": "Premium Cotton Blend",
-      "Fit": "Regular/Slim",
-      "Wash Care": "Machine Wash"
-    },
-    "reviews": [
-      {
-        "id": "rev_aa4j8",
-        "userName": "Customer",
-        "rating": 5,
-        "comment": "Excellent product, highly recommended!",
-        "date": "2024-12-15",
-        "helpful": 0,
-        "verified": true
-      }
-    ]
-  },
-  {
-    "id": "prod_171",
-    "name": "W Women's Premium Skirts",
-    "brand": "W",
-    "description": "Premium quality skirts from W. Features comfortable fit and excellent material suitable for everyday wear.",
-    "category": "Women",
-    "subCategory": "Skirts",
-    "type": "Bottomwear",
-    "price": 1431,
-    "mrp": 2650,
-    "discount": 46,
-    "currency": "₹",
-    "rating": 4.3,
-    "reviewCount": 1016,
-    "images": [
-      "https://images.unsplash.com/photo-1552374196-1ab2a1c593e8?w=600&q=80",
-      "https://images.unsplash.com/photo-1490578474895-699bc4e3f49f?w=600&q=80",
-      "https://images.unsplash.com/photo-1552374196-1ab2a1c593e8?w=600&q=80",
-      "https://images.unsplash.com/photo-1490578474895-699bc4e3f49f?w=600&q=80"
-    ],
-    "colors": [
-      {
-        "name": "Charcoal Black",
-        "hex": "#1a1a1a"
-      },
-      {
-        "name": "Navy Blue",
-        "hex": "#000080"
-      },
-      {
-        "name": "Maroon",
-        "hex": "#800000"
-      }
-    ],
-    "sizes": [
-      "XS",
-      "S",
-      "M",
-      "L",
-      "XL",
-      "XXL"
-    ],
-    "sizesAvailable": {
-      "XS": true,
-      "S": true,
-      "M": true,
-      "L": true,
-      "XL": true,
-      "XXL": false
-    },
-    "material": "Premium Cotton Blend",
-    "fit": "Regular",
-    "pattern": "Solid",
-    "occasion": "Casual",
-    "season": "All Season",
-    "stock": 53,
-    "isTrending": false,
-    "isNewArrival": false,
-    "isBestSeller": false,
-    "tags": [
-      "fashion",
-      "premium",
-      "bottomwear",
-      "women"
-    ],
-    "specifications": {
-      "Fabric": "Premium Cotton Blend",
-      "Fit": "Regular/Slim",
-      "Wash Care": "Machine Wash"
-    },
-    "reviews": [
-      {
-        "id": "rev_z4z19",
-        "userName": "Customer",
-        "rating": 5,
-        "comment": "Excellent product, highly recommended!",
-        "date": "2024-12-15",
-        "helpful": 45,
-        "verified": true
-      }
-    ]
-  },
-  {
-    "id": "prod_172",
-    "name": "AURA Women's Premium T-Shirts",
-    "brand": "AURA",
-    "description": "Premium quality t-shirts from AURA. Features comfortable fit and excellent material suitable for everyday wear.",
-    "category": "Women",
-    "subCategory": "T-Shirts",
-    "type": "Topwear",
-    "price": 4007,
-    "mrp": 5566,
-    "discount": 28,
-    "currency": "₹",
-    "rating": 3.6,
-    "reviewCount": 205,
-    "images": [
-      "https://images.unsplash.com/photo-1521572163474-6864f9cf17ab?w=600&q=80",
-      "https://images.unsplash.com/photo-1583743814966-8936f5b7be1a?w=600&q=80",
-      "https://images.unsplash.com/photo-1521572163474-6864f9cf17ab?w=600&q=80",
-      "https://images.unsplash.com/photo-1583743814966-8936f5b7be1a?w=600&q=80"
-    ],
-    "colors": [
-      {
-        "name": "Olive",
-        "hex": "#556B2F"
-      },
-      {
-        "name": "Maroon",
-        "hex": "#800000"
-      },
-      {
-        "name": "Off White",
-        "hex": "#f5f0e8"
-      }
-    ],
-    "sizes": [
-      "XS",
-      "S",
-      "M",
-      "L",
-      "XL",
-      "XXL"
-    ],
-    "sizesAvailable": {
-      "XS": false,
-      "S": true,
-      "M": true,
-      "L": true,
-      "XL": false,
-      "XXL": false
-    },
-    "material": "Premium Cotton Blend",
-    "fit": "Regular",
-    "pattern": "Printed",
-    "occasion": "Casual",
-    "season": "All Season",
-    "stock": 29,
-    "isTrending": true,
-    "isNewArrival": false,
-    "isBestSeller": false,
-    "tags": [
-      "fashion",
-      "premium",
-      "topwear",
-      "women"
-    ],
-    "specifications": {
-      "Fabric": "Premium Cotton Blend",
-      "Fit": "Regular/Slim",
-      "Wash Care": "Machine Wash"
-    },
-    "reviews": [
-      {
-        "id": "rev_thz3v",
-        "userName": "Customer",
-        "rating": 5,
-        "comment": "Excellent product, highly recommended!",
-        "date": "2024-12-15",
-        "helpful": 8,
-        "verified": true
-      }
-    ]
-  },
-  {
-    "id": "prod_173",
-    "name": "Global Desi Women's Premium Activewear",
-    "brand": "Global Desi",
-    "description": "Premium quality activewear from Global Desi. Features comfortable fit and excellent material suitable for everyday wear.",
-    "category": "Women",
-    "subCategory": "Activewear",
-    "type": "Activewear",
-    "price": 318,
-    "mrp": 995,
-    "discount": 68,
-    "currency": "₹",
-    "rating": 4.1,
-    "reviewCount": 1471,
-    "images": [
-      "https://images.unsplash.com/photo-1552374196-1ab2a1c593e8?w=600&q=80",
-      "https://images.unsplash.com/photo-1490578474895-699bc4e3f49f?w=600&q=80",
-      "https://images.unsplash.com/photo-1552374196-1ab2a1c593e8?w=600&q=80",
-      "https://images.unsplash.com/photo-1490578474895-699bc4e3f49f?w=600&q=80"
-    ],
-    "colors": [
-      {
-        "name": "Navy Blue",
-        "hex": "#000080"
-      },
-      {
-        "name": "Charcoal Black",
-        "hex": "#1a1a1a"
-      },
-      {
-        "name": "Mustard",
-        "hex": "#FFDB58"
-      }
-    ],
-    "sizes": [
-      "XS",
-      "S",
-      "M",
-      "L",
-      "XL",
-      "XXL"
-    ],
-    "sizesAvailable": {
-      "XS": false,
-      "S": true,
-      "M": true,
-      "L": true,
-      "XL": true,
-      "XXL": false
-    },
-    "material": "Premium Cotton Blend",
-    "fit": "Regular",
-    "pattern": "Solid",
-    "occasion": "Casual",
-    "season": "All Season",
-    "stock": 97,
-    "isTrending": true,
-    "isNewArrival": false,
-    "isBestSeller": false,
-    "tags": [
-      "fashion",
-      "premium",
-      "activewear",
-      "women"
-    ],
-    "specifications": {
-      "Fabric": "Premium Cotton Blend",
-      "Fit": "Regular/Slim",
-      "Wash Care": "Machine Wash"
-    },
-    "reviews": [
-      {
-        "id": "rev_i76kz",
-        "userName": "Customer",
-        "rating": 5,
-        "comment": "Excellent product, highly recommended!",
-        "date": "2024-12-15",
-        "helpful": 6,
-        "verified": true
-      }
-    ]
-  },
-  {
-    "id": "prod_174",
-    "name": "Jack & Jones Women's Premium Dresses",
-    "brand": "Jack & Jones",
-    "description": "Premium quality dresses from Jack & Jones. Features comfortable fit and excellent material suitable for everyday wear.",
-    "category": "Women",
-    "subCategory": "Dresses",
-    "type": "Topwear",
-    "price": 8029,
-    "mrp": 11984,
-    "discount": 33,
-    "currency": "₹",
-    "rating": 4.6,
-    "reviewCount": 3021,
-    "images": [
-      "https://images.unsplash.com/photo-1595777457583-95e059d581b8?w=600&q=80",
-      "https://images.unsplash.com/photo-1572804013309-59a88b7e92f1?w=600&q=80",
-      "https://images.unsplash.com/photo-1595777457583-95e059d581b8?w=600&q=80",
-      "https://images.unsplash.com/photo-1572804013309-59a88b7e92f1?w=600&q=80"
-    ],
-    "colors": [
-      {
-        "name": "Mustard",
-        "hex": "#FFDB58"
-      },
-      {
-        "name": "Off White",
-        "hex": "#f5f0e8"
-      },
-      {
-        "name": "Maroon",
-        "hex": "#800000"
-      }
-    ],
-    "sizes": [
-      "XS",
-      "S",
-      "M",
-      "L",
-      "XL",
-      "XXL"
-    ],
-    "sizesAvailable": {
-      "XS": false,
-      "S": true,
-      "M": true,
-      "L": true,
-      "XL": true,
-      "XXL": false
-    },
-    "material": "Premium Cotton Blend",
-    "fit": "Regular",
-    "pattern": "Solid",
-    "occasion": "Casual",
-    "season": "All Season",
-    "stock": 24,
-    "isTrending": false,
-    "isNewArrival": false,
-    "isBestSeller": false,
-    "tags": [
-      "fashion",
-      "premium",
-      "topwear",
-      "women"
-    ],
-    "specifications": {
-      "Fabric": "Premium Cotton Blend",
-      "Fit": "Regular/Slim",
-      "Wash Care": "Machine Wash"
-    },
-    "reviews": [
-      {
-        "id": "rev_6ptmb",
-        "userName": "Customer",
-        "rating": 5,
-        "comment": "Excellent product, highly recommended!",
-        "date": "2024-12-15",
-        "helpful": 2,
-        "verified": true
-      }
-    ]
-  },
-  {
-    "id": "prod_175",
-    "name": "Zara Women's Premium Ethnic",
-    "brand": "Zara",
-    "description": "Premium quality ethnic from Zara. Features comfortable fit and excellent material suitable for everyday wear.",
-    "category": "Women",
-    "subCategory": "Ethnic",
-    "type": "Topwear",
-    "price": 4893,
-    "mrp": 12233,
-    "discount": 60,
-    "currency": "₹",
-    "rating": 5,
-    "reviewCount": 219,
-    "images": [
-      "https://images.unsplash.com/photo-1552374196-1ab2a1c593e8?w=600&q=80",
-      "https://images.unsplash.com/photo-1490578474895-699bc4e3f49f?w=600&q=80",
-      "https://images.unsplash.com/photo-1552374196-1ab2a1c593e8?w=600&q=80",
-      "https://images.unsplash.com/photo-1490578474895-699bc4e3f49f?w=600&q=80"
-    ],
-    "colors": [
-      {
-        "name": "Mustard",
-        "hex": "#FFDB58"
-      },
-      {
-        "name": "Navy Blue",
-        "hex": "#000080"
-      },
-      {
-        "name": "Charcoal Black",
-        "hex": "#1a1a1a"
-      }
-    ],
-    "sizes": [
-      "XS",
-      "S",
-      "M",
-      "L",
-      "XL",
-      "XXL"
-    ],
-    "sizesAvailable": {
-      "XS": false,
-      "S": true,
-      "M": true,
-      "L": true,
-      "XL": true,
-      "XXL": false
-    },
-    "material": "Premium Cotton Blend",
-    "fit": "Slim",
-    "pattern": "Solid",
-    "occasion": "Casual",
-    "season": "All Season",
-    "stock": 86,
-    "isTrending": false,
-    "isNewArrival": false,
-    "isBestSeller": false,
-    "tags": [
-      "fashion",
-      "premium",
-      "topwear",
-      "women"
-    ],
-    "specifications": {
-      "Fabric": "Premium Cotton Blend",
-      "Fit": "Regular/Slim",
-      "Wash Care": "Machine Wash"
-    },
-    "reviews": [
-      {
-        "id": "rev_80w2m",
-        "userName": "Customer",
-        "rating": 5,
-        "comment": "Excellent product, highly recommended!",
-        "date": "2024-12-15",
-        "helpful": 10,
-        "verified": true
-      }
-    ]
-  },
-  {
-    "id": "prod_176",
-    "name": "URBAN EDGE Women's Premium T-Shirts",
-    "brand": "URBAN EDGE",
-    "description": "Premium quality t-shirts from URBAN EDGE. Features comfortable fit and excellent material suitable for everyday wear.",
-    "category": "Women",
-    "subCategory": "T-Shirts",
-    "type": "Topwear",
-    "price": 1945,
-    "mrp": 5257,
-    "discount": 63,
-    "currency": "₹",
-    "rating": 4.2,
-    "reviewCount": 4367,
-    "images": [
-      "https://images.unsplash.com/photo-1521572163474-6864f9cf17ab?w=600&q=80",
-      "https://images.unsplash.com/photo-1583743814966-8936f5b7be1a?w=600&q=80",
-      "https://images.unsplash.com/photo-1521572163474-6864f9cf17ab?w=600&q=80",
-      "https://images.unsplash.com/photo-1583743814966-8936f5b7be1a?w=600&q=80"
-    ],
-    "colors": [
-      {
-        "name": "Olive",
-        "hex": "#556B2F"
-      },
-      {
-        "name": "Charcoal Black",
-        "hex": "#1a1a1a"
-      },
-      {
-        "name": "Off White",
-        "hex": "#f5f0e8"
-      }
-    ],
-    "sizes": [
-      "XS",
-      "S",
-      "M",
-      "L",
-      "XL",
-      "XXL"
-    ],
-    "sizesAvailable": {
-      "XS": true,
-      "S": true,
-      "M": true,
-      "L": true,
-      "XL": true,
-      "XXL": true
-    },
-    "material": "Premium Cotton Blend",
-    "fit": "Slim",
-    "pattern": "Solid",
-    "occasion": "Casual",
-    "season": "All Season",
-    "stock": 5,
-    "isTrending": false,
-    "isNewArrival": true,
-    "isBestSeller": true,
-    "tags": [
-      "fashion",
-      "premium",
-      "topwear",
-      "women"
-    ],
-    "specifications": {
-      "Fabric": "Premium Cotton Blend",
-      "Fit": "Regular/Slim",
-      "Wash Care": "Machine Wash"
-    },
-    "reviews": [
-      {
-        "id": "rev_msafr",
-        "userName": "Customer",
-        "rating": 5,
-        "comment": "Excellent product, highly recommended!",
-        "date": "2024-12-15",
-        "helpful": 34,
-        "verified": true
-      }
-    ]
-  },
-  {
-    "id": "prod_177",
-    "name": "NOIR Women's Premium Shoes",
-    "brand": "NOIR",
-    "description": "Premium quality shoes from NOIR. Features comfortable fit and excellent material suitable for everyday wear.",
-    "category": "Women",
-    "subCategory": "Shoes",
-    "type": "Footwear",
-    "price": 8204,
-    "mrp": 10795,
-    "discount": 24,
-    "currency": "₹",
-    "rating": 4.6,
-    "reviewCount": 4162,
-    "images": [
-      "https://images.unsplash.com/photo-1525966222134-fcfa99b8ae77?w=600&q=80",
-      "https://images.unsplash.com/photo-1542291026-7eec264c27ff?w=600&q=80",
-      "https://images.unsplash.com/photo-1525966222134-fcfa99b8ae77?w=600&q=80",
-      "https://images.unsplash.com/photo-1542291026-7eec264c27ff?w=600&q=80"
-    ],
-    "colors": [
-      {
-        "name": "Maroon",
-        "hex": "#800000"
-      },
-      {
-        "name": "Olive",
-        "hex": "#556B2F"
-      },
-      {
-        "name": "Charcoal Black",
-        "hex": "#1a1a1a"
-      }
-    ],
-    "sizes": [
-      "XS",
-      "S",
-      "M",
-      "L",
-      "XL",
-      "XXL"
-    ],
-    "sizesAvailable": {
-      "XS": false,
-      "S": true,
-      "M": true,
-      "L": true,
-      "XL": false,
-      "XXL": false
-    },
-    "material": "Premium Cotton Blend",
-    "fit": "Regular",
-    "pattern": "Printed",
-    "occasion": "Casual",
-    "season": "All Season",
-    "stock": 13,
-    "isTrending": false,
-    "isNewArrival": false,
-    "isBestSeller": false,
-    "tags": [
-      "fashion",
-      "premium",
-      "footwear",
-      "women"
-    ],
-    "specifications": {
-      "Fabric": "Premium Cotton Blend",
-      "Fit": "Regular/Slim",
-      "Wash Care": "Machine Wash"
-    },
-    "reviews": [
-      {
-        "id": "rev_lvhvv",
-        "userName": "Customer",
-        "rating": 5,
-        "comment": "Excellent product, highly recommended!",
-        "date": "2024-12-15",
-        "helpful": 16,
-        "verified": true
-      }
-    ]
-  },
-  {
-    "id": "prod_178",
-    "name": "W Women's Premium Skirts",
-    "brand": "W",
-    "description": "Premium quality skirts from W. Features comfortable fit and excellent material suitable for everyday wear.",
-    "category": "Women",
-    "subCategory": "Skirts",
-    "type": "Bottomwear",
-    "price": 4060,
-    "mrp": 8639,
-    "discount": 53,
-    "currency": "₹",
-    "rating": 4.7,
-    "reviewCount": 1075,
-    "images": [
-      "https://images.unsplash.com/photo-1490578474895-699bc4e3f49f?w=600&q=80",
-      "https://images.unsplash.com/photo-1552374196-1ab2a1c593e8?w=600&q=80",
-      "https://images.unsplash.com/photo-1490578474895-699bc4e3f49f?w=600&q=80",
-      "https://images.unsplash.com/photo-1552374196-1ab2a1c593e8?w=600&q=80"
-    ],
-    "colors": [
-      {
-        "name": "Mustard",
-        "hex": "#FFDB58"
-      },
-      {
-        "name": "Charcoal Black",
-        "hex": "#1a1a1a"
-      },
-      {
-        "name": "Olive",
-        "hex": "#556B2F"
-      }
-    ],
-    "sizes": [
-      "XS",
-      "S",
-      "M",
-      "L",
-      "XL",
-      "XXL"
-    ],
-    "sizesAvailable": {
-      "XS": false,
-      "S": true,
-      "M": true,
-      "L": true,
-      "XL": true,
-      "XXL": false
-    },
-    "material": "Premium Cotton Blend",
-    "fit": "Slim",
-    "pattern": "Solid",
-    "occasion": "Casual",
-    "season": "All Season",
-    "stock": 7,
-    "isTrending": false,
-    "isNewArrival": false,
-    "isBestSeller": false,
-    "tags": [
-      "fashion",
-      "premium",
-      "bottomwear",
-      "women"
-    ],
-    "specifications": {
-      "Fabric": "Premium Cotton Blend",
-      "Fit": "Regular/Slim",
-      "Wash Care": "Machine Wash"
-    },
-    "reviews": [
-      {
-        "id": "rev_lvixo",
-        "userName": "Customer",
-        "rating": 5,
-        "comment": "Excellent product, highly recommended!",
-        "date": "2024-12-15",
-        "helpful": 31,
-        "verified": true
-      }
-    ]
-  },
-  {
-    "id": "prod_179",
-    "name": "Adidas Women's Premium T-Shirts",
-    "brand": "Adidas",
-    "description": "Premium quality t-shirts from Adidas. Features comfortable fit and excellent material suitable for everyday wear.",
-    "category": "Women",
-    "subCategory": "T-Shirts",
-    "type": "Topwear",
-    "price": 997,
-    "mrp": 1312,
-    "discount": 24,
-    "currency": "₹",
-    "rating": 3.4,
-    "reviewCount": 4499,
-    "images": [
-      "https://images.unsplash.com/photo-1583743814966-8936f5b7be1a?w=600&q=80",
-      "https://images.unsplash.com/photo-1521572163474-6864f9cf17ab?w=600&q=80",
-      "https://images.unsplash.com/photo-1583743814966-8936f5b7be1a?w=600&q=80",
-      "https://images.unsplash.com/photo-1521572163474-6864f9cf17ab?w=600&q=80"
-    ],
-    "colors": [
-      {
-        "name": "Off White",
-        "hex": "#f5f0e8"
-      },
-      {
-        "name": "Olive",
-        "hex": "#556B2F"
-      },
-      {
-        "name": "Navy Blue",
-        "hex": "#000080"
-      }
-    ],
-    "sizes": [
-      "XS",
-      "S",
-      "M",
-      "L",
-      "XL",
-      "XXL"
-    ],
-    "sizesAvailable": {
-      "XS": false,
-      "S": true,
-      "M": true,
-      "L": true,
-      "XL": false,
-      "XXL": false
-    },
-    "material": "Premium Cotton Blend",
-    "fit": "Regular",
-    "pattern": "Solid",
-    "occasion": "Casual",
-    "season": "All Season",
-    "stock": 99,
-    "isTrending": true,
-    "isNewArrival": false,
-    "isBestSeller": false,
-    "tags": [
-      "fashion",
-      "premium",
-      "topwear",
-      "women"
-    ],
-    "specifications": {
-      "Fabric": "Premium Cotton Blend",
-      "Fit": "Regular/Slim",
-      "Wash Care": "Machine Wash"
-    },
-    "reviews": [
-      {
-        "id": "rev_bupqa",
-        "userName": "Customer",
-        "rating": 5,
-        "comment": "Excellent product, highly recommended!",
-        "date": "2024-12-15",
-        "helpful": 19,
-        "verified": true
-      }
-    ]
-  },
-  {
-    "id": "prod_180",
-    "name": "Levi's Women's Premium Ethnic",
-    "brand": "Levi's",
-    "description": "Premium quality ethnic from Levi's. Features comfortable fit and excellent material suitable for everyday wear.",
-    "category": "Women",
-    "subCategory": "Ethnic",
-    "type": "Topwear",
-    "price": 3933,
-    "mrp": 5245,
-    "discount": 25,
-    "currency": "₹",
-    "rating": 3.9,
-    "reviewCount": 1312,
-    "images": [
-      "https://images.unsplash.com/photo-1490578474895-699bc4e3f49f?w=600&q=80",
-      "https://images.unsplash.com/photo-1552374196-1ab2a1c593e8?w=600&q=80",
-      "https://images.unsplash.com/photo-1490578474895-699bc4e3f49f?w=600&q=80",
-      "https://images.unsplash.com/photo-1552374196-1ab2a1c593e8?w=600&q=80"
-    ],
-    "colors": [
-      {
-        "name": "Maroon",
-        "hex": "#800000"
-      },
-      {
-        "name": "Charcoal Black",
-        "hex": "#1a1a1a"
-      },
-      {
-        "name": "Mustard",
-        "hex": "#FFDB58"
-      }
-    ],
-    "sizes": [
-      "XS",
-      "S",
-      "M",
-      "L",
-      "XL",
-      "XXL"
-    ],
-    "sizesAvailable": {
-      "XS": false,
-      "S": true,
-      "M": true,
-      "L": true,
-      "XL": true,
-      "XXL": true
-    },
-    "material": "Premium Cotton Blend",
-    "fit": "Slim",
-    "pattern": "Solid",
-    "occasion": "Casual",
-    "season": "All Season",
-    "stock": 94,
-    "isTrending": false,
-    "isNewArrival": false,
-    "isBestSeller": false,
-    "tags": [
-      "fashion",
-      "premium",
-      "topwear",
-      "women"
-    ],
-    "specifications": {
-      "Fabric": "Premium Cotton Blend",
-      "Fit": "Regular/Slim",
-      "Wash Care": "Machine Wash"
-    },
-    "reviews": [
-      {
-        "id": "rev_xhlh1",
-        "userName": "Customer",
-        "rating": 5,
-        "comment": "Excellent product, highly recommended!",
-        "date": "2024-12-15",
+        "comment": "Absolutely love this product! The quality is amazing for the price.",
+        "date": "2024-03-15",
         "helpful": 47,
         "verified": true
       }
     ]
   },
   {
-    "id": "prod_181",
-    "name": "Levi's Kids's Premium Kids Ethnic Wear",
-    "brand": "Levi's",
-    "description": "Premium quality kids ethnic wear from Levi's. Features comfortable fit and excellent material suitable for everyday wear.",
-    "category": "Kids",
-    "subCategory": "Kids Ethnic Wear",
-    "type": "Topwear",
-    "price": 4649,
-    "mrp": 13285,
-    "discount": 65,
+    "id": "prod_063",
+    "name": "Premium Dresses - Style 1",
+    "brand": "Allen Solly",
+    "description": "Experience ultimate comfort and style with our latest dresses. Perfect for everyday wear, featuring premium materials and exceptional craftsmanship.",
+    "category": "Women",
+    "subCategory": "Dresses",
+    "type": "Dresses",
+    "price": 599,
+    "mrp": 1798,
+    "discount": 67,
     "currency": "₹",
-    "rating": 4.8,
-    "reviewCount": 4377,
+    "rating": "4.8",
+    "reviewCount": 3725,
     "images": [
-      "https://images.unsplash.com/photo-1552374196-1ab2a1c593e8?w=600&q=80",
-      "https://images.unsplash.com/photo-1490578474895-699bc4e3f49f?w=600&q=80",
-      "https://images.unsplash.com/photo-1552374196-1ab2a1c593e8?w=600&q=80",
-      "https://images.unsplash.com/photo-1490578474895-699bc4e3f49f?w=600&q=80"
+      "https://images.unsplash.com/photo-1515886657353-8a7d6d83e1e5?w=600&q=80",
+      "https://images.unsplash.com/photo-1572804013309-59a88b7e6c28?w=600&q=80",
+      "https://images.unsplash.com/photo-1496747986-f54ba7de7de6?w=600&q=80"
     ],
     "colors": [
       {
-        "name": "Navy Blue",
-        "hex": "#000080"
-      },
-      {
-        "name": "Olive",
-        "hex": "#556B2F"
-      },
-      {
-        "name": "Mustard",
-        "hex": "#FFDB58"
-      }
-    ],
-    "sizes": [
-      "XS",
-      "S",
-      "M",
-      "L",
-      "XL",
-      "XXL"
-    ],
-    "sizesAvailable": {
-      "XS": false,
-      "S": true,
-      "M": true,
-      "L": true,
-      "XL": true,
-      "XXL": false
-    },
-    "material": "Premium Cotton Blend",
-    "fit": "Regular",
-    "pattern": "Solid",
-    "occasion": "Casual",
-    "season": "All Season",
-    "stock": 60,
-    "isTrending": false,
-    "isNewArrival": false,
-    "isBestSeller": false,
-    "tags": [
-      "fashion",
-      "premium",
-      "topwear",
-      "kids"
-    ],
-    "specifications": {
-      "Fabric": "Premium Cotton Blend",
-      "Fit": "Regular/Slim",
-      "Wash Care": "Machine Wash"
-    },
-    "reviews": [
-      {
-        "id": "rev_tfidb",
-        "userName": "Customer",
-        "rating": 5,
-        "comment": "Excellent product, highly recommended!",
-        "date": "2024-12-15",
-        "helpful": 11,
-        "verified": true
-      }
-    ]
-  },
-  {
-    "id": "prod_182",
-    "name": "Jack & Jones Kids's Premium Girls Dresses & Tops",
-    "brand": "Jack & Jones",
-    "description": "Premium quality girls dresses & tops from Jack & Jones. Features comfortable fit and excellent material suitable for everyday wear.",
-    "category": "Kids",
-    "subCategory": "Girls Dresses & Tops",
-    "type": "Topwear",
-    "price": 5636,
-    "mrp": 12525,
-    "discount": 55,
-    "currency": "₹",
-    "rating": 4,
-    "reviewCount": 1528,
-    "images": [
-      "https://images.unsplash.com/photo-1490578474895-699bc4e3f49f?w=600&q=80",
-      "https://images.unsplash.com/photo-1552374196-1ab2a1c593e8?w=600&q=80",
-      "https://images.unsplash.com/photo-1490578474895-699bc4e3f49f?w=600&q=80",
-      "https://images.unsplash.com/photo-1552374196-1ab2a1c593e8?w=600&q=80"
-    ],
-    "colors": [
-      {
-        "name": "Charcoal Black",
+        "name": "Standard",
         "hex": "#1a1a1a"
       },
       {
-        "name": "Mustard",
-        "hex": "#FFDB58"
-      },
-      {
-        "name": "Off White",
-        "hex": "#f5f0e8"
+        "name": "Variant",
+        "hex": "#f5f5f5"
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -14884,81 +4562,72 @@ export const products = [
       "XXL"
     ],
     "sizesAvailable": {
-      "XS": true,
       "S": true,
       "M": true,
       "L": true,
       "XL": false,
       "XXL": false
     },
-    "material": "Premium Cotton Blend",
+    "material": "100% Premium Material",
     "fit": "Regular",
     "pattern": "Solid",
     "occasion": "Casual",
-    "season": "All Season",
-    "stock": 78,
-    "isTrending": false,
+    "stock": 100,
+    "isTrending": true,
     "isNewArrival": false,
     "isBestSeller": false,
     "tags": [
-      "fashion",
       "premium",
-      "topwear",
-      "kids"
+      "comfortable",
+      "dresses"
     ],
     "specifications": {
-      "Fabric": "Premium Cotton Blend",
-      "Fit": "Regular/Slim",
+      "Fabric": "Premium Quality",
+      "Fit": "Regular",
       "Wash Care": "Machine Wash"
     },
     "reviews": [
       {
-        "id": "rev_h3ned",
-        "userName": "Customer",
+        "id": "rev_63_1",
+        "userName": "Verified Buyer",
         "rating": 5,
-        "comment": "Excellent product, highly recommended!",
-        "date": "2024-12-15",
-        "helpful": 39,
+        "comment": "Absolutely love this product! The quality is amazing for the price.",
+        "date": "2024-03-15",
+        "helpful": 45,
         "verified": true
       }
     ]
   },
   {
-    "id": "prod_183",
-    "name": "Zara Kids's Premium Kids Shoes",
-    "brand": "Zara",
-    "description": "Premium quality kids shoes from Zara. Features comfortable fit and excellent material suitable for everyday wear.",
-    "category": "Kids",
-    "subCategory": "Kids Shoes",
-    "type": "Footwear",
-    "price": 1558,
-    "mrp": 1878,
-    "discount": 17,
+    "id": "prod_064",
+    "name": "Premium Dresses - Style 2",
+    "brand": "Nike",
+    "description": "Experience ultimate comfort and style with our latest dresses. Perfect for everyday wear, featuring premium materials and exceptional craftsmanship.",
+    "category": "Women",
+    "subCategory": "Dresses",
+    "type": "Dresses",
+    "price": 1699,
+    "mrp": 3498,
+    "discount": 51,
     "currency": "₹",
-    "rating": 3.8,
-    "reviewCount": 1743,
+    "rating": "4.9",
+    "reviewCount": 732,
     "images": [
-      "https://images.unsplash.com/photo-1525966222134-fcfa99b8ae77?w=600&q=80",
-      "https://images.unsplash.com/photo-1542291026-7eec264c27ff?w=600&q=80",
-      "https://images.unsplash.com/photo-1525966222134-fcfa99b8ae77?w=600&q=80",
-      "https://images.unsplash.com/photo-1542291026-7eec264c27ff?w=600&q=80"
+      "https://images.unsplash.com/photo-1572804013309-59a88b7e6c28?w=600&q=80",
+      "https://images.unsplash.com/photo-1496747986-f54ba7de7de6?w=600&q=80",
+      "https://images.unsplash.com/photo-1539109136081-3359f8527a5f?w=600&q=80"
     ],
     "colors": [
       {
-        "name": "Charcoal Black",
+        "name": "Standard",
         "hex": "#1a1a1a"
       },
       {
-        "name": "Navy Blue",
-        "hex": "#000080"
-      },
-      {
-        "name": "Mustard",
-        "hex": "#FFDB58"
+        "name": "Variant",
+        "hex": "#f5f5f5"
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -14966,81 +4635,729 @@ export const products = [
       "XXL"
     ],
     "sizesAvailable": {
-      "XS": true,
       "S": true,
       "M": true,
       "L": true,
       "XL": true,
       "XXL": false
     },
-    "material": "Premium Cotton Blend",
-    "fit": "Slim",
+    "material": "100% Premium Material",
+    "fit": "Regular",
     "pattern": "Solid",
     "occasion": "Casual",
-    "season": "All Season",
-    "stock": 71,
-    "isTrending": true,
+    "stock": 85,
+    "isTrending": false,
     "isNewArrival": true,
     "isBestSeller": false,
     "tags": [
-      "fashion",
       "premium",
-      "footwear",
-      "kids"
+      "comfortable",
+      "dresses"
     ],
     "specifications": {
-      "Fabric": "Premium Cotton Blend",
-      "Fit": "Regular/Slim",
+      "Fabric": "Premium Quality",
+      "Fit": "Regular",
       "Wash Care": "Machine Wash"
     },
     "reviews": [
       {
-        "id": "rev_2azvu",
-        "userName": "Customer",
+        "id": "rev_64_1",
+        "userName": "Verified Buyer",
         "rating": 5,
-        "comment": "Excellent product, highly recommended!",
-        "date": "2024-12-15",
+        "comment": "Absolutely love this product! The quality is amazing for the price.",
+        "date": "2024-03-15",
+        "helpful": 31,
+        "verified": true
+      }
+    ]
+  },
+  {
+    "id": "prod_065",
+    "name": "Premium Dresses - Style 3",
+    "brand": "Allen Solly",
+    "description": "Experience ultimate comfort and style with our latest dresses. Perfect for everyday wear, featuring premium materials and exceptional craftsmanship.",
+    "category": "Women",
+    "subCategory": "Dresses",
+    "type": "Dresses",
+    "price": 899,
+    "mrp": 1198,
+    "discount": 25,
+    "currency": "₹",
+    "rating": "4.6",
+    "reviewCount": 3890,
+    "images": [
+      "https://images.unsplash.com/photo-1496747986-f54ba7de7de6?w=600&q=80",
+      "https://images.unsplash.com/photo-1539109136081-3359f8527a5f?w=600&q=80",
+      "https://images.unsplash.com/photo-1508214751955-8bc68e65e3bc?w=600&q=80"
+    ],
+    "colors": [
+      {
+        "name": "Standard",
+        "hex": "#1a1a1a"
+      },
+      {
+        "name": "Variant",
+        "hex": "#f5f5f5"
+      }
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "sizesAvailable": {
+      "S": true,
+      "M": true,
+      "L": true,
+      "XL": true,
+      "XXL": true
+    },
+    "material": "100% Premium Material",
+    "fit": "Regular",
+    "pattern": "Solid",
+    "occasion": "Casual",
+    "stock": 22,
+    "isTrending": false,
+    "isNewArrival": false,
+    "isBestSeller": false,
+    "tags": [
+      "premium",
+      "comfortable",
+      "dresses"
+    ],
+    "specifications": {
+      "Fabric": "Premium Quality",
+      "Fit": "Regular",
+      "Wash Care": "Machine Wash"
+    },
+    "reviews": [
+      {
+        "id": "rev_65_1",
+        "userName": "Verified Buyer",
+        "rating": 5,
+        "comment": "Absolutely love this product! The quality is amazing for the price.",
+        "date": "2024-03-15",
+        "helpful": 28,
+        "verified": true
+      }
+    ]
+  },
+  {
+    "id": "prod_066",
+    "name": "Premium Dresses - Style 4",
+    "brand": "NOIR",
+    "description": "Experience ultimate comfort and style with our latest dresses. Perfect for everyday wear, featuring premium materials and exceptional craftsmanship.",
+    "category": "Women",
+    "subCategory": "Dresses",
+    "type": "Dresses",
+    "price": 1499,
+    "mrp": 1798,
+    "discount": 17,
+    "currency": "₹",
+    "rating": "4.2",
+    "reviewCount": 2194,
+    "images": [
+      "https://images.unsplash.com/photo-1539109136081-3359f8527a5f?w=600&q=80",
+      "https://images.unsplash.com/photo-1508214751955-8bc68e65e3bc?w=600&q=80",
+      "https://images.unsplash.com/photo-1566174009-9fa5fee67fe4?w=600&q=80"
+    ],
+    "colors": [
+      {
+        "name": "Standard",
+        "hex": "#1a1a1a"
+      },
+      {
+        "name": "Variant",
+        "hex": "#f5f5f5"
+      }
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "sizesAvailable": {
+      "S": true,
+      "M": true,
+      "L": true,
+      "XL": false,
+      "XXL": false
+    },
+    "material": "100% Premium Material",
+    "fit": "Regular",
+    "pattern": "Solid",
+    "occasion": "Casual",
+    "stock": 17,
+    "isTrending": false,
+    "isNewArrival": true,
+    "isBestSeller": true,
+    "tags": [
+      "premium",
+      "comfortable",
+      "dresses"
+    ],
+    "specifications": {
+      "Fabric": "Premium Quality",
+      "Fit": "Regular",
+      "Wash Care": "Machine Wash"
+    },
+    "reviews": [
+      {
+        "id": "rev_66_1",
+        "userName": "Verified Buyer",
+        "rating": 5,
+        "comment": "Absolutely love this product! The quality is amazing for the price.",
+        "date": "2024-03-15",
+        "helpful": 16,
+        "verified": true
+      }
+    ]
+  },
+  {
+    "id": "prod_067",
+    "name": "Premium Dresses - Style 5",
+    "brand": "Nike",
+    "description": "Experience ultimate comfort and style with our latest dresses. Perfect for everyday wear, featuring premium materials and exceptional craftsmanship.",
+    "category": "Women",
+    "subCategory": "Dresses",
+    "type": "Dresses",
+    "price": 1799,
+    "mrp": 2898,
+    "discount": 38,
+    "currency": "₹",
+    "rating": "4.1",
+    "reviewCount": 4223,
+    "images": [
+      "https://images.unsplash.com/photo-1508214751955-8bc68e65e3bc?w=600&q=80",
+      "https://images.unsplash.com/photo-1566174009-9fa5fee67fe4?w=600&q=80",
+      "https://images.unsplash.com/photo-1502716119720-f3a3b8429c96?w=600&q=80"
+    ],
+    "colors": [
+      {
+        "name": "Standard",
+        "hex": "#1a1a1a"
+      },
+      {
+        "name": "Variant",
+        "hex": "#f5f5f5"
+      }
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "sizesAvailable": {
+      "S": true,
+      "M": true,
+      "L": true,
+      "XL": true,
+      "XXL": false
+    },
+    "material": "100% Premium Material",
+    "fit": "Regular",
+    "pattern": "Solid",
+    "occasion": "Casual",
+    "stock": 24,
+    "isTrending": false,
+    "isNewArrival": false,
+    "isBestSeller": false,
+    "tags": [
+      "premium",
+      "comfortable",
+      "dresses"
+    ],
+    "specifications": {
+      "Fabric": "Premium Quality",
+      "Fit": "Regular",
+      "Wash Care": "Machine Wash"
+    },
+    "reviews": [
+      {
+        "id": "rev_67_1",
+        "userName": "Verified Buyer",
+        "rating": 5,
+        "comment": "Absolutely love this product! The quality is amazing for the price.",
+        "date": "2024-03-15",
+        "helpful": 23,
+        "verified": true
+      }
+    ]
+  },
+  {
+    "id": "prod_068",
+    "name": "Premium Dresses - Style 6",
+    "brand": "Vero Moda",
+    "description": "Experience ultimate comfort and style with our latest dresses. Perfect for everyday wear, featuring premium materials and exceptional craftsmanship.",
+    "category": "Women",
+    "subCategory": "Dresses",
+    "type": "Dresses",
+    "price": 199,
+    "mrp": 1998,
+    "discount": 90,
+    "currency": "₹",
+    "rating": "4.7",
+    "reviewCount": 4280,
+    "images": [
+      "https://images.unsplash.com/photo-1566174009-9fa5fee67fe4?w=600&q=80",
+      "https://images.unsplash.com/photo-1502716119720-f3a3b8429c96?w=600&q=80",
+      "https://images.unsplash.com/photo-1549298916-b41d501d3772?w=600&q=80"
+    ],
+    "colors": [
+      {
+        "name": "Standard",
+        "hex": "#1a1a1a"
+      },
+      {
+        "name": "Variant",
+        "hex": "#f5f5f5"
+      }
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "sizesAvailable": {
+      "S": true,
+      "M": true,
+      "L": true,
+      "XL": false,
+      "XXL": true
+    },
+    "material": "100% Premium Material",
+    "fit": "Regular",
+    "pattern": "Solid",
+    "occasion": "Casual",
+    "stock": 97,
+    "isTrending": false,
+    "isNewArrival": false,
+    "isBestSeller": false,
+    "tags": [
+      "premium",
+      "comfortable",
+      "dresses"
+    ],
+    "specifications": {
+      "Fabric": "Premium Quality",
+      "Fit": "Regular",
+      "Wash Care": "Machine Wash"
+    },
+    "reviews": [
+      {
+        "id": "rev_68_1",
+        "userName": "Verified Buyer",
+        "rating": 5,
+        "comment": "Absolutely love this product! The quality is amazing for the price.",
+        "date": "2024-03-15",
+        "helpful": 14,
+        "verified": true
+      }
+    ]
+  },
+  {
+    "id": "prod_069",
+    "name": "Premium Dresses - Style 7",
+    "brand": "Adidas",
+    "description": "Experience ultimate comfort and style with our latest dresses. Perfect for everyday wear, featuring premium materials and exceptional craftsmanship.",
+    "category": "Women",
+    "subCategory": "Dresses",
+    "type": "Dresses",
+    "price": 599,
+    "mrp": 1098,
+    "discount": 45,
+    "currency": "₹",
+    "rating": "4.7",
+    "reviewCount": 860,
+    "images": [
+      "https://images.unsplash.com/photo-1502716119720-f3a3b8429c96?w=600&q=80",
+      "https://images.unsplash.com/photo-1549298916-b41d501d3772?w=600&q=80",
+      "https://images.unsplash.com/photo-1518895949257-6ddf17b09b0f?w=600&q=80"
+    ],
+    "colors": [
+      {
+        "name": "Standard",
+        "hex": "#1a1a1a"
+      },
+      {
+        "name": "Variant",
+        "hex": "#f5f5f5"
+      }
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "sizesAvailable": {
+      "S": true,
+      "M": true,
+      "L": true,
+      "XL": false,
+      "XXL": false
+    },
+    "material": "100% Premium Material",
+    "fit": "Regular",
+    "pattern": "Solid",
+    "occasion": "Casual",
+    "stock": 77,
+    "isTrending": false,
+    "isNewArrival": false,
+    "isBestSeller": false,
+    "tags": [
+      "premium",
+      "comfortable",
+      "dresses"
+    ],
+    "specifications": {
+      "Fabric": "Premium Quality",
+      "Fit": "Regular",
+      "Wash Care": "Machine Wash"
+    },
+    "reviews": [
+      {
+        "id": "rev_69_1",
+        "userName": "Verified Buyer",
+        "rating": 5,
+        "comment": "Absolutely love this product! The quality is amazing for the price.",
+        "date": "2024-03-15",
+        "helpful": 7,
+        "verified": true
+      }
+    ]
+  },
+  {
+    "id": "prod_070",
+    "name": "Premium Dresses - Style 8",
+    "brand": "NOIR",
+    "description": "Experience ultimate comfort and style with our latest dresses. Perfect for everyday wear, featuring premium materials and exceptional craftsmanship.",
+    "category": "Women",
+    "subCategory": "Dresses",
+    "type": "Dresses",
+    "price": 1099,
+    "mrp": 3198,
+    "discount": 66,
+    "currency": "₹",
+    "rating": "4.6",
+    "reviewCount": 2533,
+    "images": [
+      "https://images.unsplash.com/photo-1549298916-b41d501d3772?w=600&q=80",
+      "https://images.unsplash.com/photo-1518895949257-6ddf17b09b0f?w=600&q=80",
+      "https://images.unsplash.com/photo-1582562124811-b7e57b61ce2f?w=600&q=80"
+    ],
+    "colors": [
+      {
+        "name": "Standard",
+        "hex": "#1a1a1a"
+      },
+      {
+        "name": "Variant",
+        "hex": "#f5f5f5"
+      }
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "sizesAvailable": {
+      "S": true,
+      "M": true,
+      "L": true,
+      "XL": false,
+      "XXL": false
+    },
+    "material": "100% Premium Material",
+    "fit": "Regular",
+    "pattern": "Solid",
+    "occasion": "Casual",
+    "stock": 94,
+    "isTrending": false,
+    "isNewArrival": true,
+    "isBestSeller": false,
+    "tags": [
+      "premium",
+      "comfortable",
+      "dresses"
+    ],
+    "specifications": {
+      "Fabric": "Premium Quality",
+      "Fit": "Regular",
+      "Wash Care": "Machine Wash"
+    },
+    "reviews": [
+      {
+        "id": "rev_70_1",
+        "userName": "Verified Buyer",
+        "rating": 5,
+        "comment": "Absolutely love this product! The quality is amazing for the price.",
+        "date": "2024-03-15",
+        "helpful": 24,
+        "verified": true
+      }
+    ]
+  },
+  {
+    "id": "prod_071",
+    "name": "Premium Dresses - Style 9",
+    "brand": "Adidas",
+    "description": "Experience ultimate comfort and style with our latest dresses. Perfect for everyday wear, featuring premium materials and exceptional craftsmanship.",
+    "category": "Women",
+    "subCategory": "Dresses",
+    "type": "Dresses",
+    "price": 499,
+    "mrp": 2898,
+    "discount": 83,
+    "currency": "₹",
+    "rating": "4.4",
+    "reviewCount": 4344,
+    "images": [
+      "https://images.unsplash.com/photo-1518895949257-6ddf17b09b0f?w=600&q=80",
+      "https://images.unsplash.com/photo-1582562124811-b7e57b61ce2f?w=600&q=80",
+      "https://images.unsplash.com/photo-1609709295948-1e4be3b98581?w=600&q=80"
+    ],
+    "colors": [
+      {
+        "name": "Standard",
+        "hex": "#1a1a1a"
+      },
+      {
+        "name": "Variant",
+        "hex": "#f5f5f5"
+      }
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "sizesAvailable": {
+      "S": true,
+      "M": true,
+      "L": true,
+      "XL": true,
+      "XXL": false
+    },
+    "material": "100% Premium Material",
+    "fit": "Regular",
+    "pattern": "Solid",
+    "occasion": "Casual",
+    "stock": 106,
+    "isTrending": false,
+    "isNewArrival": false,
+    "isBestSeller": false,
+    "tags": [
+      "premium",
+      "comfortable",
+      "dresses"
+    ],
+    "specifications": {
+      "Fabric": "Premium Quality",
+      "Fit": "Regular",
+      "Wash Care": "Machine Wash"
+    },
+    "reviews": [
+      {
+        "id": "rev_71_1",
+        "userName": "Verified Buyer",
+        "rating": 5,
+        "comment": "Absolutely love this product! The quality is amazing for the price.",
+        "date": "2024-03-15",
+        "helpful": 27,
+        "verified": true
+      }
+    ]
+  },
+  {
+    "id": "prod_072",
+    "name": "Premium Dresses - Style 10",
+    "brand": "AURA",
+    "description": "Experience ultimate comfort and style with our latest dresses. Perfect for everyday wear, featuring premium materials and exceptional craftsmanship.",
+    "category": "Women",
+    "subCategory": "Dresses",
+    "type": "Dresses",
+    "price": 1299,
+    "mrp": 3098,
+    "discount": 58,
+    "currency": "₹",
+    "rating": "4.3",
+    "reviewCount": 3492,
+    "images": [
+      "https://images.unsplash.com/photo-1582562124811-b7e57b61ce2f?w=600&q=80",
+      "https://images.unsplash.com/photo-1609709295948-1e4be3b98581?w=600&q=80",
+      "https://images.unsplash.com/photo-1623609163841-b3e5c7a17bdf?w=600&q=80"
+    ],
+    "colors": [
+      {
+        "name": "Standard",
+        "hex": "#1a1a1a"
+      },
+      {
+        "name": "Variant",
+        "hex": "#f5f5f5"
+      }
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "sizesAvailable": {
+      "S": true,
+      "M": true,
+      "L": true,
+      "XL": true,
+      "XXL": true
+    },
+    "material": "100% Premium Material",
+    "fit": "Regular",
+    "pattern": "Solid",
+    "occasion": "Casual",
+    "stock": 90,
+    "isTrending": false,
+    "isNewArrival": false,
+    "isBestSeller": true,
+    "tags": [
+      "premium",
+      "comfortable",
+      "dresses"
+    ],
+    "specifications": {
+      "Fabric": "Premium Quality",
+      "Fit": "Regular",
+      "Wash Care": "Machine Wash"
+    },
+    "reviews": [
+      {
+        "id": "rev_72_1",
+        "userName": "Verified Buyer",
+        "rating": 5,
+        "comment": "Absolutely love this product! The quality is amazing for the price.",
+        "date": "2024-03-15",
+        "helpful": 15,
+        "verified": true
+      }
+    ]
+  },
+  {
+    "id": "prod_073",
+    "name": "Premium Tops - Style 1",
+    "brand": "FabIndia",
+    "description": "Experience ultimate comfort and style with our latest tops. Perfect for everyday wear, featuring premium materials and exceptional craftsmanship.",
+    "category": "Women",
+    "subCategory": "Tops",
+    "type": "Topwear",
+    "price": 399,
+    "mrp": 1998,
+    "discount": 80,
+    "currency": "₹",
+    "rating": "4.9",
+    "reviewCount": 3766,
+    "images": [
+      "https://images.unsplash.com/photo-1533813341-d0d42a1aa02e?w=600&q=80",
+      "https://images.unsplash.com/photo-1571455525313-c81994c7c1cb?w=600&q=80",
+      "https://images.unsplash.com/photo-1529139374-3e5fa1a00791?w=600&q=80"
+    ],
+    "colors": [
+      {
+        "name": "Standard",
+        "hex": "#1a1a1a"
+      },
+      {
+        "name": "Variant",
+        "hex": "#f5f5f5"
+      }
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "sizesAvailable": {
+      "S": true,
+      "M": true,
+      "L": true,
+      "XL": true,
+      "XXL": false
+    },
+    "material": "100% Premium Material",
+    "fit": "Regular",
+    "pattern": "Solid",
+    "occasion": "Casual",
+    "stock": 43,
+    "isTrending": false,
+    "isNewArrival": true,
+    "isBestSeller": false,
+    "tags": [
+      "premium",
+      "comfortable",
+      "tops"
+    ],
+    "specifications": {
+      "Fabric": "Premium Quality",
+      "Fit": "Regular",
+      "Wash Care": "Machine Wash"
+    },
+    "reviews": [
+      {
+        "id": "rev_73_1",
+        "userName": "Verified Buyer",
+        "rating": 5,
+        "comment": "Absolutely love this product! The quality is amazing for the price.",
+        "date": "2024-03-15",
         "helpful": 3,
         "verified": true
       }
     ]
   },
   {
-    "id": "prod_184",
-    "name": "W Kids's Premium Kids Shoes",
-    "brand": "W",
-    "description": "Premium quality kids shoes from W. Features comfortable fit and excellent material suitable for everyday wear.",
-    "category": "Kids",
-    "subCategory": "Kids Shoes",
-    "type": "Footwear",
-    "price": 3123,
-    "mrp": 9762,
-    "discount": 68,
+    "id": "prod_074",
+    "name": "Premium Tops - Style 2",
+    "brand": "Zara",
+    "description": "Experience ultimate comfort and style with our latest tops. Perfect for everyday wear, featuring premium materials and exceptional craftsmanship.",
+    "category": "Women",
+    "subCategory": "Tops",
+    "type": "Topwear",
+    "price": 599,
+    "mrp": 1398,
+    "discount": 57,
     "currency": "₹",
-    "rating": 3.2,
-    "reviewCount": 4501,
+    "rating": "5.0",
+    "reviewCount": 5075,
     "images": [
-      "https://images.unsplash.com/photo-1542291026-7eec264c27ff?w=600&q=80",
-      "https://images.unsplash.com/photo-1525966222134-fcfa99b8ae77?w=600&q=80",
-      "https://images.unsplash.com/photo-1542291026-7eec264c27ff?w=600&q=80",
-      "https://images.unsplash.com/photo-1525966222134-fcfa99b8ae77?w=600&q=80"
+      "https://images.unsplash.com/photo-1571455525313-c81994c7c1cb?w=600&q=80",
+      "https://images.unsplash.com/photo-1529139374-3e5fa1a00791?w=600&q=80",
+      "https://images.unsplash.com/photo-1481437156560-3205f6a55735?w=600&q=80"
     ],
     "colors": [
       {
-        "name": "Olive",
-        "hex": "#556B2F"
-      },
-      {
-        "name": "Maroon",
-        "hex": "#800000"
-      },
-      {
-        "name": "Charcoal Black",
+        "name": "Standard",
         "hex": "#1a1a1a"
+      },
+      {
+        "name": "Variant",
+        "hex": "#f5f5f5"
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -15048,409 +5365,72 @@ export const products = [
       "XXL"
     ],
     "sizesAvailable": {
-      "XS": true,
       "S": true,
       "M": true,
       "L": true,
-      "XL": true,
-      "XXL": true
+      "XL": false,
+      "XXL": false
     },
-    "material": "Premium Cotton Blend",
-    "fit": "Slim",
+    "material": "100% Premium Material",
+    "fit": "Regular",
     "pattern": "Solid",
     "occasion": "Casual",
-    "season": "All Season",
-    "stock": 45,
-    "isTrending": true,
-    "isNewArrival": false,
-    "isBestSeller": false,
-    "tags": [
-      "fashion",
-      "premium",
-      "footwear",
-      "kids"
-    ],
-    "specifications": {
-      "Fabric": "Premium Cotton Blend",
-      "Fit": "Regular/Slim",
-      "Wash Care": "Machine Wash"
-    },
-    "reviews": [
-      {
-        "id": "rev_6aqt7",
-        "userName": "Customer",
-        "rating": 5,
-        "comment": "Excellent product, highly recommended!",
-        "date": "2024-12-15",
-        "helpful": 24,
-        "verified": true
-      }
-    ]
-  },
-  {
-    "id": "prod_185",
-    "name": "Van Heusen Kids's Premium Boys Jeans & Shorts",
-    "brand": "Van Heusen",
-    "description": "Premium quality boys jeans & shorts from Van Heusen. Features comfortable fit and excellent material suitable for everyday wear.",
-    "category": "Kids",
-    "subCategory": "Boys Jeans & Shorts",
-    "type": "Bottomwear",
-    "price": 4562,
-    "mrp": 6613,
-    "discount": 31,
-    "currency": "₹",
-    "rating": 4.1,
-    "reviewCount": 4197,
-    "images": [
-      "https://images.unsplash.com/photo-1552374196-1ab2a1c593e8?w=600&q=80",
-      "https://images.unsplash.com/photo-1490578474895-699bc4e3f49f?w=600&q=80",
-      "https://images.unsplash.com/photo-1552374196-1ab2a1c593e8?w=600&q=80",
-      "https://images.unsplash.com/photo-1490578474895-699bc4e3f49f?w=600&q=80"
-    ],
-    "colors": [
-      {
-        "name": "Maroon",
-        "hex": "#800000"
-      },
-      {
-        "name": "Off White",
-        "hex": "#f5f0e8"
-      },
-      {
-        "name": "Olive",
-        "hex": "#556B2F"
-      }
-    ],
-    "sizes": [
-      "XS",
-      "S",
-      "M",
-      "L",
-      "XL",
-      "XXL"
-    ],
-    "sizesAvailable": {
-      "XS": false,
-      "S": true,
-      "M": true,
-      "L": true,
-      "XL": true,
-      "XXL": false
-    },
-    "material": "Premium Cotton Blend",
-    "fit": "Regular",
-    "pattern": "Printed",
-    "occasion": "Casual",
-    "season": "All Season",
-    "stock": 22,
-    "isTrending": true,
-    "isNewArrival": true,
-    "isBestSeller": false,
-    "tags": [
-      "fashion",
-      "premium",
-      "bottomwear",
-      "kids"
-    ],
-    "specifications": {
-      "Fabric": "Premium Cotton Blend",
-      "Fit": "Regular/Slim",
-      "Wash Care": "Machine Wash"
-    },
-    "reviews": [
-      {
-        "id": "rev_dhczv",
-        "userName": "Customer",
-        "rating": 5,
-        "comment": "Excellent product, highly recommended!",
-        "date": "2024-12-15",
-        "helpful": 6,
-        "verified": true
-      }
-    ]
-  },
-  {
-    "id": "prod_186",
-    "name": "Van Heusen Kids's Premium Girls Leggings & Skirts",
-    "brand": "Van Heusen",
-    "description": "Premium quality girls leggings & skirts from Van Heusen. Features comfortable fit and excellent material suitable for everyday wear.",
-    "category": "Kids",
-    "subCategory": "Girls Leggings & Skirts",
-    "type": "Bottomwear",
-    "price": 9416,
-    "mrp": 14947,
-    "discount": 37,
-    "currency": "₹",
-    "rating": 3.7,
-    "reviewCount": 1209,
-    "images": [
-      "https://images.unsplash.com/photo-1490578474895-699bc4e3f49f?w=600&q=80",
-      "https://images.unsplash.com/photo-1552374196-1ab2a1c593e8?w=600&q=80",
-      "https://images.unsplash.com/photo-1490578474895-699bc4e3f49f?w=600&q=80",
-      "https://images.unsplash.com/photo-1552374196-1ab2a1c593e8?w=600&q=80"
-    ],
-    "colors": [
-      {
-        "name": "Navy Blue",
-        "hex": "#000080"
-      },
-      {
-        "name": "Mustard",
-        "hex": "#FFDB58"
-      },
-      {
-        "name": "Olive",
-        "hex": "#556B2F"
-      }
-    ],
-    "sizes": [
-      "XS",
-      "S",
-      "M",
-      "L",
-      "XL",
-      "XXL"
-    ],
-    "sizesAvailable": {
-      "XS": true,
-      "S": true,
-      "M": true,
-      "L": true,
-      "XL": true,
-      "XXL": false
-    },
-    "material": "Premium Cotton Blend",
-    "fit": "Regular",
-    "pattern": "Printed",
-    "occasion": "Casual",
-    "season": "All Season",
-    "stock": 19,
+    "stock": 53,
     "isTrending": false,
     "isNewArrival": false,
     "isBestSeller": false,
     "tags": [
-      "fashion",
       "premium",
-      "bottomwear",
-      "kids"
+      "comfortable",
+      "tops"
     ],
     "specifications": {
-      "Fabric": "Premium Cotton Blend",
-      "Fit": "Regular/Slim",
+      "Fabric": "Premium Quality",
+      "Fit": "Regular",
       "Wash Care": "Machine Wash"
     },
     "reviews": [
       {
-        "id": "rev_y5do6",
-        "userName": "Customer",
+        "id": "rev_74_1",
+        "userName": "Verified Buyer",
         "rating": 5,
-        "comment": "Excellent product, highly recommended!",
-        "date": "2024-12-15",
-        "helpful": 14,
+        "comment": "Absolutely love this product! The quality is amazing for the price.",
+        "date": "2024-03-15",
+        "helpful": 25,
         "verified": true
       }
     ]
   },
   {
-    "id": "prod_187",
-    "name": "Global Desi Kids's Premium Boys Jeans & Shorts",
-    "brand": "Global Desi",
-    "description": "Premium quality boys jeans & shorts from Global Desi. Features comfortable fit and excellent material suitable for everyday wear.",
-    "category": "Kids",
-    "subCategory": "Boys Jeans & Shorts",
-    "type": "Bottomwear",
-    "price": 1532,
-    "mrp": 4945,
-    "discount": 69,
-    "currency": "₹",
-    "rating": 4.6,
-    "reviewCount": 4403,
-    "images": [
-      "https://images.unsplash.com/photo-1552374196-1ab2a1c593e8?w=600&q=80",
-      "https://images.unsplash.com/photo-1490578474895-699bc4e3f49f?w=600&q=80",
-      "https://images.unsplash.com/photo-1552374196-1ab2a1c593e8?w=600&q=80",
-      "https://images.unsplash.com/photo-1490578474895-699bc4e3f49f?w=600&q=80"
-    ],
-    "colors": [
-      {
-        "name": "Off White",
-        "hex": "#f5f0e8"
-      },
-      {
-        "name": "Maroon",
-        "hex": "#800000"
-      },
-      {
-        "name": "Navy Blue",
-        "hex": "#000080"
-      }
-    ],
-    "sizes": [
-      "XS",
-      "S",
-      "M",
-      "L",
-      "XL",
-      "XXL"
-    ],
-    "sizesAvailable": {
-      "XS": true,
-      "S": true,
-      "M": true,
-      "L": true,
-      "XL": true,
-      "XXL": false
-    },
-    "material": "Premium Cotton Blend",
-    "fit": "Slim",
-    "pattern": "Solid",
-    "occasion": "Casual",
-    "season": "All Season",
-    "stock": 38,
-    "isTrending": false,
-    "isNewArrival": false,
-    "isBestSeller": false,
-    "tags": [
-      "fashion",
-      "premium",
-      "bottomwear",
-      "kids"
-    ],
-    "specifications": {
-      "Fabric": "Premium Cotton Blend",
-      "Fit": "Regular/Slim",
-      "Wash Care": "Machine Wash"
-    },
-    "reviews": [
-      {
-        "id": "rev_vpvaa",
-        "userName": "Customer",
-        "rating": 5,
-        "comment": "Excellent product, highly recommended!",
-        "date": "2024-12-15",
-        "helpful": 4,
-        "verified": true
-      }
-    ]
-  },
-  {
-    "id": "prod_188",
-    "name": "ONLY Kids's Premium Girls Dresses & Tops",
+    "id": "prod_075",
+    "name": "Premium Tops - Style 3",
     "brand": "ONLY",
-    "description": "Premium quality girls dresses & tops from ONLY. Features comfortable fit and excellent material suitable for everyday wear.",
-    "category": "Kids",
-    "subCategory": "Girls Dresses & Tops",
+    "description": "Experience ultimate comfort and style with our latest tops. Perfect for everyday wear, featuring premium materials and exceptional craftsmanship.",
+    "category": "Women",
+    "subCategory": "Tops",
     "type": "Topwear",
-    "price": 723,
-    "mrp": 861,
-    "discount": 16,
+    "price": 799,
+    "mrp": 1298,
+    "discount": 38,
     "currency": "₹",
-    "rating": 3.5,
-    "reviewCount": 361,
+    "rating": "4.6",
+    "reviewCount": 1194,
     "images": [
-      "https://images.unsplash.com/photo-1490578474895-699bc4e3f49f?w=600&q=80",
-      "https://images.unsplash.com/photo-1552374196-1ab2a1c593e8?w=600&q=80",
-      "https://images.unsplash.com/photo-1490578474895-699bc4e3f49f?w=600&q=80",
-      "https://images.unsplash.com/photo-1552374196-1ab2a1c593e8?w=600&q=80"
+      "https://images.unsplash.com/photo-1529139374-3e5fa1a00791?w=600&q=80",
+      "https://images.unsplash.com/photo-1481437156560-3205f6a55735?w=600&q=80",
+      "https://images.unsplash.com/photo-1583744534046-0aa6a5f9f0b4?w=600&q=80"
     ],
     "colors": [
       {
-        "name": "Olive",
-        "hex": "#556B2F"
-      },
-      {
-        "name": "Mustard",
-        "hex": "#FFDB58"
-      },
-      {
-        "name": "Navy Blue",
-        "hex": "#000080"
-      }
-    ],
-    "sizes": [
-      "XS",
-      "S",
-      "M",
-      "L",
-      "XL",
-      "XXL"
-    ],
-    "sizesAvailable": {
-      "XS": false,
-      "S": true,
-      "M": true,
-      "L": true,
-      "XL": true,
-      "XXL": false
-    },
-    "material": "Premium Cotton Blend",
-    "fit": "Regular",
-    "pattern": "Printed",
-    "occasion": "Casual",
-    "season": "All Season",
-    "stock": 9,
-    "isTrending": false,
-    "isNewArrival": true,
-    "isBestSeller": false,
-    "tags": [
-      "fashion",
-      "premium",
-      "topwear",
-      "kids"
-    ],
-    "specifications": {
-      "Fabric": "Premium Cotton Blend",
-      "Fit": "Regular/Slim",
-      "Wash Care": "Machine Wash"
-    },
-    "reviews": [
-      {
-        "id": "rev_45qpf",
-        "userName": "Customer",
-        "rating": 5,
-        "comment": "Excellent product, highly recommended!",
-        "date": "2024-12-15",
-        "helpful": 14,
-        "verified": true
-      }
-    ]
-  },
-  {
-    "id": "prod_189",
-    "name": "AURA Kids's Premium Girls Dresses & Tops",
-    "brand": "AURA",
-    "description": "Premium quality girls dresses & tops from AURA. Features comfortable fit and excellent material suitable for everyday wear.",
-    "category": "Kids",
-    "subCategory": "Girls Dresses & Tops",
-    "type": "Topwear",
-    "price": 6348,
-    "mrp": 13800,
-    "discount": 54,
-    "currency": "₹",
-    "rating": 4.6,
-    "reviewCount": 1544,
-    "images": [
-      "https://images.unsplash.com/photo-1552374196-1ab2a1c593e8?w=600&q=80",
-      "https://images.unsplash.com/photo-1490578474895-699bc4e3f49f?w=600&q=80",
-      "https://images.unsplash.com/photo-1552374196-1ab2a1c593e8?w=600&q=80",
-      "https://images.unsplash.com/photo-1490578474895-699bc4e3f49f?w=600&q=80"
-    ],
-    "colors": [
-      {
-        "name": "Maroon",
-        "hex": "#800000"
-      },
-      {
-        "name": "Olive",
-        "hex": "#556B2F"
-      },
-      {
-        "name": "Charcoal Black",
+        "name": "Standard",
         "hex": "#1a1a1a"
+      },
+      {
+        "name": "Variant",
+        "hex": "#f5f5f5"
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -15458,327 +5438,218 @@ export const products = [
       "XXL"
     ],
     "sizesAvailable": {
-      "XS": true,
-      "S": true,
-      "M": true,
-      "L": true,
-      "XL": true,
-      "XXL": false
-    },
-    "material": "Premium Cotton Blend",
-    "fit": "Regular",
-    "pattern": "Printed",
-    "occasion": "Casual",
-    "season": "All Season",
-    "stock": 36,
-    "isTrending": false,
-    "isNewArrival": false,
-    "isBestSeller": false,
-    "tags": [
-      "fashion",
-      "premium",
-      "topwear",
-      "kids"
-    ],
-    "specifications": {
-      "Fabric": "Premium Cotton Blend",
-      "Fit": "Regular/Slim",
-      "Wash Care": "Machine Wash"
-    },
-    "reviews": [
-      {
-        "id": "rev_d406h",
-        "userName": "Customer",
-        "rating": 5,
-        "comment": "Excellent product, highly recommended!",
-        "date": "2024-12-15",
-        "helpful": 14,
-        "verified": true
-      }
-    ]
-  },
-  {
-    "id": "prod_190",
-    "name": "Vero Moda Kids's Premium Girls Dresses & Tops",
-    "brand": "Vero Moda",
-    "description": "Premium quality girls dresses & tops from Vero Moda. Features comfortable fit and excellent material suitable for everyday wear.",
-    "category": "Kids",
-    "subCategory": "Girls Dresses & Tops",
-    "type": "Topwear",
-    "price": 6336,
-    "mrp": 9183,
-    "discount": 31,
-    "currency": "₹",
-    "rating": 3.9,
-    "reviewCount": 4624,
-    "images": [
-      "https://images.unsplash.com/photo-1490578474895-699bc4e3f49f?w=600&q=80",
-      "https://images.unsplash.com/photo-1552374196-1ab2a1c593e8?w=600&q=80",
-      "https://images.unsplash.com/photo-1490578474895-699bc4e3f49f?w=600&q=80",
-      "https://images.unsplash.com/photo-1552374196-1ab2a1c593e8?w=600&q=80"
-    ],
-    "colors": [
-      {
-        "name": "Navy Blue",
-        "hex": "#000080"
-      },
-      {
-        "name": "Maroon",
-        "hex": "#800000"
-      },
-      {
-        "name": "Charcoal Black",
-        "hex": "#1a1a1a"
-      }
-    ],
-    "sizes": [
-      "XS",
-      "S",
-      "M",
-      "L",
-      "XL",
-      "XXL"
-    ],
-    "sizesAvailable": {
-      "XS": false,
-      "S": true,
-      "M": true,
-      "L": true,
-      "XL": true,
-      "XXL": false
-    },
-    "material": "Premium Cotton Blend",
-    "fit": "Slim",
-    "pattern": "Printed",
-    "occasion": "Casual",
-    "season": "All Season",
-    "stock": 14,
-    "isTrending": false,
-    "isNewArrival": true,
-    "isBestSeller": false,
-    "tags": [
-      "fashion",
-      "premium",
-      "topwear",
-      "kids"
-    ],
-    "specifications": {
-      "Fabric": "Premium Cotton Blend",
-      "Fit": "Regular/Slim",
-      "Wash Care": "Machine Wash"
-    },
-    "reviews": [
-      {
-        "id": "rev_k6obm",
-        "userName": "Customer",
-        "rating": 5,
-        "comment": "Excellent product, highly recommended!",
-        "date": "2024-12-15",
-        "helpful": 32,
-        "verified": true
-      }
-    ]
-  },
-  {
-    "id": "prod_191",
-    "name": "W Kids's Premium Girls Leggings & Skirts",
-    "brand": "W",
-    "description": "Premium quality girls leggings & skirts from W. Features comfortable fit and excellent material suitable for everyday wear.",
-    "category": "Kids",
-    "subCategory": "Girls Leggings & Skirts",
-    "type": "Bottomwear",
-    "price": 4212,
-    "mrp": 9157,
-    "discount": 54,
-    "currency": "₹",
-    "rating": 4.7,
-    "reviewCount": 1002,
-    "images": [
-      "https://images.unsplash.com/photo-1552374196-1ab2a1c593e8?w=600&q=80",
-      "https://images.unsplash.com/photo-1490578474895-699bc4e3f49f?w=600&q=80",
-      "https://images.unsplash.com/photo-1552374196-1ab2a1c593e8?w=600&q=80",
-      "https://images.unsplash.com/photo-1490578474895-699bc4e3f49f?w=600&q=80"
-    ],
-    "colors": [
-      {
-        "name": "Navy Blue",
-        "hex": "#000080"
-      },
-      {
-        "name": "Maroon",
-        "hex": "#800000"
-      },
-      {
-        "name": "Mustard",
-        "hex": "#FFDB58"
-      }
-    ],
-    "sizes": [
-      "XS",
-      "S",
-      "M",
-      "L",
-      "XL",
-      "XXL"
-    ],
-    "sizesAvailable": {
-      "XS": true,
-      "S": true,
-      "M": true,
-      "L": true,
-      "XL": true,
-      "XXL": false
-    },
-    "material": "Premium Cotton Blend",
-    "fit": "Regular",
-    "pattern": "Solid",
-    "occasion": "Casual",
-    "season": "All Season",
-    "stock": 71,
-    "isTrending": true,
-    "isNewArrival": false,
-    "isBestSeller": false,
-    "tags": [
-      "fashion",
-      "premium",
-      "bottomwear",
-      "kids"
-    ],
-    "specifications": {
-      "Fabric": "Premium Cotton Blend",
-      "Fit": "Regular/Slim",
-      "Wash Care": "Machine Wash"
-    },
-    "reviews": [
-      {
-        "id": "rev_o11ck",
-        "userName": "Customer",
-        "rating": 5,
-        "comment": "Excellent product, highly recommended!",
-        "date": "2024-12-15",
-        "helpful": 12,
-        "verified": true
-      }
-    ]
-  },
-  {
-    "id": "prod_192",
-    "name": "NOIR Kids's Premium Girls Dresses & Tops",
-    "brand": "NOIR",
-    "description": "Premium quality girls dresses & tops from NOIR. Features comfortable fit and excellent material suitable for everyday wear.",
-    "category": "Kids",
-    "subCategory": "Girls Dresses & Tops",
-    "type": "Topwear",
-    "price": 377,
-    "mrp": 803,
-    "discount": 53,
-    "currency": "₹",
-    "rating": 3.5,
-    "reviewCount": 575,
-    "images": [
-      "https://images.unsplash.com/photo-1490578474895-699bc4e3f49f?w=600&q=80",
-      "https://images.unsplash.com/photo-1552374196-1ab2a1c593e8?w=600&q=80",
-      "https://images.unsplash.com/photo-1490578474895-699bc4e3f49f?w=600&q=80",
-      "https://images.unsplash.com/photo-1552374196-1ab2a1c593e8?w=600&q=80"
-    ],
-    "colors": [
-      {
-        "name": "Navy Blue",
-        "hex": "#000080"
-      },
-      {
-        "name": "Maroon",
-        "hex": "#800000"
-      },
-      {
-        "name": "Mustard",
-        "hex": "#FFDB58"
-      }
-    ],
-    "sizes": [
-      "XS",
-      "S",
-      "M",
-      "L",
-      "XL",
-      "XXL"
-    ],
-    "sizesAvailable": {
-      "XS": true,
       "S": true,
       "M": true,
       "L": true,
       "XL": true,
       "XXL": true
     },
-    "material": "Premium Cotton Blend",
+    "material": "100% Premium Material",
     "fit": "Regular",
     "pattern": "Solid",
     "occasion": "Casual",
-    "season": "All Season",
+    "stock": 20,
+    "isTrending": false,
+    "isNewArrival": false,
+    "isBestSeller": false,
+    "tags": [
+      "premium",
+      "comfortable",
+      "tops"
+    ],
+    "specifications": {
+      "Fabric": "Premium Quality",
+      "Fit": "Regular",
+      "Wash Care": "Machine Wash"
+    },
+    "reviews": [
+      {
+        "id": "rev_75_1",
+        "userName": "Verified Buyer",
+        "rating": 5,
+        "comment": "Absolutely love this product! The quality is amazing for the price.",
+        "date": "2024-03-15",
+        "helpful": 40,
+        "verified": true
+      }
+    ]
+  },
+  {
+    "id": "prod_076",
+    "name": "Premium Tops - Style 4",
+    "brand": "FabIndia",
+    "description": "Experience ultimate comfort and style with our latest tops. Perfect for everyday wear, featuring premium materials and exceptional craftsmanship.",
+    "category": "Women",
+    "subCategory": "Tops",
+    "type": "Topwear",
+    "price": 199,
+    "mrp": 1798,
+    "discount": 89,
+    "currency": "₹",
+    "rating": "4.8",
+    "reviewCount": 1777,
+    "images": [
+      "https://images.unsplash.com/photo-1481437156560-3205f6a55735?w=600&q=80",
+      "https://images.unsplash.com/photo-1583744534046-0aa6a5f9f0b4?w=600&q=80",
+      "https://images.unsplash.com/photo-1519355558038-33cf5f5da0b5?w=600&q=80"
+    ],
+    "colors": [
+      {
+        "name": "Standard",
+        "hex": "#1a1a1a"
+      },
+      {
+        "name": "Variant",
+        "hex": "#f5f5f5"
+      }
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "sizesAvailable": {
+      "S": true,
+      "M": true,
+      "L": true,
+      "XL": false,
+      "XXL": false
+    },
+    "material": "100% Premium Material",
+    "fit": "Regular",
+    "pattern": "Solid",
+    "occasion": "Casual",
     "stock": 93,
     "isTrending": false,
+    "isNewArrival": false,
+    "isBestSeller": false,
+    "tags": [
+      "premium",
+      "comfortable",
+      "tops"
+    ],
+    "specifications": {
+      "Fabric": "Premium Quality",
+      "Fit": "Regular",
+      "Wash Care": "Machine Wash"
+    },
+    "reviews": [
+      {
+        "id": "rev_76_1",
+        "userName": "Verified Buyer",
+        "rating": 5,
+        "comment": "Absolutely love this product! The quality is amazing for the price.",
+        "date": "2024-03-15",
+        "helpful": 16,
+        "verified": true
+      }
+    ]
+  },
+  {
+    "id": "prod_077",
+    "name": "Premium Tops - Style 5",
+    "brand": "ONLY",
+    "description": "Experience ultimate comfort and style with our latest tops. Perfect for everyday wear, featuring premium materials and exceptional craftsmanship.",
+    "category": "Women",
+    "subCategory": "Tops",
+    "type": "Topwear",
+    "price": 99,
+    "mrp": 698,
+    "discount": 86,
+    "currency": "₹",
+    "rating": "4.9",
+    "reviewCount": 611,
+    "images": [
+      "https://images.unsplash.com/photo-1583744534046-0aa6a5f9f0b4?w=600&q=80",
+      "https://images.unsplash.com/photo-1519355558038-33cf5f5da0b5?w=600&q=80",
+      "https://images.unsplash.com/photo-1490481701610-e55b11edb2d0?w=600&q=80"
+    ],
+    "colors": [
+      {
+        "name": "Standard",
+        "hex": "#1a1a1a"
+      },
+      {
+        "name": "Variant",
+        "hex": "#f5f5f5"
+      }
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "sizesAvailable": {
+      "S": true,
+      "M": true,
+      "L": true,
+      "XL": false,
+      "XXL": false
+    },
+    "material": "100% Premium Material",
+    "fit": "Regular",
+    "pattern": "Solid",
+    "occasion": "Casual",
+    "stock": 23,
+    "isTrending": true,
     "isNewArrival": true,
     "isBestSeller": false,
     "tags": [
-      "fashion",
       "premium",
-      "topwear",
-      "kids"
+      "comfortable",
+      "tops"
     ],
     "specifications": {
-      "Fabric": "Premium Cotton Blend",
-      "Fit": "Regular/Slim",
+      "Fabric": "Premium Quality",
+      "Fit": "Regular",
       "Wash Care": "Machine Wash"
     },
     "reviews": [
       {
-        "id": "rev_y2591",
-        "userName": "Customer",
+        "id": "rev_77_1",
+        "userName": "Verified Buyer",
         "rating": 5,
-        "comment": "Excellent product, highly recommended!",
-        "date": "2024-12-15",
-        "helpful": 14,
+        "comment": "Absolutely love this product! The quality is amazing for the price.",
+        "date": "2024-03-15",
+        "helpful": 19,
         "verified": true
       }
     ]
   },
   {
-    "id": "prod_193",
-    "name": "W Kids's Premium Girls Leggings & Skirts",
-    "brand": "W",
-    "description": "Premium quality girls leggings & skirts from W. Features comfortable fit and excellent material suitable for everyday wear.",
-    "category": "Kids",
-    "subCategory": "Girls Leggings & Skirts",
-    "type": "Bottomwear",
-    "price": 822,
-    "mrp": 1097,
-    "discount": 25,
+    "id": "prod_078",
+    "name": "Premium Tops - Style 6",
+    "brand": "Zara",
+    "description": "Experience ultimate comfort and style with our latest tops. Perfect for everyday wear, featuring premium materials and exceptional craftsmanship.",
+    "category": "Women",
+    "subCategory": "Tops",
+    "type": "Topwear",
+    "price": 799,
+    "mrp": 2098,
+    "discount": 62,
     "currency": "₹",
-    "rating": 4.6,
-    "reviewCount": 1800,
+    "rating": "5.0",
+    "reviewCount": 2650,
     "images": [
-      "https://images.unsplash.com/photo-1552374196-1ab2a1c593e8?w=600&q=80",
-      "https://images.unsplash.com/photo-1490578474895-699bc4e3f49f?w=600&q=80",
-      "https://images.unsplash.com/photo-1552374196-1ab2a1c593e8?w=600&q=80",
-      "https://images.unsplash.com/photo-1490578474895-699bc4e3f49f?w=600&q=80"
+      "https://images.unsplash.com/photo-1519355558038-33cf5f5da0b5?w=600&q=80",
+      "https://images.unsplash.com/photo-1490481701610-e55b11edb2d0?w=600&q=80",
+      "https://images.unsplash.com/photo-1552664730-d307ca884978?w=600&q=80"
     ],
     "colors": [
       {
-        "name": "Mustard",
-        "hex": "#FFDB58"
-      },
-      {
-        "name": "Charcoal Black",
+        "name": "Standard",
         "hex": "#1a1a1a"
       },
       {
-        "name": "Maroon",
-        "hex": "#800000"
+        "name": "Variant",
+        "hex": "#f5f5f5"
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -15786,81 +5657,72 @@ export const products = [
       "XXL"
     ],
     "sizesAvailable": {
-      "XS": false,
       "S": true,
       "M": true,
       "L": true,
-      "XL": true,
+      "XL": false,
       "XXL": false
     },
-    "material": "Premium Cotton Blend",
-    "fit": "Slim",
+    "material": "100% Premium Material",
+    "fit": "Regular",
     "pattern": "Solid",
     "occasion": "Casual",
-    "season": "All Season",
-    "stock": 104,
+    "stock": 76,
     "isTrending": false,
     "isNewArrival": false,
-    "isBestSeller": false,
+    "isBestSeller": true,
     "tags": [
-      "fashion",
       "premium",
-      "bottomwear",
-      "kids"
+      "comfortable",
+      "tops"
     ],
     "specifications": {
-      "Fabric": "Premium Cotton Blend",
-      "Fit": "Regular/Slim",
+      "Fabric": "Premium Quality",
+      "Fit": "Regular",
       "Wash Care": "Machine Wash"
     },
     "reviews": [
       {
-        "id": "rev_fxwpn",
-        "userName": "Customer",
+        "id": "rev_78_1",
+        "userName": "Verified Buyer",
         "rating": 5,
-        "comment": "Excellent product, highly recommended!",
-        "date": "2024-12-15",
-        "helpful": 30,
+        "comment": "Absolutely love this product! The quality is amazing for the price.",
+        "date": "2024-03-15",
+        "helpful": 23,
         "verified": true
       }
     ]
   },
   {
-    "id": "prod_194",
-    "name": "Adidas Kids's Premium Girls Leggings & Skirts",
-    "brand": "Adidas",
-    "description": "Premium quality girls leggings & skirts from Adidas. Features comfortable fit and excellent material suitable for everyday wear.",
-    "category": "Kids",
-    "subCategory": "Girls Leggings & Skirts",
-    "type": "Bottomwear",
-    "price": 5886,
-    "mrp": 14716,
-    "discount": 60,
+    "id": "prod_079",
+    "name": "Premium Tops - Style 7",
+    "brand": "W",
+    "description": "Experience ultimate comfort and style with our latest tops. Perfect for everyday wear, featuring premium materials and exceptional craftsmanship.",
+    "category": "Women",
+    "subCategory": "Tops",
+    "type": "Topwear",
+    "price": 699,
+    "mrp": 2098,
+    "discount": 67,
     "currency": "₹",
-    "rating": 3.5,
-    "reviewCount": 3652,
+    "rating": "4.7",
+    "reviewCount": 859,
     "images": [
-      "https://images.unsplash.com/photo-1490578474895-699bc4e3f49f?w=600&q=80",
-      "https://images.unsplash.com/photo-1552374196-1ab2a1c593e8?w=600&q=80",
-      "https://images.unsplash.com/photo-1490578474895-699bc4e3f49f?w=600&q=80",
-      "https://images.unsplash.com/photo-1552374196-1ab2a1c593e8?w=600&q=80"
+      "https://images.unsplash.com/photo-1490481701610-e55b11edb2d0?w=600&q=80",
+      "https://images.unsplash.com/photo-1552664730-d307ca884978?w=600&q=80",
+      "https://images.unsplash.com/photo-1602088113834-bf03f85440e2?w=600&q=80"
     ],
     "colors": [
       {
-        "name": "Mustard",
-        "hex": "#FFDB58"
-      },
-      {
-        "name": "Charcoal Black",
+        "name": "Standard",
         "hex": "#1a1a1a"
       },
       {
-        "name": "Maroon",
-        "hex": "#800000"
+        "name": "Variant",
+        "hex": "#f5f5f5"
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -15868,409 +5730,72 @@ export const products = [
       "XXL"
     ],
     "sizesAvailable": {
-      "XS": false,
       "S": true,
       "M": true,
       "L": true,
       "XL": true,
       "XXL": false
     },
-    "material": "Premium Cotton Blend",
-    "fit": "Slim",
-    "pattern": "Printed",
+    "material": "100% Premium Material",
+    "fit": "Regular",
+    "pattern": "Solid",
     "occasion": "Casual",
-    "season": "All Season",
-    "stock": 65,
-    "isTrending": true,
-    "isNewArrival": false,
+    "stock": 55,
+    "isTrending": false,
+    "isNewArrival": true,
     "isBestSeller": false,
     "tags": [
-      "fashion",
       "premium",
-      "bottomwear",
-      "kids"
+      "comfortable",
+      "tops"
     ],
     "specifications": {
-      "Fabric": "Premium Cotton Blend",
-      "Fit": "Regular/Slim",
+      "Fabric": "Premium Quality",
+      "Fit": "Regular",
       "Wash Care": "Machine Wash"
     },
     "reviews": [
       {
-        "id": "rev_z8xkp",
-        "userName": "Customer",
+        "id": "rev_79_1",
+        "userName": "Verified Buyer",
         "rating": 5,
-        "comment": "Excellent product, highly recommended!",
-        "date": "2024-12-15",
+        "comment": "Absolutely love this product! The quality is amazing for the price.",
+        "date": "2024-03-15",
         "helpful": 29,
         "verified": true
       }
     ]
   },
   {
-    "id": "prod_195",
-    "name": "H&M Kids's Premium Girls Dresses & Tops",
-    "brand": "H&M",
-    "description": "Premium quality girls dresses & tops from H&M. Features comfortable fit and excellent material suitable for everyday wear.",
-    "category": "Kids",
-    "subCategory": "Girls Dresses & Tops",
+    "id": "prod_080",
+    "name": "Premium Tops - Style 8",
+    "brand": "AURA",
+    "description": "Experience ultimate comfort and style with our latest tops. Perfect for everyday wear, featuring premium materials and exceptional craftsmanship.",
+    "category": "Women",
+    "subCategory": "Tops",
     "type": "Topwear",
-    "price": 6149,
-    "mrp": 7592,
-    "discount": 19,
-    "currency": "₹",
-    "rating": 3.8,
-    "reviewCount": 4999,
-    "images": [
-      "https://images.unsplash.com/photo-1552374196-1ab2a1c593e8?w=600&q=80",
-      "https://images.unsplash.com/photo-1490578474895-699bc4e3f49f?w=600&q=80",
-      "https://images.unsplash.com/photo-1552374196-1ab2a1c593e8?w=600&q=80",
-      "https://images.unsplash.com/photo-1490578474895-699bc4e3f49f?w=600&q=80"
-    ],
-    "colors": [
-      {
-        "name": "Off White",
-        "hex": "#f5f0e8"
-      },
-      {
-        "name": "Mustard",
-        "hex": "#FFDB58"
-      },
-      {
-        "name": "Charcoal Black",
-        "hex": "#1a1a1a"
-      }
-    ],
-    "sizes": [
-      "XS",
-      "S",
-      "M",
-      "L",
-      "XL",
-      "XXL"
-    ],
-    "sizesAvailable": {
-      "XS": false,
-      "S": true,
-      "M": true,
-      "L": true,
-      "XL": true,
-      "XXL": false
-    },
-    "material": "Premium Cotton Blend",
-    "fit": "Regular",
-    "pattern": "Solid",
-    "occasion": "Casual",
-    "season": "All Season",
-    "stock": 21,
-    "isTrending": false,
-    "isNewArrival": false,
-    "isBestSeller": true,
-    "tags": [
-      "fashion",
-      "premium",
-      "topwear",
-      "kids"
-    ],
-    "specifications": {
-      "Fabric": "Premium Cotton Blend",
-      "Fit": "Regular/Slim",
-      "Wash Care": "Machine Wash"
-    },
-    "reviews": [
-      {
-        "id": "rev_y1hod",
-        "userName": "Customer",
-        "rating": 5,
-        "comment": "Excellent product, highly recommended!",
-        "date": "2024-12-15",
-        "helpful": 9,
-        "verified": true
-      }
-    ]
-  },
-  {
-    "id": "prod_196",
-    "name": "Jack & Jones Kids's Premium Boys Jeans & Shorts",
-    "brand": "Jack & Jones",
-    "description": "Premium quality boys jeans & shorts from Jack & Jones. Features comfortable fit and excellent material suitable for everyday wear.",
-    "category": "Kids",
-    "subCategory": "Boys Jeans & Shorts",
-    "type": "Bottomwear",
-    "price": 4243,
-    "mrp": 5371,
-    "discount": 21,
-    "currency": "₹",
-    "rating": 4.2,
-    "reviewCount": 2126,
-    "images": [
-      "https://images.unsplash.com/photo-1490578474895-699bc4e3f49f?w=600&q=80",
-      "https://images.unsplash.com/photo-1552374196-1ab2a1c593e8?w=600&q=80",
-      "https://images.unsplash.com/photo-1490578474895-699bc4e3f49f?w=600&q=80",
-      "https://images.unsplash.com/photo-1552374196-1ab2a1c593e8?w=600&q=80"
-    ],
-    "colors": [
-      {
-        "name": "Navy Blue",
-        "hex": "#000080"
-      },
-      {
-        "name": "Maroon",
-        "hex": "#800000"
-      },
-      {
-        "name": "Olive",
-        "hex": "#556B2F"
-      }
-    ],
-    "sizes": [
-      "XS",
-      "S",
-      "M",
-      "L",
-      "XL",
-      "XXL"
-    ],
-    "sizesAvailable": {
-      "XS": true,
-      "S": true,
-      "M": true,
-      "L": true,
-      "XL": true,
-      "XXL": false
-    },
-    "material": "Premium Cotton Blend",
-    "fit": "Slim",
-    "pattern": "Printed",
-    "occasion": "Casual",
-    "season": "All Season",
-    "stock": 22,
-    "isTrending": false,
-    "isNewArrival": false,
-    "isBestSeller": false,
-    "tags": [
-      "fashion",
-      "premium",
-      "bottomwear",
-      "kids"
-    ],
-    "specifications": {
-      "Fabric": "Premium Cotton Blend",
-      "Fit": "Regular/Slim",
-      "Wash Care": "Machine Wash"
-    },
-    "reviews": [
-      {
-        "id": "rev_36y3r",
-        "userName": "Customer",
-        "rating": 5,
-        "comment": "Excellent product, highly recommended!",
-        "date": "2024-12-15",
-        "helpful": 49,
-        "verified": true
-      }
-    ]
-  },
-  {
-    "id": "prod_197",
-    "name": "FabIndia Kids's Premium Girls Leggings & Skirts",
-    "brand": "FabIndia",
-    "description": "Premium quality girls leggings & skirts from FabIndia. Features comfortable fit and excellent material suitable for everyday wear.",
-    "category": "Kids",
-    "subCategory": "Girls Leggings & Skirts",
-    "type": "Bottomwear",
-    "price": 8826,
-    "mrp": 12609,
-    "discount": 30,
-    "currency": "₹",
-    "rating": 4.6,
-    "reviewCount": 326,
-    "images": [
-      "https://images.unsplash.com/photo-1552374196-1ab2a1c593e8?w=600&q=80",
-      "https://images.unsplash.com/photo-1490578474895-699bc4e3f49f?w=600&q=80",
-      "https://images.unsplash.com/photo-1552374196-1ab2a1c593e8?w=600&q=80",
-      "https://images.unsplash.com/photo-1490578474895-699bc4e3f49f?w=600&q=80"
-    ],
-    "colors": [
-      {
-        "name": "Off White",
-        "hex": "#f5f0e8"
-      },
-      {
-        "name": "Mustard",
-        "hex": "#FFDB58"
-      },
-      {
-        "name": "Charcoal Black",
-        "hex": "#1a1a1a"
-      }
-    ],
-    "sizes": [
-      "XS",
-      "S",
-      "M",
-      "L",
-      "XL",
-      "XXL"
-    ],
-    "sizesAvailable": {
-      "XS": false,
-      "S": true,
-      "M": true,
-      "L": true,
-      "XL": false,
-      "XXL": false
-    },
-    "material": "Premium Cotton Blend",
-    "fit": "Slim",
-    "pattern": "Solid",
-    "occasion": "Casual",
-    "season": "All Season",
-    "stock": 19,
-    "isTrending": false,
-    "isNewArrival": false,
-    "isBestSeller": false,
-    "tags": [
-      "fashion",
-      "premium",
-      "bottomwear",
-      "kids"
-    ],
-    "specifications": {
-      "Fabric": "Premium Cotton Blend",
-      "Fit": "Regular/Slim",
-      "Wash Care": "Machine Wash"
-    },
-    "reviews": [
-      {
-        "id": "rev_e95id",
-        "userName": "Customer",
-        "rating": 5,
-        "comment": "Excellent product, highly recommended!",
-        "date": "2024-12-15",
-        "helpful": 24,
-        "verified": true
-      }
-    ]
-  },
-  {
-    "id": "prod_198",
-    "name": "Adidas Kids's Premium Girls Leggings & Skirts",
-    "brand": "Adidas",
-    "description": "Premium quality girls leggings & skirts from Adidas. Features comfortable fit and excellent material suitable for everyday wear.",
-    "category": "Kids",
-    "subCategory": "Girls Leggings & Skirts",
-    "type": "Bottomwear",
-    "price": 10728,
-    "mrp": 14697,
-    "discount": 27,
-    "currency": "₹",
-    "rating": 4.2,
-    "reviewCount": 806,
-    "images": [
-      "https://images.unsplash.com/photo-1490578474895-699bc4e3f49f?w=600&q=80",
-      "https://images.unsplash.com/photo-1552374196-1ab2a1c593e8?w=600&q=80",
-      "https://images.unsplash.com/photo-1490578474895-699bc4e3f49f?w=600&q=80",
-      "https://images.unsplash.com/photo-1552374196-1ab2a1c593e8?w=600&q=80"
-    ],
-    "colors": [
-      {
-        "name": "Navy Blue",
-        "hex": "#000080"
-      },
-      {
-        "name": "Mustard",
-        "hex": "#FFDB58"
-      },
-      {
-        "name": "Off White",
-        "hex": "#f5f0e8"
-      }
-    ],
-    "sizes": [
-      "XS",
-      "S",
-      "M",
-      "L",
-      "XL",
-      "XXL"
-    ],
-    "sizesAvailable": {
-      "XS": true,
-      "S": true,
-      "M": true,
-      "L": true,
-      "XL": true,
-      "XXL": false
-    },
-    "material": "Premium Cotton Blend",
-    "fit": "Slim",
-    "pattern": "Printed",
-    "occasion": "Casual",
-    "season": "All Season",
-    "stock": 94,
-    "isTrending": false,
-    "isNewArrival": false,
-    "isBestSeller": false,
-    "tags": [
-      "fashion",
-      "premium",
-      "bottomwear",
-      "kids"
-    ],
-    "specifications": {
-      "Fabric": "Premium Cotton Blend",
-      "Fit": "Regular/Slim",
-      "Wash Care": "Machine Wash"
-    },
-    "reviews": [
-      {
-        "id": "rev_7tybg",
-        "userName": "Customer",
-        "rating": 5,
-        "comment": "Excellent product, highly recommended!",
-        "date": "2024-12-15",
-        "helpful": 14,
-        "verified": true
-      }
-    ]
-  },
-  {
-    "id": "prod_199",
-    "name": "DRIFT Kids's Premium Kids Ethnic Wear",
-    "brand": "DRIFT",
-    "description": "Premium quality kids ethnic wear from DRIFT. Features comfortable fit and excellent material suitable for everyday wear.",
-    "category": "Kids",
-    "subCategory": "Kids Ethnic Wear",
-    "type": "Topwear",
-    "price": 2578,
-    "mrp": 8059,
+    "price": 799,
+    "mrp": 2498,
     "discount": 68,
     "currency": "₹",
-    "rating": 4.3,
-    "reviewCount": 153,
+    "rating": "4.4",
+    "reviewCount": 2483,
     "images": [
-      "https://images.unsplash.com/photo-1552374196-1ab2a1c593e8?w=600&q=80",
-      "https://images.unsplash.com/photo-1490578474895-699bc4e3f49f?w=600&q=80",
-      "https://images.unsplash.com/photo-1552374196-1ab2a1c593e8?w=600&q=80",
-      "https://images.unsplash.com/photo-1490578474895-699bc4e3f49f?w=600&q=80"
+      "https://images.unsplash.com/photo-1552664730-d307ca884978?w=600&q=80",
+      "https://images.unsplash.com/photo-1602088113834-bf03f85440e2?w=600&q=80",
+      "https://images.unsplash.com/photo-1603808033192-08d4836fc250?w=600&q=80"
     ],
     "colors": [
       {
-        "name": "Navy Blue",
-        "hex": "#000080"
-      },
-      {
-        "name": "Charcoal Black",
+        "name": "Standard",
         "hex": "#1a1a1a"
       },
       {
-        "name": "Maroon",
-        "hex": "#800000"
+        "name": "Variant",
+        "hex": "#f5f5f5"
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -16278,163 +5803,72 @@ export const products = [
       "XXL"
     ],
     "sizesAvailable": {
-      "XS": true,
       "S": true,
       "M": true,
       "L": true,
       "XL": true,
       "XXL": true
     },
-    "material": "Premium Cotton Blend",
-    "fit": "Slim",
-    "pattern": "Printed",
+    "material": "100% Premium Material",
+    "fit": "Regular",
+    "pattern": "Solid",
     "occasion": "Casual",
-    "season": "All Season",
-    "stock": 98,
-    "isTrending": false,
-    "isNewArrival": false,
-    "isBestSeller": false,
-    "tags": [
-      "fashion",
-      "premium",
-      "topwear",
-      "kids"
-    ],
-    "specifications": {
-      "Fabric": "Premium Cotton Blend",
-      "Fit": "Regular/Slim",
-      "Wash Care": "Machine Wash"
-    },
-    "reviews": [
-      {
-        "id": "rev_tdpsh",
-        "userName": "Customer",
-        "rating": 5,
-        "comment": "Excellent product, highly recommended!",
-        "date": "2024-12-15",
-        "helpful": 45,
-        "verified": true
-      }
-    ]
-  },
-  {
-    "id": "prod_200",
-    "name": "Nike Kids's Premium Girls Dresses & Tops",
-    "brand": "Nike",
-    "description": "Premium quality girls dresses & tops from Nike. Features comfortable fit and excellent material suitable for everyday wear.",
-    "category": "Kids",
-    "subCategory": "Girls Dresses & Tops",
-    "type": "Topwear",
-    "price": 2223,
-    "mrp": 5172,
-    "discount": 57,
-    "currency": "₹",
-    "rating": 4.7,
-    "reviewCount": 1390,
-    "images": [
-      "https://images.unsplash.com/photo-1490578474895-699bc4e3f49f?w=600&q=80",
-      "https://images.unsplash.com/photo-1552374196-1ab2a1c593e8?w=600&q=80",
-      "https://images.unsplash.com/photo-1490578474895-699bc4e3f49f?w=600&q=80",
-      "https://images.unsplash.com/photo-1552374196-1ab2a1c593e8?w=600&q=80"
-    ],
-    "colors": [
-      {
-        "name": "Navy Blue",
-        "hex": "#000080"
-      },
-      {
-        "name": "Mustard",
-        "hex": "#FFDB58"
-      },
-      {
-        "name": "Charcoal Black",
-        "hex": "#1a1a1a"
-      }
-    ],
-    "sizes": [
-      "XS",
-      "S",
-      "M",
-      "L",
-      "XL",
-      "XXL"
-    ],
-    "sizesAvailable": {
-      "XS": false,
-      "S": true,
-      "M": true,
-      "L": true,
-      "XL": true,
-      "XXL": true
-    },
-    "material": "Premium Cotton Blend",
-    "fit": "Slim",
-    "pattern": "Printed",
-    "occasion": "Casual",
-    "season": "All Season",
-    "stock": 41,
+    "stock": 21,
     "isTrending": true,
     "isNewArrival": false,
     "isBestSeller": false,
     "tags": [
-      "fashion",
       "premium",
-      "topwear",
-      "kids"
+      "comfortable",
+      "tops"
     ],
     "specifications": {
-      "Fabric": "Premium Cotton Blend",
-      "Fit": "Regular/Slim",
+      "Fabric": "Premium Quality",
+      "Fit": "Regular",
       "Wash Care": "Machine Wash"
     },
     "reviews": [
       {
-        "id": "rev_y8ucj",
-        "userName": "Customer",
+        "id": "rev_80_1",
+        "userName": "Verified Buyer",
         "rating": 5,
-        "comment": "Excellent product, highly recommended!",
-        "date": "2024-12-15",
-        "helpful": 12,
+        "comment": "Absolutely love this product! The quality is amazing for the price.",
+        "date": "2024-03-15",
+        "helpful": 22,
         "verified": true
       }
     ]
   },
   {
-    "id": "prod_201",
-    "name": "FabIndia Kids's Premium Girls Leggings & Skirts",
-    "brand": "FabIndia",
-    "description": "Premium quality girls leggings & skirts from FabIndia. Features comfortable fit and excellent material suitable for everyday wear.",
-    "category": "Kids",
-    "subCategory": "Girls Leggings & Skirts",
+    "id": "prod_081",
+    "name": "Premium Jeans - Style 1",
+    "brand": "BLOOM",
+    "description": "Experience ultimate comfort and style with our latest jeans. Perfect for everyday wear, featuring premium materials and exceptional craftsmanship.",
+    "category": "Women",
+    "subCategory": "Jeans",
     "type": "Bottomwear",
-    "price": 356,
-    "mrp": 1081,
-    "discount": 67,
+    "price": 499,
+    "mrp": 2198,
+    "discount": 77,
     "currency": "₹",
-    "rating": 3.5,
-    "reviewCount": 2446,
+    "rating": "4.8",
+    "reviewCount": 4287,
     "images": [
-      "https://images.unsplash.com/photo-1552374196-1ab2a1c593e8?w=600&q=80",
-      "https://images.unsplash.com/photo-1490578474895-699bc4e3f49f?w=600&q=80",
-      "https://images.unsplash.com/photo-1552374196-1ab2a1c593e8?w=600&q=80",
-      "https://images.unsplash.com/photo-1490578474895-699bc4e3f49f?w=600&q=80"
+      "https://images.unsplash.com/photo-1541099649105-f69ad21f3246?w=600&q=80",
+      "https://images.unsplash.com/photo-1566150703-d5c61ff64b1d?w=600&q=80",
+      "https://images.unsplash.com/photo-1608228510934-2b2b31e9dba4?w=600&q=80"
     ],
     "colors": [
       {
-        "name": "Navy Blue",
-        "hex": "#000080"
-      },
-      {
-        "name": "Maroon",
-        "hex": "#800000"
-      },
-      {
-        "name": "Charcoal Black",
+        "name": "Standard",
         "hex": "#1a1a1a"
+      },
+      {
+        "name": "Variant",
+        "hex": "#f5f5f5"
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -16442,81 +5876,72 @@ export const products = [
       "XXL"
     ],
     "sizesAvailable": {
-      "XS": true,
       "S": true,
       "M": true,
       "L": true,
       "XL": true,
       "XXL": false
     },
-    "material": "Premium Cotton Blend",
-    "fit": "Slim",
-    "pattern": "Printed",
+    "material": "100% Premium Material",
+    "fit": "Regular",
+    "pattern": "Solid",
     "occasion": "Casual",
-    "season": "All Season",
-    "stock": 11,
+    "stock": 40,
     "isTrending": false,
     "isNewArrival": false,
     "isBestSeller": false,
     "tags": [
-      "fashion",
       "premium",
-      "bottomwear",
-      "kids"
+      "comfortable",
+      "jeans"
     ],
     "specifications": {
-      "Fabric": "Premium Cotton Blend",
-      "Fit": "Regular/Slim",
+      "Fabric": "Premium Quality",
+      "Fit": "Regular",
       "Wash Care": "Machine Wash"
     },
     "reviews": [
       {
-        "id": "rev_8kb30",
-        "userName": "Customer",
+        "id": "rev_81_1",
+        "userName": "Verified Buyer",
         "rating": 5,
-        "comment": "Excellent product, highly recommended!",
-        "date": "2024-12-15",
-        "helpful": 4,
+        "comment": "Absolutely love this product! The quality is amazing for the price.",
+        "date": "2024-03-15",
+        "helpful": 40,
         "verified": true
       }
     ]
   },
   {
-    "id": "prod_202",
-    "name": "Levi's Kids's Premium Girls Dresses & Tops",
-    "brand": "Levi's",
-    "description": "Premium quality girls dresses & tops from Levi's. Features comfortable fit and excellent material suitable for everyday wear.",
-    "category": "Kids",
-    "subCategory": "Girls Dresses & Tops",
-    "type": "Topwear",
-    "price": 5644,
-    "mrp": 8820,
-    "discount": 36,
+    "id": "prod_082",
+    "name": "Premium Jeans - Style 2",
+    "brand": "H&M",
+    "description": "Experience ultimate comfort and style with our latest jeans. Perfect for everyday wear, featuring premium materials and exceptional craftsmanship.",
+    "category": "Women",
+    "subCategory": "Jeans",
+    "type": "Bottomwear",
+    "price": 999,
+    "mrp": 1798,
+    "discount": 44,
     "currency": "₹",
-    "rating": 3.1,
-    "reviewCount": 2545,
+    "rating": "4.6",
+    "reviewCount": 3675,
     "images": [
-      "https://images.unsplash.com/photo-1490578474895-699bc4e3f49f?w=600&q=80",
-      "https://images.unsplash.com/photo-1552374196-1ab2a1c593e8?w=600&q=80",
-      "https://images.unsplash.com/photo-1490578474895-699bc4e3f49f?w=600&q=80",
-      "https://images.unsplash.com/photo-1552374196-1ab2a1c593e8?w=600&q=80"
+      "https://images.unsplash.com/photo-1566150703-d5c61ff64b1d?w=600&q=80",
+      "https://images.unsplash.com/photo-1608228510934-2b2b31e9dba4?w=600&q=80",
+      "https://images.unsplash.com/photo-1548126032-079a0fb0099d?w=600&q=80"
     ],
     "colors": [
       {
-        "name": "Mustard",
-        "hex": "#FFDB58"
-      },
-      {
-        "name": "Charcoal Black",
+        "name": "Standard",
         "hex": "#1a1a1a"
       },
       {
-        "name": "Navy Blue",
-        "hex": "#000080"
+        "name": "Variant",
+        "hex": "#f5f5f5"
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -16524,81 +5949,72 @@ export const products = [
       "XXL"
     ],
     "sizesAvailable": {
-      "XS": false,
       "S": true,
       "M": true,
       "L": true,
       "XL": true,
       "XXL": false
     },
-    "material": "Premium Cotton Blend",
-    "fit": "Slim",
-    "pattern": "Printed",
+    "material": "100% Premium Material",
+    "fit": "Regular",
+    "pattern": "Solid",
     "occasion": "Casual",
-    "season": "All Season",
-    "stock": 62,
+    "stock": 99,
     "isTrending": false,
-    "isNewArrival": true,
+    "isNewArrival": false,
     "isBestSeller": false,
     "tags": [
-      "fashion",
       "premium",
-      "topwear",
-      "kids"
+      "comfortable",
+      "jeans"
     ],
     "specifications": {
-      "Fabric": "Premium Cotton Blend",
-      "Fit": "Regular/Slim",
+      "Fabric": "Premium Quality",
+      "Fit": "Regular",
       "Wash Care": "Machine Wash"
     },
     "reviews": [
       {
-        "id": "rev_ypr0n",
-        "userName": "Customer",
+        "id": "rev_82_1",
+        "userName": "Verified Buyer",
         "rating": 5,
-        "comment": "Excellent product, highly recommended!",
-        "date": "2024-12-15",
-        "helpful": 43,
+        "comment": "Absolutely love this product! The quality is amazing for the price.",
+        "date": "2024-03-15",
+        "helpful": 34,
         "verified": true
       }
     ]
   },
   {
-    "id": "prod_203",
-    "name": "ONLY Kids's Premium Boys Jeans & Shorts",
-    "brand": "ONLY",
-    "description": "Premium quality boys jeans & shorts from ONLY. Features comfortable fit and excellent material suitable for everyday wear.",
-    "category": "Kids",
-    "subCategory": "Boys Jeans & Shorts",
+    "id": "prod_083",
+    "name": "Premium Jeans - Style 3",
+    "brand": "H&M",
+    "description": "Experience ultimate comfort and style with our latest jeans. Perfect for everyday wear, featuring premium materials and exceptional craftsmanship.",
+    "category": "Women",
+    "subCategory": "Jeans",
     "type": "Bottomwear",
-    "price": 859,
-    "mrp": 2262,
-    "discount": 62,
+    "price": 699,
+    "mrp": 798,
+    "discount": 12,
     "currency": "₹",
-    "rating": 3.7,
-    "reviewCount": 3386,
+    "rating": "5.0",
+    "reviewCount": 4733,
     "images": [
-      "https://images.unsplash.com/photo-1552374196-1ab2a1c593e8?w=600&q=80",
-      "https://images.unsplash.com/photo-1490578474895-699bc4e3f49f?w=600&q=80",
-      "https://images.unsplash.com/photo-1552374196-1ab2a1c593e8?w=600&q=80",
-      "https://images.unsplash.com/photo-1490578474895-699bc4e3f49f?w=600&q=80"
+      "https://images.unsplash.com/photo-1608228510934-2b2b31e9dba4?w=600&q=80",
+      "https://images.unsplash.com/photo-1548126032-079a0fb0099d?w=600&q=80",
+      "https://images.unsplash.com/photo-1507245784-e5e6c76df39b?w=600&q=80"
     ],
     "colors": [
       {
-        "name": "Olive",
-        "hex": "#556B2F"
-      },
-      {
-        "name": "Mustard",
-        "hex": "#FFDB58"
-      },
-      {
-        "name": "Charcoal Black",
+        "name": "Standard",
         "hex": "#1a1a1a"
+      },
+      {
+        "name": "Variant",
+        "hex": "#f5f5f5"
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -16606,819 +6022,72 @@ export const products = [
       "XXL"
     ],
     "sizesAvailable": {
-      "XS": false,
       "S": true,
       "M": true,
       "L": true,
       "XL": false,
-      "XXL": false
+      "XXL": true
     },
-    "material": "Premium Cotton Blend",
-    "fit": "Slim",
-    "pattern": "Printed",
-    "occasion": "Casual",
-    "season": "All Season",
-    "stock": 19,
-    "isTrending": true,
-    "isNewArrival": true,
-    "isBestSeller": false,
-    "tags": [
-      "fashion",
-      "premium",
-      "bottomwear",
-      "kids"
-    ],
-    "specifications": {
-      "Fabric": "Premium Cotton Blend",
-      "Fit": "Regular/Slim",
-      "Wash Care": "Machine Wash"
-    },
-    "reviews": [
-      {
-        "id": "rev_ssott",
-        "userName": "Customer",
-        "rating": 5,
-        "comment": "Excellent product, highly recommended!",
-        "date": "2024-12-15",
-        "helpful": 2,
-        "verified": true
-      }
-    ]
-  },
-  {
-    "id": "prod_204",
-    "name": "FabIndia Kids's Premium Girls Dresses & Tops",
-    "brand": "FabIndia",
-    "description": "Premium quality girls dresses & tops from FabIndia. Features comfortable fit and excellent material suitable for everyday wear.",
-    "category": "Kids",
-    "subCategory": "Girls Dresses & Tops",
-    "type": "Topwear",
-    "price": 4077,
-    "mrp": 5228,
-    "discount": 22,
-    "currency": "₹",
-    "rating": 4,
-    "reviewCount": 1065,
-    "images": [
-      "https://images.unsplash.com/photo-1490578474895-699bc4e3f49f?w=600&q=80",
-      "https://images.unsplash.com/photo-1552374196-1ab2a1c593e8?w=600&q=80",
-      "https://images.unsplash.com/photo-1490578474895-699bc4e3f49f?w=600&q=80",
-      "https://images.unsplash.com/photo-1552374196-1ab2a1c593e8?w=600&q=80"
-    ],
-    "colors": [
-      {
-        "name": "Off White",
-        "hex": "#f5f0e8"
-      },
-      {
-        "name": "Charcoal Black",
-        "hex": "#1a1a1a"
-      },
-      {
-        "name": "Navy Blue",
-        "hex": "#000080"
-      }
-    ],
-    "sizes": [
-      "XS",
-      "S",
-      "M",
-      "L",
-      "XL",
-      "XXL"
-    ],
-    "sizesAvailable": {
-      "XS": true,
-      "S": true,
-      "M": true,
-      "L": true,
-      "XL": true,
-      "XXL": false
-    },
-    "material": "Premium Cotton Blend",
-    "fit": "Regular",
-    "pattern": "Printed",
-    "occasion": "Casual",
-    "season": "All Season",
-    "stock": 42,
-    "isTrending": false,
-    "isNewArrival": true,
-    "isBestSeller": false,
-    "tags": [
-      "fashion",
-      "premium",
-      "topwear",
-      "kids"
-    ],
-    "specifications": {
-      "Fabric": "Premium Cotton Blend",
-      "Fit": "Regular/Slim",
-      "Wash Care": "Machine Wash"
-    },
-    "reviews": [
-      {
-        "id": "rev_xzk2r",
-        "userName": "Customer",
-        "rating": 5,
-        "comment": "Excellent product, highly recommended!",
-        "date": "2024-12-15",
-        "helpful": 24,
-        "verified": true
-      }
-    ]
-  },
-  {
-    "id": "prod_205",
-    "name": "URBAN EDGE Kids's Premium Kids Ethnic Wear",
-    "brand": "URBAN EDGE",
-    "description": "Premium quality kids ethnic wear from URBAN EDGE. Features comfortable fit and excellent material suitable for everyday wear.",
-    "category": "Kids",
-    "subCategory": "Kids Ethnic Wear",
-    "type": "Topwear",
-    "price": 3757,
-    "mrp": 10736,
-    "discount": 65,
-    "currency": "₹",
-    "rating": 4.5,
-    "reviewCount": 2542,
-    "images": [
-      "https://images.unsplash.com/photo-1552374196-1ab2a1c593e8?w=600&q=80",
-      "https://images.unsplash.com/photo-1490578474895-699bc4e3f49f?w=600&q=80",
-      "https://images.unsplash.com/photo-1552374196-1ab2a1c593e8?w=600&q=80",
-      "https://images.unsplash.com/photo-1490578474895-699bc4e3f49f?w=600&q=80"
-    ],
-    "colors": [
-      {
-        "name": "Off White",
-        "hex": "#f5f0e8"
-      },
-      {
-        "name": "Charcoal Black",
-        "hex": "#1a1a1a"
-      },
-      {
-        "name": "Olive",
-        "hex": "#556B2F"
-      }
-    ],
-    "sizes": [
-      "XS",
-      "S",
-      "M",
-      "L",
-      "XL",
-      "XXL"
-    ],
-    "sizesAvailable": {
-      "XS": true,
-      "S": true,
-      "M": true,
-      "L": true,
-      "XL": true,
-      "XXL": false
-    },
-    "material": "Premium Cotton Blend",
-    "fit": "Slim",
-    "pattern": "Solid",
-    "occasion": "Casual",
-    "season": "All Season",
-    "stock": 54,
-    "isTrending": false,
-    "isNewArrival": false,
-    "isBestSeller": false,
-    "tags": [
-      "fashion",
-      "premium",
-      "topwear",
-      "kids"
-    ],
-    "specifications": {
-      "Fabric": "Premium Cotton Blend",
-      "Fit": "Regular/Slim",
-      "Wash Care": "Machine Wash"
-    },
-    "reviews": [
-      {
-        "id": "rev_t3v2h",
-        "userName": "Customer",
-        "rating": 5,
-        "comment": "Excellent product, highly recommended!",
-        "date": "2024-12-15",
-        "helpful": 23,
-        "verified": true
-      }
-    ]
-  },
-  {
-    "id": "prod_206",
-    "name": "Allen Solly Kids's Premium Girls Dresses & Tops",
-    "brand": "Allen Solly",
-    "description": "Premium quality girls dresses & tops from Allen Solly. Features comfortable fit and excellent material suitable for everyday wear.",
-    "category": "Kids",
-    "subCategory": "Girls Dresses & Tops",
-    "type": "Topwear",
-    "price": 1812,
-    "mrp": 3624,
-    "discount": 50,
-    "currency": "₹",
-    "rating": 3.8,
-    "reviewCount": 1236,
-    "images": [
-      "https://images.unsplash.com/photo-1490578474895-699bc4e3f49f?w=600&q=80",
-      "https://images.unsplash.com/photo-1552374196-1ab2a1c593e8?w=600&q=80",
-      "https://images.unsplash.com/photo-1490578474895-699bc4e3f49f?w=600&q=80",
-      "https://images.unsplash.com/photo-1552374196-1ab2a1c593e8?w=600&q=80"
-    ],
-    "colors": [
-      {
-        "name": "Maroon",
-        "hex": "#800000"
-      },
-      {
-        "name": "Charcoal Black",
-        "hex": "#1a1a1a"
-      },
-      {
-        "name": "Off White",
-        "hex": "#f5f0e8"
-      }
-    ],
-    "sizes": [
-      "XS",
-      "S",
-      "M",
-      "L",
-      "XL",
-      "XXL"
-    ],
-    "sizesAvailable": {
-      "XS": true,
-      "S": true,
-      "M": true,
-      "L": true,
-      "XL": true,
-      "XXL": false
-    },
-    "material": "Premium Cotton Blend",
+    "material": "100% Premium Material",
     "fit": "Regular",
     "pattern": "Solid",
     "occasion": "Casual",
-    "season": "All Season",
-    "stock": 24,
+    "stock": 53,
     "isTrending": false,
     "isNewArrival": false,
     "isBestSeller": false,
     "tags": [
-      "fashion",
       "premium",
-      "topwear",
-      "kids"
+      "comfortable",
+      "jeans"
     ],
     "specifications": {
-      "Fabric": "Premium Cotton Blend",
-      "Fit": "Regular/Slim",
+      "Fabric": "Premium Quality",
+      "Fit": "Regular",
       "Wash Care": "Machine Wash"
     },
     "reviews": [
       {
-        "id": "rev_lqvc7",
-        "userName": "Customer",
+        "id": "rev_83_1",
+        "userName": "Verified Buyer",
         "rating": 5,
-        "comment": "Excellent product, highly recommended!",
-        "date": "2024-12-15",
-        "helpful": 25,
-        "verified": true
-      }
-    ]
-  },
-  {
-    "id": "prod_207",
-    "name": "NOIR Kids's Premium Kids Shoes",
-    "brand": "NOIR",
-    "description": "Premium quality kids shoes from NOIR. Features comfortable fit and excellent material suitable for everyday wear.",
-    "category": "Kids",
-    "subCategory": "Kids Shoes",
-    "type": "Footwear",
-    "price": 7134,
-    "mrp": 14268,
-    "discount": 50,
-    "currency": "₹",
-    "rating": 4.4,
-    "reviewCount": 691,
-    "images": [
-      "https://images.unsplash.com/photo-1525966222134-fcfa99b8ae77?w=600&q=80",
-      "https://images.unsplash.com/photo-1542291026-7eec264c27ff?w=600&q=80",
-      "https://images.unsplash.com/photo-1525966222134-fcfa99b8ae77?w=600&q=80",
-      "https://images.unsplash.com/photo-1542291026-7eec264c27ff?w=600&q=80"
-    ],
-    "colors": [
-      {
-        "name": "Maroon",
-        "hex": "#800000"
-      },
-      {
-        "name": "Off White",
-        "hex": "#f5f0e8"
-      },
-      {
-        "name": "Olive",
-        "hex": "#556B2F"
-      }
-    ],
-    "sizes": [
-      "XS",
-      "S",
-      "M",
-      "L",
-      "XL",
-      "XXL"
-    ],
-    "sizesAvailable": {
-      "XS": false,
-      "S": true,
-      "M": true,
-      "L": true,
-      "XL": true,
-      "XXL": false
-    },
-    "material": "Premium Cotton Blend",
-    "fit": "Regular",
-    "pattern": "Printed",
-    "occasion": "Casual",
-    "season": "All Season",
-    "stock": 80,
-    "isTrending": false,
-    "isNewArrival": false,
-    "isBestSeller": false,
-    "tags": [
-      "fashion",
-      "premium",
-      "footwear",
-      "kids"
-    ],
-    "specifications": {
-      "Fabric": "Premium Cotton Blend",
-      "Fit": "Regular/Slim",
-      "Wash Care": "Machine Wash"
-    },
-    "reviews": [
-      {
-        "id": "rev_phonh",
-        "userName": "Customer",
-        "rating": 5,
-        "comment": "Excellent product, highly recommended!",
-        "date": "2024-12-15",
-        "helpful": 33,
-        "verified": true
-      }
-    ]
-  },
-  {
-    "id": "prod_208",
-    "name": "DRIFT Kids's Premium Girls Dresses & Tops",
-    "brand": "DRIFT",
-    "description": "Premium quality girls dresses & tops from DRIFT. Features comfortable fit and excellent material suitable for everyday wear.",
-    "category": "Kids",
-    "subCategory": "Girls Dresses & Tops",
-    "type": "Topwear",
-    "price": 6148,
-    "mrp": 7234,
-    "discount": 15,
-    "currency": "₹",
-    "rating": 4.2,
-    "reviewCount": 1718,
-    "images": [
-      "https://images.unsplash.com/photo-1490578474895-699bc4e3f49f?w=600&q=80",
-      "https://images.unsplash.com/photo-1552374196-1ab2a1c593e8?w=600&q=80",
-      "https://images.unsplash.com/photo-1490578474895-699bc4e3f49f?w=600&q=80",
-      "https://images.unsplash.com/photo-1552374196-1ab2a1c593e8?w=600&q=80"
-    ],
-    "colors": [
-      {
-        "name": "Mustard",
-        "hex": "#FFDB58"
-      },
-      {
-        "name": "Maroon",
-        "hex": "#800000"
-      },
-      {
-        "name": "Charcoal Black",
-        "hex": "#1a1a1a"
-      }
-    ],
-    "sizes": [
-      "XS",
-      "S",
-      "M",
-      "L",
-      "XL",
-      "XXL"
-    ],
-    "sizesAvailable": {
-      "XS": false,
-      "S": true,
-      "M": true,
-      "L": true,
-      "XL": true,
-      "XXL": false
-    },
-    "material": "Premium Cotton Blend",
-    "fit": "Regular",
-    "pattern": "Solid",
-    "occasion": "Casual",
-    "season": "All Season",
-    "stock": 93,
-    "isTrending": true,
-    "isNewArrival": false,
-    "isBestSeller": true,
-    "tags": [
-      "fashion",
-      "premium",
-      "topwear",
-      "kids"
-    ],
-    "specifications": {
-      "Fabric": "Premium Cotton Blend",
-      "Fit": "Regular/Slim",
-      "Wash Care": "Machine Wash"
-    },
-    "reviews": [
-      {
-        "id": "rev_ecctd",
-        "userName": "Customer",
-        "rating": 5,
-        "comment": "Excellent product, highly recommended!",
-        "date": "2024-12-15",
-        "helpful": 7,
-        "verified": true
-      }
-    ]
-  },
-  {
-    "id": "prod_209",
-    "name": "Nike Kids's Premium Kids Shoes",
-    "brand": "Nike",
-    "description": "Premium quality kids shoes from Nike. Features comfortable fit and excellent material suitable for everyday wear.",
-    "category": "Kids",
-    "subCategory": "Kids Shoes",
-    "type": "Footwear",
-    "price": 4051,
-    "mrp": 7792,
-    "discount": 48,
-    "currency": "₹",
-    "rating": 3.6,
-    "reviewCount": 4018,
-    "images": [
-      "https://images.unsplash.com/photo-1525966222134-fcfa99b8ae77?w=600&q=80",
-      "https://images.unsplash.com/photo-1542291026-7eec264c27ff?w=600&q=80",
-      "https://images.unsplash.com/photo-1525966222134-fcfa99b8ae77?w=600&q=80",
-      "https://images.unsplash.com/photo-1542291026-7eec264c27ff?w=600&q=80"
-    ],
-    "colors": [
-      {
-        "name": "Mustard",
-        "hex": "#FFDB58"
-      },
-      {
-        "name": "Off White",
-        "hex": "#f5f0e8"
-      },
-      {
-        "name": "Navy Blue",
-        "hex": "#000080"
-      }
-    ],
-    "sizes": [
-      "XS",
-      "S",
-      "M",
-      "L",
-      "XL",
-      "XXL"
-    ],
-    "sizesAvailable": {
-      "XS": false,
-      "S": true,
-      "M": true,
-      "L": true,
-      "XL": true,
-      "XXL": false
-    },
-    "material": "Premium Cotton Blend",
-    "fit": "Slim",
-    "pattern": "Solid",
-    "occasion": "Casual",
-    "season": "All Season",
-    "stock": 30,
-    "isTrending": true,
-    "isNewArrival": false,
-    "isBestSeller": false,
-    "tags": [
-      "fashion",
-      "premium",
-      "footwear",
-      "kids"
-    ],
-    "specifications": {
-      "Fabric": "Premium Cotton Blend",
-      "Fit": "Regular/Slim",
-      "Wash Care": "Machine Wash"
-    },
-    "reviews": [
-      {
-        "id": "rev_ze8ao",
-        "userName": "Customer",
-        "rating": 5,
-        "comment": "Excellent product, highly recommended!",
-        "date": "2024-12-15",
-        "helpful": 33,
-        "verified": true
-      }
-    ]
-  },
-  {
-    "id": "prod_210",
-    "name": "Nike Kids's Premium Boys T-Shirts & Shirts",
-    "brand": "Nike",
-    "description": "Premium quality boys t-shirts & shirts from Nike. Features comfortable fit and excellent material suitable for everyday wear.",
-    "category": "Kids",
-    "subCategory": "Boys T-Shirts & Shirts",
-    "type": "Topwear",
-    "price": 3296,
-    "mrp": 4778,
-    "discount": 31,
-    "currency": "₹",
-    "rating": 4.2,
-    "reviewCount": 3051,
-    "images": [
-      "https://images.unsplash.com/photo-1490578474895-699bc4e3f49f?w=600&q=80",
-      "https://images.unsplash.com/photo-1552374196-1ab2a1c593e8?w=600&q=80",
-      "https://images.unsplash.com/photo-1490578474895-699bc4e3f49f?w=600&q=80",
-      "https://images.unsplash.com/photo-1552374196-1ab2a1c593e8?w=600&q=80"
-    ],
-    "colors": [
-      {
-        "name": "Charcoal Black",
-        "hex": "#1a1a1a"
-      },
-      {
-        "name": "Mustard",
-        "hex": "#FFDB58"
-      },
-      {
-        "name": "Off White",
-        "hex": "#f5f0e8"
-      }
-    ],
-    "sizes": [
-      "XS",
-      "S",
-      "M",
-      "L",
-      "XL",
-      "XXL"
-    ],
-    "sizesAvailable": {
-      "XS": false,
-      "S": true,
-      "M": true,
-      "L": true,
-      "XL": true,
-      "XXL": false
-    },
-    "material": "Premium Cotton Blend",
-    "fit": "Regular",
-    "pattern": "Printed",
-    "occasion": "Casual",
-    "season": "All Season",
-    "stock": 5,
-    "isTrending": false,
-    "isNewArrival": false,
-    "isBestSeller": false,
-    "tags": [
-      "fashion",
-      "premium",
-      "topwear",
-      "kids"
-    ],
-    "specifications": {
-      "Fabric": "Premium Cotton Blend",
-      "Fit": "Regular/Slim",
-      "Wash Care": "Machine Wash"
-    },
-    "reviews": [
-      {
-        "id": "rev_gm6w3",
-        "userName": "Customer",
-        "rating": 5,
-        "comment": "Excellent product, highly recommended!",
-        "date": "2024-12-15",
-        "helpful": 32,
-        "verified": true
-      }
-    ]
-  },
-  {
-    "id": "prod_211",
-    "name": "Vero Moda Kids's Premium Girls Dresses & Tops",
-    "brand": "Vero Moda",
-    "description": "Premium quality girls dresses & tops from Vero Moda. Features comfortable fit and excellent material suitable for everyday wear.",
-    "category": "Kids",
-    "subCategory": "Girls Dresses & Tops",
-    "type": "Topwear",
-    "price": 1896,
-    "mrp": 2400,
-    "discount": 21,
-    "currency": "₹",
-    "rating": 3.9,
-    "reviewCount": 1768,
-    "images": [
-      "https://images.unsplash.com/photo-1552374196-1ab2a1c593e8?w=600&q=80",
-      "https://images.unsplash.com/photo-1490578474895-699bc4e3f49f?w=600&q=80",
-      "https://images.unsplash.com/photo-1552374196-1ab2a1c593e8?w=600&q=80",
-      "https://images.unsplash.com/photo-1490578474895-699bc4e3f49f?w=600&q=80"
-    ],
-    "colors": [
-      {
-        "name": "Off White",
-        "hex": "#f5f0e8"
-      },
-      {
-        "name": "Charcoal Black",
-        "hex": "#1a1a1a"
-      },
-      {
-        "name": "Maroon",
-        "hex": "#800000"
-      }
-    ],
-    "sizes": [
-      "XS",
-      "S",
-      "M",
-      "L",
-      "XL",
-      "XXL"
-    ],
-    "sizesAvailable": {
-      "XS": true,
-      "S": true,
-      "M": true,
-      "L": true,
-      "XL": true,
-      "XXL": false
-    },
-    "material": "Premium Cotton Blend",
-    "fit": "Regular",
-    "pattern": "Solid",
-    "occasion": "Casual",
-    "season": "All Season",
-    "stock": 6,
-    "isTrending": false,
-    "isNewArrival": false,
-    "isBestSeller": false,
-    "tags": [
-      "fashion",
-      "premium",
-      "topwear",
-      "kids"
-    ],
-    "specifications": {
-      "Fabric": "Premium Cotton Blend",
-      "Fit": "Regular/Slim",
-      "Wash Care": "Machine Wash"
-    },
-    "reviews": [
-      {
-        "id": "rev_lzo93",
-        "userName": "Customer",
-        "rating": 5,
-        "comment": "Excellent product, highly recommended!",
-        "date": "2024-12-15",
-        "helpful": 21,
-        "verified": true
-      }
-    ]
-  },
-  {
-    "id": "prod_212",
-    "name": "Van Heusen Kids's Premium Girls Leggings & Skirts",
-    "brand": "Van Heusen",
-    "description": "Premium quality girls leggings & skirts from Van Heusen. Features comfortable fit and excellent material suitable for everyday wear.",
-    "category": "Kids",
-    "subCategory": "Girls Leggings & Skirts",
-    "type": "Bottomwear",
-    "price": 3858,
-    "mrp": 5011,
-    "discount": 23,
-    "currency": "₹",
-    "rating": 3.2,
-    "reviewCount": 3670,
-    "images": [
-      "https://images.unsplash.com/photo-1490578474895-699bc4e3f49f?w=600&q=80",
-      "https://images.unsplash.com/photo-1552374196-1ab2a1c593e8?w=600&q=80",
-      "https://images.unsplash.com/photo-1490578474895-699bc4e3f49f?w=600&q=80",
-      "https://images.unsplash.com/photo-1552374196-1ab2a1c593e8?w=600&q=80"
-    ],
-    "colors": [
-      {
-        "name": "Mustard",
-        "hex": "#FFDB58"
-      },
-      {
-        "name": "Maroon",
-        "hex": "#800000"
-      },
-      {
-        "name": "Charcoal Black",
-        "hex": "#1a1a1a"
-      }
-    ],
-    "sizes": [
-      "XS",
-      "S",
-      "M",
-      "L",
-      "XL",
-      "XXL"
-    ],
-    "sizesAvailable": {
-      "XS": true,
-      "S": true,
-      "M": true,
-      "L": true,
-      "XL": true,
-      "XXL": false
-    },
-    "material": "Premium Cotton Blend",
-    "fit": "Slim",
-    "pattern": "Solid",
-    "occasion": "Casual",
-    "season": "All Season",
-    "stock": 69,
-    "isTrending": false,
-    "isNewArrival": false,
-    "isBestSeller": false,
-    "tags": [
-      "fashion",
-      "premium",
-      "bottomwear",
-      "kids"
-    ],
-    "specifications": {
-      "Fabric": "Premium Cotton Blend",
-      "Fit": "Regular/Slim",
-      "Wash Care": "Machine Wash"
-    },
-    "reviews": [
-      {
-        "id": "rev_fjo6o",
-        "userName": "Customer",
-        "rating": 5,
-        "comment": "Excellent product, highly recommended!",
-        "date": "2024-12-15",
+        "comment": "Absolutely love this product! The quality is amazing for the price.",
+        "date": "2024-03-15",
         "helpful": 38,
         "verified": true
       }
     ]
   },
   {
-    "id": "prod_213",
-    "name": "Adidas Kids's Premium Boys Jeans & Shorts",
-    "brand": "Adidas",
-    "description": "Premium quality boys jeans & shorts from Adidas. Features comfortable fit and excellent material suitable for everyday wear.",
-    "category": "Kids",
-    "subCategory": "Boys Jeans & Shorts",
+    "id": "prod_084",
+    "name": "Premium Jeans - Style 4",
+    "brand": "Nike",
+    "description": "Experience ultimate comfort and style with our latest jeans. Perfect for everyday wear, featuring premium materials and exceptional craftsmanship.",
+    "category": "Women",
+    "subCategory": "Jeans",
     "type": "Bottomwear",
-    "price": 5951,
-    "mrp": 13226,
-    "discount": 55,
+    "price": 1099,
+    "mrp": 2598,
+    "discount": 58,
     "currency": "₹",
-    "rating": 4.6,
-    "reviewCount": 2899,
+    "rating": "4.8",
+    "reviewCount": 2677,
     "images": [
-      "https://images.unsplash.com/photo-1552374196-1ab2a1c593e8?w=600&q=80",
-      "https://images.unsplash.com/photo-1490578474895-699bc4e3f49f?w=600&q=80",
-      "https://images.unsplash.com/photo-1552374196-1ab2a1c593e8?w=600&q=80",
-      "https://images.unsplash.com/photo-1490578474895-699bc4e3f49f?w=600&q=80"
+      "https://images.unsplash.com/photo-1548126032-079a0fb0099d?w=600&q=80",
+      "https://images.unsplash.com/photo-1507245784-e5e6c76df39b?w=600&q=80",
+      "https://images.unsplash.com/photo-1502088113834-dde1e9b2e5c2?w=600&q=80"
     ],
     "colors": [
       {
-        "name": "Navy Blue",
-        "hex": "#000080"
+        "name": "Standard",
+        "hex": "#1a1a1a"
       },
       {
-        "name": "Mustard",
-        "hex": "#FFDB58"
-      },
-      {
-        "name": "Maroon",
-        "hex": "#800000"
+        "name": "Variant",
+        "hex": "#f5f5f5"
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -17426,1147 +6095,72 @@ export const products = [
       "XXL"
     ],
     "sizesAvailable": {
-      "XS": true,
       "S": true,
       "M": true,
       "L": true,
       "XL": true,
       "XXL": false
     },
-    "material": "Premium Cotton Blend",
+    "material": "100% Premium Material",
     "fit": "Regular",
     "pattern": "Solid",
     "occasion": "Casual",
-    "season": "All Season",
-    "stock": 55,
+    "stock": 80,
     "isTrending": false,
     "isNewArrival": false,
     "isBestSeller": false,
     "tags": [
-      "fashion",
       "premium",
-      "bottomwear",
-      "kids"
+      "comfortable",
+      "jeans"
     ],
     "specifications": {
-      "Fabric": "Premium Cotton Blend",
-      "Fit": "Regular/Slim",
+      "Fabric": "Premium Quality",
+      "Fit": "Regular",
       "Wash Care": "Machine Wash"
     },
     "reviews": [
       {
-        "id": "rev_zkio7",
-        "userName": "Customer",
+        "id": "rev_84_1",
+        "userName": "Verified Buyer",
         "rating": 5,
-        "comment": "Excellent product, highly recommended!",
-        "date": "2024-12-15",
-        "helpful": 45,
+        "comment": "Absolutely love this product! The quality is amazing for the price.",
+        "date": "2024-03-15",
+        "helpful": 23,
         "verified": true
       }
     ]
   },
   {
-    "id": "prod_214",
-    "name": "Van Heusen Kids's Premium Boys Jeans & Shorts",
-    "brand": "Van Heusen",
-    "description": "Premium quality boys jeans & shorts from Van Heusen. Features comfortable fit and excellent material suitable for everyday wear.",
-    "category": "Kids",
-    "subCategory": "Boys Jeans & Shorts",
+    "id": "prod_085",
+    "name": "Premium Jeans - Style 5",
+    "brand": "ONLY",
+    "description": "Experience ultimate comfort and style with our latest jeans. Perfect for everyday wear, featuring premium materials and exceptional craftsmanship.",
+    "category": "Women",
+    "subCategory": "Jeans",
     "type": "Bottomwear",
-    "price": 3785,
-    "mrp": 6106,
-    "discount": 38,
-    "currency": "₹",
-    "rating": 3.9,
-    "reviewCount": 5,
-    "images": [
-      "https://images.unsplash.com/photo-1490578474895-699bc4e3f49f?w=600&q=80",
-      "https://images.unsplash.com/photo-1552374196-1ab2a1c593e8?w=600&q=80",
-      "https://images.unsplash.com/photo-1490578474895-699bc4e3f49f?w=600&q=80",
-      "https://images.unsplash.com/photo-1552374196-1ab2a1c593e8?w=600&q=80"
-    ],
-    "colors": [
-      {
-        "name": "Mustard",
-        "hex": "#FFDB58"
-      },
-      {
-        "name": "Navy Blue",
-        "hex": "#000080"
-      },
-      {
-        "name": "Off White",
-        "hex": "#f5f0e8"
-      }
-    ],
-    "sizes": [
-      "XS",
-      "S",
-      "M",
-      "L",
-      "XL",
-      "XXL"
-    ],
-    "sizesAvailable": {
-      "XS": true,
-      "S": true,
-      "M": true,
-      "L": true,
-      "XL": true,
-      "XXL": true
-    },
-    "material": "Premium Cotton Blend",
-    "fit": "Slim",
-    "pattern": "Solid",
-    "occasion": "Casual",
-    "season": "All Season",
-    "stock": 14,
-    "isTrending": false,
-    "isNewArrival": false,
-    "isBestSeller": false,
-    "tags": [
-      "fashion",
-      "premium",
-      "bottomwear",
-      "kids"
-    ],
-    "specifications": {
-      "Fabric": "Premium Cotton Blend",
-      "Fit": "Regular/Slim",
-      "Wash Care": "Machine Wash"
-    },
-    "reviews": [
-      {
-        "id": "rev_7uodg",
-        "userName": "Customer",
-        "rating": 5,
-        "comment": "Excellent product, highly recommended!",
-        "date": "2024-12-15",
-        "helpful": 26,
-        "verified": true
-      }
-    ]
-  },
-  {
-    "id": "prod_215",
-    "name": "NOIR Kids's Premium Kids Ethnic Wear",
-    "brand": "NOIR",
-    "description": "Premium quality kids ethnic wear from NOIR. Features comfortable fit and excellent material suitable for everyday wear.",
-    "category": "Kids",
-    "subCategory": "Kids Ethnic Wear",
-    "type": "Topwear",
-    "price": 3664,
-    "mrp": 6914,
-    "discount": 47,
-    "currency": "₹",
-    "rating": 5,
-    "reviewCount": 2668,
-    "images": [
-      "https://images.unsplash.com/photo-1552374196-1ab2a1c593e8?w=600&q=80",
-      "https://images.unsplash.com/photo-1490578474895-699bc4e3f49f?w=600&q=80",
-      "https://images.unsplash.com/photo-1552374196-1ab2a1c593e8?w=600&q=80",
-      "https://images.unsplash.com/photo-1490578474895-699bc4e3f49f?w=600&q=80"
-    ],
-    "colors": [
-      {
-        "name": "Olive",
-        "hex": "#556B2F"
-      },
-      {
-        "name": "Maroon",
-        "hex": "#800000"
-      },
-      {
-        "name": "Charcoal Black",
-        "hex": "#1a1a1a"
-      }
-    ],
-    "sizes": [
-      "XS",
-      "S",
-      "M",
-      "L",
-      "XL",
-      "XXL"
-    ],
-    "sizesAvailable": {
-      "XS": false,
-      "S": true,
-      "M": true,
-      "L": true,
-      "XL": true,
-      "XXL": true
-    },
-    "material": "Premium Cotton Blend",
-    "fit": "Regular",
-    "pattern": "Solid",
-    "occasion": "Casual",
-    "season": "All Season",
-    "stock": 45,
-    "isTrending": false,
-    "isNewArrival": false,
-    "isBestSeller": false,
-    "tags": [
-      "fashion",
-      "premium",
-      "topwear",
-      "kids"
-    ],
-    "specifications": {
-      "Fabric": "Premium Cotton Blend",
-      "Fit": "Regular/Slim",
-      "Wash Care": "Machine Wash"
-    },
-    "reviews": [
-      {
-        "id": "rev_t5snq",
-        "userName": "Customer",
-        "rating": 5,
-        "comment": "Excellent product, highly recommended!",
-        "date": "2024-12-15",
-        "helpful": 45,
-        "verified": true
-      }
-    ]
-  },
-  {
-    "id": "prod_216",
-    "name": "URBAN EDGE Kids's Premium Boys T-Shirts & Shirts",
-    "brand": "URBAN EDGE",
-    "description": "Premium quality boys t-shirts & shirts from URBAN EDGE. Features comfortable fit and excellent material suitable for everyday wear.",
-    "category": "Kids",
-    "subCategory": "Boys T-Shirts & Shirts",
-    "type": "Topwear",
-    "price": 5453,
-    "mrp": 9915,
-    "discount": 45,
-    "currency": "₹",
-    "rating": 3.9,
-    "reviewCount": 1679,
-    "images": [
-      "https://images.unsplash.com/photo-1490578474895-699bc4e3f49f?w=600&q=80",
-      "https://images.unsplash.com/photo-1552374196-1ab2a1c593e8?w=600&q=80",
-      "https://images.unsplash.com/photo-1490578474895-699bc4e3f49f?w=600&q=80",
-      "https://images.unsplash.com/photo-1552374196-1ab2a1c593e8?w=600&q=80"
-    ],
-    "colors": [
-      {
-        "name": "Mustard",
-        "hex": "#FFDB58"
-      },
-      {
-        "name": "Olive",
-        "hex": "#556B2F"
-      },
-      {
-        "name": "Maroon",
-        "hex": "#800000"
-      }
-    ],
-    "sizes": [
-      "XS",
-      "S",
-      "M",
-      "L",
-      "XL",
-      "XXL"
-    ],
-    "sizesAvailable": {
-      "XS": false,
-      "S": true,
-      "M": true,
-      "L": true,
-      "XL": true,
-      "XXL": false
-    },
-    "material": "Premium Cotton Blend",
-    "fit": "Slim",
-    "pattern": "Solid",
-    "occasion": "Casual",
-    "season": "All Season",
-    "stock": 14,
-    "isTrending": false,
-    "isNewArrival": true,
-    "isBestSeller": true,
-    "tags": [
-      "fashion",
-      "premium",
-      "topwear",
-      "kids"
-    ],
-    "specifications": {
-      "Fabric": "Premium Cotton Blend",
-      "Fit": "Regular/Slim",
-      "Wash Care": "Machine Wash"
-    },
-    "reviews": [
-      {
-        "id": "rev_xckkw",
-        "userName": "Customer",
-        "rating": 5,
-        "comment": "Excellent product, highly recommended!",
-        "date": "2024-12-15",
-        "helpful": 22,
-        "verified": true
-      }
-    ]
-  },
-  {
-    "id": "prod_217",
-    "name": "Van Heusen Kids's Premium Boys T-Shirts & Shirts",
-    "brand": "Van Heusen",
-    "description": "Premium quality boys t-shirts & shirts from Van Heusen. Features comfortable fit and excellent material suitable for everyday wear.",
-    "category": "Kids",
-    "subCategory": "Boys T-Shirts & Shirts",
-    "type": "Topwear",
-    "price": 2544,
-    "mrp": 3856,
-    "discount": 34,
-    "currency": "₹",
-    "rating": 3.9,
-    "reviewCount": 1569,
-    "images": [
-      "https://images.unsplash.com/photo-1552374196-1ab2a1c593e8?w=600&q=80",
-      "https://images.unsplash.com/photo-1490578474895-699bc4e3f49f?w=600&q=80",
-      "https://images.unsplash.com/photo-1552374196-1ab2a1c593e8?w=600&q=80",
-      "https://images.unsplash.com/photo-1490578474895-699bc4e3f49f?w=600&q=80"
-    ],
-    "colors": [
-      {
-        "name": "Mustard",
-        "hex": "#FFDB58"
-      },
-      {
-        "name": "Olive",
-        "hex": "#556B2F"
-      },
-      {
-        "name": "Maroon",
-        "hex": "#800000"
-      }
-    ],
-    "sizes": [
-      "XS",
-      "S",
-      "M",
-      "L",
-      "XL",
-      "XXL"
-    ],
-    "sizesAvailable": {
-      "XS": false,
-      "S": true,
-      "M": true,
-      "L": true,
-      "XL": true,
-      "XXL": false
-    },
-    "material": "Premium Cotton Blend",
-    "fit": "Slim",
-    "pattern": "Printed",
-    "occasion": "Casual",
-    "season": "All Season",
-    "stock": 55,
-    "isTrending": false,
-    "isNewArrival": true,
-    "isBestSeller": false,
-    "tags": [
-      "fashion",
-      "premium",
-      "topwear",
-      "kids"
-    ],
-    "specifications": {
-      "Fabric": "Premium Cotton Blend",
-      "Fit": "Regular/Slim",
-      "Wash Care": "Machine Wash"
-    },
-    "reviews": [
-      {
-        "id": "rev_ntegk",
-        "userName": "Customer",
-        "rating": 5,
-        "comment": "Excellent product, highly recommended!",
-        "date": "2024-12-15",
-        "helpful": 21,
-        "verified": true
-      }
-    ]
-  },
-  {
-    "id": "prod_218",
-    "name": "Jack & Jones Kids's Premium Kids Shoes",
-    "brand": "Jack & Jones",
-    "description": "Premium quality kids shoes from Jack & Jones. Features comfortable fit and excellent material suitable for everyday wear.",
-    "category": "Kids",
-    "subCategory": "Kids Shoes",
-    "type": "Footwear",
-    "price": 5833,
-    "mrp": 8975,
-    "discount": 35,
-    "currency": "₹",
-    "rating": 3.8,
-    "reviewCount": 1046,
-    "images": [
-      "https://images.unsplash.com/photo-1542291026-7eec264c27ff?w=600&q=80",
-      "https://images.unsplash.com/photo-1525966222134-fcfa99b8ae77?w=600&q=80",
-      "https://images.unsplash.com/photo-1542291026-7eec264c27ff?w=600&q=80",
-      "https://images.unsplash.com/photo-1525966222134-fcfa99b8ae77?w=600&q=80"
-    ],
-    "colors": [
-      {
-        "name": "Olive",
-        "hex": "#556B2F"
-      },
-      {
-        "name": "Charcoal Black",
-        "hex": "#1a1a1a"
-      },
-      {
-        "name": "Navy Blue",
-        "hex": "#000080"
-      }
-    ],
-    "sizes": [
-      "XS",
-      "S",
-      "M",
-      "L",
-      "XL",
-      "XXL"
-    ],
-    "sizesAvailable": {
-      "XS": false,
-      "S": true,
-      "M": true,
-      "L": true,
-      "XL": true,
-      "XXL": true
-    },
-    "material": "Premium Cotton Blend",
-    "fit": "Regular",
-    "pattern": "Printed",
-    "occasion": "Casual",
-    "season": "All Season",
-    "stock": 54,
-    "isTrending": false,
-    "isNewArrival": false,
-    "isBestSeller": false,
-    "tags": [
-      "fashion",
-      "premium",
-      "footwear",
-      "kids"
-    ],
-    "specifications": {
-      "Fabric": "Premium Cotton Blend",
-      "Fit": "Regular/Slim",
-      "Wash Care": "Machine Wash"
-    },
-    "reviews": [
-      {
-        "id": "rev_raevy",
-        "userName": "Customer",
-        "rating": 5,
-        "comment": "Excellent product, highly recommended!",
-        "date": "2024-12-15",
-        "helpful": 42,
-        "verified": true
-      }
-    ]
-  },
-  {
-    "id": "prod_219",
-    "name": "Adidas Kids's Premium Kids Shoes",
-    "brand": "Adidas",
-    "description": "Premium quality kids shoes from Adidas. Features comfortable fit and excellent material suitable for everyday wear.",
-    "category": "Kids",
-    "subCategory": "Kids Shoes",
-    "type": "Footwear",
-    "price": 1429,
-    "mrp": 1743,
-    "discount": 18,
-    "currency": "₹",
-    "rating": 3.2,
-    "reviewCount": 2329,
-    "images": [
-      "https://images.unsplash.com/photo-1525966222134-fcfa99b8ae77?w=600&q=80",
-      "https://images.unsplash.com/photo-1542291026-7eec264c27ff?w=600&q=80",
-      "https://images.unsplash.com/photo-1525966222134-fcfa99b8ae77?w=600&q=80",
-      "https://images.unsplash.com/photo-1542291026-7eec264c27ff?w=600&q=80"
-    ],
-    "colors": [
-      {
-        "name": "Navy Blue",
-        "hex": "#000080"
-      },
-      {
-        "name": "Maroon",
-        "hex": "#800000"
-      },
-      {
-        "name": "Olive",
-        "hex": "#556B2F"
-      }
-    ],
-    "sizes": [
-      "XS",
-      "S",
-      "M",
-      "L",
-      "XL",
-      "XXL"
-    ],
-    "sizesAvailable": {
-      "XS": true,
-      "S": true,
-      "M": true,
-      "L": true,
-      "XL": true,
-      "XXL": true
-    },
-    "material": "Premium Cotton Blend",
-    "fit": "Slim",
-    "pattern": "Printed",
-    "occasion": "Casual",
-    "season": "All Season",
-    "stock": 71,
-    "isTrending": true,
-    "isNewArrival": false,
-    "isBestSeller": false,
-    "tags": [
-      "fashion",
-      "premium",
-      "footwear",
-      "kids"
-    ],
-    "specifications": {
-      "Fabric": "Premium Cotton Blend",
-      "Fit": "Regular/Slim",
-      "Wash Care": "Machine Wash"
-    },
-    "reviews": [
-      {
-        "id": "rev_tytx0",
-        "userName": "Customer",
-        "rating": 5,
-        "comment": "Excellent product, highly recommended!",
-        "date": "2024-12-15",
-        "helpful": 36,
-        "verified": true
-      }
-    ]
-  },
-  {
-    "id": "prod_220",
-    "name": "Global Desi Kids's Premium Girls Dresses & Tops",
-    "brand": "Global Desi",
-    "description": "Premium quality girls dresses & tops from Global Desi. Features comfortable fit and excellent material suitable for everyday wear.",
-    "category": "Kids",
-    "subCategory": "Girls Dresses & Tops",
-    "type": "Topwear",
-    "price": 1244,
-    "mrp": 2184,
-    "discount": 43,
-    "currency": "₹",
-    "rating": 3.1,
-    "reviewCount": 3134,
-    "images": [
-      "https://images.unsplash.com/photo-1490578474895-699bc4e3f49f?w=600&q=80",
-      "https://images.unsplash.com/photo-1552374196-1ab2a1c593e8?w=600&q=80",
-      "https://images.unsplash.com/photo-1490578474895-699bc4e3f49f?w=600&q=80",
-      "https://images.unsplash.com/photo-1552374196-1ab2a1c593e8?w=600&q=80"
-    ],
-    "colors": [
-      {
-        "name": "Mustard",
-        "hex": "#FFDB58"
-      },
-      {
-        "name": "Charcoal Black",
-        "hex": "#1a1a1a"
-      },
-      {
-        "name": "Off White",
-        "hex": "#f5f0e8"
-      }
-    ],
-    "sizes": [
-      "XS",
-      "S",
-      "M",
-      "L",
-      "XL",
-      "XXL"
-    ],
-    "sizesAvailable": {
-      "XS": false,
-      "S": true,
-      "M": true,
-      "L": true,
-      "XL": false,
-      "XXL": false
-    },
-    "material": "Premium Cotton Blend",
-    "fit": "Slim",
-    "pattern": "Printed",
-    "occasion": "Casual",
-    "season": "All Season",
-    "stock": 50,
-    "isTrending": true,
-    "isNewArrival": true,
-    "isBestSeller": false,
-    "tags": [
-      "fashion",
-      "premium",
-      "topwear",
-      "kids"
-    ],
-    "specifications": {
-      "Fabric": "Premium Cotton Blend",
-      "Fit": "Regular/Slim",
-      "Wash Care": "Machine Wash"
-    },
-    "reviews": [
-      {
-        "id": "rev_bdh12",
-        "userName": "Customer",
-        "rating": 5,
-        "comment": "Excellent product, highly recommended!",
-        "date": "2024-12-15",
-        "helpful": 30,
-        "verified": true
-      }
-    ]
-  },
-  {
-    "id": "prod_221",
-    "name": "Global Desi Kids's Premium Boys Jeans & Shorts",
-    "brand": "Global Desi",
-    "description": "Premium quality boys jeans & shorts from Global Desi. Features comfortable fit and excellent material suitable for everyday wear.",
-    "category": "Kids",
-    "subCategory": "Boys Jeans & Shorts",
-    "type": "Bottomwear",
-    "price": 9830,
-    "mrp": 13466,
-    "discount": 27,
-    "currency": "₹",
-    "rating": 3.9,
-    "reviewCount": 1928,
-    "images": [
-      "https://images.unsplash.com/photo-1552374196-1ab2a1c593e8?w=600&q=80",
-      "https://images.unsplash.com/photo-1490578474895-699bc4e3f49f?w=600&q=80",
-      "https://images.unsplash.com/photo-1552374196-1ab2a1c593e8?w=600&q=80",
-      "https://images.unsplash.com/photo-1490578474895-699bc4e3f49f?w=600&q=80"
-    ],
-    "colors": [
-      {
-        "name": "Off White",
-        "hex": "#f5f0e8"
-      },
-      {
-        "name": "Charcoal Black",
-        "hex": "#1a1a1a"
-      },
-      {
-        "name": "Olive",
-        "hex": "#556B2F"
-      }
-    ],
-    "sizes": [
-      "XS",
-      "S",
-      "M",
-      "L",
-      "XL",
-      "XXL"
-    ],
-    "sizesAvailable": {
-      "XS": false,
-      "S": true,
-      "M": true,
-      "L": true,
-      "XL": false,
-      "XXL": false
-    },
-    "material": "Premium Cotton Blend",
-    "fit": "Regular",
-    "pattern": "Printed",
-    "occasion": "Casual",
-    "season": "All Season",
-    "stock": 9,
-    "isTrending": false,
-    "isNewArrival": true,
-    "isBestSeller": false,
-    "tags": [
-      "fashion",
-      "premium",
-      "bottomwear",
-      "kids"
-    ],
-    "specifications": {
-      "Fabric": "Premium Cotton Blend",
-      "Fit": "Regular/Slim",
-      "Wash Care": "Machine Wash"
-    },
-    "reviews": [
-      {
-        "id": "rev_ieda8",
-        "userName": "Customer",
-        "rating": 5,
-        "comment": "Excellent product, highly recommended!",
-        "date": "2024-12-15",
-        "helpful": 17,
-        "verified": true
-      }
-    ]
-  },
-  {
-    "id": "prod_222",
-    "name": "W Kids's Premium Kids Ethnic Wear",
-    "brand": "W",
-    "description": "Premium quality kids ethnic wear from W. Features comfortable fit and excellent material suitable for everyday wear.",
-    "category": "Kids",
-    "subCategory": "Kids Ethnic Wear",
-    "type": "Topwear",
-    "price": 6549,
-    "mrp": 13644,
-    "discount": 52,
-    "currency": "₹",
-    "rating": 3.7,
-    "reviewCount": 4507,
-    "images": [
-      "https://images.unsplash.com/photo-1490578474895-699bc4e3f49f?w=600&q=80",
-      "https://images.unsplash.com/photo-1552374196-1ab2a1c593e8?w=600&q=80",
-      "https://images.unsplash.com/photo-1490578474895-699bc4e3f49f?w=600&q=80",
-      "https://images.unsplash.com/photo-1552374196-1ab2a1c593e8?w=600&q=80"
-    ],
-    "colors": [
-      {
-        "name": "Off White",
-        "hex": "#f5f0e8"
-      },
-      {
-        "name": "Charcoal Black",
-        "hex": "#1a1a1a"
-      },
-      {
-        "name": "Maroon",
-        "hex": "#800000"
-      }
-    ],
-    "sizes": [
-      "XS",
-      "S",
-      "M",
-      "L",
-      "XL",
-      "XXL"
-    ],
-    "sizesAvailable": {
-      "XS": false,
-      "S": true,
-      "M": true,
-      "L": true,
-      "XL": true,
-      "XXL": true
-    },
-    "material": "Premium Cotton Blend",
-    "fit": "Slim",
-    "pattern": "Solid",
-    "occasion": "Casual",
-    "season": "All Season",
-    "stock": 76,
-    "isTrending": false,
-    "isNewArrival": false,
-    "isBestSeller": false,
-    "tags": [
-      "fashion",
-      "premium",
-      "topwear",
-      "kids"
-    ],
-    "specifications": {
-      "Fabric": "Premium Cotton Blend",
-      "Fit": "Regular/Slim",
-      "Wash Care": "Machine Wash"
-    },
-    "reviews": [
-      {
-        "id": "rev_xl996",
-        "userName": "Customer",
-        "rating": 5,
-        "comment": "Excellent product, highly recommended!",
-        "date": "2024-12-15",
-        "helpful": 40,
-        "verified": true
-      }
-    ]
-  },
-  {
-    "id": "prod_223",
-    "name": "H&M Kids's Premium Boys T-Shirts & Shirts",
-    "brand": "H&M",
-    "description": "Premium quality boys t-shirts & shirts from H&M. Features comfortable fit and excellent material suitable for everyday wear.",
-    "category": "Kids",
-    "subCategory": "Boys T-Shirts & Shirts",
-    "type": "Topwear",
-    "price": 2637,
-    "mrp": 6763,
+    "price": 1099,
+    "mrp": 2798,
     "discount": 61,
     "currency": "₹",
-    "rating": 3.8,
-    "reviewCount": 2570,
+    "rating": "4.1",
+    "reviewCount": 828,
     "images": [
-      "https://images.unsplash.com/photo-1552374196-1ab2a1c593e8?w=600&q=80",
-      "https://images.unsplash.com/photo-1490578474895-699bc4e3f49f?w=600&q=80",
-      "https://images.unsplash.com/photo-1552374196-1ab2a1c593e8?w=600&q=80",
-      "https://images.unsplash.com/photo-1490578474895-699bc4e3f49f?w=600&q=80"
+      "https://images.unsplash.com/photo-1507245784-e5e6c76df39b?w=600&q=80",
+      "https://images.unsplash.com/photo-1502088113834-dde1e9b2e5c2?w=600&q=80",
+      "https://images.unsplash.com/photo-1598033129183-9be1a2c85a81?w=600&q=80"
     ],
     "colors": [
       {
-        "name": "Mustard",
-        "hex": "#FFDB58"
-      },
-      {
-        "name": "Maroon",
-        "hex": "#800000"
-      },
-      {
-        "name": "Olive",
-        "hex": "#556B2F"
-      }
-    ],
-    "sizes": [
-      "XS",
-      "S",
-      "M",
-      "L",
-      "XL",
-      "XXL"
-    ],
-    "sizesAvailable": {
-      "XS": true,
-      "S": true,
-      "M": true,
-      "L": true,
-      "XL": true,
-      "XXL": false
-    },
-    "material": "Premium Cotton Blend",
-    "fit": "Regular",
-    "pattern": "Solid",
-    "occasion": "Casual",
-    "season": "All Season",
-    "stock": 11,
-    "isTrending": true,
-    "isNewArrival": false,
-    "isBestSeller": false,
-    "tags": [
-      "fashion",
-      "premium",
-      "topwear",
-      "kids"
-    ],
-    "specifications": {
-      "Fabric": "Premium Cotton Blend",
-      "Fit": "Regular/Slim",
-      "Wash Care": "Machine Wash"
-    },
-    "reviews": [
-      {
-        "id": "rev_fldse",
-        "userName": "Customer",
-        "rating": 5,
-        "comment": "Excellent product, highly recommended!",
-        "date": "2024-12-15",
-        "helpful": 1,
-        "verified": true
-      }
-    ]
-  },
-  {
-    "id": "prod_224",
-    "name": "W Kids's Premium Boys Jeans & Shorts",
-    "brand": "W",
-    "description": "Premium quality boys jeans & shorts from W. Features comfortable fit and excellent material suitable for everyday wear.",
-    "category": "Kids",
-    "subCategory": "Boys Jeans & Shorts",
-    "type": "Bottomwear",
-    "price": 1962,
-    "mrp": 2764,
-    "discount": 29,
-    "currency": "₹",
-    "rating": 3.7,
-    "reviewCount": 2195,
-    "images": [
-      "https://images.unsplash.com/photo-1490578474895-699bc4e3f49f?w=600&q=80",
-      "https://images.unsplash.com/photo-1552374196-1ab2a1c593e8?w=600&q=80",
-      "https://images.unsplash.com/photo-1490578474895-699bc4e3f49f?w=600&q=80",
-      "https://images.unsplash.com/photo-1552374196-1ab2a1c593e8?w=600&q=80"
-    ],
-    "colors": [
-      {
-        "name": "Off White",
-        "hex": "#f5f0e8"
-      },
-      {
-        "name": "Mustard",
-        "hex": "#FFDB58"
-      },
-      {
-        "name": "Navy Blue",
-        "hex": "#000080"
-      }
-    ],
-    "sizes": [
-      "XS",
-      "S",
-      "M",
-      "L",
-      "XL",
-      "XXL"
-    ],
-    "sizesAvailable": {
-      "XS": true,
-      "S": true,
-      "M": true,
-      "L": true,
-      "XL": true,
-      "XXL": false
-    },
-    "material": "Premium Cotton Blend",
-    "fit": "Slim",
-    "pattern": "Solid",
-    "occasion": "Casual",
-    "season": "All Season",
-    "stock": 93,
-    "isTrending": true,
-    "isNewArrival": false,
-    "isBestSeller": false,
-    "tags": [
-      "fashion",
-      "premium",
-      "bottomwear",
-      "kids"
-    ],
-    "specifications": {
-      "Fabric": "Premium Cotton Blend",
-      "Fit": "Regular/Slim",
-      "Wash Care": "Machine Wash"
-    },
-    "reviews": [
-      {
-        "id": "rev_butdu",
-        "userName": "Customer",
-        "rating": 5,
-        "comment": "Excellent product, highly recommended!",
-        "date": "2024-12-15",
-        "helpful": 26,
-        "verified": true
-      }
-    ]
-  },
-  {
-    "id": "prod_225",
-    "name": "ONLY Kids's Premium Boys Jeans & Shorts",
-    "brand": "ONLY",
-    "description": "Premium quality boys jeans & shorts from ONLY. Features comfortable fit and excellent material suitable for everyday wear.",
-    "category": "Kids",
-    "subCategory": "Boys Jeans & Shorts",
-    "type": "Bottomwear",
-    "price": 10806,
-    "mrp": 13854,
-    "discount": 22,
-    "currency": "₹",
-    "rating": 4.5,
-    "reviewCount": 134,
-    "images": [
-      "https://images.unsplash.com/photo-1552374196-1ab2a1c593e8?w=600&q=80",
-      "https://images.unsplash.com/photo-1490578474895-699bc4e3f49f?w=600&q=80",
-      "https://images.unsplash.com/photo-1552374196-1ab2a1c593e8?w=600&q=80",
-      "https://images.unsplash.com/photo-1490578474895-699bc4e3f49f?w=600&q=80"
-    ],
-    "colors": [
-      {
-        "name": "Navy Blue",
-        "hex": "#000080"
-      },
-      {
-        "name": "Mustard",
-        "hex": "#FFDB58"
-      },
-      {
-        "name": "Olive",
-        "hex": "#556B2F"
-      }
-    ],
-    "sizes": [
-      "XS",
-      "S",
-      "M",
-      "L",
-      "XL",
-      "XXL"
-    ],
-    "sizesAvailable": {
-      "XS": false,
-      "S": true,
-      "M": true,
-      "L": true,
-      "XL": true,
-      "XXL": true
-    },
-    "material": "Premium Cotton Blend",
-    "fit": "Regular",
-    "pattern": "Solid",
-    "occasion": "Casual",
-    "season": "All Season",
-    "stock": 64,
-    "isTrending": true,
-    "isNewArrival": false,
-    "isBestSeller": true,
-    "tags": [
-      "fashion",
-      "premium",
-      "bottomwear",
-      "kids"
-    ],
-    "specifications": {
-      "Fabric": "Premium Cotton Blend",
-      "Fit": "Regular/Slim",
-      "Wash Care": "Machine Wash"
-    },
-    "reviews": [
-      {
-        "id": "rev_sqitl",
-        "userName": "Customer",
-        "rating": 5,
-        "comment": "Excellent product, highly recommended!",
-        "date": "2024-12-15",
-        "helpful": 1,
-        "verified": true
-      }
-    ]
-  },
-  {
-    "id": "prod_226",
-    "name": "Jack & Jones Kids's Premium Kids Ethnic Wear",
-    "brand": "Jack & Jones",
-    "description": "Premium quality kids ethnic wear from Jack & Jones. Features comfortable fit and excellent material suitable for everyday wear.",
-    "category": "Kids",
-    "subCategory": "Kids Ethnic Wear",
-    "type": "Topwear",
-    "price": 3285,
-    "mrp": 8879,
-    "discount": 63,
-    "currency": "₹",
-    "rating": 3.7,
-    "reviewCount": 1335,
-    "images": [
-      "https://images.unsplash.com/photo-1490578474895-699bc4e3f49f?w=600&q=80",
-      "https://images.unsplash.com/photo-1552374196-1ab2a1c593e8?w=600&q=80",
-      "https://images.unsplash.com/photo-1490578474895-699bc4e3f49f?w=600&q=80",
-      "https://images.unsplash.com/photo-1552374196-1ab2a1c593e8?w=600&q=80"
-    ],
-    "colors": [
-      {
-        "name": "Olive",
-        "hex": "#556B2F"
-      },
-      {
-        "name": "Off White",
-        "hex": "#f5f0e8"
-      },
-      {
-        "name": "Charcoal Black",
-        "hex": "#1a1a1a"
-      }
-    ],
-    "sizes": [
-      "XS",
-      "S",
-      "M",
-      "L",
-      "XL",
-      "XXL"
-    ],
-    "sizesAvailable": {
-      "XS": true,
-      "S": true,
-      "M": true,
-      "L": true,
-      "XL": true,
-      "XXL": false
-    },
-    "material": "Premium Cotton Blend",
-    "fit": "Regular",
-    "pattern": "Solid",
-    "occasion": "Casual",
-    "season": "All Season",
-    "stock": 81,
-    "isTrending": false,
-    "isNewArrival": false,
-    "isBestSeller": false,
-    "tags": [
-      "fashion",
-      "premium",
-      "topwear",
-      "kids"
-    ],
-    "specifications": {
-      "Fabric": "Premium Cotton Blend",
-      "Fit": "Regular/Slim",
-      "Wash Care": "Machine Wash"
-    },
-    "reviews": [
-      {
-        "id": "rev_omnl6",
-        "userName": "Customer",
-        "rating": 5,
-        "comment": "Excellent product, highly recommended!",
-        "date": "2024-12-15",
-        "helpful": 1,
-        "verified": true
-      }
-    ]
-  },
-  {
-    "id": "prod_227",
-    "name": "Adidas Kids's Premium Kids Ethnic Wear",
-    "brand": "Adidas",
-    "description": "Premium quality kids ethnic wear from Adidas. Features comfortable fit and excellent material suitable for everyday wear.",
-    "category": "Kids",
-    "subCategory": "Kids Ethnic Wear",
-    "type": "Topwear",
-    "price": 2576,
-    "mrp": 3390,
-    "discount": 24,
-    "currency": "₹",
-    "rating": 3.5,
-    "reviewCount": 4118,
-    "images": [
-      "https://images.unsplash.com/photo-1552374196-1ab2a1c593e8?w=600&q=80",
-      "https://images.unsplash.com/photo-1490578474895-699bc4e3f49f?w=600&q=80",
-      "https://images.unsplash.com/photo-1552374196-1ab2a1c593e8?w=600&q=80",
-      "https://images.unsplash.com/photo-1490578474895-699bc4e3f49f?w=600&q=80"
-    ],
-    "colors": [
-      {
-        "name": "Olive",
-        "hex": "#556B2F"
-      },
-      {
-        "name": "Charcoal Black",
+        "name": "Standard",
         "hex": "#1a1a1a"
       },
       {
-        "name": "Navy Blue",
-        "hex": "#000080"
+        "name": "Variant",
+        "hex": "#f5f5f5"
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -18574,1065 +6168,72 @@ export const products = [
       "XXL"
     ],
     "sizesAvailable": {
-      "XS": false,
-      "S": true,
-      "M": true,
-      "L": true,
-      "XL": false,
-      "XXL": false
-    },
-    "material": "Premium Cotton Blend",
-    "fit": "Slim",
-    "pattern": "Printed",
-    "occasion": "Casual",
-    "season": "All Season",
-    "stock": 99,
-    "isTrending": false,
-    "isNewArrival": false,
-    "isBestSeller": false,
-    "tags": [
-      "fashion",
-      "premium",
-      "topwear",
-      "kids"
-    ],
-    "specifications": {
-      "Fabric": "Premium Cotton Blend",
-      "Fit": "Regular/Slim",
-      "Wash Care": "Machine Wash"
-    },
-    "reviews": [
-      {
-        "id": "rev_ny0mz",
-        "userName": "Customer",
-        "rating": 5,
-        "comment": "Excellent product, highly recommended!",
-        "date": "2024-12-15",
-        "helpful": 4,
-        "verified": true
-      }
-    ]
-  },
-  {
-    "id": "prod_228",
-    "name": "H&M Kids's Premium Girls Leggings & Skirts",
-    "brand": "H&M",
-    "description": "Premium quality girls leggings & skirts from H&M. Features comfortable fit and excellent material suitable for everyday wear.",
-    "category": "Kids",
-    "subCategory": "Girls Leggings & Skirts",
-    "type": "Bottomwear",
-    "price": 2911,
-    "mrp": 3781,
-    "discount": 23,
-    "currency": "₹",
-    "rating": 4.1,
-    "reviewCount": 375,
-    "images": [
-      "https://images.unsplash.com/photo-1490578474895-699bc4e3f49f?w=600&q=80",
-      "https://images.unsplash.com/photo-1552374196-1ab2a1c593e8?w=600&q=80",
-      "https://images.unsplash.com/photo-1490578474895-699bc4e3f49f?w=600&q=80",
-      "https://images.unsplash.com/photo-1552374196-1ab2a1c593e8?w=600&q=80"
-    ],
-    "colors": [
-      {
-        "name": "Mustard",
-        "hex": "#FFDB58"
-      },
-      {
-        "name": "Olive",
-        "hex": "#556B2F"
-      },
-      {
-        "name": "Charcoal Black",
-        "hex": "#1a1a1a"
-      }
-    ],
-    "sizes": [
-      "XS",
-      "S",
-      "M",
-      "L",
-      "XL",
-      "XXL"
-    ],
-    "sizesAvailable": {
-      "XS": true,
       "S": true,
       "M": true,
       "L": true,
       "XL": true,
       "XXL": false
     },
-    "material": "Premium Cotton Blend",
+    "material": "100% Premium Material",
     "fit": "Regular",
     "pattern": "Solid",
     "occasion": "Casual",
-    "season": "All Season",
-    "stock": 104,
-    "isTrending": false,
-    "isNewArrival": false,
-    "isBestSeller": true,
-    "tags": [
-      "fashion",
-      "premium",
-      "bottomwear",
-      "kids"
-    ],
-    "specifications": {
-      "Fabric": "Premium Cotton Blend",
-      "Fit": "Regular/Slim",
-      "Wash Care": "Machine Wash"
-    },
-    "reviews": [
-      {
-        "id": "rev_u6b3k",
-        "userName": "Customer",
-        "rating": 5,
-        "comment": "Excellent product, highly recommended!",
-        "date": "2024-12-15",
-        "helpful": 25,
-        "verified": true
-      }
-    ]
-  },
-  {
-    "id": "prod_229",
-    "name": "ONLY Kids's Premium Girls Dresses & Tops",
-    "brand": "ONLY",
-    "description": "Premium quality girls dresses & tops from ONLY. Features comfortable fit and excellent material suitable for everyday wear.",
-    "category": "Kids",
-    "subCategory": "Girls Dresses & Tops",
-    "type": "Topwear",
-    "price": 1642,
-    "mrp": 3732,
-    "discount": 56,
-    "currency": "₹",
-    "rating": 4.8,
-    "reviewCount": 2769,
-    "images": [
-      "https://images.unsplash.com/photo-1552374196-1ab2a1c593e8?w=600&q=80",
-      "https://images.unsplash.com/photo-1490578474895-699bc4e3f49f?w=600&q=80",
-      "https://images.unsplash.com/photo-1552374196-1ab2a1c593e8?w=600&q=80",
-      "https://images.unsplash.com/photo-1490578474895-699bc4e3f49f?w=600&q=80"
-    ],
-    "colors": [
-      {
-        "name": "Mustard",
-        "hex": "#FFDB58"
-      },
-      {
-        "name": "Maroon",
-        "hex": "#800000"
-      },
-      {
-        "name": "Olive",
-        "hex": "#556B2F"
-      }
-    ],
-    "sizes": [
-      "XS",
-      "S",
-      "M",
-      "L",
-      "XL",
-      "XXL"
-    ],
-    "sizesAvailable": {
-      "XS": true,
-      "S": true,
-      "M": true,
-      "L": true,
-      "XL": true,
-      "XXL": false
-    },
-    "material": "Premium Cotton Blend",
-    "fit": "Regular",
-    "pattern": "Printed",
-    "occasion": "Casual",
-    "season": "All Season",
-    "stock": 95,
-    "isTrending": false,
-    "isNewArrival": false,
-    "isBestSeller": false,
-    "tags": [
-      "fashion",
-      "premium",
-      "topwear",
-      "kids"
-    ],
-    "specifications": {
-      "Fabric": "Premium Cotton Blend",
-      "Fit": "Regular/Slim",
-      "Wash Care": "Machine Wash"
-    },
-    "reviews": [
-      {
-        "id": "rev_ffk7q",
-        "userName": "Customer",
-        "rating": 5,
-        "comment": "Excellent product, highly recommended!",
-        "date": "2024-12-15",
-        "helpful": 42,
-        "verified": true
-      }
-    ]
-  },
-  {
-    "id": "prod_230",
-    "name": "FabIndia Kids's Premium Boys Jeans & Shorts",
-    "brand": "FabIndia",
-    "description": "Premium quality boys jeans & shorts from FabIndia. Features comfortable fit and excellent material suitable for everyday wear.",
-    "category": "Kids",
-    "subCategory": "Boys Jeans & Shorts",
-    "type": "Bottomwear",
-    "price": 3791,
-    "mrp": 4260,
-    "discount": 11,
-    "currency": "₹",
-    "rating": 4.5,
-    "reviewCount": 3351,
-    "images": [
-      "https://images.unsplash.com/photo-1490578474895-699bc4e3f49f?w=600&q=80",
-      "https://images.unsplash.com/photo-1552374196-1ab2a1c593e8?w=600&q=80",
-      "https://images.unsplash.com/photo-1490578474895-699bc4e3f49f?w=600&q=80",
-      "https://images.unsplash.com/photo-1552374196-1ab2a1c593e8?w=600&q=80"
-    ],
-    "colors": [
-      {
-        "name": "Mustard",
-        "hex": "#FFDB58"
-      },
-      {
-        "name": "Maroon",
-        "hex": "#800000"
-      },
-      {
-        "name": "Off White",
-        "hex": "#f5f0e8"
-      }
-    ],
-    "sizes": [
-      "XS",
-      "S",
-      "M",
-      "L",
-      "XL",
-      "XXL"
-    ],
-    "sizesAvailable": {
-      "XS": true,
-      "S": true,
-      "M": true,
-      "L": true,
-      "XL": true,
-      "XXL": false
-    },
-    "material": "Premium Cotton Blend",
-    "fit": "Slim",
-    "pattern": "Printed",
-    "occasion": "Casual",
-    "season": "All Season",
-    "stock": 67,
-    "isTrending": false,
-    "isNewArrival": false,
-    "isBestSeller": false,
-    "tags": [
-      "fashion",
-      "premium",
-      "bottomwear",
-      "kids"
-    ],
-    "specifications": {
-      "Fabric": "Premium Cotton Blend",
-      "Fit": "Regular/Slim",
-      "Wash Care": "Machine Wash"
-    },
-    "reviews": [
-      {
-        "id": "rev_h7vrx",
-        "userName": "Customer",
-        "rating": 5,
-        "comment": "Excellent product, highly recommended!",
-        "date": "2024-12-15",
-        "helpful": 21,
-        "verified": true
-      }
-    ]
-  },
-  {
-    "id": "prod_231",
-    "name": "NOIR Kids's Premium Boys Jeans & Shorts",
-    "brand": "NOIR",
-    "description": "Premium quality boys jeans & shorts from NOIR. Features comfortable fit and excellent material suitable for everyday wear.",
-    "category": "Kids",
-    "subCategory": "Boys Jeans & Shorts",
-    "type": "Bottomwear",
-    "price": 9849,
-    "mrp": 12791,
-    "discount": 23,
-    "currency": "₹",
-    "rating": 3.3,
-    "reviewCount": 4316,
-    "images": [
-      "https://images.unsplash.com/photo-1552374196-1ab2a1c593e8?w=600&q=80",
-      "https://images.unsplash.com/photo-1490578474895-699bc4e3f49f?w=600&q=80",
-      "https://images.unsplash.com/photo-1552374196-1ab2a1c593e8?w=600&q=80",
-      "https://images.unsplash.com/photo-1490578474895-699bc4e3f49f?w=600&q=80"
-    ],
-    "colors": [
-      {
-        "name": "Olive",
-        "hex": "#556B2F"
-      },
-      {
-        "name": "Navy Blue",
-        "hex": "#000080"
-      },
-      {
-        "name": "Mustard",
-        "hex": "#FFDB58"
-      }
-    ],
-    "sizes": [
-      "XS",
-      "S",
-      "M",
-      "L",
-      "XL",
-      "XXL"
-    ],
-    "sizesAvailable": {
-      "XS": true,
-      "S": true,
-      "M": true,
-      "L": true,
-      "XL": false,
-      "XXL": true
-    },
-    "material": "Premium Cotton Blend",
-    "fit": "Slim",
-    "pattern": "Solid",
-    "occasion": "Casual",
-    "season": "All Season",
-    "stock": 71,
-    "isTrending": false,
-    "isNewArrival": true,
-    "isBestSeller": false,
-    "tags": [
-      "fashion",
-      "premium",
-      "bottomwear",
-      "kids"
-    ],
-    "specifications": {
-      "Fabric": "Premium Cotton Blend",
-      "Fit": "Regular/Slim",
-      "Wash Care": "Machine Wash"
-    },
-    "reviews": [
-      {
-        "id": "rev_3yfyu",
-        "userName": "Customer",
-        "rating": 5,
-        "comment": "Excellent product, highly recommended!",
-        "date": "2024-12-15",
-        "helpful": 48,
-        "verified": true
-      }
-    ]
-  },
-  {
-    "id": "prod_232",
-    "name": "Zara Kids's Premium Boys Jeans & Shorts",
-    "brand": "Zara",
-    "description": "Premium quality boys jeans & shorts from Zara. Features comfortable fit and excellent material suitable for everyday wear.",
-    "category": "Kids",
-    "subCategory": "Boys Jeans & Shorts",
-    "type": "Bottomwear",
-    "price": 489,
-    "mrp": 960,
-    "discount": 49,
-    "currency": "₹",
-    "rating": 3.3,
-    "reviewCount": 2969,
-    "images": [
-      "https://images.unsplash.com/photo-1490578474895-699bc4e3f49f?w=600&q=80",
-      "https://images.unsplash.com/photo-1552374196-1ab2a1c593e8?w=600&q=80",
-      "https://images.unsplash.com/photo-1490578474895-699bc4e3f49f?w=600&q=80",
-      "https://images.unsplash.com/photo-1552374196-1ab2a1c593e8?w=600&q=80"
-    ],
-    "colors": [
-      {
-        "name": "Maroon",
-        "hex": "#800000"
-      },
-      {
-        "name": "Navy Blue",
-        "hex": "#000080"
-      },
-      {
-        "name": "Mustard",
-        "hex": "#FFDB58"
-      }
-    ],
-    "sizes": [
-      "XS",
-      "S",
-      "M",
-      "L",
-      "XL",
-      "XXL"
-    ],
-    "sizesAvailable": {
-      "XS": true,
-      "S": true,
-      "M": true,
-      "L": true,
-      "XL": false,
-      "XXL": false
-    },
-    "material": "Premium Cotton Blend",
-    "fit": "Regular",
-    "pattern": "Printed",
-    "occasion": "Casual",
-    "season": "All Season",
-    "stock": 66,
-    "isTrending": false,
-    "isNewArrival": false,
-    "isBestSeller": false,
-    "tags": [
-      "fashion",
-      "premium",
-      "bottomwear",
-      "kids"
-    ],
-    "specifications": {
-      "Fabric": "Premium Cotton Blend",
-      "Fit": "Regular/Slim",
-      "Wash Care": "Machine Wash"
-    },
-    "reviews": [
-      {
-        "id": "rev_bssz1",
-        "userName": "Customer",
-        "rating": 5,
-        "comment": "Excellent product, highly recommended!",
-        "date": "2024-12-15",
-        "helpful": 22,
-        "verified": true
-      }
-    ]
-  },
-  {
-    "id": "prod_233",
-    "name": "Van Heusen Kids's Premium Girls Dresses & Tops",
-    "brand": "Van Heusen",
-    "description": "Premium quality girls dresses & tops from Van Heusen. Features comfortable fit and excellent material suitable for everyday wear.",
-    "category": "Kids",
-    "subCategory": "Girls Dresses & Tops",
-    "type": "Topwear",
-    "price": 2072,
-    "mrp": 2919,
-    "discount": 29,
-    "currency": "₹",
-    "rating": 3.3,
-    "reviewCount": 1145,
-    "images": [
-      "https://images.unsplash.com/photo-1552374196-1ab2a1c593e8?w=600&q=80",
-      "https://images.unsplash.com/photo-1490578474895-699bc4e3f49f?w=600&q=80",
-      "https://images.unsplash.com/photo-1552374196-1ab2a1c593e8?w=600&q=80",
-      "https://images.unsplash.com/photo-1490578474895-699bc4e3f49f?w=600&q=80"
-    ],
-    "colors": [
-      {
-        "name": "Maroon",
-        "hex": "#800000"
-      },
-      {
-        "name": "Olive",
-        "hex": "#556B2F"
-      },
-      {
-        "name": "Navy Blue",
-        "hex": "#000080"
-      }
-    ],
-    "sizes": [
-      "XS",
-      "S",
-      "M",
-      "L",
-      "XL",
-      "XXL"
-    ],
-    "sizesAvailable": {
-      "XS": true,
-      "S": true,
-      "M": true,
-      "L": true,
-      "XL": true,
-      "XXL": true
-    },
-    "material": "Premium Cotton Blend",
-    "fit": "Regular",
-    "pattern": "Solid",
-    "occasion": "Casual",
-    "season": "All Season",
-    "stock": 19,
-    "isTrending": false,
-    "isNewArrival": true,
-    "isBestSeller": false,
-    "tags": [
-      "fashion",
-      "premium",
-      "topwear",
-      "kids"
-    ],
-    "specifications": {
-      "Fabric": "Premium Cotton Blend",
-      "Fit": "Regular/Slim",
-      "Wash Care": "Machine Wash"
-    },
-    "reviews": [
-      {
-        "id": "rev_os2wd",
-        "userName": "Customer",
-        "rating": 5,
-        "comment": "Excellent product, highly recommended!",
-        "date": "2024-12-15",
-        "helpful": 5,
-        "verified": true
-      }
-    ]
-  },
-  {
-    "id": "prod_234",
-    "name": "Levi's Kids's Premium Girls Dresses & Tops",
-    "brand": "Levi's",
-    "description": "Premium quality girls dresses & tops from Levi's. Features comfortable fit and excellent material suitable for everyday wear.",
-    "category": "Kids",
-    "subCategory": "Girls Dresses & Tops",
-    "type": "Topwear",
-    "price": 322,
-    "mrp": 734,
-    "discount": 56,
-    "currency": "₹",
-    "rating": 4.7,
-    "reviewCount": 4116,
-    "images": [
-      "https://images.unsplash.com/photo-1490578474895-699bc4e3f49f?w=600&q=80",
-      "https://images.unsplash.com/photo-1552374196-1ab2a1c593e8?w=600&q=80",
-      "https://images.unsplash.com/photo-1490578474895-699bc4e3f49f?w=600&q=80",
-      "https://images.unsplash.com/photo-1552374196-1ab2a1c593e8?w=600&q=80"
-    ],
-    "colors": [
-      {
-        "name": "Charcoal Black",
-        "hex": "#1a1a1a"
-      },
-      {
-        "name": "Olive",
-        "hex": "#556B2F"
-      },
-      {
-        "name": "Navy Blue",
-        "hex": "#000080"
-      }
-    ],
-    "sizes": [
-      "XS",
-      "S",
-      "M",
-      "L",
-      "XL",
-      "XXL"
-    ],
-    "sizesAvailable": {
-      "XS": true,
-      "S": true,
-      "M": true,
-      "L": true,
-      "XL": true,
-      "XXL": false
-    },
-    "material": "Premium Cotton Blend",
-    "fit": "Slim",
-    "pattern": "Printed",
-    "occasion": "Casual",
-    "season": "All Season",
-    "stock": 9,
-    "isTrending": true,
-    "isNewArrival": false,
-    "isBestSeller": false,
-    "tags": [
-      "fashion",
-      "premium",
-      "topwear",
-      "kids"
-    ],
-    "specifications": {
-      "Fabric": "Premium Cotton Blend",
-      "Fit": "Regular/Slim",
-      "Wash Care": "Machine Wash"
-    },
-    "reviews": [
-      {
-        "id": "rev_qgkge",
-        "userName": "Customer",
-        "rating": 5,
-        "comment": "Excellent product, highly recommended!",
-        "date": "2024-12-15",
-        "helpful": 40,
-        "verified": true
-      }
-    ]
-  },
-  {
-    "id": "prod_235",
-    "name": "Puma Kids's Premium Boys Jeans & Shorts",
-    "brand": "Puma",
-    "description": "Premium quality boys jeans & shorts from Puma. Features comfortable fit and excellent material suitable for everyday wear.",
-    "category": "Kids",
-    "subCategory": "Boys Jeans & Shorts",
-    "type": "Bottomwear",
-    "price": 1405,
-    "mrp": 4017,
-    "discount": 65,
-    "currency": "₹",
-    "rating": 3.5,
-    "reviewCount": 3221,
-    "images": [
-      "https://images.unsplash.com/photo-1552374196-1ab2a1c593e8?w=600&q=80",
-      "https://images.unsplash.com/photo-1490578474895-699bc4e3f49f?w=600&q=80",
-      "https://images.unsplash.com/photo-1552374196-1ab2a1c593e8?w=600&q=80",
-      "https://images.unsplash.com/photo-1490578474895-699bc4e3f49f?w=600&q=80"
-    ],
-    "colors": [
-      {
-        "name": "Mustard",
-        "hex": "#FFDB58"
-      },
-      {
-        "name": "Olive",
-        "hex": "#556B2F"
-      },
-      {
-        "name": "Off White",
-        "hex": "#f5f0e8"
-      }
-    ],
-    "sizes": [
-      "XS",
-      "S",
-      "M",
-      "L",
-      "XL",
-      "XXL"
-    ],
-    "sizesAvailable": {
-      "XS": false,
-      "S": true,
-      "M": true,
-      "L": true,
-      "XL": true,
-      "XXL": true
-    },
-    "material": "Premium Cotton Blend",
-    "fit": "Slim",
-    "pattern": "Printed",
-    "occasion": "Casual",
-    "season": "All Season",
-    "stock": 55,
-    "isTrending": false,
-    "isNewArrival": false,
-    "isBestSeller": false,
-    "tags": [
-      "fashion",
-      "premium",
-      "bottomwear",
-      "kids"
-    ],
-    "specifications": {
-      "Fabric": "Premium Cotton Blend",
-      "Fit": "Regular/Slim",
-      "Wash Care": "Machine Wash"
-    },
-    "reviews": [
-      {
-        "id": "rev_lfpwg",
-        "userName": "Customer",
-        "rating": 5,
-        "comment": "Excellent product, highly recommended!",
-        "date": "2024-12-15",
-        "helpful": 32,
-        "verified": true
-      }
-    ]
-  },
-  {
-    "id": "prod_236",
-    "name": "Levi's Kids's Premium Girls Leggings & Skirts",
-    "brand": "Levi's",
-    "description": "Premium quality girls leggings & skirts from Levi's. Features comfortable fit and excellent material suitable for everyday wear.",
-    "category": "Kids",
-    "subCategory": "Girls Leggings & Skirts",
-    "type": "Bottomwear",
-    "price": 1101,
-    "mrp": 3552,
-    "discount": 69,
-    "currency": "₹",
-    "rating": 4.4,
-    "reviewCount": 2705,
-    "images": [
-      "https://images.unsplash.com/photo-1490578474895-699bc4e3f49f?w=600&q=80",
-      "https://images.unsplash.com/photo-1552374196-1ab2a1c593e8?w=600&q=80",
-      "https://images.unsplash.com/photo-1490578474895-699bc4e3f49f?w=600&q=80",
-      "https://images.unsplash.com/photo-1552374196-1ab2a1c593e8?w=600&q=80"
-    ],
-    "colors": [
-      {
-        "name": "Charcoal Black",
-        "hex": "#1a1a1a"
-      },
-      {
-        "name": "Olive",
-        "hex": "#556B2F"
-      },
-      {
-        "name": "Navy Blue",
-        "hex": "#000080"
-      }
-    ],
-    "sizes": [
-      "XS",
-      "S",
-      "M",
-      "L",
-      "XL",
-      "XXL"
-    ],
-    "sizesAvailable": {
-      "XS": true,
-      "S": true,
-      "M": true,
-      "L": true,
-      "XL": false,
-      "XXL": true
-    },
-    "material": "Premium Cotton Blend",
-    "fit": "Regular",
-    "pattern": "Printed",
-    "occasion": "Casual",
-    "season": "All Season",
-    "stock": 50,
-    "isTrending": false,
-    "isNewArrival": true,
-    "isBestSeller": false,
-    "tags": [
-      "fashion",
-      "premium",
-      "bottomwear",
-      "kids"
-    ],
-    "specifications": {
-      "Fabric": "Premium Cotton Blend",
-      "Fit": "Regular/Slim",
-      "Wash Care": "Machine Wash"
-    },
-    "reviews": [
-      {
-        "id": "rev_gar6k",
-        "userName": "Customer",
-        "rating": 5,
-        "comment": "Excellent product, highly recommended!",
-        "date": "2024-12-15",
-        "helpful": 18,
-        "verified": true
-      }
-    ]
-  },
-  {
-    "id": "prod_237",
-    "name": "DRIFT Kids's Premium Boys Jeans & Shorts",
-    "brand": "DRIFT",
-    "description": "Premium quality boys jeans & shorts from DRIFT. Features comfortable fit and excellent material suitable for everyday wear.",
-    "category": "Kids",
-    "subCategory": "Boys Jeans & Shorts",
-    "type": "Bottomwear",
-    "price": 3862,
-    "mrp": 10440,
-    "discount": 63,
-    "currency": "₹",
-    "rating": 4,
-    "reviewCount": 3773,
-    "images": [
-      "https://images.unsplash.com/photo-1552374196-1ab2a1c593e8?w=600&q=80",
-      "https://images.unsplash.com/photo-1490578474895-699bc4e3f49f?w=600&q=80",
-      "https://images.unsplash.com/photo-1552374196-1ab2a1c593e8?w=600&q=80",
-      "https://images.unsplash.com/photo-1490578474895-699bc4e3f49f?w=600&q=80"
-    ],
-    "colors": [
-      {
-        "name": "Mustard",
-        "hex": "#FFDB58"
-      },
-      {
-        "name": "Off White",
-        "hex": "#f5f0e8"
-      },
-      {
-        "name": "Navy Blue",
-        "hex": "#000080"
-      }
-    ],
-    "sizes": [
-      "XS",
-      "S",
-      "M",
-      "L",
-      "XL",
-      "XXL"
-    ],
-    "sizesAvailable": {
-      "XS": false,
-      "S": true,
-      "M": true,
-      "L": true,
-      "XL": false,
-      "XXL": false
-    },
-    "material": "Premium Cotton Blend",
-    "fit": "Regular",
-    "pattern": "Solid",
-    "occasion": "Casual",
-    "season": "All Season",
     "stock": 44,
     "isTrending": false,
     "isNewArrival": false,
     "isBestSeller": false,
     "tags": [
-      "fashion",
       "premium",
-      "bottomwear",
-      "kids"
+      "comfortable",
+      "jeans"
     ],
     "specifications": {
-      "Fabric": "Premium Cotton Blend",
-      "Fit": "Regular/Slim",
+      "Fabric": "Premium Quality",
+      "Fit": "Regular",
       "Wash Care": "Machine Wash"
     },
     "reviews": [
       {
-        "id": "rev_qs1gm",
-        "userName": "Customer",
+        "id": "rev_85_1",
+        "userName": "Verified Buyer",
         "rating": 5,
-        "comment": "Excellent product, highly recommended!",
-        "date": "2024-12-15",
-        "helpful": 13,
-        "verified": true
-      }
-    ]
-  },
-  {
-    "id": "prod_238",
-    "name": "Puma Kids's Premium Girls Leggings & Skirts",
-    "brand": "Puma",
-    "description": "Premium quality girls leggings & skirts from Puma. Features comfortable fit and excellent material suitable for everyday wear.",
-    "category": "Kids",
-    "subCategory": "Girls Leggings & Skirts",
-    "type": "Bottomwear",
-    "price": 1956,
-    "mrp": 2574,
-    "discount": 24,
-    "currency": "₹",
-    "rating": 3.4,
-    "reviewCount": 2029,
-    "images": [
-      "https://images.unsplash.com/photo-1490578474895-699bc4e3f49f?w=600&q=80",
-      "https://images.unsplash.com/photo-1552374196-1ab2a1c593e8?w=600&q=80",
-      "https://images.unsplash.com/photo-1490578474895-699bc4e3f49f?w=600&q=80",
-      "https://images.unsplash.com/photo-1552374196-1ab2a1c593e8?w=600&q=80"
-    ],
-    "colors": [
-      {
-        "name": "Olive",
-        "hex": "#556B2F"
-      },
-      {
-        "name": "Maroon",
-        "hex": "#800000"
-      },
-      {
-        "name": "Charcoal Black",
-        "hex": "#1a1a1a"
-      }
-    ],
-    "sizes": [
-      "XS",
-      "S",
-      "M",
-      "L",
-      "XL",
-      "XXL"
-    ],
-    "sizesAvailable": {
-      "XS": false,
-      "S": true,
-      "M": true,
-      "L": true,
-      "XL": false,
-      "XXL": false
-    },
-    "material": "Premium Cotton Blend",
-    "fit": "Regular",
-    "pattern": "Solid",
-    "occasion": "Casual",
-    "season": "All Season",
-    "stock": 49,
-    "isTrending": false,
-    "isNewArrival": false,
-    "isBestSeller": false,
-    "tags": [
-      "fashion",
-      "premium",
-      "bottomwear",
-      "kids"
-    ],
-    "specifications": {
-      "Fabric": "Premium Cotton Blend",
-      "Fit": "Regular/Slim",
-      "Wash Care": "Machine Wash"
-    },
-    "reviews": [
-      {
-        "id": "rev_4f95u",
-        "userName": "Customer",
-        "rating": 5,
-        "comment": "Excellent product, highly recommended!",
-        "date": "2024-12-15",
-        "helpful": 20,
-        "verified": true
-      }
-    ]
-  },
-  {
-    "id": "prod_239",
-    "name": "ONLY Kids's Premium Kids Ethnic Wear",
-    "brand": "ONLY",
-    "description": "Premium quality kids ethnic wear from ONLY. Features comfortable fit and excellent material suitable for everyday wear.",
-    "category": "Kids",
-    "subCategory": "Kids Ethnic Wear",
-    "type": "Topwear",
-    "price": 927,
-    "mrp": 1572,
-    "discount": 41,
-    "currency": "₹",
-    "rating": 3.6,
-    "reviewCount": 1158,
-    "images": [
-      "https://images.unsplash.com/photo-1552374196-1ab2a1c593e8?w=600&q=80",
-      "https://images.unsplash.com/photo-1490578474895-699bc4e3f49f?w=600&q=80",
-      "https://images.unsplash.com/photo-1552374196-1ab2a1c593e8?w=600&q=80",
-      "https://images.unsplash.com/photo-1490578474895-699bc4e3f49f?w=600&q=80"
-    ],
-    "colors": [
-      {
-        "name": "Off White",
-        "hex": "#f5f0e8"
-      },
-      {
-        "name": "Maroon",
-        "hex": "#800000"
-      },
-      {
-        "name": "Charcoal Black",
-        "hex": "#1a1a1a"
-      }
-    ],
-    "sizes": [
-      "XS",
-      "S",
-      "M",
-      "L",
-      "XL",
-      "XXL"
-    ],
-    "sizesAvailable": {
-      "XS": false,
-      "S": true,
-      "M": true,
-      "L": true,
-      "XL": true,
-      "XXL": false
-    },
-    "material": "Premium Cotton Blend",
-    "fit": "Regular",
-    "pattern": "Solid",
-    "occasion": "Casual",
-    "season": "All Season",
-    "stock": 45,
-    "isTrending": false,
-    "isNewArrival": false,
-    "isBestSeller": true,
-    "tags": [
-      "fashion",
-      "premium",
-      "topwear",
-      "kids"
-    ],
-    "specifications": {
-      "Fabric": "Premium Cotton Blend",
-      "Fit": "Regular/Slim",
-      "Wash Care": "Machine Wash"
-    },
-    "reviews": [
-      {
-        "id": "rev_q6waf",
-        "userName": "Customer",
-        "rating": 5,
-        "comment": "Excellent product, highly recommended!",
-        "date": "2024-12-15",
+        "comment": "Absolutely love this product! The quality is amazing for the price.",
+        "date": "2024-03-15",
         "helpful": 7,
         "verified": true
       }
     ]
   },
   {
-    "id": "prod_240",
-    "name": "Allen Solly Kids's Premium Girls Leggings & Skirts",
-    "brand": "Allen Solly",
-    "description": "Premium quality girls leggings & skirts from Allen Solly. Features comfortable fit and excellent material suitable for everyday wear.",
-    "category": "Kids",
-    "subCategory": "Girls Leggings & Skirts",
+    "id": "prod_086",
+    "name": "Premium Jeans - Style 6",
+    "brand": "Zara",
+    "description": "Experience ultimate comfort and style with our latest jeans. Perfect for everyday wear, featuring premium materials and exceptional craftsmanship.",
+    "category": "Women",
+    "subCategory": "Jeans",
     "type": "Bottomwear",
-    "price": 5390,
-    "mrp": 6196,
-    "discount": 13,
+    "price": 399,
+    "mrp": 598,
+    "discount": 33,
     "currency": "₹",
-    "rating": 5,
-    "reviewCount": 3331,
+    "rating": "4.3",
+    "reviewCount": 3874,
     "images": [
-      "https://images.unsplash.com/photo-1490578474895-699bc4e3f49f?w=600&q=80",
-      "https://images.unsplash.com/photo-1552374196-1ab2a1c593e8?w=600&q=80",
-      "https://images.unsplash.com/photo-1490578474895-699bc4e3f49f?w=600&q=80",
-      "https://images.unsplash.com/photo-1552374196-1ab2a1c593e8?w=600&q=80"
+      "https://images.unsplash.com/photo-1502088113834-dde1e9b2e5c2?w=600&q=80",
+      "https://images.unsplash.com/photo-1598033129183-9be1a2c85a81?w=600&q=80",
+      "https://images.unsplash.com/photo-1594938298-e5b0c2b638d6?w=600&q=80"
     ],
     "colors": [
       {
-        "name": "Off White",
-        "hex": "#f5f0e8"
+        "name": "Standard",
+        "hex": "#1a1a1a"
       },
       {
-        "name": "Olive",
-        "hex": "#556B2F"
-      },
-      {
-        "name": "Mustard",
-        "hex": "#FFDB58"
+        "name": "Variant",
+        "hex": "#f5f5f5"
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -19640,81 +6241,72 @@ export const products = [
       "XXL"
     ],
     "sizesAvailable": {
-      "XS": false,
       "S": true,
       "M": true,
       "L": true,
       "XL": true,
       "XXL": false
     },
-    "material": "Premium Cotton Blend",
-    "fit": "Slim",
-    "pattern": "Printed",
+    "material": "100% Premium Material",
+    "fit": "Regular",
+    "pattern": "Solid",
     "occasion": "Casual",
-    "season": "All Season",
-    "stock": 39,
-    "isTrending": false,
-    "isNewArrival": true,
-    "isBestSeller": true,
+    "stock": 50,
+    "isTrending": true,
+    "isNewArrival": false,
+    "isBestSeller": false,
     "tags": [
-      "fashion",
       "premium",
-      "bottomwear",
-      "kids"
+      "comfortable",
+      "jeans"
     ],
     "specifications": {
-      "Fabric": "Premium Cotton Blend",
-      "Fit": "Regular/Slim",
+      "Fabric": "Premium Quality",
+      "Fit": "Regular",
       "Wash Care": "Machine Wash"
     },
     "reviews": [
       {
-        "id": "rev_hzzx9",
-        "userName": "Customer",
+        "id": "rev_86_1",
+        "userName": "Verified Buyer",
         "rating": 5,
-        "comment": "Excellent product, highly recommended!",
-        "date": "2024-12-15",
-        "helpful": 22,
+        "comment": "Absolutely love this product! The quality is amazing for the price.",
+        "date": "2024-03-15",
+        "helpful": 12,
         "verified": true
       }
     ]
   },
   {
-    "id": "prod_241",
-    "name": "Adidas Kids's Premium Girls Leggings & Skirts",
-    "brand": "Adidas",
-    "description": "Premium quality girls leggings & skirts from Adidas. Features comfortable fit and excellent material suitable for everyday wear.",
-    "category": "Kids",
-    "subCategory": "Girls Leggings & Skirts",
+    "id": "prod_087",
+    "name": "Premium Jeans - Style 7",
+    "brand": "URBAN EDGE",
+    "description": "Experience ultimate comfort and style with our latest jeans. Perfect for everyday wear, featuring premium materials and exceptional craftsmanship.",
+    "category": "Women",
+    "subCategory": "Jeans",
     "type": "Bottomwear",
-    "price": 6588,
-    "mrp": 9549,
-    "discount": 31,
+    "price": 1199,
+    "mrp": 2998,
+    "discount": 60,
     "currency": "₹",
-    "rating": 5,
-    "reviewCount": 3767,
+    "rating": "4.1",
+    "reviewCount": 4732,
     "images": [
-      "https://images.unsplash.com/photo-1552374196-1ab2a1c593e8?w=600&q=80",
-      "https://images.unsplash.com/photo-1490578474895-699bc4e3f49f?w=600&q=80",
-      "https://images.unsplash.com/photo-1552374196-1ab2a1c593e8?w=600&q=80",
-      "https://images.unsplash.com/photo-1490578474895-699bc4e3f49f?w=600&q=80"
+      "https://images.unsplash.com/photo-1598033129183-9be1a2c85a81?w=600&q=80",
+      "https://images.unsplash.com/photo-1594938298-e5b0c2b638d6?w=600&q=80",
+      "https://images.unsplash.com/photo-1541099649105-f69ad21f3246?w=600&q=80"
     ],
     "colors": [
       {
-        "name": "Off White",
-        "hex": "#f5f0e8"
-      },
-      {
-        "name": "Charcoal Black",
+        "name": "Standard",
         "hex": "#1a1a1a"
       },
       {
-        "name": "Olive",
-        "hex": "#556B2F"
+        "name": "Variant",
+        "hex": "#f5f5f5"
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -19722,81 +6314,72 @@ export const products = [
       "XXL"
     ],
     "sizesAvailable": {
-      "XS": false,
       "S": true,
       "M": true,
       "L": true,
-      "XL": false,
+      "XL": true,
       "XXL": false
     },
-    "material": "Premium Cotton Blend",
-    "fit": "Slim",
+    "material": "100% Premium Material",
+    "fit": "Regular",
     "pattern": "Solid",
     "occasion": "Casual",
-    "season": "All Season",
-    "stock": 10,
-    "isTrending": true,
+    "stock": 37,
+    "isTrending": false,
     "isNewArrival": false,
-    "isBestSeller": true,
+    "isBestSeller": false,
     "tags": [
-      "fashion",
       "premium",
-      "bottomwear",
-      "kids"
+      "comfortable",
+      "jeans"
     ],
     "specifications": {
-      "Fabric": "Premium Cotton Blend",
-      "Fit": "Regular/Slim",
+      "Fabric": "Premium Quality",
+      "Fit": "Regular",
       "Wash Care": "Machine Wash"
     },
     "reviews": [
       {
-        "id": "rev_assdu",
-        "userName": "Customer",
+        "id": "rev_87_1",
+        "userName": "Verified Buyer",
         "rating": 5,
-        "comment": "Excellent product, highly recommended!",
-        "date": "2024-12-15",
-        "helpful": 37,
+        "comment": "Absolutely love this product! The quality is amazing for the price.",
+        "date": "2024-03-15",
+        "helpful": 7,
         "verified": true
       }
     ]
   },
   {
-    "id": "prod_242",
-    "name": "AURA Kids's Premium Girls Leggings & Skirts",
-    "brand": "AURA",
-    "description": "Premium quality girls leggings & skirts from AURA. Features comfortable fit and excellent material suitable for everyday wear.",
-    "category": "Kids",
-    "subCategory": "Girls Leggings & Skirts",
-    "type": "Bottomwear",
-    "price": 5974,
-    "mrp": 9958,
-    "discount": 40,
+    "id": "prod_088",
+    "name": "Premium Ethnic - Style 1",
+    "brand": "Jack & Jones",
+    "description": "Experience ultimate comfort and style with our latest ethnic. Perfect for everyday wear, featuring premium materials and exceptional craftsmanship.",
+    "category": "Women",
+    "subCategory": "Ethnic",
+    "type": "Ethnic",
+    "price": 3699,
+    "mrp": 9598,
+    "discount": 61,
     "currency": "₹",
-    "rating": 4.6,
-    "reviewCount": 823,
+    "rating": "4.8",
+    "reviewCount": 247,
     "images": [
-      "https://images.unsplash.com/photo-1490578474895-699bc4e3f49f?w=600&q=80",
-      "https://images.unsplash.com/photo-1552374196-1ab2a1c593e8?w=600&q=80",
-      "https://images.unsplash.com/photo-1490578474895-699bc4e3f49f?w=600&q=80",
-      "https://images.unsplash.com/photo-1552374196-1ab2a1c593e8?w=600&q=80"
+      "https://images.unsplash.com/photo-1610030469211-8d9ec0f8f455?w=600&q=80",
+      "https://images.unsplash.com/photo-1583391099893-28f6c9cb0b4c?w=600&q=80",
+      "https://images.unsplash.com/photo-1583744534046-0aa6a5f9f0b4?w=600&q=80"
     ],
     "colors": [
       {
-        "name": "Charcoal Black",
+        "name": "Standard",
         "hex": "#1a1a1a"
       },
       {
-        "name": "Off White",
-        "hex": "#f5f0e8"
-      },
-      {
-        "name": "Mustard",
-        "hex": "#FFDB58"
+        "name": "Variant",
+        "hex": "#f5f5f5"
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -19804,81 +6387,1970 @@ export const products = [
       "XXL"
     ],
     "sizesAvailable": {
-      "XS": true,
+      "S": true,
+      "M": true,
+      "L": true,
+      "XL": true,
+      "XXL": false
+    },
+    "material": "100% Premium Material",
+    "fit": "Regular",
+    "pattern": "Solid",
+    "occasion": "Casual",
+    "stock": 96,
+    "isTrending": false,
+    "isNewArrival": false,
+    "isBestSeller": false,
+    "tags": [
+      "premium",
+      "comfortable",
+      "ethnic"
+    ],
+    "specifications": {
+      "Fabric": "Premium Quality",
+      "Fit": "Regular",
+      "Wash Care": "Machine Wash"
+    },
+    "reviews": [
+      {
+        "id": "rev_88_1",
+        "userName": "Verified Buyer",
+        "rating": 5,
+        "comment": "Absolutely love this product! The quality is amazing for the price.",
+        "date": "2024-03-15",
+        "helpful": 17,
+        "verified": true
+      }
+    ]
+  },
+  {
+    "id": "prod_089",
+    "name": "Premium Ethnic - Style 2",
+    "brand": "BLOOM",
+    "description": "Experience ultimate comfort and style with our latest ethnic. Perfect for everyday wear, featuring premium materials and exceptional craftsmanship.",
+    "category": "Women",
+    "subCategory": "Ethnic",
+    "type": "Ethnic",
+    "price": 3599,
+    "mrp": 6998,
+    "discount": 49,
+    "currency": "₹",
+    "rating": "4.2",
+    "reviewCount": 1841,
+    "images": [
+      "https://images.unsplash.com/photo-1583391099893-28f6c9cb0b4c?w=600&q=80",
+      "https://images.unsplash.com/photo-1583744534046-0aa6a5f9f0b4?w=600&q=80",
+      "https://images.unsplash.com/photo-1602088113834-bf03f85440e2?w=600&q=80"
+    ],
+    "colors": [
+      {
+        "name": "Standard",
+        "hex": "#1a1a1a"
+      },
+      {
+        "name": "Variant",
+        "hex": "#f5f5f5"
+      }
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "sizesAvailable": {
       "S": true,
       "M": true,
       "L": true,
       "XL": true,
       "XXL": true
     },
-    "material": "Premium Cotton Blend",
-    "fit": "Slim",
-    "pattern": "Printed",
+    "material": "100% Premium Material",
+    "fit": "Regular",
+    "pattern": "Solid",
     "occasion": "Casual",
-    "season": "All Season",
+    "stock": 42,
+    "isTrending": true,
+    "isNewArrival": true,
+    "isBestSeller": false,
+    "tags": [
+      "premium",
+      "comfortable",
+      "ethnic"
+    ],
+    "specifications": {
+      "Fabric": "Premium Quality",
+      "Fit": "Regular",
+      "Wash Care": "Machine Wash"
+    },
+    "reviews": [
+      {
+        "id": "rev_89_1",
+        "userName": "Verified Buyer",
+        "rating": 5,
+        "comment": "Absolutely love this product! The quality is amazing for the price.",
+        "date": "2024-03-15",
+        "helpful": 33,
+        "verified": true
+      }
+    ]
+  },
+  {
+    "id": "prod_090",
+    "name": "Premium Ethnic - Style 3",
+    "brand": "Nike",
+    "description": "Experience ultimate comfort and style with our latest ethnic. Perfect for everyday wear, featuring premium materials and exceptional craftsmanship.",
+    "category": "Women",
+    "subCategory": "Ethnic",
+    "type": "Ethnic",
+    "price": 3499,
+    "mrp": 7198,
+    "discount": 51,
+    "currency": "₹",
+    "rating": "4.3",
+    "reviewCount": 1318,
+    "images": [
+      "https://images.unsplash.com/photo-1583744534046-0aa6a5f9f0b4?w=600&q=80",
+      "https://images.unsplash.com/photo-1602088113834-bf03f85440e2?w=600&q=80",
+      "https://images.unsplash.com/photo-1525507397-a4b89f68c8e3?w=600&q=80"
+    ],
+    "colors": [
+      {
+        "name": "Standard",
+        "hex": "#1a1a1a"
+      },
+      {
+        "name": "Variant",
+        "hex": "#f5f5f5"
+      }
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "sizesAvailable": {
+      "S": true,
+      "M": true,
+      "L": true,
+      "XL": false,
+      "XXL": false
+    },
+    "material": "100% Premium Material",
+    "fit": "Regular",
+    "pattern": "Solid",
+    "occasion": "Casual",
+    "stock": 71,
+    "isTrending": false,
+    "isNewArrival": false,
+    "isBestSeller": true,
+    "tags": [
+      "premium",
+      "comfortable",
+      "ethnic"
+    ],
+    "specifications": {
+      "Fabric": "Premium Quality",
+      "Fit": "Regular",
+      "Wash Care": "Machine Wash"
+    },
+    "reviews": [
+      {
+        "id": "rev_90_1",
+        "userName": "Verified Buyer",
+        "rating": 5,
+        "comment": "Absolutely love this product! The quality is amazing for the price.",
+        "date": "2024-03-15",
+        "helpful": 13,
+        "verified": true
+      }
+    ]
+  },
+  {
+    "id": "prod_091",
+    "name": "Premium Ethnic - Style 4",
+    "brand": "AURA",
+    "description": "Experience ultimate comfort and style with our latest ethnic. Perfect for everyday wear, featuring premium materials and exceptional craftsmanship.",
+    "category": "Women",
+    "subCategory": "Ethnic",
+    "type": "Ethnic",
+    "price": 3599,
+    "mrp": 7898,
+    "discount": 54,
+    "currency": "₹",
+    "rating": "4.6",
+    "reviewCount": 2189,
+    "images": [
+      "https://images.unsplash.com/photo-1602088113834-bf03f85440e2?w=600&q=80",
+      "https://images.unsplash.com/photo-1525507397-a4b89f68c8e3?w=600&q=80",
+      "https://images.unsplash.com/photo-1571019614242-c5c5dee9f50b?w=600&q=80"
+    ],
+    "colors": [
+      {
+        "name": "Standard",
+        "hex": "#1a1a1a"
+      },
+      {
+        "name": "Variant",
+        "hex": "#f5f5f5"
+      }
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "sizesAvailable": {
+      "S": true,
+      "M": true,
+      "L": true,
+      "XL": false,
+      "XXL": false
+    },
+    "material": "100% Premium Material",
+    "fit": "Regular",
+    "pattern": "Solid",
+    "occasion": "Casual",
+    "stock": 87,
+    "isTrending": false,
+    "isNewArrival": false,
+    "isBestSeller": false,
+    "tags": [
+      "premium",
+      "comfortable",
+      "ethnic"
+    ],
+    "specifications": {
+      "Fabric": "Premium Quality",
+      "Fit": "Regular",
+      "Wash Care": "Machine Wash"
+    },
+    "reviews": [
+      {
+        "id": "rev_91_1",
+        "userName": "Verified Buyer",
+        "rating": 5,
+        "comment": "Absolutely love this product! The quality is amazing for the price.",
+        "date": "2024-03-15",
+        "helpful": 2,
+        "verified": true
+      }
+    ]
+  },
+  {
+    "id": "prod_092",
+    "name": "Premium Ethnic - Style 5",
+    "brand": "W",
+    "description": "Experience ultimate comfort and style with our latest ethnic. Perfect for everyday wear, featuring premium materials and exceptional craftsmanship.",
+    "category": "Women",
+    "subCategory": "Ethnic",
+    "type": "Ethnic",
+    "price": 99,
+    "mrp": 4098,
+    "discount": 98,
+    "currency": "₹",
+    "rating": "4.8",
+    "reviewCount": 1995,
+    "images": [
+      "https://images.unsplash.com/photo-1525507397-a4b89f68c8e3?w=600&q=80",
+      "https://images.unsplash.com/photo-1571019614242-c5c5dee9f50b?w=600&q=80",
+      "https://images.unsplash.com/photo-1606050986-8d2b37b5f6d6?w=600&q=80"
+    ],
+    "colors": [
+      {
+        "name": "Standard",
+        "hex": "#1a1a1a"
+      },
+      {
+        "name": "Variant",
+        "hex": "#f5f5f5"
+      }
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "sizesAvailable": {
+      "S": true,
+      "M": true,
+      "L": true,
+      "XL": true,
+      "XXL": true
+    },
+    "material": "100% Premium Material",
+    "fit": "Regular",
+    "pattern": "Solid",
+    "occasion": "Casual",
+    "stock": 79,
+    "isTrending": false,
+    "isNewArrival": false,
+    "isBestSeller": false,
+    "tags": [
+      "premium",
+      "comfortable",
+      "ethnic"
+    ],
+    "specifications": {
+      "Fabric": "Premium Quality",
+      "Fit": "Regular",
+      "Wash Care": "Machine Wash"
+    },
+    "reviews": [
+      {
+        "id": "rev_92_1",
+        "userName": "Verified Buyer",
+        "rating": 5,
+        "comment": "Absolutely love this product! The quality is amazing for the price.",
+        "date": "2024-03-15",
+        "helpful": 3,
+        "verified": true
+      }
+    ]
+  },
+  {
+    "id": "prod_093",
+    "name": "Premium Ethnic - Style 6",
+    "brand": "Zara",
+    "description": "Experience ultimate comfort and style with our latest ethnic. Perfect for everyday wear, featuring premium materials and exceptional craftsmanship.",
+    "category": "Women",
+    "subCategory": "Ethnic",
+    "type": "Ethnic",
+    "price": 1299,
+    "mrp": 1898,
+    "discount": 32,
+    "currency": "₹",
+    "rating": "4.7",
+    "reviewCount": 1920,
+    "images": [
+      "https://images.unsplash.com/photo-1571019614242-c5c5dee9f50b?w=600&q=80",
+      "https://images.unsplash.com/photo-1606050986-8d2b37b5f6d6?w=600&q=80",
+      "https://images.unsplash.com/photo-1583391099893-28f6c9cb0b4c?w=600&q=80"
+    ],
+    "colors": [
+      {
+        "name": "Standard",
+        "hex": "#1a1a1a"
+      },
+      {
+        "name": "Variant",
+        "hex": "#f5f5f5"
+      }
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "sizesAvailable": {
+      "S": true,
+      "M": true,
+      "L": true,
+      "XL": false,
+      "XXL": false
+    },
+    "material": "100% Premium Material",
+    "fit": "Regular",
+    "pattern": "Solid",
+    "occasion": "Casual",
+    "stock": 68,
+    "isTrending": false,
+    "isNewArrival": false,
+    "isBestSeller": false,
+    "tags": [
+      "premium",
+      "comfortable",
+      "ethnic"
+    ],
+    "specifications": {
+      "Fabric": "Premium Quality",
+      "Fit": "Regular",
+      "Wash Care": "Machine Wash"
+    },
+    "reviews": [
+      {
+        "id": "rev_93_1",
+        "userName": "Verified Buyer",
+        "rating": 5,
+        "comment": "Absolutely love this product! The quality is amazing for the price.",
+        "date": "2024-03-15",
+        "helpful": 3,
+        "verified": true
+      }
+    ]
+  },
+  {
+    "id": "prod_094",
+    "name": "Premium Ethnic - Style 7",
+    "brand": "Adidas",
+    "description": "Experience ultimate comfort and style with our latest ethnic. Perfect for everyday wear, featuring premium materials and exceptional craftsmanship.",
+    "category": "Women",
+    "subCategory": "Ethnic",
+    "type": "Ethnic",
+    "price": 2599,
+    "mrp": 3398,
+    "discount": 24,
+    "currency": "₹",
+    "rating": "4.4",
+    "reviewCount": 2493,
+    "images": [
+      "https://images.unsplash.com/photo-1606050986-8d2b37b5f6d6?w=600&q=80",
+      "https://images.unsplash.com/photo-1583391099893-28f6c9cb0b4c?w=600&q=80",
+      "https://images.unsplash.com/photo-1610030469211-8d9ec0f8f455?w=600&q=80"
+    ],
+    "colors": [
+      {
+        "name": "Standard",
+        "hex": "#1a1a1a"
+      },
+      {
+        "name": "Variant",
+        "hex": "#f5f5f5"
+      }
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "sizesAvailable": {
+      "S": true,
+      "M": true,
+      "L": true,
+      "XL": false,
+      "XXL": false
+    },
+    "material": "100% Premium Material",
+    "fit": "Regular",
+    "pattern": "Solid",
+    "occasion": "Casual",
+    "stock": 46,
+    "isTrending": false,
+    "isNewArrival": false,
+    "isBestSeller": false,
+    "tags": [
+      "premium",
+      "comfortable",
+      "ethnic"
+    ],
+    "specifications": {
+      "Fabric": "Premium Quality",
+      "Fit": "Regular",
+      "Wash Care": "Machine Wash"
+    },
+    "reviews": [
+      {
+        "id": "rev_94_1",
+        "userName": "Verified Buyer",
+        "rating": 5,
+        "comment": "Absolutely love this product! The quality is amazing for the price.",
+        "date": "2024-03-15",
+        "helpful": 44,
+        "verified": true
+      }
+    ]
+  },
+  {
+    "id": "prod_095",
+    "name": "Premium Ethnic - Style 8",
+    "brand": "URBAN EDGE",
+    "description": "Experience ultimate comfort and style with our latest ethnic. Perfect for everyday wear, featuring premium materials and exceptional craftsmanship.",
+    "category": "Women",
+    "subCategory": "Ethnic",
+    "type": "Ethnic",
+    "price": 99,
+    "mrp": 3798,
+    "discount": 97,
+    "currency": "₹",
+    "rating": "4.8",
+    "reviewCount": 3717,
+    "images": [
+      "https://images.unsplash.com/photo-1583391099893-28f6c9cb0b4c?w=600&q=80",
+      "https://images.unsplash.com/photo-1610030469211-8d9ec0f8f455?w=600&q=80",
+      "https://images.unsplash.com/photo-1583391099893-28f6c9cb0b4c?w=600&q=80"
+    ],
+    "colors": [
+      {
+        "name": "Standard",
+        "hex": "#1a1a1a"
+      },
+      {
+        "name": "Variant",
+        "hex": "#f5f5f5"
+      }
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "sizesAvailable": {
+      "S": true,
+      "M": true,
+      "L": true,
+      "XL": false,
+      "XXL": false
+    },
+    "material": "100% Premium Material",
+    "fit": "Regular",
+    "pattern": "Solid",
+    "occasion": "Casual",
+    "stock": 48,
+    "isTrending": false,
+    "isNewArrival": false,
+    "isBestSeller": false,
+    "tags": [
+      "premium",
+      "comfortable",
+      "ethnic"
+    ],
+    "specifications": {
+      "Fabric": "Premium Quality",
+      "Fit": "Regular",
+      "Wash Care": "Machine Wash"
+    },
+    "reviews": [
+      {
+        "id": "rev_95_1",
+        "userName": "Verified Buyer",
+        "rating": 5,
+        "comment": "Absolutely love this product! The quality is amazing for the price.",
+        "date": "2024-03-15",
+        "helpful": 3,
+        "verified": true
+      }
+    ]
+  },
+  {
+    "id": "prod_096",
+    "name": "Premium Skirts - Style 1",
+    "brand": "Puma",
+    "description": "Experience ultimate comfort and style with our latest skirts. Perfect for everyday wear, featuring premium materials and exceptional craftsmanship.",
+    "category": "Women",
+    "subCategory": "Skirts",
+    "type": "Bottomwear",
+    "price": 199,
+    "mrp": 1298,
+    "discount": 85,
+    "currency": "₹",
+    "rating": "4.3",
+    "reviewCount": 2146,
+    "images": [
+      "https://images.unsplash.com/photo-1583496661067-417c99094f95?w=600&q=80",
+      "https://images.unsplash.com/photo-1548123378-4a9873a7f9b9?w=600&q=80",
+      "https://images.unsplash.com/photo-1609709295948-1e4be3b98581?w=600&q=80"
+    ],
+    "colors": [
+      {
+        "name": "Standard",
+        "hex": "#1a1a1a"
+      },
+      {
+        "name": "Variant",
+        "hex": "#f5f5f5"
+      }
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "sizesAvailable": {
+      "S": true,
+      "M": true,
+      "L": true,
+      "XL": false,
+      "XXL": false
+    },
+    "material": "100% Premium Material",
+    "fit": "Regular",
+    "pattern": "Solid",
+    "occasion": "Casual",
+    "stock": 95,
+    "isTrending": false,
+    "isNewArrival": true,
+    "isBestSeller": false,
+    "tags": [
+      "premium",
+      "comfortable",
+      "skirts"
+    ],
+    "specifications": {
+      "Fabric": "Premium Quality",
+      "Fit": "Regular",
+      "Wash Care": "Machine Wash"
+    },
+    "reviews": [
+      {
+        "id": "rev_96_1",
+        "userName": "Verified Buyer",
+        "rating": 5,
+        "comment": "Absolutely love this product! The quality is amazing for the price.",
+        "date": "2024-03-15",
+        "helpful": 11,
+        "verified": true
+      }
+    ]
+  },
+  {
+    "id": "prod_097",
+    "name": "Premium Skirts - Style 2",
+    "brand": "AURA",
+    "description": "Experience ultimate comfort and style with our latest skirts. Perfect for everyday wear, featuring premium materials and exceptional craftsmanship.",
+    "category": "Women",
+    "subCategory": "Skirts",
+    "type": "Bottomwear",
+    "price": 699,
+    "mrp": 2098,
+    "discount": 67,
+    "currency": "₹",
+    "rating": "4.6",
+    "reviewCount": 2425,
+    "images": [
+      "https://images.unsplash.com/photo-1548123378-4a9873a7f9b9?w=600&q=80",
+      "https://images.unsplash.com/photo-1609709295948-1e4be3b98581?w=600&q=80",
+      "https://images.unsplash.com/photo-1615228402345-f36a22f17617?w=600&q=80"
+    ],
+    "colors": [
+      {
+        "name": "Standard",
+        "hex": "#1a1a1a"
+      },
+      {
+        "name": "Variant",
+        "hex": "#f5f5f5"
+      }
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "sizesAvailable": {
+      "S": true,
+      "M": true,
+      "L": true,
+      "XL": true,
+      "XXL": true
+    },
+    "material": "100% Premium Material",
+    "fit": "Regular",
+    "pattern": "Solid",
+    "occasion": "Casual",
+    "stock": 61,
+    "isTrending": false,
+    "isNewArrival": false,
+    "isBestSeller": false,
+    "tags": [
+      "premium",
+      "comfortable",
+      "skirts"
+    ],
+    "specifications": {
+      "Fabric": "Premium Quality",
+      "Fit": "Regular",
+      "Wash Care": "Machine Wash"
+    },
+    "reviews": [
+      {
+        "id": "rev_97_1",
+        "userName": "Verified Buyer",
+        "rating": 5,
+        "comment": "Absolutely love this product! The quality is amazing for the price.",
+        "date": "2024-03-15",
+        "helpful": 13,
+        "verified": true
+      }
+    ]
+  },
+  {
+    "id": "prod_098",
+    "name": "Premium Skirts - Style 3",
+    "brand": "Allen Solly",
+    "description": "Experience ultimate comfort and style with our latest skirts. Perfect for everyday wear, featuring premium materials and exceptional craftsmanship.",
+    "category": "Women",
+    "subCategory": "Skirts",
+    "type": "Bottomwear",
+    "price": 799,
+    "mrp": 998,
+    "discount": 20,
+    "currency": "₹",
+    "rating": "4.5",
+    "reviewCount": 1636,
+    "images": [
+      "https://images.unsplash.com/photo-1609709295948-1e4be3b98581?w=600&q=80",
+      "https://images.unsplash.com/photo-1615228402345-f36a22f17617?w=600&q=80",
+      "https://images.unsplash.com/photo-1619603364003-2c33e31ea397?w=600&q=80"
+    ],
+    "colors": [
+      {
+        "name": "Standard",
+        "hex": "#1a1a1a"
+      },
+      {
+        "name": "Variant",
+        "hex": "#f5f5f5"
+      }
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "sizesAvailable": {
+      "S": true,
+      "M": true,
+      "L": true,
+      "XL": true,
+      "XXL": false
+    },
+    "material": "100% Premium Material",
+    "fit": "Regular",
+    "pattern": "Solid",
+    "occasion": "Casual",
+    "stock": 65,
+    "isTrending": false,
+    "isNewArrival": false,
+    "isBestSeller": true,
+    "tags": [
+      "premium",
+      "comfortable",
+      "skirts"
+    ],
+    "specifications": {
+      "Fabric": "Premium Quality",
+      "Fit": "Regular",
+      "Wash Care": "Machine Wash"
+    },
+    "reviews": [
+      {
+        "id": "rev_98_1",
+        "userName": "Verified Buyer",
+        "rating": 5,
+        "comment": "Absolutely love this product! The quality is amazing for the price.",
+        "date": "2024-03-15",
+        "helpful": 17,
+        "verified": true
+      }
+    ]
+  },
+  {
+    "id": "prod_099",
+    "name": "Premium Skirts - Style 4",
+    "brand": "Levi's",
+    "description": "Experience ultimate comfort and style with our latest skirts. Perfect for everyday wear, featuring premium materials and exceptional craftsmanship.",
+    "category": "Women",
+    "subCategory": "Skirts",
+    "type": "Bottomwear",
+    "price": 899,
+    "mrp": 1798,
+    "discount": 50,
+    "currency": "₹",
+    "rating": "4.7",
+    "reviewCount": 578,
+    "images": [
+      "https://images.unsplash.com/photo-1615228402345-f36a22f17617?w=600&q=80",
+      "https://images.unsplash.com/photo-1619603364003-2c33e31ea397?w=600&q=80",
+      "https://images.unsplash.com/photo-1583496661067-417c99094f95?w=600&q=80"
+    ],
+    "colors": [
+      {
+        "name": "Standard",
+        "hex": "#1a1a1a"
+      },
+      {
+        "name": "Variant",
+        "hex": "#f5f5f5"
+      }
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "sizesAvailable": {
+      "S": true,
+      "M": true,
+      "L": true,
+      "XL": true,
+      "XXL": false
+    },
+    "material": "100% Premium Material",
+    "fit": "Regular",
+    "pattern": "Solid",
+    "occasion": "Casual",
+    "stock": 88,
+    "isTrending": true,
+    "isNewArrival": false,
+    "isBestSeller": false,
+    "tags": [
+      "premium",
+      "comfortable",
+      "skirts"
+    ],
+    "specifications": {
+      "Fabric": "Premium Quality",
+      "Fit": "Regular",
+      "Wash Care": "Machine Wash"
+    },
+    "reviews": [
+      {
+        "id": "rev_99_1",
+        "userName": "Verified Buyer",
+        "rating": 5,
+        "comment": "Absolutely love this product! The quality is amazing for the price.",
+        "date": "2024-03-15",
+        "helpful": 2,
+        "verified": true
+      }
+    ]
+  },
+  {
+    "id": "prod_100",
+    "name": "Premium Skirts - Style 5",
+    "brand": "Levi's",
+    "description": "Experience ultimate comfort and style with our latest skirts. Perfect for everyday wear, featuring premium materials and exceptional craftsmanship.",
+    "category": "Women",
+    "subCategory": "Skirts",
+    "type": "Bottomwear",
+    "price": 99,
+    "mrp": 1498,
+    "discount": 93,
+    "currency": "₹",
+    "rating": "4.6",
+    "reviewCount": 1683,
+    "images": [
+      "https://images.unsplash.com/photo-1619603364003-2c33e31ea397?w=600&q=80",
+      "https://images.unsplash.com/photo-1583496661067-417c99094f95?w=600&q=80",
+      "https://images.unsplash.com/photo-1548123378-4a9873a7f9b9?w=600&q=80"
+    ],
+    "colors": [
+      {
+        "name": "Standard",
+        "hex": "#1a1a1a"
+      },
+      {
+        "name": "Variant",
+        "hex": "#f5f5f5"
+      }
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "sizesAvailable": {
+      "S": true,
+      "M": true,
+      "L": true,
+      "XL": false,
+      "XXL": false
+    },
+    "material": "100% Premium Material",
+    "fit": "Regular",
+    "pattern": "Solid",
+    "occasion": "Casual",
+    "stock": 37,
+    "isTrending": false,
+    "isNewArrival": false,
+    "isBestSeller": false,
+    "tags": [
+      "premium",
+      "comfortable",
+      "skirts"
+    ],
+    "specifications": {
+      "Fabric": "Premium Quality",
+      "Fit": "Regular",
+      "Wash Care": "Machine Wash"
+    },
+    "reviews": [
+      {
+        "id": "rev_100_1",
+        "userName": "Verified Buyer",
+        "rating": 5,
+        "comment": "Absolutely love this product! The quality is amazing for the price.",
+        "date": "2024-03-15",
+        "helpful": 12,
+        "verified": true
+      }
+    ]
+  },
+  {
+    "id": "prod_101",
+    "name": "Premium Jackets - Style 1",
+    "brand": "BLOOM",
+    "description": "Experience ultimate comfort and style with our latest jackets. Perfect for everyday wear, featuring premium materials and exceptional craftsmanship.",
+    "category": "Women",
+    "subCategory": "Jackets",
+    "type": "Outerwear",
+    "price": 1499,
+    "mrp": 2698,
+    "discount": 44,
+    "currency": "₹",
+    "rating": "4.7",
+    "reviewCount": 1375,
+    "images": [
+      "https://images.unsplash.com/photo-1591047139829-d91aecb6caea?w=600&q=80",
+      "https://images.unsplash.com/photo-1539533018-94b7bbdf2009?w=600&q=80",
+      "https://images.unsplash.com/photo-1608228510934-2b2b31e9dba4?w=600&q=80"
+    ],
+    "colors": [
+      {
+        "name": "Standard",
+        "hex": "#1a1a1a"
+      },
+      {
+        "name": "Variant",
+        "hex": "#f5f5f5"
+      }
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "sizesAvailable": {
+      "S": true,
+      "M": true,
+      "L": true,
+      "XL": true,
+      "XXL": true
+    },
+    "material": "100% Premium Material",
+    "fit": "Regular",
+    "pattern": "Solid",
+    "occasion": "Casual",
+    "stock": 75,
+    "isTrending": true,
+    "isNewArrival": false,
+    "isBestSeller": false,
+    "tags": [
+      "premium",
+      "comfortable",
+      "jackets"
+    ],
+    "specifications": {
+      "Fabric": "Premium Quality",
+      "Fit": "Regular",
+      "Wash Care": "Machine Wash"
+    },
+    "reviews": [
+      {
+        "id": "rev_101_1",
+        "userName": "Verified Buyer",
+        "rating": 5,
+        "comment": "Absolutely love this product! The quality is amazing for the price.",
+        "date": "2024-03-15",
+        "helpful": 1,
+        "verified": true
+      }
+    ]
+  },
+  {
+    "id": "prod_102",
+    "name": "Premium Jackets - Style 2",
+    "brand": "ONLY",
+    "description": "Experience ultimate comfort and style with our latest jackets. Perfect for everyday wear, featuring premium materials and exceptional craftsmanship.",
+    "category": "Women",
+    "subCategory": "Jackets",
+    "type": "Outerwear",
+    "price": 2499,
+    "mrp": 7298,
+    "discount": 66,
+    "currency": "₹",
+    "rating": "5.0",
+    "reviewCount": 2824,
+    "images": [
+      "https://images.unsplash.com/photo-1539533018-94b7bbdf2009?w=600&q=80",
+      "https://images.unsplash.com/photo-1608228510934-2b2b31e9dba4?w=600&q=80",
+      "https://images.unsplash.com/photo-1578681994506-b8774fb5f9e6?w=600&q=80"
+    ],
+    "colors": [
+      {
+        "name": "Standard",
+        "hex": "#1a1a1a"
+      },
+      {
+        "name": "Variant",
+        "hex": "#f5f5f5"
+      }
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "sizesAvailable": {
+      "S": true,
+      "M": true,
+      "L": true,
+      "XL": false,
+      "XXL": false
+    },
+    "material": "100% Premium Material",
+    "fit": "Regular",
+    "pattern": "Solid",
+    "occasion": "Casual",
+    "stock": 10,
+    "isTrending": false,
+    "isNewArrival": false,
+    "isBestSeller": false,
+    "tags": [
+      "premium",
+      "comfortable",
+      "jackets"
+    ],
+    "specifications": {
+      "Fabric": "Premium Quality",
+      "Fit": "Regular",
+      "Wash Care": "Machine Wash"
+    },
+    "reviews": [
+      {
+        "id": "rev_102_1",
+        "userName": "Verified Buyer",
+        "rating": 5,
+        "comment": "Absolutely love this product! The quality is amazing for the price.",
+        "date": "2024-03-15",
+        "helpful": 1,
+        "verified": true
+      }
+    ]
+  },
+  {
+    "id": "prod_103",
+    "name": "Premium Jackets - Style 3",
+    "brand": "ONLY",
+    "description": "Experience ultimate comfort and style with our latest jackets. Perfect for everyday wear, featuring premium materials and exceptional craftsmanship.",
+    "category": "Women",
+    "subCategory": "Jackets",
+    "type": "Outerwear",
+    "price": 1599,
+    "mrp": 4798,
+    "discount": 67,
+    "currency": "₹",
+    "rating": "4.6",
+    "reviewCount": 2209,
+    "images": [
+      "https://images.unsplash.com/photo-1608228510934-2b2b31e9dba4?w=600&q=80",
+      "https://images.unsplash.com/photo-1578681994506-b8774fb5f9e6?w=600&q=80",
+      "https://images.unsplash.com/photo-1584370848010-d764564f67e9?w=600&q=80"
+    ],
+    "colors": [
+      {
+        "name": "Standard",
+        "hex": "#1a1a1a"
+      },
+      {
+        "name": "Variant",
+        "hex": "#f5f5f5"
+      }
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "sizesAvailable": {
+      "S": true,
+      "M": true,
+      "L": true,
+      "XL": false,
+      "XXL": false
+    },
+    "material": "100% Premium Material",
+    "fit": "Regular",
+    "pattern": "Solid",
+    "occasion": "Casual",
+    "stock": 106,
+    "isTrending": false,
+    "isNewArrival": false,
+    "isBestSeller": false,
+    "tags": [
+      "premium",
+      "comfortable",
+      "jackets"
+    ],
+    "specifications": {
+      "Fabric": "Premium Quality",
+      "Fit": "Regular",
+      "Wash Care": "Machine Wash"
+    },
+    "reviews": [
+      {
+        "id": "rev_103_1",
+        "userName": "Verified Buyer",
+        "rating": 5,
+        "comment": "Absolutely love this product! The quality is amazing for the price.",
+        "date": "2024-03-15",
+        "helpful": 20,
+        "verified": true
+      }
+    ]
+  },
+  {
+    "id": "prod_104",
+    "name": "Premium Jackets - Style 4",
+    "brand": "H&M",
+    "description": "Experience ultimate comfort and style with our latest jackets. Perfect for everyday wear, featuring premium materials and exceptional craftsmanship.",
+    "category": "Women",
+    "subCategory": "Jackets",
+    "type": "Outerwear",
+    "price": 99,
+    "mrp": 198,
+    "discount": 50,
+    "currency": "₹",
+    "rating": "4.8",
+    "reviewCount": 2234,
+    "images": [
+      "https://images.unsplash.com/photo-1578681994506-b8774fb5f9e6?w=600&q=80",
+      "https://images.unsplash.com/photo-1584370848010-d764564f67e9?w=600&q=80",
+      "https://images.unsplash.com/photo-1591047139829-d91aecb6caea?w=600&q=80"
+    ],
+    "colors": [
+      {
+        "name": "Standard",
+        "hex": "#1a1a1a"
+      },
+      {
+        "name": "Variant",
+        "hex": "#f5f5f5"
+      }
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "sizesAvailable": {
+      "S": true,
+      "M": true,
+      "L": true,
+      "XL": false,
+      "XXL": true
+    },
+    "material": "100% Premium Material",
+    "fit": "Regular",
+    "pattern": "Solid",
+    "occasion": "Casual",
+    "stock": 34,
+    "isTrending": false,
+    "isNewArrival": false,
+    "isBestSeller": false,
+    "tags": [
+      "premium",
+      "comfortable",
+      "jackets"
+    ],
+    "specifications": {
+      "Fabric": "Premium Quality",
+      "Fit": "Regular",
+      "Wash Care": "Machine Wash"
+    },
+    "reviews": [
+      {
+        "id": "rev_104_1",
+        "userName": "Verified Buyer",
+        "rating": 5,
+        "comment": "Absolutely love this product! The quality is amazing for the price.",
+        "date": "2024-03-15",
+        "helpful": 1,
+        "verified": true
+      }
+    ]
+  },
+  {
+    "id": "prod_105",
+    "name": "Premium Jackets - Style 5",
+    "brand": "Zara",
+    "description": "Experience ultimate comfort and style with our latest jackets. Perfect for everyday wear, featuring premium materials and exceptional craftsmanship.",
+    "category": "Women",
+    "subCategory": "Jackets",
+    "type": "Outerwear",
+    "price": 499,
+    "mrp": 2298,
+    "discount": 78,
+    "currency": "₹",
+    "rating": "4.4",
+    "reviewCount": 1606,
+    "images": [
+      "https://images.unsplash.com/photo-1584370848010-d764564f67e9?w=600&q=80",
+      "https://images.unsplash.com/photo-1591047139829-d91aecb6caea?w=600&q=80",
+      "https://images.unsplash.com/photo-1539533018-94b7bbdf2009?w=600&q=80"
+    ],
+    "colors": [
+      {
+        "name": "Standard",
+        "hex": "#1a1a1a"
+      },
+      {
+        "name": "Variant",
+        "hex": "#f5f5f5"
+      }
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "sizesAvailable": {
+      "S": true,
+      "M": true,
+      "L": true,
+      "XL": false,
+      "XXL": false
+    },
+    "material": "100% Premium Material",
+    "fit": "Regular",
+    "pattern": "Solid",
+    "occasion": "Casual",
+    "stock": 61,
+    "isTrending": false,
+    "isNewArrival": false,
+    "isBestSeller": false,
+    "tags": [
+      "premium",
+      "comfortable",
+      "jackets"
+    ],
+    "specifications": {
+      "Fabric": "Premium Quality",
+      "Fit": "Regular",
+      "Wash Care": "Machine Wash"
+    },
+    "reviews": [
+      {
+        "id": "rev_105_1",
+        "userName": "Verified Buyer",
+        "rating": 5,
+        "comment": "Absolutely love this product! The quality is amazing for the price.",
+        "date": "2024-03-15",
+        "helpful": 16,
+        "verified": true
+      }
+    ]
+  },
+  {
+    "id": "prod_106",
+    "name": "Premium Co-ord Sets - Style 1",
+    "brand": "Adidas",
+    "description": "Experience ultimate comfort and style with our latest co-ord sets. Perfect for everyday wear, featuring premium materials and exceptional craftsmanship.",
+    "category": "Women",
+    "subCategory": "Co-ord Sets",
+    "type": "Co-ord Sets",
+    "price": 1299,
+    "mrp": 4298,
+    "discount": 70,
+    "currency": "₹",
+    "rating": "4.6",
+    "reviewCount": 3363,
+    "images": [
+      "https://images.unsplash.com/photo-1515886657353-8a7d6d83e1e5?w=600&q=80",
+      "https://images.unsplash.com/photo-1496747986-f54ba7de7de6?w=600&q=80",
+      "https://images.unsplash.com/photo-1508214751955-8bc68e65e3bc?w=600&q=80"
+    ],
+    "colors": [
+      {
+        "name": "Standard",
+        "hex": "#1a1a1a"
+      },
+      {
+        "name": "Variant",
+        "hex": "#f5f5f5"
+      }
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "sizesAvailable": {
+      "S": true,
+      "M": true,
+      "L": true,
+      "XL": false,
+      "XXL": true
+    },
+    "material": "100% Premium Material",
+    "fit": "Regular",
+    "pattern": "Solid",
+    "occasion": "Casual",
+    "stock": 35,
+    "isTrending": false,
+    "isNewArrival": false,
+    "isBestSeller": false,
+    "tags": [
+      "premium",
+      "comfortable",
+      "co-ord sets"
+    ],
+    "specifications": {
+      "Fabric": "Premium Quality",
+      "Fit": "Regular",
+      "Wash Care": "Machine Wash"
+    },
+    "reviews": [
+      {
+        "id": "rev_106_1",
+        "userName": "Verified Buyer",
+        "rating": 5,
+        "comment": "Absolutely love this product! The quality is amazing for the price.",
+        "date": "2024-03-15",
+        "helpful": 2,
+        "verified": true
+      }
+    ]
+  },
+  {
+    "id": "prod_107",
+    "name": "Premium Co-ord Sets - Style 2",
+    "brand": "Allen Solly",
+    "description": "Experience ultimate comfort and style with our latest co-ord sets. Perfect for everyday wear, featuring premium materials and exceptional craftsmanship.",
+    "category": "Women",
+    "subCategory": "Co-ord Sets",
+    "type": "Co-ord Sets",
+    "price": 1699,
+    "mrp": 1998,
+    "discount": 15,
+    "currency": "₹",
+    "rating": "4.5",
+    "reviewCount": 1246,
+    "images": [
+      "https://images.unsplash.com/photo-1496747986-f54ba7de7de6?w=600&q=80",
+      "https://images.unsplash.com/photo-1508214751955-8bc68e65e3bc?w=600&q=80",
+      "https://images.unsplash.com/photo-1529139374-3e5fa1a00791?w=600&q=80"
+    ],
+    "colors": [
+      {
+        "name": "Standard",
+        "hex": "#1a1a1a"
+      },
+      {
+        "name": "Variant",
+        "hex": "#f5f5f5"
+      }
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "sizesAvailable": {
+      "S": true,
+      "M": true,
+      "L": true,
+      "XL": false,
+      "XXL": false
+    },
+    "material": "100% Premium Material",
+    "fit": "Regular",
+    "pattern": "Solid",
+    "occasion": "Casual",
+    "stock": 57,
+    "isTrending": false,
+    "isNewArrival": false,
+    "isBestSeller": false,
+    "tags": [
+      "premium",
+      "comfortable",
+      "co-ord sets"
+    ],
+    "specifications": {
+      "Fabric": "Premium Quality",
+      "Fit": "Regular",
+      "Wash Care": "Machine Wash"
+    },
+    "reviews": [
+      {
+        "id": "rev_107_1",
+        "userName": "Verified Buyer",
+        "rating": 5,
+        "comment": "Absolutely love this product! The quality is amazing for the price.",
+        "date": "2024-03-15",
+        "helpful": 46,
+        "verified": true
+      }
+    ]
+  },
+  {
+    "id": "prod_108",
+    "name": "Premium Co-ord Sets - Style 3",
+    "brand": "Jack & Jones",
+    "description": "Experience ultimate comfort and style with our latest co-ord sets. Perfect for everyday wear, featuring premium materials and exceptional craftsmanship.",
+    "category": "Women",
+    "subCategory": "Co-ord Sets",
+    "type": "Co-ord Sets",
+    "price": 1899,
+    "mrp": 4898,
+    "discount": 61,
+    "currency": "₹",
+    "rating": "4.2",
+    "reviewCount": 1305,
+    "images": [
+      "https://images.unsplash.com/photo-1508214751955-8bc68e65e3bc?w=600&q=80",
+      "https://images.unsplash.com/photo-1529139374-3e5fa1a00791?w=600&q=80",
+      "https://images.unsplash.com/photo-1533813341-d0d42a1aa02e?w=600&q=80"
+    ],
+    "colors": [
+      {
+        "name": "Standard",
+        "hex": "#1a1a1a"
+      },
+      {
+        "name": "Variant",
+        "hex": "#f5f5f5"
+      }
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "sizesAvailable": {
+      "S": true,
+      "M": true,
+      "L": true,
+      "XL": true,
+      "XXL": true
+    },
+    "material": "100% Premium Material",
+    "fit": "Regular",
+    "pattern": "Solid",
+    "occasion": "Casual",
+    "stock": 60,
+    "isTrending": true,
+    "isNewArrival": false,
+    "isBestSeller": false,
+    "tags": [
+      "premium",
+      "comfortable",
+      "co-ord sets"
+    ],
+    "specifications": {
+      "Fabric": "Premium Quality",
+      "Fit": "Regular",
+      "Wash Care": "Machine Wash"
+    },
+    "reviews": [
+      {
+        "id": "rev_108_1",
+        "userName": "Verified Buyer",
+        "rating": 5,
+        "comment": "Absolutely love this product! The quality is amazing for the price.",
+        "date": "2024-03-15",
+        "helpful": 15,
+        "verified": true
+      }
+    ]
+  },
+  {
+    "id": "prod_109",
+    "name": "Premium Co-ord Sets - Style 4",
+    "brand": "DRIFT",
+    "description": "Experience ultimate comfort and style with our latest co-ord sets. Perfect for everyday wear, featuring premium materials and exceptional craftsmanship.",
+    "category": "Women",
+    "subCategory": "Co-ord Sets",
+    "type": "Co-ord Sets",
+    "price": 1799,
+    "mrp": 3198,
+    "discount": 44,
+    "currency": "₹",
+    "rating": "4.8",
+    "reviewCount": 2349,
+    "images": [
+      "https://images.unsplash.com/photo-1529139374-3e5fa1a00791?w=600&q=80",
+      "https://images.unsplash.com/photo-1533813341-d0d42a1aa02e?w=600&q=80",
+      "https://images.unsplash.com/photo-1515886657353-8a7d6d83e1e5?w=600&q=80"
+    ],
+    "colors": [
+      {
+        "name": "Standard",
+        "hex": "#1a1a1a"
+      },
+      {
+        "name": "Variant",
+        "hex": "#f5f5f5"
+      }
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "sizesAvailable": {
+      "S": true,
+      "M": true,
+      "L": true,
+      "XL": false,
+      "XXL": false
+    },
+    "material": "100% Premium Material",
+    "fit": "Regular",
+    "pattern": "Solid",
+    "occasion": "Casual",
+    "stock": 33,
+    "isTrending": false,
+    "isNewArrival": true,
+    "isBestSeller": false,
+    "tags": [
+      "premium",
+      "comfortable",
+      "co-ord sets"
+    ],
+    "specifications": {
+      "Fabric": "Premium Quality",
+      "Fit": "Regular",
+      "Wash Care": "Machine Wash"
+    },
+    "reviews": [
+      {
+        "id": "rev_109_1",
+        "userName": "Verified Buyer",
+        "rating": 5,
+        "comment": "Absolutely love this product! The quality is amazing for the price.",
+        "date": "2024-03-15",
+        "helpful": 10,
+        "verified": true
+      }
+    ]
+  },
+  {
+    "id": "prod_110",
+    "name": "Premium Co-ord Sets - Style 5",
+    "brand": "AURA",
+    "description": "Experience ultimate comfort and style with our latest co-ord sets. Perfect for everyday wear, featuring premium materials and exceptional craftsmanship.",
+    "category": "Women",
+    "subCategory": "Co-ord Sets",
+    "type": "Co-ord Sets",
+    "price": 1399,
+    "mrp": 2898,
+    "discount": 52,
+    "currency": "₹",
+    "rating": "4.9",
+    "reviewCount": 2490,
+    "images": [
+      "https://images.unsplash.com/photo-1533813341-d0d42a1aa02e?w=600&q=80",
+      "https://images.unsplash.com/photo-1515886657353-8a7d6d83e1e5?w=600&q=80",
+      "https://images.unsplash.com/photo-1496747986-f54ba7de7de6?w=600&q=80"
+    ],
+    "colors": [
+      {
+        "name": "Standard",
+        "hex": "#1a1a1a"
+      },
+      {
+        "name": "Variant",
+        "hex": "#f5f5f5"
+      }
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "sizesAvailable": {
+      "S": true,
+      "M": true,
+      "L": true,
+      "XL": false,
+      "XXL": false
+    },
+    "material": "100% Premium Material",
+    "fit": "Regular",
+    "pattern": "Solid",
+    "occasion": "Casual",
+    "stock": 55,
+    "isTrending": false,
+    "isNewArrival": false,
+    "isBestSeller": true,
+    "tags": [
+      "premium",
+      "comfortable",
+      "co-ord sets"
+    ],
+    "specifications": {
+      "Fabric": "Premium Quality",
+      "Fit": "Regular",
+      "Wash Care": "Machine Wash"
+    },
+    "reviews": [
+      {
+        "id": "rev_110_1",
+        "userName": "Verified Buyer",
+        "rating": 5,
+        "comment": "Absolutely love this product! The quality is amazing for the price.",
+        "date": "2024-03-15",
+        "helpful": 2,
+        "verified": true
+      }
+    ]
+  },
+  {
+    "id": "prod_111",
+    "name": "Premium Footwear - Style 1",
+    "brand": "H&M",
+    "description": "Experience ultimate comfort and style with our latest footwear. Perfect for everyday wear, featuring premium materials and exceptional craftsmanship.",
+    "category": "Women",
+    "subCategory": "Footwear",
+    "type": "Footwear",
+    "price": 1699,
+    "mrp": 2298,
+    "discount": 26,
+    "currency": "₹",
+    "rating": "4.1",
+    "reviewCount": 4190,
+    "images": [
+      "https://images.unsplash.com/photo-1543163981-d6e1b5e4b0e4?w=600&q=80",
+      "https://images.unsplash.com/photo-1515347122818-b3b3e2c27ef3?w=600&q=80",
+      "https://images.unsplash.com/photo-1579338537-42e24f1b77c1?w=600&q=80"
+    ],
+    "colors": [
+      {
+        "name": "Standard",
+        "hex": "#1a1a1a"
+      },
+      {
+        "name": "Variant",
+        "hex": "#f5f5f5"
+      }
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "sizesAvailable": {
+      "S": true,
+      "M": true,
+      "L": true,
+      "XL": true,
+      "XXL": false
+    },
+    "material": "100% Premium Material",
+    "fit": "Regular",
+    "pattern": "Solid",
+    "occasion": "Casual",
+    "stock": 104,
+    "isTrending": false,
+    "isNewArrival": false,
+    "isBestSeller": false,
+    "tags": [
+      "premium",
+      "comfortable",
+      "footwear"
+    ],
+    "specifications": {
+      "Fabric": "Premium Quality",
+      "Fit": "Regular",
+      "Wash Care": "Machine Wash"
+    },
+    "reviews": [
+      {
+        "id": "rev_111_1",
+        "userName": "Verified Buyer",
+        "rating": 5,
+        "comment": "Absolutely love this product! The quality is amazing for the price.",
+        "date": "2024-03-15",
+        "helpful": 44,
+        "verified": true
+      }
+    ]
+  },
+  {
+    "id": "prod_112",
+    "name": "Premium Footwear - Style 2",
+    "brand": "DRIFT",
+    "description": "Experience ultimate comfort and style with our latest footwear. Perfect for everyday wear, featuring premium materials and exceptional craftsmanship.",
+    "category": "Women",
+    "subCategory": "Footwear",
+    "type": "Footwear",
+    "price": 499,
+    "mrp": 3098,
+    "discount": 84,
+    "currency": "₹",
+    "rating": "4.9",
+    "reviewCount": 4268,
+    "images": [
+      "https://images.unsplash.com/photo-1515347122818-b3b3e2c27ef3?w=600&q=80",
+      "https://images.unsplash.com/photo-1579338537-42e24f1b77c1?w=600&q=80",
+      "https://images.unsplash.com/photo-1560472354-b33ff0ad4a4d?w=600&q=80"
+    ],
+    "colors": [
+      {
+        "name": "Standard",
+        "hex": "#1a1a1a"
+      },
+      {
+        "name": "Variant",
+        "hex": "#f5f5f5"
+      }
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "sizesAvailable": {
+      "S": true,
+      "M": true,
+      "L": true,
+      "XL": true,
+      "XXL": true
+    },
+    "material": "100% Premium Material",
+    "fit": "Regular",
+    "pattern": "Solid",
+    "occasion": "Casual",
+    "stock": 17,
+    "isTrending": false,
+    "isNewArrival": true,
+    "isBestSeller": true,
+    "tags": [
+      "premium",
+      "comfortable",
+      "footwear"
+    ],
+    "specifications": {
+      "Fabric": "Premium Quality",
+      "Fit": "Regular",
+      "Wash Care": "Machine Wash"
+    },
+    "reviews": [
+      {
+        "id": "rev_112_1",
+        "userName": "Verified Buyer",
+        "rating": 5,
+        "comment": "Absolutely love this product! The quality is amazing for the price.",
+        "date": "2024-03-15",
+        "helpful": 15,
+        "verified": true
+      }
+    ]
+  },
+  {
+    "id": "prod_113",
+    "name": "Premium Footwear - Style 3",
+    "brand": "Adidas",
+    "description": "Experience ultimate comfort and style with our latest footwear. Perfect for everyday wear, featuring premium materials and exceptional craftsmanship.",
+    "category": "Women",
+    "subCategory": "Footwear",
+    "type": "Footwear",
+    "price": 1099,
+    "mrp": 2998,
+    "discount": 63,
+    "currency": "₹",
+    "rating": "4.3",
+    "reviewCount": 664,
+    "images": [
+      "https://images.unsplash.com/photo-1579338537-42e24f1b77c1?w=600&q=80",
+      "https://images.unsplash.com/photo-1560472354-b33ff0ad4a4d?w=600&q=80",
+      "https://images.unsplash.com/photo-1581591524851-c1c7f5f2f3b6?w=600&q=80"
+    ],
+    "colors": [
+      {
+        "name": "Standard",
+        "hex": "#1a1a1a"
+      },
+      {
+        "name": "Variant",
+        "hex": "#f5f5f5"
+      }
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "sizesAvailable": {
+      "S": true,
+      "M": true,
+      "L": true,
+      "XL": false,
+      "XXL": false
+    },
+    "material": "100% Premium Material",
+    "fit": "Regular",
+    "pattern": "Solid",
+    "occasion": "Casual",
+    "stock": 51,
+    "isTrending": false,
+    "isNewArrival": false,
+    "isBestSeller": false,
+    "tags": [
+      "premium",
+      "comfortable",
+      "footwear"
+    ],
+    "specifications": {
+      "Fabric": "Premium Quality",
+      "Fit": "Regular",
+      "Wash Care": "Machine Wash"
+    },
+    "reviews": [
+      {
+        "id": "rev_113_1",
+        "userName": "Verified Buyer",
+        "rating": 5,
+        "comment": "Absolutely love this product! The quality is amazing for the price.",
+        "date": "2024-03-15",
+        "helpful": 28,
+        "verified": true
+      }
+    ]
+  },
+  {
+    "id": "prod_114",
+    "name": "Premium Footwear - Style 4",
+    "brand": "URBAN EDGE",
+    "description": "Experience ultimate comfort and style with our latest footwear. Perfect for everyday wear, featuring premium materials and exceptional craftsmanship.",
+    "category": "Women",
+    "subCategory": "Footwear",
+    "type": "Footwear",
+    "price": 999,
+    "mrp": 2598,
+    "discount": 62,
+    "currency": "₹",
+    "rating": "4.1",
+    "reviewCount": 1430,
+    "images": [
+      "https://images.unsplash.com/photo-1560472354-b33ff0ad4a4d?w=600&q=80",
+      "https://images.unsplash.com/photo-1581591524851-c1c7f5f2f3b6?w=600&q=80",
+      "https://images.unsplash.com/photo-1616401776-32c2c4b4ed40?w=600&q=80"
+    ],
+    "colors": [
+      {
+        "name": "Standard",
+        "hex": "#1a1a1a"
+      },
+      {
+        "name": "Variant",
+        "hex": "#f5f5f5"
+      }
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "sizesAvailable": {
+      "S": true,
+      "M": true,
+      "L": true,
+      "XL": true,
+      "XXL": false
+    },
+    "material": "100% Premium Material",
+    "fit": "Regular",
+    "pattern": "Solid",
+    "occasion": "Casual",
     "stock": 90,
     "isTrending": false,
     "isNewArrival": true,
     "isBestSeller": false,
     "tags": [
-      "fashion",
       "premium",
-      "bottomwear",
-      "kids"
+      "comfortable",
+      "footwear"
     ],
     "specifications": {
-      "Fabric": "Premium Cotton Blend",
-      "Fit": "Regular/Slim",
+      "Fabric": "Premium Quality",
+      "Fit": "Regular",
       "Wash Care": "Machine Wash"
     },
     "reviews": [
       {
-        "id": "rev_qpgrg",
-        "userName": "Customer",
+        "id": "rev_114_1",
+        "userName": "Verified Buyer",
         "rating": 5,
-        "comment": "Excellent product, highly recommended!",
-        "date": "2024-12-15",
-        "helpful": 21,
+        "comment": "Absolutely love this product! The quality is amazing for the price.",
+        "date": "2024-03-15",
+        "helpful": 8,
         "verified": true
       }
     ]
   },
   {
-    "id": "prod_243",
-    "name": "Global Desi Kids's Premium Kids Ethnic Wear",
-    "brand": "Global Desi",
-    "description": "Premium quality kids ethnic wear from Global Desi. Features comfortable fit and excellent material suitable for everyday wear.",
-    "category": "Kids",
-    "subCategory": "Kids Ethnic Wear",
-    "type": "Topwear",
-    "price": 4057,
-    "mrp": 12295,
-    "discount": 67,
+    "id": "prod_115",
+    "name": "Premium Footwear - Style 5",
+    "brand": "W",
+    "description": "Experience ultimate comfort and style with our latest footwear. Perfect for everyday wear, featuring premium materials and exceptional craftsmanship.",
+    "category": "Women",
+    "subCategory": "Footwear",
+    "type": "Footwear",
+    "price": 1699,
+    "mrp": 3498,
+    "discount": 51,
     "currency": "₹",
-    "rating": 3.7,
-    "reviewCount": 4174,
+    "rating": "4.7",
+    "reviewCount": 2312,
     "images": [
-      "https://images.unsplash.com/photo-1552374196-1ab2a1c593e8?w=600&q=80",
-      "https://images.unsplash.com/photo-1490578474895-699bc4e3f49f?w=600&q=80",
-      "https://images.unsplash.com/photo-1552374196-1ab2a1c593e8?w=600&q=80",
-      "https://images.unsplash.com/photo-1490578474895-699bc4e3f49f?w=600&q=80"
+      "https://images.unsplash.com/photo-1581591524851-c1c7f5f2f3b6?w=600&q=80",
+      "https://images.unsplash.com/photo-1616401776-32c2c4b4ed40?w=600&q=80",
+      "https://images.unsplash.com/photo-1543163981-d6e1b5e4b0e4?w=600&q=80"
     ],
     "colors": [
       {
-        "name": "Olive",
-        "hex": "#556B2F"
-      },
-      {
-        "name": "Off White",
-        "hex": "#f5f0e8"
-      },
-      {
-        "name": "Charcoal Black",
+        "name": "Standard",
         "hex": "#1a1a1a"
+      },
+      {
+        "name": "Variant",
+        "hex": "#f5f5f5"
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -19886,163 +8358,145 @@ export const products = [
       "XXL"
     ],
     "sizesAvailable": {
-      "XS": false,
+      "S": true,
+      "M": true,
+      "L": true,
+      "XL": true,
+      "XXL": false
+    },
+    "material": "100% Premium Material",
+    "fit": "Regular",
+    "pattern": "Solid",
+    "occasion": "Casual",
+    "stock": 37,
+    "isTrending": false,
+    "isNewArrival": false,
+    "isBestSeller": false,
+    "tags": [
+      "premium",
+      "comfortable",
+      "footwear"
+    ],
+    "specifications": {
+      "Fabric": "Premium Quality",
+      "Fit": "Regular",
+      "Wash Care": "Machine Wash"
+    },
+    "reviews": [
+      {
+        "id": "rev_115_1",
+        "userName": "Verified Buyer",
+        "rating": 5,
+        "comment": "Absolutely love this product! The quality is amazing for the price.",
+        "date": "2024-03-15",
+        "helpful": 10,
+        "verified": true
+      }
+    ]
+  },
+  {
+    "id": "prod_116",
+    "name": "Premium Footwear - Style 6",
+    "brand": "Levi's",
+    "description": "Experience ultimate comfort and style with our latest footwear. Perfect for everyday wear, featuring premium materials and exceptional craftsmanship.",
+    "category": "Women",
+    "subCategory": "Footwear",
+    "type": "Footwear",
+    "price": 499,
+    "mrp": 2998,
+    "discount": 83,
+    "currency": "₹",
+    "rating": "4.8",
+    "reviewCount": 1245,
+    "images": [
+      "https://images.unsplash.com/photo-1616401776-32c2c4b4ed40?w=600&q=80",
+      "https://images.unsplash.com/photo-1543163981-d6e1b5e4b0e4?w=600&q=80",
+      "https://images.unsplash.com/photo-1515347122818-b3b3e2c27ef3?w=600&q=80"
+    ],
+    "colors": [
+      {
+        "name": "Standard",
+        "hex": "#1a1a1a"
+      },
+      {
+        "name": "Variant",
+        "hex": "#f5f5f5"
+      }
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "sizesAvailable": {
       "S": true,
       "M": true,
       "L": true,
       "XL": false,
       "XXL": false
     },
-    "material": "Premium Cotton Blend",
-    "fit": "Slim",
+    "material": "100% Premium Material",
+    "fit": "Regular",
     "pattern": "Solid",
     "occasion": "Casual",
-    "season": "All Season",
-    "stock": 11,
+    "stock": 30,
     "isTrending": false,
     "isNewArrival": true,
     "isBestSeller": false,
     "tags": [
-      "fashion",
       "premium",
-      "topwear",
-      "kids"
+      "comfortable",
+      "footwear"
     ],
     "specifications": {
-      "Fabric": "Premium Cotton Blend",
-      "Fit": "Regular/Slim",
+      "Fabric": "Premium Quality",
+      "Fit": "Regular",
       "Wash Care": "Machine Wash"
     },
     "reviews": [
       {
-        "id": "rev_afrk8",
-        "userName": "Customer",
+        "id": "rev_116_1",
+        "userName": "Verified Buyer",
         "rating": 5,
-        "comment": "Excellent product, highly recommended!",
-        "date": "2024-12-15",
-        "helpful": 48,
+        "comment": "Absolutely love this product! The quality is amazing for the price.",
+        "date": "2024-03-15",
+        "helpful": 13,
         "verified": true
       }
     ]
   },
   {
-    "id": "prod_244",
-    "name": "Levi's Kids's Premium Kids Ethnic Wear",
-    "brand": "Levi's",
-    "description": "Premium quality kids ethnic wear from Levi's. Features comfortable fit and excellent material suitable for everyday wear.",
-    "category": "Kids",
-    "subCategory": "Kids Ethnic Wear",
-    "type": "Topwear",
-    "price": 2616,
-    "mrp": 6381,
-    "discount": 59,
+    "id": "prod_117",
+    "name": "Premium Accessories - Style 1",
+    "brand": "H&M",
+    "description": "Experience ultimate comfort and style with our latest accessories. Perfect for everyday wear, featuring premium materials and exceptional craftsmanship.",
+    "category": "Women",
+    "subCategory": "Accessories",
+    "type": "Accessories",
+    "price": 299,
+    "mrp": 798,
+    "discount": 63,
     "currency": "₹",
-    "rating": 3.9,
-    "reviewCount": 567,
+    "rating": "4.8",
+    "reviewCount": 4701,
     "images": [
-      "https://images.unsplash.com/photo-1490578474895-699bc4e3f49f?w=600&q=80",
-      "https://images.unsplash.com/photo-1552374196-1ab2a1c593e8?w=600&q=80",
-      "https://images.unsplash.com/photo-1490578474895-699bc4e3f49f?w=600&q=80",
-      "https://images.unsplash.com/photo-1552374196-1ab2a1c593e8?w=600&q=80"
+      "https://images.unsplash.com/photo-1548036161-8c6aaf7d8d5c?w=600&q=80",
+      "https://images.unsplash.com/photo-1553062407-98eeb64c6a62?w=600&q=80",
+      "https://images.unsplash.com/photo-1602088113834-bf03f85440e2?w=600&q=80"
     ],
     "colors": [
       {
-        "name": "Olive",
-        "hex": "#556B2F"
-      },
-      {
-        "name": "Off White",
-        "hex": "#f5f0e8"
-      },
-      {
-        "name": "Mustard",
-        "hex": "#FFDB58"
-      }
-    ],
-    "sizes": [
-      "XS",
-      "S",
-      "M",
-      "L",
-      "XL",
-      "XXL"
-    ],
-    "sizesAvailable": {
-      "XS": true,
-      "S": true,
-      "M": true,
-      "L": true,
-      "XL": true,
-      "XXL": true
-    },
-    "material": "Premium Cotton Blend",
-    "fit": "Regular",
-    "pattern": "Solid",
-    "occasion": "Casual",
-    "season": "All Season",
-    "stock": 5,
-    "isTrending": true,
-    "isNewArrival": true,
-    "isBestSeller": false,
-    "tags": [
-      "fashion",
-      "premium",
-      "topwear",
-      "kids"
-    ],
-    "specifications": {
-      "Fabric": "Premium Cotton Blend",
-      "Fit": "Regular/Slim",
-      "Wash Care": "Machine Wash"
-    },
-    "reviews": [
-      {
-        "id": "rev_o6y14",
-        "userName": "Customer",
-        "rating": 5,
-        "comment": "Excellent product, highly recommended!",
-        "date": "2024-12-15",
-        "helpful": 4,
-        "verified": true
-      }
-    ]
-  },
-  {
-    "id": "prod_245",
-    "name": "Levi's Kids's Premium Boys Jeans & Shorts",
-    "brand": "Levi's",
-    "description": "Premium quality boys jeans & shorts from Levi's. Features comfortable fit and excellent material suitable for everyday wear.",
-    "category": "Kids",
-    "subCategory": "Boys Jeans & Shorts",
-    "type": "Bottomwear",
-    "price": 8461,
-    "mrp": 12821,
-    "discount": 34,
-    "currency": "₹",
-    "rating": 4.7,
-    "reviewCount": 2885,
-    "images": [
-      "https://images.unsplash.com/photo-1552374196-1ab2a1c593e8?w=600&q=80",
-      "https://images.unsplash.com/photo-1490578474895-699bc4e3f49f?w=600&q=80",
-      "https://images.unsplash.com/photo-1552374196-1ab2a1c593e8?w=600&q=80",
-      "https://images.unsplash.com/photo-1490578474895-699bc4e3f49f?w=600&q=80"
-    ],
-    "colors": [
-      {
-        "name": "Charcoal Black",
+        "name": "Standard",
         "hex": "#1a1a1a"
       },
       {
-        "name": "Maroon",
-        "hex": "#800000"
-      },
-      {
-        "name": "Navy Blue",
-        "hex": "#000080"
+        "name": "Variant",
+        "hex": "#f5f5f5"
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -20050,81 +8504,437 @@ export const products = [
       "XXL"
     ],
     "sizesAvailable": {
-      "XS": true,
       "S": true,
       "M": true,
       "L": true,
       "XL": false,
-      "XXL": true
+      "XXL": false
     },
-    "material": "Premium Cotton Blend",
+    "material": "100% Premium Material",
     "fit": "Regular",
-    "pattern": "Printed",
+    "pattern": "Solid",
     "occasion": "Casual",
-    "season": "All Season",
-    "stock": 85,
+    "stock": 89,
     "isTrending": false,
-    "isNewArrival": false,
+    "isNewArrival": true,
     "isBestSeller": false,
     "tags": [
-      "fashion",
       "premium",
-      "bottomwear",
-      "kids"
+      "comfortable",
+      "accessories"
     ],
     "specifications": {
-      "Fabric": "Premium Cotton Blend",
-      "Fit": "Regular/Slim",
+      "Fabric": "Premium Quality",
+      "Fit": "Regular",
       "Wash Care": "Machine Wash"
     },
     "reviews": [
       {
-        "id": "rev_a1vko",
-        "userName": "Customer",
+        "id": "rev_117_1",
+        "userName": "Verified Buyer",
         "rating": 5,
-        "comment": "Excellent product, highly recommended!",
-        "date": "2024-12-15",
+        "comment": "Absolutely love this product! The quality is amazing for the price.",
+        "date": "2024-03-15",
+        "helpful": 15,
+        "verified": true
+      }
+    ]
+  },
+  {
+    "id": "prod_118",
+    "name": "Premium Accessories - Style 2",
+    "brand": "FabIndia",
+    "description": "Experience ultimate comfort and style with our latest accessories. Perfect for everyday wear, featuring premium materials and exceptional craftsmanship.",
+    "category": "Women",
+    "subCategory": "Accessories",
+    "type": "Accessories",
+    "price": 499,
+    "mrp": 1398,
+    "discount": 64,
+    "currency": "₹",
+    "rating": "5.0",
+    "reviewCount": 330,
+    "images": [
+      "https://images.unsplash.com/photo-1553062407-98eeb64c6a62?w=600&q=80",
+      "https://images.unsplash.com/photo-1602088113834-bf03f85440e2?w=600&q=80",
+      "https://images.unsplash.com/photo-1523170335258-f937568f9114?w=600&q=80"
+    ],
+    "colors": [
+      {
+        "name": "Standard",
+        "hex": "#1a1a1a"
+      },
+      {
+        "name": "Variant",
+        "hex": "#f5f5f5"
+      }
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "sizesAvailable": {
+      "S": true,
+      "M": true,
+      "L": true,
+      "XL": true,
+      "XXL": false
+    },
+    "material": "100% Premium Material",
+    "fit": "Regular",
+    "pattern": "Solid",
+    "occasion": "Casual",
+    "stock": 73,
+    "isTrending": false,
+    "isNewArrival": false,
+    "isBestSeller": false,
+    "tags": [
+      "premium",
+      "comfortable",
+      "accessories"
+    ],
+    "specifications": {
+      "Fabric": "Premium Quality",
+      "Fit": "Regular",
+      "Wash Care": "Machine Wash"
+    },
+    "reviews": [
+      {
+        "id": "rev_118_1",
+        "userName": "Verified Buyer",
+        "rating": 5,
+        "comment": "Absolutely love this product! The quality is amazing for the price.",
+        "date": "2024-03-15",
+        "helpful": 11,
+        "verified": true
+      }
+    ]
+  },
+  {
+    "id": "prod_119",
+    "name": "Premium Accessories - Style 3",
+    "brand": "H&M",
+    "description": "Experience ultimate comfort and style with our latest accessories. Perfect for everyday wear, featuring premium materials and exceptional craftsmanship.",
+    "category": "Women",
+    "subCategory": "Accessories",
+    "type": "Accessories",
+    "price": 199,
+    "mrp": 898,
+    "discount": 78,
+    "currency": "₹",
+    "rating": "4.2",
+    "reviewCount": 1950,
+    "images": [
+      "https://images.unsplash.com/photo-1602088113834-bf03f85440e2?w=600&q=80",
+      "https://images.unsplash.com/photo-1523170335258-f937568f9114?w=600&q=80",
+      "https://images.unsplash.com/photo-1603808033192-08d4836fc250?w=600&q=80"
+    ],
+    "colors": [
+      {
+        "name": "Standard",
+        "hex": "#1a1a1a"
+      },
+      {
+        "name": "Variant",
+        "hex": "#f5f5f5"
+      }
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "sizesAvailable": {
+      "S": true,
+      "M": true,
+      "L": true,
+      "XL": false,
+      "XXL": false
+    },
+    "material": "100% Premium Material",
+    "fit": "Regular",
+    "pattern": "Solid",
+    "occasion": "Casual",
+    "stock": 15,
+    "isTrending": false,
+    "isNewArrival": false,
+    "isBestSeller": false,
+    "tags": [
+      "premium",
+      "comfortable",
+      "accessories"
+    ],
+    "specifications": {
+      "Fabric": "Premium Quality",
+      "Fit": "Regular",
+      "Wash Care": "Machine Wash"
+    },
+    "reviews": [
+      {
+        "id": "rev_119_1",
+        "userName": "Verified Buyer",
+        "rating": 5,
+        "comment": "Absolutely love this product! The quality is amazing for the price.",
+        "date": "2024-03-15",
+        "helpful": 28,
+        "verified": true
+      }
+    ]
+  },
+  {
+    "id": "prod_120",
+    "name": "Premium Accessories - Style 4",
+    "brand": "Jack & Jones",
+    "description": "Experience ultimate comfort and style with our latest accessories. Perfect for everyday wear, featuring premium materials and exceptional craftsmanship.",
+    "category": "Women",
+    "subCategory": "Accessories",
+    "type": "Accessories",
+    "price": 599,
+    "mrp": 1398,
+    "discount": 57,
+    "currency": "₹",
+    "rating": "4.2",
+    "reviewCount": 4258,
+    "images": [
+      "https://images.unsplash.com/photo-1523170335258-f937568f9114?w=600&q=80",
+      "https://images.unsplash.com/photo-1603808033192-08d4836fc250?w=600&q=80",
+      "https://images.unsplash.com/photo-1548036161-8c6aaf7d8d5c?w=600&q=80"
+    ],
+    "colors": [
+      {
+        "name": "Standard",
+        "hex": "#1a1a1a"
+      },
+      {
+        "name": "Variant",
+        "hex": "#f5f5f5"
+      }
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "sizesAvailable": {
+      "S": true,
+      "M": true,
+      "L": true,
+      "XL": false,
+      "XXL": false
+    },
+    "material": "100% Premium Material",
+    "fit": "Regular",
+    "pattern": "Solid",
+    "occasion": "Casual",
+    "stock": 12,
+    "isTrending": false,
+    "isNewArrival": true,
+    "isBestSeller": false,
+    "tags": [
+      "premium",
+      "comfortable",
+      "accessories"
+    ],
+    "specifications": {
+      "Fabric": "Premium Quality",
+      "Fit": "Regular",
+      "Wash Care": "Machine Wash"
+    },
+    "reviews": [
+      {
+        "id": "rev_120_1",
+        "userName": "Verified Buyer",
+        "rating": 5,
+        "comment": "Absolutely love this product! The quality is amazing for the price.",
+        "date": "2024-03-15",
+        "helpful": 0,
+        "verified": true
+      }
+    ]
+  },
+  {
+    "id": "prod_121",
+    "name": "Premium Accessories - Style 5",
+    "brand": "Levi's",
+    "description": "Experience ultimate comfort and style with our latest accessories. Perfect for everyday wear, featuring premium materials and exceptional craftsmanship.",
+    "category": "Women",
+    "subCategory": "Accessories",
+    "type": "Accessories",
+    "price": 299,
+    "mrp": 598,
+    "discount": 50,
+    "currency": "₹",
+    "rating": "4.3",
+    "reviewCount": 4015,
+    "images": [
+      "https://images.unsplash.com/photo-1603808033192-08d4836fc250?w=600&q=80",
+      "https://images.unsplash.com/photo-1548036161-8c6aaf7d8d5c?w=600&q=80",
+      "https://images.unsplash.com/photo-1553062407-98eeb64c6a62?w=600&q=80"
+    ],
+    "colors": [
+      {
+        "name": "Standard",
+        "hex": "#1a1a1a"
+      },
+      {
+        "name": "Variant",
+        "hex": "#f5f5f5"
+      }
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "sizesAvailable": {
+      "S": true,
+      "M": true,
+      "L": true,
+      "XL": false,
+      "XXL": false
+    },
+    "material": "100% Premium Material",
+    "fit": "Regular",
+    "pattern": "Solid",
+    "occasion": "Casual",
+    "stock": 23,
+    "isTrending": false,
+    "isNewArrival": false,
+    "isBestSeller": false,
+    "tags": [
+      "premium",
+      "comfortable",
+      "accessories"
+    ],
+    "specifications": {
+      "Fabric": "Premium Quality",
+      "Fit": "Regular",
+      "Wash Care": "Machine Wash"
+    },
+    "reviews": [
+      {
+        "id": "rev_121_1",
+        "userName": "Verified Buyer",
+        "rating": 5,
+        "comment": "Absolutely love this product! The quality is amazing for the price.",
+        "date": "2024-03-15",
+        "helpful": 0,
+        "verified": true
+      }
+    ]
+  },
+  {
+    "id": "prod_122",
+    "name": "Premium T-Shirts - Style 1",
+    "brand": "H&M",
+    "description": "Experience ultimate comfort and style with our latest boys t-shirts. Perfect for everyday wear, featuring premium materials and exceptional craftsmanship.",
+    "category": "Kids",
+    "subCategory": "T-Shirts",
+    "type": "Topwear",
+    "price": 299,
+    "mrp": 898,
+    "discount": 67,
+    "currency": "₹",
+    "rating": "4.0",
+    "reviewCount": 787,
+    "images": [
+      "https://images.unsplash.com/photo-1519457769-2a81db57d7be?w=600&q=80",
+      "https://images.unsplash.com/photo-1503944329-7-18b7a4a3e1b?w=600&q=80",
+      "https://images.unsplash.com/photo-1534308143909-7-4ab7a4b3e1a?w=600&q=80"
+    ],
+    "colors": [
+      {
+        "name": "Standard",
+        "hex": "#1a1a1a"
+      },
+      {
+        "name": "Variant",
+        "hex": "#f5f5f5"
+      }
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "sizesAvailable": {
+      "S": true,
+      "M": true,
+      "L": true,
+      "XL": false,
+      "XXL": false
+    },
+    "material": "100% Premium Material",
+    "fit": "Regular",
+    "pattern": "Solid",
+    "occasion": "Casual",
+    "stock": 70,
+    "isTrending": false,
+    "isNewArrival": false,
+    "isBestSeller": true,
+    "tags": [
+      "premium",
+      "comfortable",
+      "boys t-shirts"
+    ],
+    "specifications": {
+      "Fabric": "Premium Quality",
+      "Fit": "Regular",
+      "Wash Care": "Machine Wash"
+    },
+    "reviews": [
+      {
+        "id": "rev_122_1",
+        "userName": "Verified Buyer",
+        "rating": 5,
+        "comment": "Absolutely love this product! The quality is amazing for the price.",
+        "date": "2024-03-15",
         "helpful": 32,
         "verified": true
       }
     ]
   },
   {
-    "id": "prod_246",
-    "name": "AURA Kids's Premium Kids Shoes",
-    "brand": "AURA",
-    "description": "Premium quality kids shoes from AURA. Features comfortable fit and excellent material suitable for everyday wear.",
+    "id": "prod_123",
+    "name": "Premium T-Shirts - Style 2",
+    "brand": "H&M",
+    "description": "Experience ultimate comfort and style with our latest boys t-shirts. Perfect for everyday wear, featuring premium materials and exceptional craftsmanship.",
     "category": "Kids",
-    "subCategory": "Kids Shoes",
-    "type": "Footwear",
-    "price": 11189,
-    "mrp": 12862,
-    "discount": 13,
+    "subCategory": "T-Shirts",
+    "type": "Topwear",
+    "price": 99,
+    "mrp": 898,
+    "discount": 89,
     "currency": "₹",
-    "rating": 4.3,
-    "reviewCount": 1160,
+    "rating": "4.2",
+    "reviewCount": 4037,
     "images": [
-      "https://images.unsplash.com/photo-1542291026-7eec264c27ff?w=600&q=80",
-      "https://images.unsplash.com/photo-1525966222134-fcfa99b8ae77?w=600&q=80",
-      "https://images.unsplash.com/photo-1542291026-7eec264c27ff?w=600&q=80",
-      "https://images.unsplash.com/photo-1525966222134-fcfa99b8ae77?w=600&q=80"
+      "https://images.unsplash.com/photo-1503944329-7-18b7a4a3e1b?w=600&q=80",
+      "https://images.unsplash.com/photo-1534308143909-7-4ab7a4b3e1a?w=600&q=80",
+      "https://images.unsplash.com/photo-1565071-c92c-4e53-b53d-2b4acf5c1c5b?w=600&q=80"
     ],
     "colors": [
       {
-        "name": "Charcoal Black",
+        "name": "Standard",
         "hex": "#1a1a1a"
       },
       {
-        "name": "Mustard",
-        "hex": "#FFDB58"
-      },
-      {
-        "name": "Maroon",
-        "hex": "#800000"
+        "name": "Variant",
+        "hex": "#f5f5f5"
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -20132,245 +8942,145 @@ export const products = [
       "XXL"
     ],
     "sizesAvailable": {
-      "XS": true,
-      "S": true,
-      "M": true,
-      "L": true,
-      "XL": true,
-      "XXL": false
-    },
-    "material": "Premium Cotton Blend",
-    "fit": "Slim",
-    "pattern": "Solid",
-    "occasion": "Casual",
-    "season": "All Season",
-    "stock": 76,
-    "isTrending": true,
-    "isNewArrival": false,
-    "isBestSeller": false,
-    "tags": [
-      "fashion",
-      "premium",
-      "footwear",
-      "kids"
-    ],
-    "specifications": {
-      "Fabric": "Premium Cotton Blend",
-      "Fit": "Regular/Slim",
-      "Wash Care": "Machine Wash"
-    },
-    "reviews": [
-      {
-        "id": "rev_m5zo7",
-        "userName": "Customer",
-        "rating": 5,
-        "comment": "Excellent product, highly recommended!",
-        "date": "2024-12-15",
-        "helpful": 9,
-        "verified": true
-      }
-    ]
-  },
-  {
-    "id": "prod_247",
-    "name": "URBAN EDGE Kids's Premium Girls Leggings & Skirts",
-    "brand": "URBAN EDGE",
-    "description": "Premium quality girls leggings & skirts from URBAN EDGE. Features comfortable fit and excellent material suitable for everyday wear.",
-    "category": "Kids",
-    "subCategory": "Girls Leggings & Skirts",
-    "type": "Bottomwear",
-    "price": 460,
-    "mrp": 542,
-    "discount": 15,
-    "currency": "₹",
-    "rating": 4.9,
-    "reviewCount": 2824,
-    "images": [
-      "https://images.unsplash.com/photo-1552374196-1ab2a1c593e8?w=600&q=80",
-      "https://images.unsplash.com/photo-1490578474895-699bc4e3f49f?w=600&q=80",
-      "https://images.unsplash.com/photo-1552374196-1ab2a1c593e8?w=600&q=80",
-      "https://images.unsplash.com/photo-1490578474895-699bc4e3f49f?w=600&q=80"
-    ],
-    "colors": [
-      {
-        "name": "Mustard",
-        "hex": "#FFDB58"
-      },
-      {
-        "name": "Charcoal Black",
-        "hex": "#1a1a1a"
-      },
-      {
-        "name": "Olive",
-        "hex": "#556B2F"
-      }
-    ],
-    "sizes": [
-      "XS",
-      "S",
-      "M",
-      "L",
-      "XL",
-      "XXL"
-    ],
-    "sizesAvailable": {
-      "XS": true,
-      "S": true,
-      "M": true,
-      "L": true,
-      "XL": true,
-      "XXL": true
-    },
-    "material": "Premium Cotton Blend",
-    "fit": "Slim",
-    "pattern": "Printed",
-    "occasion": "Casual",
-    "season": "All Season",
-    "stock": 57,
-    "isTrending": false,
-    "isNewArrival": false,
-    "isBestSeller": true,
-    "tags": [
-      "fashion",
-      "premium",
-      "bottomwear",
-      "kids"
-    ],
-    "specifications": {
-      "Fabric": "Premium Cotton Blend",
-      "Fit": "Regular/Slim",
-      "Wash Care": "Machine Wash"
-    },
-    "reviews": [
-      {
-        "id": "rev_osdjh",
-        "userName": "Customer",
-        "rating": 5,
-        "comment": "Excellent product, highly recommended!",
-        "date": "2024-12-15",
-        "helpful": 40,
-        "verified": true
-      }
-    ]
-  },
-  {
-    "id": "prod_248",
-    "name": "Zara Kids's Premium Kids Shoes",
-    "brand": "Zara",
-    "description": "Premium quality kids shoes from Zara. Features comfortable fit and excellent material suitable for everyday wear.",
-    "category": "Kids",
-    "subCategory": "Kids Shoes",
-    "type": "Footwear",
-    "price": 5673,
-    "mrp": 7092,
-    "discount": 20,
-    "currency": "₹",
-    "rating": 4.1,
-    "reviewCount": 3543,
-    "images": [
-      "https://images.unsplash.com/photo-1542291026-7eec264c27ff?w=600&q=80",
-      "https://images.unsplash.com/photo-1525966222134-fcfa99b8ae77?w=600&q=80",
-      "https://images.unsplash.com/photo-1542291026-7eec264c27ff?w=600&q=80",
-      "https://images.unsplash.com/photo-1525966222134-fcfa99b8ae77?w=600&q=80"
-    ],
-    "colors": [
-      {
-        "name": "Mustard",
-        "hex": "#FFDB58"
-      },
-      {
-        "name": "Charcoal Black",
-        "hex": "#1a1a1a"
-      },
-      {
-        "name": "Olive",
-        "hex": "#556B2F"
-      }
-    ],
-    "sizes": [
-      "XS",
-      "S",
-      "M",
-      "L",
-      "XL",
-      "XXL"
-    ],
-    "sizesAvailable": {
-      "XS": true,
       "S": true,
       "M": true,
       "L": true,
       "XL": false,
       "XXL": false
     },
-    "material": "Premium Cotton Blend",
-    "fit": "Slim",
-    "pattern": "Printed",
+    "material": "100% Premium Material",
+    "fit": "Regular",
+    "pattern": "Solid",
     "occasion": "Casual",
-    "season": "All Season",
-    "stock": 37,
-    "isTrending": true,
-    "isNewArrival": false,
+    "stock": 14,
+    "isTrending": false,
+    "isNewArrival": true,
     "isBestSeller": false,
     "tags": [
-      "fashion",
       "premium",
-      "footwear",
-      "kids"
+      "comfortable",
+      "boys t-shirts"
     ],
     "specifications": {
-      "Fabric": "Premium Cotton Blend",
-      "Fit": "Regular/Slim",
+      "Fabric": "Premium Quality",
+      "Fit": "Regular",
       "Wash Care": "Machine Wash"
     },
     "reviews": [
       {
-        "id": "rev_663fm",
-        "userName": "Customer",
+        "id": "rev_123_1",
+        "userName": "Verified Buyer",
         "rating": 5,
-        "comment": "Excellent product, highly recommended!",
-        "date": "2024-12-15",
+        "comment": "Absolutely love this product! The quality is amazing for the price.",
+        "date": "2024-03-15",
+        "helpful": 6,
+        "verified": true
+      }
+    ]
+  },
+  {
+    "id": "prod_124",
+    "name": "Premium T-Shirts - Style 3",
+    "brand": "NOIR",
+    "description": "Experience ultimate comfort and style with our latest boys t-shirts. Perfect for everyday wear, featuring premium materials and exceptional craftsmanship.",
+    "category": "Kids",
+    "subCategory": "T-Shirts",
+    "type": "Topwear",
+    "price": 199,
+    "mrp": 398,
+    "discount": 50,
+    "currency": "₹",
+    "rating": "4.3",
+    "reviewCount": 2280,
+    "images": [
+      "https://images.unsplash.com/photo-1534308143909-7-4ab7a4b3e1a?w=600&q=80",
+      "https://images.unsplash.com/photo-1565071-c92c-4e53-b53d-2b4acf5c1c5b?w=600&q=80",
+      "https://images.unsplash.com/photo-1476234-a92c-4e53-c53d-3b5cde5c2c6c?w=600&q=80"
+    ],
+    "colors": [
+      {
+        "name": "Standard",
+        "hex": "#1a1a1a"
+      },
+      {
+        "name": "Variant",
+        "hex": "#f5f5f5"
+      }
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "sizesAvailable": {
+      "S": true,
+      "M": true,
+      "L": true,
+      "XL": false,
+      "XXL": false
+    },
+    "material": "100% Premium Material",
+    "fit": "Regular",
+    "pattern": "Solid",
+    "occasion": "Casual",
+    "stock": 15,
+    "isTrending": false,
+    "isNewArrival": false,
+    "isBestSeller": false,
+    "tags": [
+      "premium",
+      "comfortable",
+      "boys t-shirts"
+    ],
+    "specifications": {
+      "Fabric": "Premium Quality",
+      "Fit": "Regular",
+      "Wash Care": "Machine Wash"
+    },
+    "reviews": [
+      {
+        "id": "rev_124_1",
+        "userName": "Verified Buyer",
+        "rating": 5,
+        "comment": "Absolutely love this product! The quality is amazing for the price.",
+        "date": "2024-03-15",
         "helpful": 48,
         "verified": true
       }
     ]
   },
   {
-    "id": "prod_249",
-    "name": "Global Desi Kids's Premium Kids Shoes",
-    "brand": "Global Desi",
-    "description": "Premium quality kids shoes from Global Desi. Features comfortable fit and excellent material suitable for everyday wear.",
+    "id": "prod_125",
+    "name": "Premium T-Shirts - Style 4",
+    "brand": "Nike",
+    "description": "Experience ultimate comfort and style with our latest boys t-shirts. Perfect for everyday wear, featuring premium materials and exceptional craftsmanship.",
     "category": "Kids",
-    "subCategory": "Kids Shoes",
-    "type": "Footwear",
-    "price": 10962,
-    "mrp": 13369,
-    "discount": 18,
+    "subCategory": "T-Shirts",
+    "type": "Topwear",
+    "price": 599,
+    "mrp": 1098,
+    "discount": 45,
     "currency": "₹",
-    "rating": 4.4,
-    "reviewCount": 4711,
+    "rating": "4.2",
+    "reviewCount": 1444,
     "images": [
-      "https://images.unsplash.com/photo-1525966222134-fcfa99b8ae77?w=600&q=80",
-      "https://images.unsplash.com/photo-1542291026-7eec264c27ff?w=600&q=80",
-      "https://images.unsplash.com/photo-1525966222134-fcfa99b8ae77?w=600&q=80",
-      "https://images.unsplash.com/photo-1542291026-7eec264c27ff?w=600&q=80"
+      "https://images.unsplash.com/photo-1565071-c92c-4e53-b53d-2b4acf5c1c5b?w=600&q=80",
+      "https://images.unsplash.com/photo-1476234-a92c-4e53-c53d-3b5cde5c2c6c?w=600&q=80",
+      "https://images.unsplash.com/photo-1519457769-2a81db57d7be?w=600&q=80"
     ],
     "colors": [
       {
-        "name": "Mustard",
-        "hex": "#FFDB58"
+        "name": "Standard",
+        "hex": "#1a1a1a"
       },
       {
-        "name": "Off White",
-        "hex": "#f5f0e8"
-      },
-      {
-        "name": "Maroon",
-        "hex": "#800000"
+        "name": "Variant",
+        "hex": "#f5f5f5"
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -20378,81 +9088,72 @@ export const products = [
       "XXL"
     ],
     "sizesAvailable": {
-      "XS": true,
       "S": true,
       "M": true,
       "L": true,
       "XL": true,
       "XXL": false
     },
-    "material": "Premium Cotton Blend",
-    "fit": "Slim",
-    "pattern": "Printed",
+    "material": "100% Premium Material",
+    "fit": "Regular",
+    "pattern": "Solid",
     "occasion": "Casual",
-    "season": "All Season",
-    "stock": 48,
+    "stock": 29,
     "isTrending": false,
     "isNewArrival": false,
-    "isBestSeller": true,
+    "isBestSeller": false,
     "tags": [
-      "fashion",
       "premium",
-      "footwear",
-      "kids"
+      "comfortable",
+      "boys t-shirts"
     ],
     "specifications": {
-      "Fabric": "Premium Cotton Blend",
-      "Fit": "Regular/Slim",
+      "Fabric": "Premium Quality",
+      "Fit": "Regular",
       "Wash Care": "Machine Wash"
     },
     "reviews": [
       {
-        "id": "rev_bbye0",
-        "userName": "Customer",
+        "id": "rev_125_1",
+        "userName": "Verified Buyer",
         "rating": 5,
-        "comment": "Excellent product, highly recommended!",
-        "date": "2024-12-15",
-        "helpful": 5,
+        "comment": "Absolutely love this product! The quality is amazing for the price.",
+        "date": "2024-03-15",
+        "helpful": 45,
         "verified": true
       }
     ]
   },
   {
-    "id": "prod_250",
-    "name": "DRIFT Kids's Premium Boys T-Shirts & Shirts",
+    "id": "prod_126",
+    "name": "Premium T-Shirts - Style 5",
     "brand": "DRIFT",
-    "description": "Premium quality boys t-shirts & shirts from DRIFT. Features comfortable fit and excellent material suitable for everyday wear.",
+    "description": "Experience ultimate comfort and style with our latest boys t-shirts. Perfect for everyday wear, featuring premium materials and exceptional craftsmanship.",
     "category": "Kids",
-    "subCategory": "Boys T-Shirts & Shirts",
+    "subCategory": "T-Shirts",
     "type": "Topwear",
-    "price": 5489,
-    "mrp": 13724,
-    "discount": 60,
+    "price": 399,
+    "mrp": 498,
+    "discount": 20,
     "currency": "₹",
-    "rating": 3.3,
-    "reviewCount": 2154,
+    "rating": "4.7",
+    "reviewCount": 1739,
     "images": [
-      "https://images.unsplash.com/photo-1490578474895-699bc4e3f49f?w=600&q=80",
-      "https://images.unsplash.com/photo-1552374196-1ab2a1c593e8?w=600&q=80",
-      "https://images.unsplash.com/photo-1490578474895-699bc4e3f49f?w=600&q=80",
-      "https://images.unsplash.com/photo-1552374196-1ab2a1c593e8?w=600&q=80"
+      "https://images.unsplash.com/photo-1476234-a92c-4e53-c53d-3b5cde5c2c6c?w=600&q=80",
+      "https://images.unsplash.com/photo-1519457769-2a81db57d7be?w=600&q=80",
+      "https://images.unsplash.com/photo-1503944329-7-18b7a4a3e1b?w=600&q=80"
     ],
     "colors": [
       {
-        "name": "Off White",
-        "hex": "#f5f0e8"
+        "name": "Standard",
+        "hex": "#1a1a1a"
       },
       {
-        "name": "Mustard",
-        "hex": "#FFDB58"
-      },
-      {
-        "name": "Maroon",
-        "hex": "#800000"
+        "name": "Variant",
+        "hex": "#f5f5f5"
       }
     ],
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
@@ -20460,41 +9161,1863 @@ export const products = [
       "XXL"
     ],
     "sizesAvailable": {
-      "XS": false,
+      "S": true,
+      "M": true,
+      "L": true,
+      "XL": false,
+      "XXL": false
+    },
+    "material": "100% Premium Material",
+    "fit": "Regular",
+    "pattern": "Solid",
+    "occasion": "Casual",
+    "stock": 34,
+    "isTrending": false,
+    "isNewArrival": false,
+    "isBestSeller": false,
+    "tags": [
+      "premium",
+      "comfortable",
+      "boys t-shirts"
+    ],
+    "specifications": {
+      "Fabric": "Premium Quality",
+      "Fit": "Regular",
+      "Wash Care": "Machine Wash"
+    },
+    "reviews": [
+      {
+        "id": "rev_126_1",
+        "userName": "Verified Buyer",
+        "rating": 5,
+        "comment": "Absolutely love this product! The quality is amazing for the price.",
+        "date": "2024-03-15",
+        "helpful": 39,
+        "verified": true
+      }
+    ]
+  },
+  {
+    "id": "prod_127",
+    "name": "Premium Jeans/Shorts - Style 1",
+    "brand": "URBAN EDGE",
+    "description": "Experience ultimate comfort and style with our latest boys jeans/shorts. Perfect for everyday wear, featuring premium materials and exceptional craftsmanship.",
+    "category": "Kids",
+    "subCategory": "Jeans/Shorts",
+    "type": "Bottomwear",
+    "price": 199,
+    "mrp": 1198,
+    "discount": 83,
+    "currency": "₹",
+    "rating": "4.7",
+    "reviewCount": 3334,
+    "images": [
+      "https://images.unsplash.com/photo-1503944329-7-18b7a4a3e1b?w=600&q=80",
+      "https://images.unsplash.com/photo-1565071-c92c-4e53-b53d-2b4acf5c1c5b?w=600&q=80",
+      "https://images.unsplash.com/photo-1519457769-2a81db57d7be?w=600&q=80"
+    ],
+    "colors": [
+      {
+        "name": "Standard",
+        "hex": "#1a1a1a"
+      },
+      {
+        "name": "Variant",
+        "hex": "#f5f5f5"
+      }
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "sizesAvailable": {
       "S": true,
       "M": true,
       "L": true,
       "XL": true,
       "XXL": false
     },
-    "material": "Premium Cotton Blend",
-    "fit": "Slim",
-    "pattern": "Printed",
+    "material": "100% Premium Material",
+    "fit": "Regular",
+    "pattern": "Solid",
     "occasion": "Casual",
-    "season": "All Season",
-    "stock": 41,
+    "stock": 34,
     "isTrending": false,
     "isNewArrival": false,
     "isBestSeller": false,
     "tags": [
-      "fashion",
       "premium",
-      "topwear",
-      "kids"
+      "comfortable",
+      "boys jeans/shorts"
     ],
     "specifications": {
-      "Fabric": "Premium Cotton Blend",
-      "Fit": "Regular/Slim",
+      "Fabric": "Premium Quality",
+      "Fit": "Regular",
       "Wash Care": "Machine Wash"
     },
     "reviews": [
       {
-        "id": "rev_cxq7u",
-        "userName": "Customer",
+        "id": "rev_127_1",
+        "userName": "Verified Buyer",
         "rating": 5,
-        "comment": "Excellent product, highly recommended!",
-        "date": "2024-12-15",
-        "helpful": 23,
+        "comment": "Absolutely love this product! The quality is amazing for the price.",
+        "date": "2024-03-15",
+        "helpful": 33,
+        "verified": true
+      }
+    ]
+  },
+  {
+    "id": "prod_128",
+    "name": "Premium Jeans/Shorts - Style 2",
+    "brand": "Levi's",
+    "description": "Experience ultimate comfort and style with our latest boys jeans/shorts. Perfect for everyday wear, featuring premium materials and exceptional craftsmanship.",
+    "category": "Kids",
+    "subCategory": "Jeans/Shorts",
+    "type": "Bottomwear",
+    "price": 199,
+    "mrp": 1098,
+    "discount": 82,
+    "currency": "₹",
+    "rating": "5.0",
+    "reviewCount": 4780,
+    "images": [
+      "https://images.unsplash.com/photo-1565071-c92c-4e53-b53d-2b4acf5c1c5b?w=600&q=80",
+      "https://images.unsplash.com/photo-1519457769-2a81db57d7be?w=600&q=80",
+      "https://images.unsplash.com/photo-1534308143909-7-4ab7a4b3e1a?w=600&q=80"
+    ],
+    "colors": [
+      {
+        "name": "Standard",
+        "hex": "#1a1a1a"
+      },
+      {
+        "name": "Variant",
+        "hex": "#f5f5f5"
+      }
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "sizesAvailable": {
+      "S": true,
+      "M": true,
+      "L": true,
+      "XL": false,
+      "XXL": false
+    },
+    "material": "100% Premium Material",
+    "fit": "Regular",
+    "pattern": "Solid",
+    "occasion": "Casual",
+    "stock": 92,
+    "isTrending": false,
+    "isNewArrival": false,
+    "isBestSeller": false,
+    "tags": [
+      "premium",
+      "comfortable",
+      "boys jeans/shorts"
+    ],
+    "specifications": {
+      "Fabric": "Premium Quality",
+      "Fit": "Regular",
+      "Wash Care": "Machine Wash"
+    },
+    "reviews": [
+      {
+        "id": "rev_128_1",
+        "userName": "Verified Buyer",
+        "rating": 5,
+        "comment": "Absolutely love this product! The quality is amazing for the price.",
+        "date": "2024-03-15",
+        "helpful": 39,
+        "verified": true
+      }
+    ]
+  },
+  {
+    "id": "prod_129",
+    "name": "Premium Jeans/Shorts - Style 3",
+    "brand": "Zara",
+    "description": "Experience ultimate comfort and style with our latest boys jeans/shorts. Perfect for everyday wear, featuring premium materials and exceptional craftsmanship.",
+    "category": "Kids",
+    "subCategory": "Jeans/Shorts",
+    "type": "Bottomwear",
+    "price": 399,
+    "mrp": 1198,
+    "discount": 67,
+    "currency": "₹",
+    "rating": "4.3",
+    "reviewCount": 3565,
+    "images": [
+      "https://images.unsplash.com/photo-1519457769-2a81db57d7be?w=600&q=80",
+      "https://images.unsplash.com/photo-1534308143909-7-4ab7a4b3e1a?w=600&q=80",
+      "https://images.unsplash.com/photo-1476234-a92c-4e53-c53d-3b5cde5c2c6c?w=600&q=80"
+    ],
+    "colors": [
+      {
+        "name": "Standard",
+        "hex": "#1a1a1a"
+      },
+      {
+        "name": "Variant",
+        "hex": "#f5f5f5"
+      }
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "sizesAvailable": {
+      "S": true,
+      "M": true,
+      "L": true,
+      "XL": false,
+      "XXL": true
+    },
+    "material": "100% Premium Material",
+    "fit": "Regular",
+    "pattern": "Solid",
+    "occasion": "Casual",
+    "stock": 32,
+    "isTrending": false,
+    "isNewArrival": false,
+    "isBestSeller": false,
+    "tags": [
+      "premium",
+      "comfortable",
+      "boys jeans/shorts"
+    ],
+    "specifications": {
+      "Fabric": "Premium Quality",
+      "Fit": "Regular",
+      "Wash Care": "Machine Wash"
+    },
+    "reviews": [
+      {
+        "id": "rev_129_1",
+        "userName": "Verified Buyer",
+        "rating": 5,
+        "comment": "Absolutely love this product! The quality is amazing for the price.",
+        "date": "2024-03-15",
+        "helpful": 17,
+        "verified": true
+      }
+    ]
+  },
+  {
+    "id": "prod_130",
+    "name": "Premium Jeans/Shorts - Style 4",
+    "brand": "NOIR",
+    "description": "Experience ultimate comfort and style with our latest boys jeans/shorts. Perfect for everyday wear, featuring premium materials and exceptional craftsmanship.",
+    "category": "Kids",
+    "subCategory": "Jeans/Shorts",
+    "type": "Bottomwear",
+    "price": 99,
+    "mrp": 298,
+    "discount": 67,
+    "currency": "₹",
+    "rating": "4.8",
+    "reviewCount": 4341,
+    "images": [
+      "https://images.unsplash.com/photo-1534308143909-7-4ab7a4b3e1a?w=600&q=80",
+      "https://images.unsplash.com/photo-1476234-a92c-4e53-c53d-3b5cde5c2c6c?w=600&q=80",
+      "https://images.unsplash.com/photo-1503944329-7-18b7a4a3e1b?w=600&q=80"
+    ],
+    "colors": [
+      {
+        "name": "Standard",
+        "hex": "#1a1a1a"
+      },
+      {
+        "name": "Variant",
+        "hex": "#f5f5f5"
+      }
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "sizesAvailable": {
+      "S": true,
+      "M": true,
+      "L": true,
+      "XL": true,
+      "XXL": true
+    },
+    "material": "100% Premium Material",
+    "fit": "Regular",
+    "pattern": "Solid",
+    "occasion": "Casual",
+    "stock": 94,
+    "isTrending": false,
+    "isNewArrival": false,
+    "isBestSeller": false,
+    "tags": [
+      "premium",
+      "comfortable",
+      "boys jeans/shorts"
+    ],
+    "specifications": {
+      "Fabric": "Premium Quality",
+      "Fit": "Regular",
+      "Wash Care": "Machine Wash"
+    },
+    "reviews": [
+      {
+        "id": "rev_130_1",
+        "userName": "Verified Buyer",
+        "rating": 5,
+        "comment": "Absolutely love this product! The quality is amazing for the price.",
+        "date": "2024-03-15",
+        "helpful": 32,
+        "verified": true
+      }
+    ]
+  },
+  {
+    "id": "prod_131",
+    "name": "Premium Jeans/Shorts - Style 5",
+    "brand": "Nike",
+    "description": "Experience ultimate comfort and style with our latest boys jeans/shorts. Perfect for everyday wear, featuring premium materials and exceptional craftsmanship.",
+    "category": "Kids",
+    "subCategory": "Jeans/Shorts",
+    "type": "Bottomwear",
+    "price": 399,
+    "mrp": 1398,
+    "discount": 71,
+    "currency": "₹",
+    "rating": "4.9",
+    "reviewCount": 2873,
+    "images": [
+      "https://images.unsplash.com/photo-1476234-a92c-4e53-c53d-3b5cde5c2c6c?w=600&q=80",
+      "https://images.unsplash.com/photo-1503944329-7-18b7a4a3e1b?w=600&q=80",
+      "https://images.unsplash.com/photo-1565071-c92c-4e53-b53d-2b4acf5c1c5b?w=600&q=80"
+    ],
+    "colors": [
+      {
+        "name": "Standard",
+        "hex": "#1a1a1a"
+      },
+      {
+        "name": "Variant",
+        "hex": "#f5f5f5"
+      }
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "sizesAvailable": {
+      "S": true,
+      "M": true,
+      "L": true,
+      "XL": false,
+      "XXL": true
+    },
+    "material": "100% Premium Material",
+    "fit": "Regular",
+    "pattern": "Solid",
+    "occasion": "Casual",
+    "stock": 102,
+    "isTrending": false,
+    "isNewArrival": false,
+    "isBestSeller": false,
+    "tags": [
+      "premium",
+      "comfortable",
+      "boys jeans/shorts"
+    ],
+    "specifications": {
+      "Fabric": "Premium Quality",
+      "Fit": "Regular",
+      "Wash Care": "Machine Wash"
+    },
+    "reviews": [
+      {
+        "id": "rev_131_1",
+        "userName": "Verified Buyer",
+        "rating": 5,
+        "comment": "Absolutely love this product! The quality is amazing for the price.",
+        "date": "2024-03-15",
+        "helpful": 1,
+        "verified": true
+      }
+    ]
+  },
+  {
+    "id": "prod_132",
+    "name": "Premium Dresses - Style 1",
+    "brand": "ONLY",
+    "description": "Experience ultimate comfort and style with our latest girls dresses. Perfect for everyday wear, featuring premium materials and exceptional craftsmanship.",
+    "category": "Kids",
+    "subCategory": "Dresses",
+    "type": "Girls Dresses",
+    "price": 499,
+    "mrp": 898,
+    "discount": 44,
+    "currency": "₹",
+    "rating": "4.8",
+    "reviewCount": 942,
+    "images": [
+      "https://images.unsplash.com/photo-1503944329-7-18b7a4a3e1b?w=600&q=80",
+      "https://images.unsplash.com/photo-1519457769-2a81db57d7be?w=600&q=80",
+      "https://images.unsplash.com/photo-1565071-c92c-4e53-b53d-2b4acf5c1c5b?w=600&q=80"
+    ],
+    "colors": [
+      {
+        "name": "Standard",
+        "hex": "#1a1a1a"
+      },
+      {
+        "name": "Variant",
+        "hex": "#f5f5f5"
+      }
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "sizesAvailable": {
+      "S": true,
+      "M": true,
+      "L": true,
+      "XL": false,
+      "XXL": false
+    },
+    "material": "100% Premium Material",
+    "fit": "Regular",
+    "pattern": "Solid",
+    "occasion": "Casual",
+    "stock": 95,
+    "isTrending": false,
+    "isNewArrival": false,
+    "isBestSeller": false,
+    "tags": [
+      "premium",
+      "comfortable",
+      "girls dresses"
+    ],
+    "specifications": {
+      "Fabric": "Premium Quality",
+      "Fit": "Regular",
+      "Wash Care": "Machine Wash"
+    },
+    "reviews": [
+      {
+        "id": "rev_132_1",
+        "userName": "Verified Buyer",
+        "rating": 5,
+        "comment": "Absolutely love this product! The quality is amazing for the price.",
+        "date": "2024-03-15",
+        "helpful": 45,
+        "verified": true
+      }
+    ]
+  },
+  {
+    "id": "prod_133",
+    "name": "Premium Dresses - Style 2",
+    "brand": "FabIndia",
+    "description": "Experience ultimate comfort and style with our latest girls dresses. Perfect for everyday wear, featuring premium materials and exceptional craftsmanship.",
+    "category": "Kids",
+    "subCategory": "Dresses",
+    "type": "Girls Dresses",
+    "price": 499,
+    "mrp": 598,
+    "discount": 17,
+    "currency": "₹",
+    "rating": "4.6",
+    "reviewCount": 168,
+    "images": [
+      "https://images.unsplash.com/photo-1519457769-2a81db57d7be?w=600&q=80",
+      "https://images.unsplash.com/photo-1565071-c92c-4e53-b53d-2b4acf5c1c5b?w=600&q=80",
+      "https://images.unsplash.com/photo-1476234-a92c-4e53-c53d-3b5cde5c2c6c?w=600&q=80"
+    ],
+    "colors": [
+      {
+        "name": "Standard",
+        "hex": "#1a1a1a"
+      },
+      {
+        "name": "Variant",
+        "hex": "#f5f5f5"
+      }
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "sizesAvailable": {
+      "S": true,
+      "M": true,
+      "L": true,
+      "XL": false,
+      "XXL": false
+    },
+    "material": "100% Premium Material",
+    "fit": "Regular",
+    "pattern": "Solid",
+    "occasion": "Casual",
+    "stock": 31,
+    "isTrending": false,
+    "isNewArrival": false,
+    "isBestSeller": false,
+    "tags": [
+      "premium",
+      "comfortable",
+      "girls dresses"
+    ],
+    "specifications": {
+      "Fabric": "Premium Quality",
+      "Fit": "Regular",
+      "Wash Care": "Machine Wash"
+    },
+    "reviews": [
+      {
+        "id": "rev_133_1",
+        "userName": "Verified Buyer",
+        "rating": 5,
+        "comment": "Absolutely love this product! The quality is amazing for the price.",
+        "date": "2024-03-15",
+        "helpful": 20,
+        "verified": true
+      }
+    ]
+  },
+  {
+    "id": "prod_134",
+    "name": "Premium Dresses - Style 3",
+    "brand": "NOIR",
+    "description": "Experience ultimate comfort and style with our latest girls dresses. Perfect for everyday wear, featuring premium materials and exceptional craftsmanship.",
+    "category": "Kids",
+    "subCategory": "Dresses",
+    "type": "Girls Dresses",
+    "price": 99,
+    "mrp": 798,
+    "discount": 88,
+    "currency": "₹",
+    "rating": "4.8",
+    "reviewCount": 3312,
+    "images": [
+      "https://images.unsplash.com/photo-1565071-c92c-4e53-b53d-2b4acf5c1c5b?w=600&q=80",
+      "https://images.unsplash.com/photo-1476234-a92c-4e53-c53d-3b5cde5c2c6c?w=600&q=80",
+      "https://images.unsplash.com/photo-1534308143909-7-4ab7a4b3e1a?w=600&q=80"
+    ],
+    "colors": [
+      {
+        "name": "Standard",
+        "hex": "#1a1a1a"
+      },
+      {
+        "name": "Variant",
+        "hex": "#f5f5f5"
+      }
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "sizesAvailable": {
+      "S": true,
+      "M": true,
+      "L": true,
+      "XL": false,
+      "XXL": false
+    },
+    "material": "100% Premium Material",
+    "fit": "Regular",
+    "pattern": "Solid",
+    "occasion": "Casual",
+    "stock": 71,
+    "isTrending": false,
+    "isNewArrival": false,
+    "isBestSeller": false,
+    "tags": [
+      "premium",
+      "comfortable",
+      "girls dresses"
+    ],
+    "specifications": {
+      "Fabric": "Premium Quality",
+      "Fit": "Regular",
+      "Wash Care": "Machine Wash"
+    },
+    "reviews": [
+      {
+        "id": "rev_134_1",
+        "userName": "Verified Buyer",
+        "rating": 5,
+        "comment": "Absolutely love this product! The quality is amazing for the price.",
+        "date": "2024-03-15",
+        "helpful": 19,
+        "verified": true
+      }
+    ]
+  },
+  {
+    "id": "prod_135",
+    "name": "Premium Dresses - Style 4",
+    "brand": "ONLY",
+    "description": "Experience ultimate comfort and style with our latest girls dresses. Perfect for everyday wear, featuring premium materials and exceptional craftsmanship.",
+    "category": "Kids",
+    "subCategory": "Dresses",
+    "type": "Girls Dresses",
+    "price": 99,
+    "mrp": 498,
+    "discount": 80,
+    "currency": "₹",
+    "rating": "4.1",
+    "reviewCount": 3499,
+    "images": [
+      "https://images.unsplash.com/photo-1476234-a92c-4e53-c53d-3b5cde5c2c6c?w=600&q=80",
+      "https://images.unsplash.com/photo-1534308143909-7-4ab7a4b3e1a?w=600&q=80",
+      "https://images.unsplash.com/photo-1503944329-7-18b7a4a3e1b?w=600&q=80"
+    ],
+    "colors": [
+      {
+        "name": "Standard",
+        "hex": "#1a1a1a"
+      },
+      {
+        "name": "Variant",
+        "hex": "#f5f5f5"
+      }
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "sizesAvailable": {
+      "S": true,
+      "M": true,
+      "L": true,
+      "XL": true,
+      "XXL": false
+    },
+    "material": "100% Premium Material",
+    "fit": "Regular",
+    "pattern": "Solid",
+    "occasion": "Casual",
+    "stock": 20,
+    "isTrending": false,
+    "isNewArrival": false,
+    "isBestSeller": false,
+    "tags": [
+      "premium",
+      "comfortable",
+      "girls dresses"
+    ],
+    "specifications": {
+      "Fabric": "Premium Quality",
+      "Fit": "Regular",
+      "Wash Care": "Machine Wash"
+    },
+    "reviews": [
+      {
+        "id": "rev_135_1",
+        "userName": "Verified Buyer",
+        "rating": 5,
+        "comment": "Absolutely love this product! The quality is amazing for the price.",
+        "date": "2024-03-15",
+        "helpful": 11,
+        "verified": true
+      }
+    ]
+  },
+  {
+    "id": "prod_136",
+    "name": "Premium Dresses - Style 5",
+    "brand": "BLOOM",
+    "description": "Experience ultimate comfort and style with our latest girls dresses. Perfect for everyday wear, featuring premium materials and exceptional craftsmanship.",
+    "category": "Kids",
+    "subCategory": "Dresses",
+    "type": "Girls Dresses",
+    "price": 299,
+    "mrp": 1298,
+    "discount": 77,
+    "currency": "₹",
+    "rating": "4.5",
+    "reviewCount": 3537,
+    "images": [
+      "https://images.unsplash.com/photo-1534308143909-7-4ab7a4b3e1a?w=600&q=80",
+      "https://images.unsplash.com/photo-1503944329-7-18b7a4a3e1b?w=600&q=80",
+      "https://images.unsplash.com/photo-1519457769-2a81db57d7be?w=600&q=80"
+    ],
+    "colors": [
+      {
+        "name": "Standard",
+        "hex": "#1a1a1a"
+      },
+      {
+        "name": "Variant",
+        "hex": "#f5f5f5"
+      }
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "sizesAvailable": {
+      "S": true,
+      "M": true,
+      "L": true,
+      "XL": true,
+      "XXL": true
+    },
+    "material": "100% Premium Material",
+    "fit": "Regular",
+    "pattern": "Solid",
+    "occasion": "Casual",
+    "stock": 100,
+    "isTrending": false,
+    "isNewArrival": false,
+    "isBestSeller": false,
+    "tags": [
+      "premium",
+      "comfortable",
+      "girls dresses"
+    ],
+    "specifications": {
+      "Fabric": "Premium Quality",
+      "Fit": "Regular",
+      "Wash Care": "Machine Wash"
+    },
+    "reviews": [
+      {
+        "id": "rev_136_1",
+        "userName": "Verified Buyer",
+        "rating": 5,
+        "comment": "Absolutely love this product! The quality is amazing for the price.",
+        "date": "2024-03-15",
+        "helpful": 32,
+        "verified": true
+      }
+    ]
+  },
+  {
+    "id": "prod_137",
+    "name": "Premium Tops/Leggings - Style 1",
+    "brand": "Adidas",
+    "description": "Experience ultimate comfort and style with our latest girls tops/leggings. Perfect for everyday wear, featuring premium materials and exceptional craftsmanship.",
+    "category": "Kids",
+    "subCategory": "Tops/Leggings",
+    "type": "Bottomwear",
+    "price": 499,
+    "mrp": 1498,
+    "discount": 67,
+    "currency": "₹",
+    "rating": "4.1",
+    "reviewCount": 3709,
+    "images": [
+      "https://images.unsplash.com/photo-1519457769-2a81db57d7be?w=600&q=80",
+      "https://images.unsplash.com/photo-1565071-c92c-4e53-b53d-2b4acf5c1c5b?w=600&q=80",
+      "https://images.unsplash.com/photo-1503944329-7-18b7a4a3e1b?w=600&q=80"
+    ],
+    "colors": [
+      {
+        "name": "Standard",
+        "hex": "#1a1a1a"
+      },
+      {
+        "name": "Variant",
+        "hex": "#f5f5f5"
+      }
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "sizesAvailable": {
+      "S": true,
+      "M": true,
+      "L": true,
+      "XL": false,
+      "XXL": false
+    },
+    "material": "100% Premium Material",
+    "fit": "Regular",
+    "pattern": "Solid",
+    "occasion": "Casual",
+    "stock": 95,
+    "isTrending": false,
+    "isNewArrival": false,
+    "isBestSeller": true,
+    "tags": [
+      "premium",
+      "comfortable",
+      "girls tops/leggings"
+    ],
+    "specifications": {
+      "Fabric": "Premium Quality",
+      "Fit": "Regular",
+      "Wash Care": "Machine Wash"
+    },
+    "reviews": [
+      {
+        "id": "rev_137_1",
+        "userName": "Verified Buyer",
+        "rating": 5,
+        "comment": "Absolutely love this product! The quality is amazing for the price.",
+        "date": "2024-03-15",
+        "helpful": 26,
+        "verified": true
+      }
+    ]
+  },
+  {
+    "id": "prod_138",
+    "name": "Premium Tops/Leggings - Style 2",
+    "brand": "Van Heusen",
+    "description": "Experience ultimate comfort and style with our latest girls tops/leggings. Perfect for everyday wear, featuring premium materials and exceptional craftsmanship.",
+    "category": "Kids",
+    "subCategory": "Tops/Leggings",
+    "type": "Bottomwear",
+    "price": 199,
+    "mrp": 898,
+    "discount": 78,
+    "currency": "₹",
+    "rating": "4.9",
+    "reviewCount": 3983,
+    "images": [
+      "https://images.unsplash.com/photo-1565071-c92c-4e53-b53d-2b4acf5c1c5b?w=600&q=80",
+      "https://images.unsplash.com/photo-1503944329-7-18b7a4a3e1b?w=600&q=80",
+      "https://images.unsplash.com/photo-1534308143909-7-4ab7a4b3e1a?w=600&q=80"
+    ],
+    "colors": [
+      {
+        "name": "Standard",
+        "hex": "#1a1a1a"
+      },
+      {
+        "name": "Variant",
+        "hex": "#f5f5f5"
+      }
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "sizesAvailable": {
+      "S": true,
+      "M": true,
+      "L": true,
+      "XL": true,
+      "XXL": true
+    },
+    "material": "100% Premium Material",
+    "fit": "Regular",
+    "pattern": "Solid",
+    "occasion": "Casual",
+    "stock": 37,
+    "isTrending": false,
+    "isNewArrival": false,
+    "isBestSeller": false,
+    "tags": [
+      "premium",
+      "comfortable",
+      "girls tops/leggings"
+    ],
+    "specifications": {
+      "Fabric": "Premium Quality",
+      "Fit": "Regular",
+      "Wash Care": "Machine Wash"
+    },
+    "reviews": [
+      {
+        "id": "rev_138_1",
+        "userName": "Verified Buyer",
+        "rating": 5,
+        "comment": "Absolutely love this product! The quality is amazing for the price.",
+        "date": "2024-03-15",
+        "helpful": 13,
+        "verified": true
+      }
+    ]
+  },
+  {
+    "id": "prod_139",
+    "name": "Premium Tops/Leggings - Style 3",
+    "brand": "Zara",
+    "description": "Experience ultimate comfort and style with our latest girls tops/leggings. Perfect for everyday wear, featuring premium materials and exceptional craftsmanship.",
+    "category": "Kids",
+    "subCategory": "Tops/Leggings",
+    "type": "Bottomwear",
+    "price": 399,
+    "mrp": 998,
+    "discount": 60,
+    "currency": "₹",
+    "rating": "4.6",
+    "reviewCount": 199,
+    "images": [
+      "https://images.unsplash.com/photo-1503944329-7-18b7a4a3e1b?w=600&q=80",
+      "https://images.unsplash.com/photo-1534308143909-7-4ab7a4b3e1a?w=600&q=80",
+      "https://images.unsplash.com/photo-1476234-a92c-4e53-c53d-3b5cde5c2c6c?w=600&q=80"
+    ],
+    "colors": [
+      {
+        "name": "Standard",
+        "hex": "#1a1a1a"
+      },
+      {
+        "name": "Variant",
+        "hex": "#f5f5f5"
+      }
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "sizesAvailable": {
+      "S": true,
+      "M": true,
+      "L": true,
+      "XL": true,
+      "XXL": true
+    },
+    "material": "100% Premium Material",
+    "fit": "Regular",
+    "pattern": "Solid",
+    "occasion": "Casual",
+    "stock": 54,
+    "isTrending": false,
+    "isNewArrival": false,
+    "isBestSeller": false,
+    "tags": [
+      "premium",
+      "comfortable",
+      "girls tops/leggings"
+    ],
+    "specifications": {
+      "Fabric": "Premium Quality",
+      "Fit": "Regular",
+      "Wash Care": "Machine Wash"
+    },
+    "reviews": [
+      {
+        "id": "rev_139_1",
+        "userName": "Verified Buyer",
+        "rating": 5,
+        "comment": "Absolutely love this product! The quality is amazing for the price.",
+        "date": "2024-03-15",
+        "helpful": 7,
+        "verified": true
+      }
+    ]
+  },
+  {
+    "id": "prod_140",
+    "name": "Premium Tops/Leggings - Style 4",
+    "brand": "Puma",
+    "description": "Experience ultimate comfort and style with our latest girls tops/leggings. Perfect for everyday wear, featuring premium materials and exceptional craftsmanship.",
+    "category": "Kids",
+    "subCategory": "Tops/Leggings",
+    "type": "Bottomwear",
+    "price": 299,
+    "mrp": 598,
+    "discount": 50,
+    "currency": "₹",
+    "rating": "4.3",
+    "reviewCount": 2041,
+    "images": [
+      "https://images.unsplash.com/photo-1534308143909-7-4ab7a4b3e1a?w=600&q=80",
+      "https://images.unsplash.com/photo-1476234-a92c-4e53-c53d-3b5cde5c2c6c?w=600&q=80",
+      "https://images.unsplash.com/photo-1519457769-2a81db57d7be?w=600&q=80"
+    ],
+    "colors": [
+      {
+        "name": "Standard",
+        "hex": "#1a1a1a"
+      },
+      {
+        "name": "Variant",
+        "hex": "#f5f5f5"
+      }
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "sizesAvailable": {
+      "S": true,
+      "M": true,
+      "L": true,
+      "XL": true,
+      "XXL": false
+    },
+    "material": "100% Premium Material",
+    "fit": "Regular",
+    "pattern": "Solid",
+    "occasion": "Casual",
+    "stock": 71,
+    "isTrending": false,
+    "isNewArrival": false,
+    "isBestSeller": false,
+    "tags": [
+      "premium",
+      "comfortable",
+      "girls tops/leggings"
+    ],
+    "specifications": {
+      "Fabric": "Premium Quality",
+      "Fit": "Regular",
+      "Wash Care": "Machine Wash"
+    },
+    "reviews": [
+      {
+        "id": "rev_140_1",
+        "userName": "Verified Buyer",
+        "rating": 5,
+        "comment": "Absolutely love this product! The quality is amazing for the price.",
+        "date": "2024-03-15",
+        "helpful": 3,
+        "verified": true
+      }
+    ]
+  },
+  {
+    "id": "prod_141",
+    "name": "Premium Tops/Leggings - Style 5",
+    "brand": "URBAN EDGE",
+    "description": "Experience ultimate comfort and style with our latest girls tops/leggings. Perfect for everyday wear, featuring premium materials and exceptional craftsmanship.",
+    "category": "Kids",
+    "subCategory": "Tops/Leggings",
+    "type": "Bottomwear",
+    "price": 299,
+    "mrp": 998,
+    "discount": 70,
+    "currency": "₹",
+    "rating": "4.6",
+    "reviewCount": 5057,
+    "images": [
+      "https://images.unsplash.com/photo-1476234-a92c-4e53-c53d-3b5cde5c2c6c?w=600&q=80",
+      "https://images.unsplash.com/photo-1519457769-2a81db57d7be?w=600&q=80",
+      "https://images.unsplash.com/photo-1565071-c92c-4e53-b53d-2b4acf5c1c5b?w=600&q=80"
+    ],
+    "colors": [
+      {
+        "name": "Standard",
+        "hex": "#1a1a1a"
+      },
+      {
+        "name": "Variant",
+        "hex": "#f5f5f5"
+      }
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "sizesAvailable": {
+      "S": true,
+      "M": true,
+      "L": true,
+      "XL": false,
+      "XXL": true
+    },
+    "material": "100% Premium Material",
+    "fit": "Regular",
+    "pattern": "Solid",
+    "occasion": "Casual",
+    "stock": 79,
+    "isTrending": false,
+    "isNewArrival": false,
+    "isBestSeller": false,
+    "tags": [
+      "premium",
+      "comfortable",
+      "girls tops/leggings"
+    ],
+    "specifications": {
+      "Fabric": "Premium Quality",
+      "Fit": "Regular",
+      "Wash Care": "Machine Wash"
+    },
+    "reviews": [
+      {
+        "id": "rev_141_1",
+        "userName": "Verified Buyer",
+        "rating": 5,
+        "comment": "Absolutely love this product! The quality is amazing for the price.",
+        "date": "2024-03-15",
+        "helpful": 33,
+        "verified": true
+      }
+    ]
+  },
+  {
+    "id": "prod_142",
+    "name": "Premium Ethnic - Style 1",
+    "brand": "W",
+    "description": "Experience ultimate comfort and style with our latest kids ethnic. Perfect for everyday wear, featuring premium materials and exceptional craftsmanship.",
+    "category": "Kids",
+    "subCategory": "Ethnic",
+    "type": "Kids Ethnic",
+    "price": 299,
+    "mrp": 1198,
+    "discount": 75,
+    "currency": "₹",
+    "rating": "4.1",
+    "reviewCount": 3927,
+    "images": [
+      "https://images.unsplash.com/photo-1476234-a92c-4e53-c53d-3b5cde5c2c6c?w=600&q=80",
+      "https://images.unsplash.com/photo-1503944329-7-18b7a4a3e1b?w=600&q=80",
+      "https://images.unsplash.com/photo-1519457769-2a81db57d7be?w=600&q=80"
+    ],
+    "colors": [
+      {
+        "name": "Standard",
+        "hex": "#1a1a1a"
+      },
+      {
+        "name": "Variant",
+        "hex": "#f5f5f5"
+      }
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "sizesAvailable": {
+      "S": true,
+      "M": true,
+      "L": true,
+      "XL": true,
+      "XXL": false
+    },
+    "material": "100% Premium Material",
+    "fit": "Regular",
+    "pattern": "Solid",
+    "occasion": "Casual",
+    "stock": 56,
+    "isTrending": false,
+    "isNewArrival": false,
+    "isBestSeller": false,
+    "tags": [
+      "premium",
+      "comfortable",
+      "kids ethnic"
+    ],
+    "specifications": {
+      "Fabric": "Premium Quality",
+      "Fit": "Regular",
+      "Wash Care": "Machine Wash"
+    },
+    "reviews": [
+      {
+        "id": "rev_142_1",
+        "userName": "Verified Buyer",
+        "rating": 5,
+        "comment": "Absolutely love this product! The quality is amazing for the price.",
+        "date": "2024-03-15",
+        "helpful": 27,
+        "verified": true
+      }
+    ]
+  },
+  {
+    "id": "prod_143",
+    "name": "Premium Ethnic - Style 2",
+    "brand": "Vero Moda",
+    "description": "Experience ultimate comfort and style with our latest kids ethnic. Perfect for everyday wear, featuring premium materials and exceptional craftsmanship.",
+    "category": "Kids",
+    "subCategory": "Ethnic",
+    "type": "Kids Ethnic",
+    "price": 499,
+    "mrp": 1298,
+    "discount": 62,
+    "currency": "₹",
+    "rating": "4.4",
+    "reviewCount": 2526,
+    "images": [
+      "https://images.unsplash.com/photo-1503944329-7-18b7a4a3e1b?w=600&q=80",
+      "https://images.unsplash.com/photo-1519457769-2a81db57d7be?w=600&q=80",
+      "https://images.unsplash.com/photo-1565071-c92c-4e53-b53d-2b4acf5c1c5b?w=600&q=80"
+    ],
+    "colors": [
+      {
+        "name": "Standard",
+        "hex": "#1a1a1a"
+      },
+      {
+        "name": "Variant",
+        "hex": "#f5f5f5"
+      }
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "sizesAvailable": {
+      "S": true,
+      "M": true,
+      "L": true,
+      "XL": true,
+      "XXL": false
+    },
+    "material": "100% Premium Material",
+    "fit": "Regular",
+    "pattern": "Solid",
+    "occasion": "Casual",
+    "stock": 102,
+    "isTrending": false,
+    "isNewArrival": false,
+    "isBestSeller": false,
+    "tags": [
+      "premium",
+      "comfortable",
+      "kids ethnic"
+    ],
+    "specifications": {
+      "Fabric": "Premium Quality",
+      "Fit": "Regular",
+      "Wash Care": "Machine Wash"
+    },
+    "reviews": [
+      {
+        "id": "rev_143_1",
+        "userName": "Verified Buyer",
+        "rating": 5,
+        "comment": "Absolutely love this product! The quality is amazing for the price.",
+        "date": "2024-03-15",
+        "helpful": 0,
+        "verified": true
+      }
+    ]
+  },
+  {
+    "id": "prod_144",
+    "name": "Premium Ethnic - Style 3",
+    "brand": "Nike",
+    "description": "Experience ultimate comfort and style with our latest kids ethnic. Perfect for everyday wear, featuring premium materials and exceptional craftsmanship.",
+    "category": "Kids",
+    "subCategory": "Ethnic",
+    "type": "Kids Ethnic",
+    "price": 99,
+    "mrp": 1098,
+    "discount": 91,
+    "currency": "₹",
+    "rating": "4.4",
+    "reviewCount": 3807,
+    "images": [
+      "https://images.unsplash.com/photo-1519457769-2a81db57d7be?w=600&q=80",
+      "https://images.unsplash.com/photo-1565071-c92c-4e53-b53d-2b4acf5c1c5b?w=600&q=80",
+      "https://images.unsplash.com/photo-1534308143909-7-4ab7a4b3e1a?w=600&q=80"
+    ],
+    "colors": [
+      {
+        "name": "Standard",
+        "hex": "#1a1a1a"
+      },
+      {
+        "name": "Variant",
+        "hex": "#f5f5f5"
+      }
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "sizesAvailable": {
+      "S": true,
+      "M": true,
+      "L": true,
+      "XL": true,
+      "XXL": false
+    },
+    "material": "100% Premium Material",
+    "fit": "Regular",
+    "pattern": "Solid",
+    "occasion": "Casual",
+    "stock": 96,
+    "isTrending": false,
+    "isNewArrival": false,
+    "isBestSeller": false,
+    "tags": [
+      "premium",
+      "comfortable",
+      "kids ethnic"
+    ],
+    "specifications": {
+      "Fabric": "Premium Quality",
+      "Fit": "Regular",
+      "Wash Care": "Machine Wash"
+    },
+    "reviews": [
+      {
+        "id": "rev_144_1",
+        "userName": "Verified Buyer",
+        "rating": 5,
+        "comment": "Absolutely love this product! The quality is amazing for the price.",
+        "date": "2024-03-15",
+        "helpful": 14,
+        "verified": true
+      }
+    ]
+  },
+  {
+    "id": "prod_145",
+    "name": "Premium Ethnic - Style 4",
+    "brand": "BLOOM",
+    "description": "Experience ultimate comfort and style with our latest kids ethnic. Perfect for everyday wear, featuring premium materials and exceptional craftsmanship.",
+    "category": "Kids",
+    "subCategory": "Ethnic",
+    "type": "Kids Ethnic",
+    "price": 399,
+    "mrp": 1198,
+    "discount": 67,
+    "currency": "₹",
+    "rating": "4.6",
+    "reviewCount": 2791,
+    "images": [
+      "https://images.unsplash.com/photo-1565071-c92c-4e53-b53d-2b4acf5c1c5b?w=600&q=80",
+      "https://images.unsplash.com/photo-1534308143909-7-4ab7a4b3e1a?w=600&q=80",
+      "https://images.unsplash.com/photo-1476234-a92c-4e53-c53d-3b5cde5c2c6c?w=600&q=80"
+    ],
+    "colors": [
+      {
+        "name": "Standard",
+        "hex": "#1a1a1a"
+      },
+      {
+        "name": "Variant",
+        "hex": "#f5f5f5"
+      }
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "sizesAvailable": {
+      "S": true,
+      "M": true,
+      "L": true,
+      "XL": true,
+      "XXL": false
+    },
+    "material": "100% Premium Material",
+    "fit": "Regular",
+    "pattern": "Solid",
+    "occasion": "Casual",
+    "stock": 99,
+    "isTrending": false,
+    "isNewArrival": false,
+    "isBestSeller": false,
+    "tags": [
+      "premium",
+      "comfortable",
+      "kids ethnic"
+    ],
+    "specifications": {
+      "Fabric": "Premium Quality",
+      "Fit": "Regular",
+      "Wash Care": "Machine Wash"
+    },
+    "reviews": [
+      {
+        "id": "rev_145_1",
+        "userName": "Verified Buyer",
+        "rating": 5,
+        "comment": "Absolutely love this product! The quality is amazing for the price.",
+        "date": "2024-03-15",
+        "helpful": 20,
+        "verified": true
+      }
+    ]
+  },
+  {
+    "id": "prod_146",
+    "name": "Premium Ethnic - Style 5",
+    "brand": "DRIFT",
+    "description": "Experience ultimate comfort and style with our latest kids ethnic. Perfect for everyday wear, featuring premium materials and exceptional craftsmanship.",
+    "category": "Kids",
+    "subCategory": "Ethnic",
+    "type": "Kids Ethnic",
+    "price": 599,
+    "mrp": 1598,
+    "discount": 63,
+    "currency": "₹",
+    "rating": "4.1",
+    "reviewCount": 3492,
+    "images": [
+      "https://images.unsplash.com/photo-1534308143909-7-4ab7a4b3e1a?w=600&q=80",
+      "https://images.unsplash.com/photo-1476234-a92c-4e53-c53d-3b5cde5c2c6c?w=600&q=80",
+      "https://images.unsplash.com/photo-1503944329-7-18b7a4a3e1b?w=600&q=80"
+    ],
+    "colors": [
+      {
+        "name": "Standard",
+        "hex": "#1a1a1a"
+      },
+      {
+        "name": "Variant",
+        "hex": "#f5f5f5"
+      }
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "sizesAvailable": {
+      "S": true,
+      "M": true,
+      "L": true,
+      "XL": true,
+      "XXL": false
+    },
+    "material": "100% Premium Material",
+    "fit": "Regular",
+    "pattern": "Solid",
+    "occasion": "Casual",
+    "stock": 46,
+    "isTrending": false,
+    "isNewArrival": false,
+    "isBestSeller": false,
+    "tags": [
+      "premium",
+      "comfortable",
+      "kids ethnic"
+    ],
+    "specifications": {
+      "Fabric": "Premium Quality",
+      "Fit": "Regular",
+      "Wash Care": "Machine Wash"
+    },
+    "reviews": [
+      {
+        "id": "rev_146_1",
+        "userName": "Verified Buyer",
+        "rating": 5,
+        "comment": "Absolutely love this product! The quality is amazing for the price.",
+        "date": "2024-03-15",
+        "helpful": 11,
+        "verified": true
+      }
+    ]
+  },
+  {
+    "id": "prod_147",
+    "name": "Premium Footwear - Style 1",
+    "brand": "Jack & Jones",
+    "description": "Experience ultimate comfort and style with our latest kids footwear. Perfect for everyday wear, featuring premium materials and exceptional craftsmanship.",
+    "category": "Kids",
+    "subCategory": "Footwear",
+    "type": "Footwear",
+    "price": 399,
+    "mrp": 498,
+    "discount": 20,
+    "currency": "₹",
+    "rating": "4.7",
+    "reviewCount": 3215,
+    "images": [
+      "https://images.unsplash.com/photo-1565071-c92c-4e53-b53d-2b4acf5c1c5b?w=600&q=80",
+      "https://images.unsplash.com/photo-1534308143909-7-4ab7a4b3e1a?w=600&q=80",
+      "https://images.unsplash.com/photo-1476234-a92c-4e53-c53d-3b5cde5c2c6c?w=600&q=80"
+    ],
+    "colors": [
+      {
+        "name": "Standard",
+        "hex": "#1a1a1a"
+      },
+      {
+        "name": "Variant",
+        "hex": "#f5f5f5"
+      }
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "sizesAvailable": {
+      "S": true,
+      "M": true,
+      "L": true,
+      "XL": true,
+      "XXL": false
+    },
+    "material": "100% Premium Material",
+    "fit": "Regular",
+    "pattern": "Solid",
+    "occasion": "Casual",
+    "stock": 65,
+    "isTrending": false,
+    "isNewArrival": false,
+    "isBestSeller": false,
+    "tags": [
+      "premium",
+      "comfortable",
+      "kids footwear"
+    ],
+    "specifications": {
+      "Fabric": "Premium Quality",
+      "Fit": "Regular",
+      "Wash Care": "Machine Wash"
+    },
+    "reviews": [
+      {
+        "id": "rev_147_1",
+        "userName": "Verified Buyer",
+        "rating": 5,
+        "comment": "Absolutely love this product! The quality is amazing for the price.",
+        "date": "2024-03-15",
+        "helpful": 26,
+        "verified": true
+      }
+    ]
+  },
+  {
+    "id": "prod_148",
+    "name": "Premium Footwear - Style 2",
+    "brand": "Adidas",
+    "description": "Experience ultimate comfort and style with our latest kids footwear. Perfect for everyday wear, featuring premium materials and exceptional craftsmanship.",
+    "category": "Kids",
+    "subCategory": "Footwear",
+    "type": "Footwear",
+    "price": 299,
+    "mrp": 998,
+    "discount": 70,
+    "currency": "₹",
+    "rating": "4.8",
+    "reviewCount": 1184,
+    "images": [
+      "https://images.unsplash.com/photo-1534308143909-7-4ab7a4b3e1a?w=600&q=80",
+      "https://images.unsplash.com/photo-1476234-a92c-4e53-c53d-3b5cde5c2c6c?w=600&q=80",
+      "https://images.unsplash.com/photo-1519457769-2a81db57d7be?w=600&q=80"
+    ],
+    "colors": [
+      {
+        "name": "Standard",
+        "hex": "#1a1a1a"
+      },
+      {
+        "name": "Variant",
+        "hex": "#f5f5f5"
+      }
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "sizesAvailable": {
+      "S": true,
+      "M": true,
+      "L": true,
+      "XL": false,
+      "XXL": false
+    },
+    "material": "100% Premium Material",
+    "fit": "Regular",
+    "pattern": "Solid",
+    "occasion": "Casual",
+    "stock": 29,
+    "isTrending": false,
+    "isNewArrival": false,
+    "isBestSeller": false,
+    "tags": [
+      "premium",
+      "comfortable",
+      "kids footwear"
+    ],
+    "specifications": {
+      "Fabric": "Premium Quality",
+      "Fit": "Regular",
+      "Wash Care": "Machine Wash"
+    },
+    "reviews": [
+      {
+        "id": "rev_148_1",
+        "userName": "Verified Buyer",
+        "rating": 5,
+        "comment": "Absolutely love this product! The quality is amazing for the price.",
+        "date": "2024-03-15",
+        "helpful": 48,
+        "verified": true
+      }
+    ]
+  },
+  {
+    "id": "prod_149",
+    "name": "Premium Footwear - Style 3",
+    "brand": "Puma",
+    "description": "Experience ultimate comfort and style with our latest kids footwear. Perfect for everyday wear, featuring premium materials and exceptional craftsmanship.",
+    "category": "Kids",
+    "subCategory": "Footwear",
+    "type": "Footwear",
+    "price": 299,
+    "mrp": 698,
+    "discount": 57,
+    "currency": "₹",
+    "rating": "4.7",
+    "reviewCount": 3334,
+    "images": [
+      "https://images.unsplash.com/photo-1476234-a92c-4e53-c53d-3b5cde5c2c6c?w=600&q=80",
+      "https://images.unsplash.com/photo-1519457769-2a81db57d7be?w=600&q=80",
+      "https://images.unsplash.com/photo-1503944329-7-18b7a4a3e1b?w=600&q=80"
+    ],
+    "colors": [
+      {
+        "name": "Standard",
+        "hex": "#1a1a1a"
+      },
+      {
+        "name": "Variant",
+        "hex": "#f5f5f5"
+      }
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "sizesAvailable": {
+      "S": true,
+      "M": true,
+      "L": true,
+      "XL": false,
+      "XXL": false
+    },
+    "material": "100% Premium Material",
+    "fit": "Regular",
+    "pattern": "Solid",
+    "occasion": "Casual",
+    "stock": 106,
+    "isTrending": false,
+    "isNewArrival": false,
+    "isBestSeller": false,
+    "tags": [
+      "premium",
+      "comfortable",
+      "kids footwear"
+    ],
+    "specifications": {
+      "Fabric": "Premium Quality",
+      "Fit": "Regular",
+      "Wash Care": "Machine Wash"
+    },
+    "reviews": [
+      {
+        "id": "rev_149_1",
+        "userName": "Verified Buyer",
+        "rating": 5,
+        "comment": "Absolutely love this product! The quality is amazing for the price.",
+        "date": "2024-03-15",
+        "helpful": 33,
+        "verified": true
+      }
+    ]
+  },
+  {
+    "id": "prod_150",
+    "name": "Premium Footwear - Style 4",
+    "brand": "FabIndia",
+    "description": "Experience ultimate comfort and style with our latest kids footwear. Perfect for everyday wear, featuring premium materials and exceptional craftsmanship.",
+    "category": "Kids",
+    "subCategory": "Footwear",
+    "type": "Footwear",
+    "price": 499,
+    "mrp": 798,
+    "discount": 37,
+    "currency": "₹",
+    "rating": "4.4",
+    "reviewCount": 4939,
+    "images": [
+      "https://images.unsplash.com/photo-1519457769-2a81db57d7be?w=600&q=80",
+      "https://images.unsplash.com/photo-1503944329-7-18b7a4a3e1b?w=600&q=80",
+      "https://images.unsplash.com/photo-1565071-c92c-4e53-b53d-2b4acf5c1c5b?w=600&q=80"
+    ],
+    "colors": [
+      {
+        "name": "Standard",
+        "hex": "#1a1a1a"
+      },
+      {
+        "name": "Variant",
+        "hex": "#f5f5f5"
+      }
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "sizesAvailable": {
+      "S": true,
+      "M": true,
+      "L": true,
+      "XL": false,
+      "XXL": true
+    },
+    "material": "100% Premium Material",
+    "fit": "Regular",
+    "pattern": "Solid",
+    "occasion": "Casual",
+    "stock": 65,
+    "isTrending": false,
+    "isNewArrival": false,
+    "isBestSeller": false,
+    "tags": [
+      "premium",
+      "comfortable",
+      "kids footwear"
+    ],
+    "specifications": {
+      "Fabric": "Premium Quality",
+      "Fit": "Regular",
+      "Wash Care": "Machine Wash"
+    },
+    "reviews": [
+      {
+        "id": "rev_150_1",
+        "userName": "Verified Buyer",
+        "rating": 5,
+        "comment": "Absolutely love this product! The quality is amazing for the price.",
+        "date": "2024-03-15",
+        "helpful": 24,
+        "verified": true
+      }
+    ]
+  },
+  {
+    "id": "prod_151",
+    "name": "Premium Footwear - Style 5",
+    "brand": "Allen Solly",
+    "description": "Experience ultimate comfort and style with our latest kids footwear. Perfect for everyday wear, featuring premium materials and exceptional craftsmanship.",
+    "category": "Kids",
+    "subCategory": "Footwear",
+    "type": "Footwear",
+    "price": 199,
+    "mrp": 798,
+    "discount": 75,
+    "currency": "₹",
+    "rating": "4.7",
+    "reviewCount": 1132,
+    "images": [
+      "https://images.unsplash.com/photo-1503944329-7-18b7a4a3e1b?w=600&q=80",
+      "https://images.unsplash.com/photo-1565071-c92c-4e53-b53d-2b4acf5c1c5b?w=600&q=80",
+      "https://images.unsplash.com/photo-1534308143909-7-4ab7a4b3e1a?w=600&q=80"
+    ],
+    "colors": [
+      {
+        "name": "Standard",
+        "hex": "#1a1a1a"
+      },
+      {
+        "name": "Variant",
+        "hex": "#f5f5f5"
+      }
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "sizesAvailable": {
+      "S": true,
+      "M": true,
+      "L": true,
+      "XL": true,
+      "XXL": false
+    },
+    "material": "100% Premium Material",
+    "fit": "Regular",
+    "pattern": "Solid",
+    "occasion": "Casual",
+    "stock": 13,
+    "isTrending": false,
+    "isNewArrival": false,
+    "isBestSeller": false,
+    "tags": [
+      "premium",
+      "comfortable",
+      "kids footwear"
+    ],
+    "specifications": {
+      "Fabric": "Premium Quality",
+      "Fit": "Regular",
+      "Wash Care": "Machine Wash"
+    },
+    "reviews": [
+      {
+        "id": "rev_151_1",
+        "userName": "Verified Buyer",
+        "rating": 5,
+        "comment": "Absolutely love this product! The quality is amazing for the price.",
+        "date": "2024-03-15",
+        "helpful": 34,
         "verified": true
       }
     ]

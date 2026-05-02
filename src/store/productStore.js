@@ -1,5 +1,5 @@
 import { create } from 'zustand';
-import { products } from '../data/products';
+import api from '../api';
 
 const initialFilters = {
   category: [],
@@ -10,15 +10,42 @@ const initialFilters = {
   discount: 0,
   size: [],
   color: [],
-  sortBy: 'popularity' // price-low, price-high, newest, rating, discount
+  sortBy: 'popularity'
 };
 
 export const useProductStore = create((set, get) => ({
-  allProducts: products,
-  filteredProducts: products,
+  allProducts: [],
+  filteredProducts: [],
   searchQuery: '',
   filters: { ...initialFilters },
   viewHistory: [],
+  isLoading: false,
+  hasFetched: false,
+
+  fetchProducts: async () => {
+    if (get().hasFetched && get().allProducts.length > 0) return;
+    set({ isLoading: true });
+    try {
+      const { data } = await api.get('/products');
+      const formatted = data.map(p => ({
+        ...p,
+        id: p.customId || p._id,
+        images: p.images || [],
+        tags: p.tags || [],
+        sizesAvailable: p.sizesAvailable || {},
+        colors: p.colors || []
+      }));
+      set(state => ({
+        allProducts: formatted,
+        filteredProducts: get().applyFilters(formatted, state.filters, state.searchQuery),
+        isLoading: false,
+        hasFetched: true
+      }));
+    } catch (error) {
+      console.error('Failed to fetch products', error);
+      set({ isLoading: false });
+    }
+  },
 
   setFilter: (filterName, value) => {
     set((state) => {
@@ -28,16 +55,16 @@ export const useProductStore = create((set, get) => ({
   },
 
   clearFilters: () => {
-    set((state) => ({ 
-      filters: { ...initialFilters }, 
-      filteredProducts: get().applyFilters(state.allProducts, initialFilters, state.searchQuery) 
+    set((state) => ({
+      filters: { ...initialFilters },
+      filteredProducts: get().applyFilters(state.allProducts, initialFilters, state.searchQuery)
     }));
   },
 
   setSearch: (query) => {
-    set((state) => ({ 
-      searchQuery: query, 
-      filteredProducts: get().applyFilters(state.allProducts, state.filters, query) 
+    set((state) => ({
+      searchQuery: query,
+      filteredProducts: get().applyFilters(state.allProducts, state.filters, query)
     }));
   },
 
@@ -55,12 +82,12 @@ export const useProductStore = create((set, get) => ({
 
   getRecommended: () => {
     const state = get();
+    if (state.allProducts.length === 0) return [];
     if (state.viewHistory.length === 0) {
-      return state.allProducts.filter(p => p.isTrending).slice(0, 10);
+      return state.allProducts.filter(p => p.rating > 4).slice(0, 10);
     }
     const lastViewed = state.getProduct(state.viewHistory[0]);
     if (!lastViewed) return state.allProducts.slice(0, 10);
-    
     return state.allProducts
       .filter(p => p.category === lastViewed.category && p.id !== lastViewed.id)
       .sort(() => 0.5 - Math.random())
@@ -82,55 +109,49 @@ export const useProductStore = create((set, get) => ({
   applyFilters: (products, filters, query) => {
     let result = [...products];
 
-    // Search Query
     if (query) {
       const q = query.toLowerCase();
-      result = result.filter(p => 
-        p.name.toLowerCase().includes(q) || 
-        p.brand.toLowerCase().includes(q) ||
-        p.tags.some(tag => tag.toLowerCase().includes(q))
+      result = result.filter(p =>
+        p.name?.toLowerCase().includes(q) ||
+        p.brand?.toLowerCase().includes(q) ||
+        (p.tags && p.tags.some(tag => tag.toLowerCase().includes(q)))
       );
     }
 
-    // Category
     if (filters.category.length > 0) {
       result = result.filter(p => filters.category.includes(p.category));
     }
 
-    // SubCategory
     if (filters.subCategory.length > 0) {
       result = result.filter(p => filters.subCategory.includes(p.subCategory));
     }
 
-    // Brand
     if (filters.brand.length > 0) {
       result = result.filter(p => filters.brand.includes(p.brand));
     }
 
-    // Price Range
     result = result.filter(p => p.price >= filters.priceRange[0] && p.price <= filters.priceRange[1]);
 
-    // Rating
     if (filters.rating > 0) {
       result = result.filter(p => p.rating >= filters.rating);
     }
 
-    // Discount
     if (filters.discount > 0) {
       result = result.filter(p => p.discount >= filters.discount);
     }
 
-    // Size
     if (filters.size.length > 0) {
-      result = result.filter(p => filters.size.some(s => p.sizesAvailable[s]));
+      result = result.filter(p => {
+        if (p.sizesAvailable) return filters.size.some(s => p.sizesAvailable[s]);
+        if (p.sizes) return filters.size.some(s => p.sizes.includes(s));
+        return true;
+      });
     }
 
-    // Color
     if (filters.color.length > 0) {
-      result = result.filter(p => p.colors.some(c => filters.color.includes(c.name)));
+      result = result.filter(p => p.colors && p.colors.some(c => filters.color.includes(c.name)));
     }
 
-    // Sort
     switch (filters.sortBy) {
       case 'price-low':
         result.sort((a, b) => a.price - b.price);
@@ -145,11 +166,11 @@ export const useProductStore = create((set, get) => ({
         result.sort((a, b) => b.discount - a.discount);
         break;
       case 'newest':
-        result.sort((a, b) => (b.isNewArrival ? 1 : 0) - (a.isNewArrival ? 1 : 0));
+        result.sort((a, b) => new Date(b.createdAt) - new Date(a.createdAt));
         break;
       case 'popularity':
       default:
-        result.sort((a, b) => b.reviewCount - a.reviewCount);
+        result.sort((a, b) => (b.numReviews || 0) - (a.numReviews || 0));
         break;
     }
 

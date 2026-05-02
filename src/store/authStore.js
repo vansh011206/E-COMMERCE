@@ -1,5 +1,6 @@
 import { create } from 'zustand';
 import { persist } from 'zustand/middleware';
+import api from '../api';
 
 export const useAuthStore = create(
   persist(
@@ -8,37 +9,77 @@ export const useAuthStore = create(
       isAuthenticated: false,
       orders: [],
       addresses: [],
+      isLoading: false,
+      error: null,
 
-      login: (email, password) => {
-        // Mock implementation
-        set({
-          user: { name: 'Demo User', email, avatar: '', phone: '+91 9876543210' },
-          isAuthenticated: true
-        });
+      login: async (email, password) => {
+        set({ isLoading: true, error: null });
+        try {
+          const { data } = await api.post('/auth/login', { email, password });
+          set({
+            user: { _id: data._id, name: data.name, email: data.email, isAdmin: data.isAdmin, avatar: data.name.charAt(0).toUpperCase() },
+            isAuthenticated: true,
+            isLoading: false,
+            error: null
+          });
+          return data;
+        } catch (error) {
+          const msg = error.response?.data?.message || 'Login failed';
+          set({ error: msg, isLoading: false });
+          throw new Error(msg);
+        }
       },
 
-      signup: (data) => {
-        // Mock implementation
-        set({
-          user: { name: data.name, email: data.email, avatar: '', phone: data.phone || '' },
-          isAuthenticated: true
-        });
+      signup: async (userData) => {
+        set({ isLoading: true, error: null });
+        try {
+          const { data } = await api.post('/auth/register', {
+            name: userData.name,
+            email: userData.email,
+            password: userData.password,
+            phone: userData.phone
+          });
+          set({
+            user: { _id: data._id, name: data.name, email: data.email, isAdmin: data.isAdmin, avatar: data.name.charAt(0).toUpperCase() },
+            isAuthenticated: true,
+            isLoading: false,
+            error: null
+          });
+          return data;
+        } catch (error) {
+          const msg = error.response?.data?.message || 'Signup failed';
+          set({ error: msg, isLoading: false });
+          throw new Error(msg);
+        }
       },
 
-      loginWithGoogle: () => {
-        // Mock implementation
-        set({
-          user: { name: 'Google User', email: 'google@example.com', avatar: '', phone: '' },
-          isAuthenticated: true
-        });
+      logout: async () => {
+        try {
+          await api.post('/auth/logout');
+        } catch (error) {
+          console.error('Logout API error', error);
+        }
+        set({ user: null, isAuthenticated: false, orders: [], error: null });
       },
 
-      logout: () => {
-        set({ user: null, isAuthenticated: false });
+      fetchMyOrders: async () => {
+        try {
+          const { data } = await api.get('/orders/myorders');
+          set({ orders: data });
+        } catch (error) {
+          console.error('Failed to fetch orders', error);
+        }
       },
 
-      addOrder: (order) => {
-        set((state) => ({ orders: [order, ...state.orders] }));
+      addOrder: async (orderPayload) => {
+        try {
+          const { data } = await api.post('/orders', orderPayload);
+          set((state) => ({ orders: [data, ...state.orders] }));
+          return data;
+        } catch (error) {
+          console.error('Failed to place order', error);
+          throw error;
+        }
       },
 
       addAddress: (address) => {
@@ -58,9 +99,16 @@ export const useAuthStore = create(
           addresses: state.addresses.filter((a) => a.id !== id)
         }));
       },
+
+      clearError: () => set({ error: null }),
     }),
     {
       name: 'luxecart-auth-storage',
+      partialize: (state) => ({
+        user: state.user,
+        isAuthenticated: state.isAuthenticated,
+        addresses: state.addresses
+      })
     }
   )
 );

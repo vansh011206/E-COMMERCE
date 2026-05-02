@@ -7,35 +7,49 @@ import { useAuthStore } from '../../store/authStore';
 
 const OrderSuccess = ({ orderData }) => {
   const { items, clearCart } = useCartStore();
-  const { addOrder } = useAuthStore();
+  const { addOrder, user, addresses } = useAuthStore();
   const navigate = useNavigate();
 
   useEffect(() => {
-    if (items.length > 0 && orderData) {
-      const orderId = `ORD-${Math.floor(Math.random() * 100000).toString().padStart(5, '0')}`;
-      
-      const newOrder = {
-        id: orderId,
-        date: new Date().toLocaleDateString('en-US', { day: 'numeric', month: 'short', year: 'numeric' }),
-        total: orderData.finalTotal + (orderData.paymentMethod === 'cod' ? 49 : 0),
-        status: 'Processing',
-        items: items.map(item => ({
-          name: item.product.name,
-          image: item.product.images[0],
-          quantity: item.quantity,
-          size: item.selectedSize,
-        })),
-        addressId: orderData.addressId,
-        paymentMethod: orderData.paymentMethod,
-      };
+    let isMounted = true;
+    
+    const placeOrder = async () => {
+      if (items.length > 0 && orderData) {
+        // Find the full address
+        const selectedAddress = addresses?.find(a => a.id === orderData.addressId) || {};
+        
+        const orderPayload = {
+          items,
+          address: {
+            fullName: selectedAddress.fullName || user?.name || 'Guest User',
+            phone: selectedAddress.phone || user?.phone || '9999999999',
+            addressLine1: selectedAddress.addressLine1 || 'Unknown Address',
+            city: selectedAddress.city || 'Unknown City',
+            state: selectedAddress.state || 'Unknown State',
+            pincode: selectedAddress.pincode || '000000',
+            type: selectedAddress.type || 'home'
+          },
+          paymentMethod: orderData.paymentMethod,
+          total: orderData.finalTotal,
+          deliveryFee: orderData.paymentMethod === 'cod' ? 49 : 0
+        };
 
-      addOrder(newOrder);
-      clearCart();
-      toast.success("Order confirmed! Track it in 'My Orders'");
-      
-      // Store in window for display
-      window.lastOrderId = orderId;
-    }
+        try {
+          await addOrder(orderPayload);
+          if (isMounted) {
+            clearCart();
+            toast.success("Order confirmed! Track it in 'My Orders'");
+            window.lastOrderId = `ORD-${Math.random().toString(36).substring(2, 8).toUpperCase()}`; // fallback display
+          }
+        } catch (error) {
+          toast.error("Failed to place order.");
+        }
+      }
+    };
+
+    placeOrder();
+
+    return () => { isMounted = false; };
   }, [items, orderData, addOrder, clearCart]);
 
   const deliveryDate = new Date();
@@ -76,7 +90,7 @@ const OrderSuccess = ({ orderData }) => {
       <div className="flex flex-col sm:flex-row gap-4 w-full max-w-sm">
         <Link
           to="/orders"
-          className="flex-1 py-3 border border-[#0A0A0A] text-[#0A0A0A] font-body text-[13px] uppercase tracking-[0.1em] font-medium rounded hover:bg-[#F8F8F8] transition-colors"
+          className="flex-1 py-3 border border-[#0A0A0A] text-[#0A0A0A] font-body text-[13px] uppercase tracking-[0.1em] font-medium rounded hover:bg-[#F8F8F8] transition-colors text-center"
         >
           View My Orders
         </Link>

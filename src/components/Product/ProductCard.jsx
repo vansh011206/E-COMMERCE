@@ -178,3 +178,9 @@ const ProductCard = ({ product, showDealBadge = false }) => {
 };
 
 export default memo(ProductCard);
+
+
+
+
+
+

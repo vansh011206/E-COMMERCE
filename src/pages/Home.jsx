@@ -4,6 +4,7 @@ import HeroSection from '../components/Home/HeroSection';
 import CategoryStrip from '../components/Home/CategoryStrip';
 import TrendingNow from '../components/Home/TrendingNow';
 import FeaturedCollection from '../components/Home/FeaturedCollection';
+import BrandsShowcase from '../components/Home/BrandsShowcase';
 import DealsSection from '../components/Home/DealsSection';
 import BrandsMarquee from '../components/Home/BrandsMarquee';
 import Newsletter from '../components/Home/Newsletter';
@@ -63,6 +64,7 @@ const Home = () => {
         <CategoryStrip />
         <TrendingNow />
       </div>
+      <BrandsShowcase />
       <BrandsMarquee />
       <FeaturedCollection />
       <DealsSection />
