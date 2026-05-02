@@ -39,7 +39,7 @@ const CategoryStrip = () => {
   };
 
   return (
-    <div className="w-full bg-white/95 backdrop-blur-md border-b border-[#E8E8E8] sticky top-[94px] z-40">
+    <div className="w-full bg-white/95 backdrop-blur-md border-b border-[#E8E8E8] sticky top-[64px] z-40">
       <div className="max-w-7xl mx-auto">
         <div className="flex overflow-x-auto hide-scrollbar px-6">
           {CATEGORIES.map(({ label, value }) => {

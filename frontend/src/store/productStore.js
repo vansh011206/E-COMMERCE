@@ -69,7 +69,7 @@ export const useProductStore = create((set, get) => ({
   },
 
   getProduct: (id) => {
-    return get().allProducts.find(p => p.id === id);
+    return get().allProducts.find(p => p.id === id || p._id === id || p.customId === id);
   },
 
   getRelated: (productId) => {

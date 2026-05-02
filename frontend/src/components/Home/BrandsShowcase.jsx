@@ -16,29 +16,29 @@ const brands = [
 ];
 
 const categories = [
-  { id: '1521572163474-6864f9cf17ab', label: 'T-Shirts', count: '124+ items', route: '/shop?category=Men&subCategory=T-Shirts' },
-  { id: '1542272604-787c3835535d', label: 'Jeans', count: '98+ items', route: '/shop?category=Men&subCategory=Jeans' },
-  { id: '1603252109303-e67a8d5be4bf', label: 'Shirts', count: '86+ items', route: '/shop?category=Men&subCategory=Shirts' },
-  { id: '1562183241-840b8af23be7', label: 'Shorts', count: '64+ items', route: '/shop?category=Men&subCategory=Shorts' },
-  { id: '1473966968600-fa4f40a38293', label: 'Trousers', count: '72+ items', route: '/shop?category=Men&subCategory=Trousers' },
-  { id: '1591047139829-d91aecb6caea', label: 'Jackets', count: '54+ items', route: '/shop?category=Men&subCategory=Jackets' },
-  { id: '1515886657353-8a7d6d83e1e5', label: 'Dresses', count: '142+ items', route: '/shop?category=Women&subCategory=Dresses' },
-  { id: '1533813341-d0d42a1aa02e', label: 'Tops', count: '118+ items', route: '/shop?category=Women&subCategory=Tops' },
-  { id: '1610030469211-8d9ec0f8f455', label: 'Ethnic Wear', count: '96+ items', route: '/shop?category=Women&subCategory=Ethnic' },
-  { id: '1542291026-5ff9e5a5f4e5', label: 'Footwear', count: '88+ items', route: '/shop?type=Footwear' },
-  { id: '1548036161-8c6aaf7d8d5c', label: 'Accessories', count: '76+ items', route: '/shop?type=Accessories' },
-  { id: '1571019614242-c5c5dee9f50b', label: 'Activewear', count: '58+ items', route: '/shop?subCategory=Activewear' },
+  { img: 'https://images.unsplash.com/photo-1521572163474-6864f9cf17ab?w=400&q=80', label: 'T-Shirts', count: '124+ items', route: '/shop?category=Men&subCategory=T-Shirts' },
+  { img: 'https://images.unsplash.com/photo-1542272604-787c3835535d?w=400&q=80', label: 'Jeans', count: '98+ items', route: '/shop?category=Men&subCategory=Jeans' },
+  { img: 'https://images.unsplash.com/photo-1596755094514-f87e34085b2c?w=400&q=80', label: 'Shirts', count: '86+ items', route: '/shop?category=Men&subCategory=Shirts' },
+  { img: 'https://images.unsplash.com/photo-1591195853828-11db59a44f6b?w=400&q=80', label: 'Shorts', count: '64+ items', route: '/shop?category=Men&subCategory=Shorts' },
+  { img: 'https://images.unsplash.com/photo-1473966968600-fa801b869a1a?w=400&q=80', label: 'Trousers', count: '72+ items', route: '/shop?category=Men&subCategory=Trousers' },
+  { img: 'https://images.unsplash.com/photo-1551028719-00167b16eac5?w=400&q=80', label: 'Jackets', count: '54+ items', route: '/shop?category=Men&subCategory=Jackets' },
+  { img: 'https://images.unsplash.com/photo-1595777457583-95e059d581b8?w=400&q=80', label: 'Dresses', count: '142+ items', route: '/shop?category=Women&subCategory=Dresses' },
+  { img: 'https://images.unsplash.com/photo-1564257631407-4deb1f99d992?w=400&q=80', label: 'Tops', count: '118+ items', route: '/shop?category=Women&subCategory=Tops' },
+  { img: 'https://images.unsplash.com/photo-1583391733956-3750e0ff4e8b?w=400&q=80', label: 'Ethnic Wear', count: '96+ items', route: '/shop?category=Women&subCategory=Ethnic' },
+  { img: 'https://images.unsplash.com/photo-1549298916-b41d501d3772?w=400&q=80', label: 'Footwear', count: '88+ items', route: '/shop?type=Footwear' },
+  { img: 'https://images.unsplash.com/photo-1523170335258-f5ed11844a49?w=400&q=80', label: 'Accessories', count: '76+ items', route: '/shop?type=Accessories' },
+  { img: 'https://images.unsplash.com/photo-1571019614242-c5c5dee9f50b?w=400&q=80', label: 'Activewear', count: '58+ items', route: '/shop?subCategory=Activewear' },
 ];
 
 const pills = [
-  { label: 'Innerwear', icon: '1576566588048-b34a62b71f4b', route: '/shop?subCategory=Innerwear' },
-  { label: 'Socks', icon: 'color', route: '/shop?subCategory=Socks' },
-  { label: 'Gym Wear', icon: '1574680096400-f6ec1b7c36a4', route: '/shop?subCategory=Activewear' },
-  { label: 'Sandals', icon: '1562183241-840b8af23be7', route: '/shop?subCategory=Sandals' },
-  { label: 'Formals', icon: '1603252109303-e67a8d5be4bf', route: '/shop?occasion=Formal' },
-  { label: 'Co-ords', icon: '1515886657353-8a7d6d83e1e5', route: '/shop?subCategory=Co-ord Sets' },
-  { label: 'Scarves & More', icon: '1553062407-98eeb64c6a62', route: '/shop?subCategory=Accessories' },
-  { label: 'Sneakers', icon: '1542291026-5ff9e5a5f4e5', route: '/shop?subCategory=Sneakers' },
+  { label: 'Innerwear', icon: 'https://images.pexels.com/photos/9221906/pexels-photo-9221906.jpeg?auto=compress&cs=tinysrgb&h=100', route: '/shop?subCategory=Innerwear' },
+  { label: 'Socks', icon: 'https://images.pexels.com/photos/31450721/pexels-photo-31450721.jpeg?auto=compress&cs=tinysrgb&h=100', route: '/shop?subCategory=Socks' },
+  { label: 'Gym Wear', icon: 'https://images.pexels.com/photos/32498592/pexels-photo-32498592.jpeg?auto=compress&cs=tinysrgb&h=100', route: '/shop?subCategory=Activewear' },
+  { label: 'Sandals', icon: 'https://images.pexels.com/photos/34969443/pexels-photo-34969443.jpeg?auto=compress&cs=tinysrgb&h=100', route: '/shop?subCategory=Sandals' },
+  { label: 'Formals', icon: 'https://images.pexels.com/photos/1453008/pexels-photo-1453008.jpeg?auto=compress&cs=tinysrgb&h=100', route: '/shop?occasion=Formal' },
+  { label: 'Co-ords', icon: 'https://images.pexels.com/photos/28719728/pexels-photo-28719728.jpeg?auto=compress&cs=tinysrgb&h=100', route: '/shop?subCategory=Co-ord Sets' },
+  { label: 'Scarves & More', icon: 'https://images.pexels.com/photos/31450715/pexels-photo-31450715.jpeg?auto=compress&cs=tinysrgb&h=100', route: '/shop?subCategory=Accessories' },
+  { label: 'Sneakers', icon: 'https://images.pexels.com/photos/28651554/pexels-photo-28651554.jpeg?auto=compress&cs=tinysrgb&h=100', route: '/shop?subCategory=Sneakers' },
 ];
 
 const BrandsShowcase = () => {
@@ -138,7 +138,7 @@ const BrandsShowcase = () => {
 
         {/* Categories Grid */}
         <motion.div 
-          className="grid grid-cols-3 md:grid-cols-4 lg:grid-cols-6 gap-3 md:gap-4 lg:gap-5 mb-10"
+          className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-6 gap-3 md:gap-4 lg:gap-5 mb-10"
           variants={categoryContainerVars}
           initial="hidden"
           whileInView="visible"
@@ -153,7 +153,7 @@ const BrandsShowcase = () => {
             >
               <div className="aspect-square overflow-hidden bg-[#F2F2F0]">
                 <img 
-                  src={`https://images.unsplash.com/photo-${cat.id}?w=600&q=80`}
+                  src={cat.img}
                   alt={cat.label}
                   className="w-full h-full object-cover transition-transform duration-400 ease-out group-hover:scale-[1.06]"
                   loading="lazy"
@@ -194,7 +194,7 @@ const BrandsShowcase = () => {
                   <div className="w-7 h-7 rounded-full bg-[#F0F0F0] shrink-0" />
                 ) : (
                   <img 
-                    src={`https://images.unsplash.com/photo-${pill.icon}?w=60&q=80`}
+                    src={pill.icon}
                     alt={pill.label}
                     className="w-7 h-7 rounded-full object-cover shrink-0"
                     loading="lazy"

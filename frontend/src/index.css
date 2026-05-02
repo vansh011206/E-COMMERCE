@@ -17,12 +17,22 @@
     scroll-behavior: smooth;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
+    overflow-x: clip;
+    width: 100%;
   }
 
   body {
     @apply bg-background-primary text-text-primary font-body tracking-body;
     margin: 0;
-    overflow-x: hidden;
+    overflow-x: clip;
+    width: 100%;
+  }
+
+  #root {
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
   }
 
   h1, h2, h3, h4, h5, h6 {

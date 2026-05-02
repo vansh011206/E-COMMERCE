@@ -1,6 +1,7 @@
 import Order from '../models/Order.js';
 import Product from '../models/Product.js';
 import Notification from '../models/Notification.js';
+import { sendOrderEmail } from '../utils/emailService.js';
 
 // POST /api/orders
 export const addOrderItems = async (req, res) => {
@@ -121,6 +122,11 @@ export const updateOrderStatus = async (req, res) => {
       if (io) {
         io.to('admin_room').emit('order_updated', updatedOrder);
         io.emit('user_order_updated', updatedOrder);
+      }
+
+      // Send email if status is Confirmed or Delivered
+      if (status === 'Confirmed' || status === 'Delivered') {
+        sendOrderEmail(updatedOrder, status);
       }
 
       res.json(updatedOrder);

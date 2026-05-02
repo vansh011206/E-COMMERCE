@@ -1,6 +1,6 @@
 import React, { useState, useEffect, useRef, memo, useCallback } from 'react';
 import { Link, useLocation, useNavigate } from 'react-router-dom';
-import { Search, Heart, User, ShoppingBag, Menu, X, ChevronDown, LogOut, Package } from 'lucide-react';
+import { Search, Heart, User, ShoppingBag, X, ChevronDown, LogOut, Package } from 'lucide-react';
 import { useScrollDirection } from '../../hooks/useScrollDirection';
 import { useCartStore } from '../../store/cartStore';
 import { useWishlistStore } from '../../store/wishlistStore';
@@ -227,9 +227,9 @@ const Navbar = () => {
   const isNavbarHidden = scrollDirection === 'down' && !isAtTop;
 
   return (
-    <header className="sticky top-0 z-50 flex flex-col w-full shadow-sm">
+    <header className="sticky top-[-30px] flex flex-col w-full max-w-[100vw] shadow-sm z-50 bg-white">
       {/* ── Announcement Strip ── */}
-      <div className="relative h-[30px] bg-black overflow-hidden z-50">
+      <div className="relative h-[30px] w-full max-w-[100vw] bg-black overflow-hidden z-40">
         <div className="announcement-ticker flex items-center h-full whitespace-nowrap">
           {[...Array(4)].map((_, i) => (
             <span key={i} className="inline-flex items-center gap-6 text-white text-[11px] font-body px-8">
@@ -247,7 +247,7 @@ const Navbar = () => {
       </div>
 
       <nav
-        className="bg-white border-b border-[#E5E5E5] h-16 transition-all duration-300 relative z-40"
+        className="bg-white border-b border-[#E5E5E5] h-[64px] transition-all duration-300 relative z-50"
       >
         <div className="max-w-[1400px] mx-auto h-full px-6 lg:px-10 flex items-center justify-between gap-6">
           {/* ── Logo ── */}
@@ -340,14 +340,6 @@ const Navbar = () => {
               <CartBadge />
             </Link>
 
-            {/* Mobile hamburger */}
-            <button
-              onClick={() => useUiStore.getState().toggleMobileMenu()}
-              className="text-[#666] hover:text-black transition-colors duration-200 md:hidden ml-1"
-              aria-label="Menu"
-            >
-              <Menu size={22} strokeWidth={1.5} />
-            </button>
           </div>
         </div>
 

@@ -36,8 +36,8 @@ const TopProducts = () => {
               </span>
 
               <div className="w-[44px] h-[56px] rounded-md overflow-hidden bg-[#F5F5F3] shrink-0">
-                {item.product?.image && (
-                  <img src={item.product.image} alt="" className="w-full h-full object-cover" loading="lazy" />
+                {(item.product?.images?.[0] || item.product?.image) && (
+                  <img src={item.product.images?.[0] || item.product.image} alt="" className="w-full h-full object-cover" loading="lazy" />
                 )}
               </div>
 

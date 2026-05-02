@@ -123,7 +123,7 @@ const AdminOrderDetail = () => {
               {(order.items || []).map((item, idx) => (
                 <div key={idx} className="flex gap-4 border-b border-[#F0F0F0] last:border-0 pb-4 last:pb-0 mb-4 last:mb-0">
                   <div className="w-[80px] h-[100px] bg-[#F5F5F3] rounded-lg border border-[#E8E8E8] overflow-hidden shrink-0">
-                    {(item.image || item.product?.image) && <img src={item.image || item.product?.image} className="w-full h-full object-cover" alt="" />}
+                    {(item.product?.images?.[0] || item.product?.image || item.image) && <img src={item.product?.images?.[0] || item.product?.image || item.image} className="w-full h-full object-cover" alt="" />}
                   </div>
                   <div className="flex-1 flex flex-col justify-between">
                     <div>

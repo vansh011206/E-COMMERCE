@@ -154,7 +154,7 @@ const AdminOrders = () => {
                         <div className="flex -space-x-2">
                           {(order.items || []).slice(0, 3).map((item, idx) => (
                             <div key={idx} className="w-8 h-8 rounded-md overflow-hidden border-[2px] border-white relative bg-[#F5F5F3] shrink-0 shadow-sm z-[3] group-hover:z-[4]">
-                              {item.product?.image && <img src={item.product.image} alt="" className="w-full h-full object-cover" />}
+                              {(item.product?.images?.[0] || item.product?.image || item.image) && <img src={item.product?.images?.[0] || item.product?.image || item.image} alt="" className="w-full h-full object-cover" />}
                               {idx === 2 && (order.items?.length || 0) > 3 && (
                                 <div className="absolute inset-0 bg-black/60 flex items-center justify-center">
                                   <span className="font-mono text-[10px] text-white font-medium">+{order.items.length - 3}</span>

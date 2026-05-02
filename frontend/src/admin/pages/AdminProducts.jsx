@@ -81,8 +81,8 @@ const AdminProducts = () => {
                   <td className="px-6 py-4">
                     <div className="flex items-center gap-4">
                       <div className="w-[44px] h-[56px] rounded-md overflow-hidden bg-[#F5F5F3] border border-[#E8E8E8] shrink-0">
-                        {product.image ? (
-                          <img src={product.image} alt={product.name} className="w-full h-full object-cover" loading="lazy" />
+                        {(product.images?.[0] || product.image) ? (
+                          <img src={product.images?.[0] || product.image} alt={product.name} className="w-full h-full object-cover" loading="lazy" />
                         ) : (
                           <div className="w-full h-full flex items-center justify-center text-[#CCC] font-heading text-[10px]">NO IMG</div>
                         )}

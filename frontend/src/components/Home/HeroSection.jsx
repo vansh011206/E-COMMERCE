@@ -66,7 +66,7 @@ const HeroSection = () => {
   return (
     <section 
       ref={containerRef}
-      className="relative w-full min-h-[calc(100vh-64px)] flex items-center overflow-hidden bg-white px-6 md:px-12 py-12 md:py-0"
+      className="relative w-full max-w-[100vw] min-h-[calc(100vh-64px)] flex items-center overflow-x-hidden bg-white px-6 md:px-12 py-12 md:py-0"
     >
       {/* Background Subtle Pattern */}
       <div 
@@ -134,84 +134,110 @@ const HeroSection = () => {
           </motion.div>
         </motion.div>
 
-        {/* ─── RIGHT SIDE 3D VISUAL ─── */}
-        <div className="relative flex items-center justify-center order-1 md:order-2 h-[50vh] md:h-auto perspective-[1000px]">
+        {/* ─── RIGHT SIDE VISUAL ─── */}
+        <div className="relative flex items-center justify-center order-1 md:order-2 h-[55vh] md:h-auto perspective-[1000px] w-full">
           
-          {/* Background large subtle circles */}
-          <div className="absolute inset-0 flex items-center justify-center pointer-events-none opacity-5">
-            <div className="w-[400px] h-[400px] rounded-full border-[1px] border-black scale-110"></div>
-            <div className="absolute w-[300px] h-[300px] rounded-full border-[1px] border-black scale-90"></div>
+          {/* Mobile Image (Hidden on Desktop) */}
+          <div className="md:hidden w-full h-full p-2 pt-6">
+            <div className="relative w-full h-full rounded-2xl overflow-hidden shadow-[0_10px_40px_rgba(0,0,0,0.15)]">
+              <img 
+                src="https://images.pexels.com/photos/5622888/pexels-photo-5622888.jpeg?auto=compress&cs=tinysrgb&w=800" 
+                alt="Family Shopping Fashion"
+                className="w-full h-full object-cover object-top"
+              />
+              <div className="absolute inset-0 bg-gradient-to-t from-black/70 via-black/10 to-transparent"></div>
+              
+              <div className="absolute bottom-5 left-5 right-5">
+                <div className="bg-white/10 backdrop-blur-md border border-white/20 rounded-xl p-4 flex items-center justify-between">
+                  <div>
+                    <p className="font-heading font-bold text-white text-sm uppercase tracking-wider">New Season</p>
+                    <p className="font-body text-white/80 text-xs mt-0.5">Curated Collection</p>
+                  </div>
+                  <div className="w-10 h-10 rounded-full bg-white text-black flex items-center justify-center font-heading font-bold text-sm shadow-lg">
+                    60%
+                  </div>
+                </div>
+              </div>
+            </div>
           </div>
 
-          {/* 3D Main Element (Large Typography) */}
-          <div 
-            className="absolute z-10"
-            ref={(el) => parallaxRefs.current[0] = el}
-            data-depth="25"
-            style={{ willChange: 'transform' }}
-          >
-            <h2 
-              className="font-heading font-black text-[120px] md:text-[180px] lg:text-[220px] text-[#222] select-none uppercase leading-none drop-shadow-[0_20px_40px_rgba(0,0,0,0.05)]"
-              style={{ transform: 'rotateY(-15deg) rotateX(5deg)' }}
-            >
-              SALE
-            </h2>
-          </div>
+          {/* Desktop 3D Visual (Hidden on Mobile) */}
+          <div className="hidden md:flex absolute inset-0 items-center justify-center pointer-events-none">
+            {/* Background large subtle circles */}
+            <div className="absolute inset-0 flex items-center justify-center pointer-events-none opacity-5">
+              <div className="w-[300px] h-[300px] md:w-[400px] md:h-[400px] rounded-full border-[1px] border-black scale-110"></div>
+              <div className="absolute w-[200px] h-[200px] md:w-[300px] md:h-[300px] rounded-full border-[1px] border-black scale-90"></div>
+            </div>
 
-          {/* Floating Geometric Shape (Circle) */}
-          <div 
-            className="absolute z-20 top-1/4 right-1/4"
-            ref={(el) => parallaxRefs.current[1] = el}
-            data-depth="-15"
-            style={{ willChange: 'transform' }}
-          >
+            {/* 3D Main Element (Large Typography) */}
             <div 
-              className="w-24 h-24 md:w-32 md:h-32 rounded-full bg-black shadow-[0_15px_30px_rgba(0,0,0,0.15)] flex items-center justify-center animate-[floatY_8s_ease-in-out_infinite]"
+              className="absolute z-10 pointer-events-auto"
+              ref={(el) => parallaxRefs.current[0] = el}
+              data-depth="25"
+              style={{ willChange: 'transform' }}
             >
-              <span className="text-white font-heading font-bold text-lg md:text-xl tracking-wider">60%</span>
+              <h2 
+                className="font-heading font-black text-[70px] sm:text-[100px] md:text-[180px] lg:text-[220px] text-[#222] select-none uppercase leading-none drop-shadow-[0_20px_40px_rgba(0,0,0,0.05)]"
+                style={{ transform: 'rotateY(-15deg) rotateX(5deg)' }}
+              >
+                SALE
+              </h2>
+            </div>
+
+            {/* Floating Geometric Shape (Circle) */}
+            <div 
+              className="absolute z-20 top-1/4 right-1/4 pointer-events-auto"
+              ref={(el) => parallaxRefs.current[1] = el}
+              data-depth="-15"
+              style={{ willChange: 'transform' }}
+            >
+              <div 
+                className="w-24 h-24 md:w-32 md:h-32 rounded-full bg-black shadow-[0_15px_30px_rgba(0,0,0,0.15)] flex items-center justify-center animate-[floatY_8s_ease-in-out_infinite]"
+              >
+                <span className="text-white font-heading font-bold text-lg md:text-xl tracking-wider">60%</span>
+              </div>
+            </div>
+
+            {/* Stacked Offer Cards (Glassmorphism) */}
+            <div 
+              className="absolute bottom-0 md:bottom-10 left-0 md:-left-10 z-30 group pointer-events-auto"
+              ref={(el) => parallaxRefs.current[2] = el}
+              data-depth="10"
+              style={{ willChange: 'transform' }}
+            >
+              <div className="relative w-48 md:w-56 h-20">
+                {/* Card 3 (Bottom) */}
+                <div className="absolute inset-0 bg-white/80 backdrop-blur-md border border-[#E5E5E5] p-4 shadow-lg transform -rotate-6 translate-y-4 group-hover:-rotate-12 group-hover:translate-y-8 transition-transform duration-500 ease-[cubic-bezier(0.16,1,0.3,1)] flex items-center justify-between">
+                  <span className="font-heading font-bold text-xs uppercase text-[#888]">Free Shipping</span>
+                  <span className="w-2 h-2 rounded-full bg-black"></span>
+                </div>
+                
+                {/* Card 2 (Middle) */}
+                <div className="absolute inset-0 bg-white/90 backdrop-blur-md border border-[#E5E5E5] p-4 shadow-xl transform -rotate-3 translate-y-2 group-hover:-rotate-6 group-hover:translate-y-4 transition-transform duration-500 ease-[cubic-bezier(0.16,1,0.3,1)] flex items-center justify-between">
+                  <span className="font-heading font-bold text-xs uppercase text-[#555]">Buy 2 Get 1 Free</span>
+                  <span className="w-2 h-2 rounded-full bg-black"></span>
+                </div>
+                
+                {/* Card 1 (Top) */}
+                <div className="absolute inset-0 bg-white backdrop-blur-xl border border-[#CCC] p-4 shadow-2xl transform rotate-0 group-hover:rotate-0 transition-transform duration-500 ease-[cubic-bezier(0.16,1,0.3,1)] flex items-center justify-between">
+                  <span className="font-heading font-bold text-[13px] uppercase tracking-wider text-black">Flat 60% Off</span>
+                  <span className="w-2 h-2 rounded-full bg-black"></span>
+                </div>
+              </div>
+            </div>
+
+            {/* Floating Abstract Element */}
+            <div 
+              className="absolute top-10 left-10 md:left-20 z-0 opacity-20"
+              ref={(el) => parallaxRefs.current[3] = el}
+              data-depth="5"
+              style={{ willChange: 'transform' }}
+            >
+              <div className="w-40 h-40 border border-black transform rotate-45 animate-[rotateSlow_20s_linear_infinite]"></div>
             </div>
           </div>
 
-          {/* Stacked Offer Cards (Glassmorphism) */}
-          <div 
-            className="absolute bottom-0 md:bottom-10 left-10 md:-left-10 z-30 group"
-            ref={(el) => parallaxRefs.current[2] = el}
-            data-depth="10"
-            style={{ willChange: 'transform' }}
-          >
-            <div className="relative w-48 md:w-56 h-20">
-              {/* Card 3 (Bottom) */}
-              <div className="absolute inset-0 bg-white/80 backdrop-blur-md border border-[#E5E5E5] p-4 shadow-lg transform -rotate-6 translate-y-4 group-hover:-rotate-12 group-hover:translate-y-8 transition-transform duration-500 ease-[cubic-bezier(0.16,1,0.3,1)] flex items-center justify-between">
-                <span className="font-heading font-bold text-xs uppercase text-[#888]">Free Shipping</span>
-                <span className="w-2 h-2 rounded-full bg-black"></span>
-              </div>
-              
-              {/* Card 2 (Middle) */}
-              <div className="absolute inset-0 bg-white/90 backdrop-blur-md border border-[#E5E5E5] p-4 shadow-xl transform -rotate-3 translate-y-2 group-hover:-rotate-6 group-hover:translate-y-4 transition-transform duration-500 ease-[cubic-bezier(0.16,1,0.3,1)] flex items-center justify-between">
-                <span className="font-heading font-bold text-xs uppercase text-[#555]">Buy 2 Get 1 Free</span>
-                <span className="w-2 h-2 rounded-full bg-black"></span>
-              </div>
-              
-              {/* Card 1 (Top) */}
-              <div className="absolute inset-0 bg-white backdrop-blur-xl border border-[#CCC] p-4 shadow-2xl transform rotate-0 group-hover:rotate-0 transition-transform duration-500 ease-[cubic-bezier(0.16,1,0.3,1)] flex items-center justify-between">
-                <span className="font-heading font-bold text-[13px] uppercase tracking-wider text-black">Flat 60% Off</span>
-                <span className="w-2 h-2 rounded-full bg-black"></span>
-              </div>
-            </div>
-          </div>
-
-          {/* Floating Abstract Element */}
-          <div 
-            className="absolute top-10 left-10 md:left-20 z-0 opacity-20"
-            ref={(el) => parallaxRefs.current[3] = el}
-            data-depth="5"
-            style={{ willChange: 'transform' }}
-          >
-            <div className="w-40 h-40 border border-black transform rotate-45 animate-[rotateSlow_20s_linear_infinite]"></div>
-          </div>
-          
         </div>
-
       </div>
       
       {/* Required custom CSS animations injected here */}

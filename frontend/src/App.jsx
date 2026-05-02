@@ -83,7 +83,7 @@ function App() {
 
   // Main site routes
   return (
-    <div className="min-h-screen bg-white text-black flex flex-col font-body">
+    <div className="min-h-screen bg-white text-black flex flex-col font-body w-full max-w-[100vw]">
       <Toaster
         position="top-center"
         toastOptions={{
