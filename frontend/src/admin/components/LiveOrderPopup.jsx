@@ -2,6 +2,7 @@ import React, { useState, useEffect } from 'react';
 import { useNavigate } from 'react-router-dom';
 import { X, ArrowRight, ShoppingBag, Users } from 'lucide-react';
 import { useAdminStore } from '../store/adminStore';
+import { subscribe } from '../../ably';
 
 const LiveOrderPopup = () => {
   const navigate = useNavigate();
@@ -10,7 +11,42 @@ const LiveOrderPopup = () => {
   const refreshData = useAdminStore((s) => s.refreshData);
 
   useEffect(() => {
-    // Websockets removed for Vercel deployment
+    const unsub1 = subscribe('admin-notifications', 'new_order', (order) => {
+      setPopups((prev) => {
+        const newPopup = {
+          ...order,
+          type: 'order',
+          popupId: Math.random().toString(),
+          startTime: Date.now(),
+        };
+        return [newPopup, ...prev];
+      });
+      refreshData();
+    });
+
+    const unsub2 = subscribe('admin-notifications', 'new_notification', (notif) => {
+      if (notif.type === 'new_user') {
+        setPopups((prev) => {
+          const newPopup = {
+            orderId: 'NEW_USER',
+            userName: notif.data?.userName || 'New User',
+            totalPrice: 0,
+            items: [],
+            type: 'user',
+            popupId: Math.random().toString(),
+            startTime: Date.now(),
+            message: notif.message,
+          };
+          return [newPopup, ...prev];
+        });
+      }
+      refreshData();
+    });
+
+    return () => {
+      unsub1();
+      unsub2();
+    };
   }, [refreshData]);
 
   useEffect(() => {

@@ -1,5 +1,6 @@
 import User from '../models/User.js';
 import jwt from 'jsonwebtoken';
+import { publishEvent } from '../utils/ably.js';
 
 const generateToken = (res, userId) => {
   const token = jwt.sign({ userId }, process.env.JWT_SECRET, { expiresIn: '30d' });
@@ -26,12 +27,15 @@ export const registerUser = async (req, res) => {
 
       // Create notification
       const Notification = (await import('../models/Notification.js')).default;
-      await Notification.create({
+      const notif = await Notification.create({
         type: 'new_user',
         title: 'New User Registered',
         message: `${user.name} (${user.email}) just signed up!`,
         data: { userId: user._id, userName: user.name, userEmail: user.email }
       });
+
+      // Publish real-time event via Ably
+      await publishEvent('admin-notifications', 'new_user', notif);
 
       res.status(201).json({
         _id: user._id, name: user.name, email: user.email, isAdmin: user.isAdmin, addresses: user.addresses || [], wishlist: []

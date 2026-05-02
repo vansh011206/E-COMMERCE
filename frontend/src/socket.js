@@ -1,4 +1,5 @@
-// Websockets disabled for Vercel Serverless compatibility
+// Legacy socket.js - replaced by ably.js
+// This file is kept as a no-op to prevent import errors from any remaining references
 const socket = {
   connect: () => {},
   emit: () => {},

@@ -142,6 +142,7 @@ const OrderCard = ({ order }) => {
     </div>
   );
 };
+import { subscribe } from '../ably';
 
 const Orders = () => {
   const { isAuthenticated, orders, fetchMyOrders } = useAuthStore();
@@ -150,7 +151,12 @@ const Orders = () => {
     if (isAuthenticated) {
       fetchMyOrders();
       
-      // Socket removed for Vercel
+      // Ably real-time order updates
+      const unsub = subscribe('user-orders', 'order_updated', () => {
+        fetchMyOrders();
+      });
+
+      return () => unsub();
     }
   }, [isAuthenticated, fetchMyOrders]);
 

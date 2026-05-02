@@ -10,6 +10,7 @@ import RecentOrders from '../components/RecentOrders';
 import TopProducts from '../components/TopProducts';
 import RecentUsers from '../components/RecentUsers';
 import toast from 'react-hot-toast';
+import { subscribe } from '../../ably';
 
 const AdminDashboard = () => {
   const { initializeData, refreshData, dashboardStats: s, products, isLoading, addNotification } = useAdminStore();
@@ -21,11 +22,29 @@ const AdminDashboard = () => {
   useEffect(() => {
     initializeData();
 
+    // Ably real-time subscriptions
+    const unsub1 = subscribe('admin-notifications', 'new_order', () => {
+      refreshData();
+      toast.success('🛒 New order received!');
+    });
+
+    const unsub2 = subscribe('admin-notifications', 'new_notification', (notif) => {
+      addNotification(notif);
+    });
+
+    const unsub3 = subscribe('admin-notifications', 'new_user', () => {
+      refreshData();
+      toast.success('👤 New user registered!');
+    });
+
     // Auto-refresh every 30 seconds
     const interval = setInterval(() => refreshData(), 30000);
 
     return () => {
       clearInterval(interval);
+      unsub1();
+      unsub2();
+      unsub3();
     };
   }, []);
 

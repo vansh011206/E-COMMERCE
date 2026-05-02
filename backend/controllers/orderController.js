@@ -2,6 +2,7 @@ import Order from '../models/Order.js';
 import Product from '../models/Product.js';
 import Notification from '../models/Notification.js';
 import { sendOrderEmail } from '../utils/emailService.js';
+import { publishEvent } from '../utils/ably.js';
 
 // POST /api/orders
 export const addOrderItems = async (req, res) => {
@@ -44,7 +45,7 @@ export const addOrderItems = async (req, res) => {
     const createdOrder = await order.save();
 
     // Create notification
-    await Notification.create({
+    const notif = await Notification.create({
       type: 'new_order',
       title: 'New Order Received!',
       message: `Order ${createdOrder.orderId} from ${createdOrder.userName} - ₹${createdOrder.totalPrice}`,
@@ -55,6 +56,10 @@ export const addOrderItems = async (req, res) => {
         itemCount: createdOrder.items.length
       }
     });
+
+    // Publish real-time events via Ably
+    await publishEvent('admin-notifications', 'new_order', createdOrder);
+    await publishEvent('admin-notifications', 'new_notification', notif);
 
     res.status(201).json(createdOrder);
   } catch (error) {
@@ -112,7 +117,9 @@ export const updateOrderStatus = async (req, res) => {
       }
       const updatedOrder = await order.save();
 
-      // Socket.io removed
+      // Publish order update via Ably
+      await publishEvent('admin-notifications', 'order_updated', updatedOrder);
+      await publishEvent('user-orders', 'order_updated', updatedOrder);
 
       // Send email if status is Confirmed or Delivered
       if (status === 'Confirmed' || status === 'Delivered') {
