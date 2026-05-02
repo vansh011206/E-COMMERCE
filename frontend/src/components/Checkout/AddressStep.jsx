@@ -96,14 +96,23 @@ const AddressStep = ({ onNext, selectedAddressId, setSelectedAddressId }) => {
 
   const validate = () => {
     const newErrors = {};
+    const phone = formData.phone.replace(/\s+/g, '');
+    const pincode = formData.pincode.replace(/\s+/g, '');
+    
     if (!formData.fullName.trim()) newErrors.fullName = 'Full name is required';
-    if (!formData.phone.match(/^\d{10}$/)) newErrors.phone = 'Enter valid 10 digit number';
-    if (!formData.pincode.match(/^\d{6}$/)) newErrors.pincode = 'Enter valid 6 digit pincode';
+    if (!phone.match(/^\d{10}$/)) newErrors.phone = 'Enter valid 10 digit number';
+    if (!pincode.match(/^\d{6}$/)) newErrors.pincode = 'Enter valid 6 digit pincode';
     if (!formData.address1.trim()) newErrors.address1 = 'Address line 1 is required';
     if (!formData.city.trim()) newErrors.city = 'City is required';
     if (!formData.state.trim()) newErrors.state = 'State is required';
+    
     setErrors(newErrors);
-    return Object.keys(newErrors).length === 0;
+    
+    const isValid = Object.keys(newErrors).length === 0;
+    if (!isValid) {
+      toast.error('Please fill all required fields correctly');
+    }
+    return isValid;
   };
 
   const handleSaveAndContinue = async () => {

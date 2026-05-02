@@ -17,7 +17,6 @@ export const useAuthStore = create(
         set({ isLoading: true, error: null });
         try {
           const { data } = await api.post('/auth/login', { email, password });
-          if (data.token) localStorage.setItem('vv-token', data.token);
           set({
             user: { _id: data._id, name: data.name, email: data.email, isAdmin: data.isAdmin, avatar: data.name.charAt(0).toUpperCase() },
             addresses: data.addresses || [],
@@ -43,7 +42,6 @@ export const useAuthStore = create(
             password: userData.password,
             phone: userData.phone
           });
-          if (data.token) localStorage.setItem('vv-token', data.token);
           set({
             user: { _id: data._id, name: data.name, email: data.email, isAdmin: data.isAdmin, avatar: data.name.charAt(0).toUpperCase() },
             addresses: data.addresses || [],
@@ -67,7 +65,6 @@ export const useAuthStore = create(
           console.error('Logout API error', error);
         }
         set({ user: null, isAuthenticated: false, orders: [], addresses: [], wishlist: [], error: null });
-        localStorage.removeItem('vv-token');
       },
 
       fetchMyOrders: async () => {
