@@ -121,6 +121,7 @@ const AddressStep = ({ onNext, selectedAddressId, setSelectedAddressId }) => {
           onNext();
         } catch (error) {
           console.error("Failed to add address", error);
+          toast.error(error.message || "Failed to add address. Please try again.");
         }
       }
     } else {

@@ -1,6 +1,7 @@
 import React, { memo, useState } from 'react';
 import { CreditCard, Smartphone, Building2, Banknote, Wallet } from 'lucide-react';
 import { motion, AnimatePresence } from 'framer-motion';
+import toast from 'react-hot-toast';
 
 const PaymentStep = ({ finalTotal, onNext }) => {
   const [selectedMethod, setSelectedMethod] = useState('card');
@@ -164,7 +165,17 @@ const PaymentStep = ({ finalTotal, onNext }) => {
       </div>
 
       <button
-        onClick={() => onNext({ method: selectedMethod })}
+        onClick={() => {
+          if (selectedMethod === 'card') {
+            if (cardNumber.length < 19) return toast.error('Please enter a valid 16-digit card number');
+            // Basic check for other fields can be added if state was managed, but we'll enforce just card number for demo
+            if (cardNumber.trim() === '') return toast.error('Please enter card details');
+          } else if (selectedMethod === 'upi') {
+            const upiInput = document.querySelector('input[placeholder="Enter UPI ID (e.g. name@bank)"]').value;
+            if (!upiInput || !upiInput.includes('@')) return toast.error('Please enter a valid UPI ID');
+          }
+          onNext({ method: selectedMethod });
+        }}
         className="w-full h-[52px] rounded-lg text-white font-heading text-[14px] uppercase tracking-[0.1em] transition-colors bg-[#0A0A0A] hover:bg-[#333]"
       >
         Pay ₹{(finalTotal + (selectedMethod === 'cod' ? 49 : 0)).toLocaleString('en-IN')}
