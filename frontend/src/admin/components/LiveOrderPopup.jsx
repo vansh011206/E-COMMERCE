@@ -12,6 +12,8 @@ const LiveOrderPopup = () => {
   useEffect(() => {
     // Websockets removed for Vercel deployment
   }, [refreshData]);
+
+  useEffect(() => {
     if (popups.length > 0) {
       const interval = setInterval(() => {
         setPopups((prev) =>
