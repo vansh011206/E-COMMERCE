@@ -9,7 +9,6 @@ import OrderStatusPie from '../components/OrderStatusPie';
 import RecentOrders from '../components/RecentOrders';
 import TopProducts from '../components/TopProducts';
 import RecentUsers from '../components/RecentUsers';
-import socket from '../../socket';
 import toast from 'react-hot-toast';
 
 const AdminDashboard = () => {
@@ -22,30 +21,11 @@ const AdminDashboard = () => {
   useEffect(() => {
     initializeData();
 
-    // Socket.IO real-time
-    socket.connect();
-    socket.emit('join_admin');
-
-    socket.on('new_order', (order) => {
-      refreshData();
-    });
-
-    socket.on('new_notification', (notif) => {
-      addNotification(notif);
-    });
-
-    socket.on('new_user', () => {
-      refreshData();
-    });
-
     // Auto-refresh every 30 seconds
     const interval = setInterval(() => refreshData(), 30000);
 
     return () => {
       clearInterval(interval);
-      socket.off('new_order');
-      socket.off('new_notification');
-      socket.off('new_user');
     };
   }, []);
 

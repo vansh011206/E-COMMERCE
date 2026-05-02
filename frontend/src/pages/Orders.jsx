@@ -150,20 +150,7 @@ const Orders = () => {
     if (isAuthenticated) {
       fetchMyOrders();
       
-      // Real-time updates for user orders
-      import('../socket').then(({ default: socket }) => {
-        socket.connect();
-        
-        const handleOrderUpdate = () => {
-          fetchMyOrders();
-        };
-        
-        socket.on('user_order_updated', handleOrderUpdate);
-        
-        return () => {
-          socket.off('user_order_updated', handleOrderUpdate);
-        };
-      });
+      // Socket removed for Vercel
     }
   }, [isAuthenticated, fetchMyOrders]);
 

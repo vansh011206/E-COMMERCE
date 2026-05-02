@@ -78,38 +78,10 @@ app.use((err, req, res, next) => {
   });
 });
 
-// Local development only
+// Start server locally (Vercel uses export default app)
 if (process.env.NODE_ENV !== 'production') {
-  const { createServer } = await import('http');
-  const { Server } = await import('socket.io');
-
-  const httpServer = createServer(app);
-
-  const io = new Server(httpServer, {
-    cors: {
-      origin: allowedOrigins,
-      credentials: true,
-      methods: ['GET', 'POST']
-    }
-  });
-
-  app.set('io', io);
-
-  io.on('connection', (socket) => {
-    console.log('🔌 Client connected:', socket.id);
-
-    socket.on('join_admin', () => {
-      socket.join('admin_room');
-      console.log('👑 Admin joined room:', socket.id);
-    });
-
-    socket.on('disconnect', () => {
-      console.log('❌ Client disconnected:', socket.id);
-    });
-  });
-
   const PORT = process.env.PORT || 5000;
-  httpServer.listen(PORT, () => {
+  app.listen(PORT, () => {
     console.log(`🚀 Server running on port ${PORT}`);
   });
 }

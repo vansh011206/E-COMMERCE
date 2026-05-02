@@ -2,7 +2,6 @@ import React, { useState, useEffect } from 'react';
 import { useNavigate } from 'react-router-dom';
 import { X, ArrowRight, ShoppingBag, Users } from 'lucide-react';
 import { useAdminStore } from '../store/adminStore';
-import socket from '../../socket';
 
 const LiveOrderPopup = () => {
   const navigate = useNavigate();
@@ -11,52 +10,8 @@ const LiveOrderPopup = () => {
   const refreshData = useAdminStore((s) => s.refreshData);
 
   useEffect(() => {
-    if (!socket.connected) {
-      socket.connect();
-    }
-    socket.emit('join_admin');
-
-    const handleNewOrder = (order) => {
-      setPopups((prev) => {
-        const newPopup = {
-          ...order,
-          type: 'order',
-          popupId: Math.random().toString(),
-          startTime: Date.now(),
-        };
-        return [newPopup, ...prev];
-      });
-      refreshData();
-    };
-
-    const handleNewNotification = (notif) => {
-      if (notif.type === 'new_user') {
-        setPopups((prev) => {
-          const newPopup = {
-            orderId: 'NEW_USER',
-            userName: notif.data?.userName || 'New User',
-            totalPrice: 0,
-            items: [],
-            type: 'user',
-            popupId: Math.random().toString(),
-            startTime: Date.now(),
-            message: notif.message,
-          };
-          return [newPopup, ...prev];
-        });
-      }
-      refreshData();
-    };
-
-    socket.on('new_order', handleNewOrder);
-    socket.on('new_notification', handleNewNotification);
-    return () => {
-      socket.off('new_order', handleNewOrder);
-      socket.off('new_notification', handleNewNotification);
-    };
+    // Websockets removed for Vercel deployment
   }, [refreshData]);
-
-  useEffect(() => {
     if (popups.length > 0) {
       const interval = setInterval(() => {
         setPopups((prev) =>

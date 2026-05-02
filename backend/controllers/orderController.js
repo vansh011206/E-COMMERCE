@@ -43,23 +43,18 @@ export const addOrderItems = async (req, res) => {
 
     const createdOrder = await order.save();
 
-    // Real-time notification to admin
-    const io = req.app.get('io');
-    if (io) {
-      const notif = await Notification.create({
-        type: 'new_order',
-        title: 'New Order Received!',
-        message: `Order ${createdOrder.orderId} from ${createdOrder.userName} - ₹${createdOrder.totalPrice}`,
-        data: {
-          orderId: createdOrder.orderId,
-          userName: createdOrder.userName,
-          totalPrice: createdOrder.totalPrice,
-          itemCount: createdOrder.items.length
-        }
-      });
-      io.to('admin_room').emit('new_notification', notif);
-      io.to('admin_room').emit('new_order', createdOrder);
-    }
+    // Create notification
+    await Notification.create({
+      type: 'new_order',
+      title: 'New Order Received!',
+      message: `Order ${createdOrder.orderId} from ${createdOrder.userName} - ₹${createdOrder.totalPrice}`,
+      data: {
+        orderId: createdOrder.orderId,
+        userName: createdOrder.userName,
+        totalPrice: createdOrder.totalPrice,
+        itemCount: createdOrder.items.length
+      }
+    });
 
     res.status(201).json(createdOrder);
   } catch (error) {
@@ -117,12 +112,7 @@ export const updateOrderStatus = async (req, res) => {
       }
       const updatedOrder = await order.save();
 
-      // Emit status change
-      const io = req.app.get('io');
-      if (io) {
-        io.to('admin_room').emit('order_updated', updatedOrder);
-        io.emit('user_order_updated', updatedOrder);
-      }
+      // Socket.io removed
 
       // Send email if status is Confirmed or Delivered
       if (status === 'Confirmed' || status === 'Delivered') {

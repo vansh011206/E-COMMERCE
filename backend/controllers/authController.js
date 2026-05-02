@@ -24,19 +24,14 @@ export const registerUser = async (req, res) => {
     if (user) {
       generateToken(res, user._id);
 
-      // Emit real-time notification to admin
-      const io = req.app.get('io');
-      if (io) {
-        const Notification = (await import('../models/Notification.js')).default;
-        const notif = await Notification.create({
-          type: 'new_user',
-          title: 'New User Registered',
-          message: `${user.name} (${user.email}) just signed up!`,
-          data: { userId: user._id, userName: user.name, userEmail: user.email }
-        });
-        io.to('admin_room').emit('new_notification', notif);
-        io.to('admin_room').emit('new_user', { user: { _id: user._id, name: user.name, email: user.email, createdAt: user.createdAt } });
-      }
+      // Create notification
+      const Notification = (await import('../models/Notification.js')).default;
+      await Notification.create({
+        type: 'new_user',
+        title: 'New User Registered',
+        message: `${user.name} (${user.email}) just signed up!`,
+        data: { userId: user._id, userName: user.name, userEmail: user.email }
+      });
 
       res.status(201).json({
         _id: user._id, name: user.name, email: user.email, isAdmin: user.isAdmin, addresses: user.addresses || [], wishlist: []
