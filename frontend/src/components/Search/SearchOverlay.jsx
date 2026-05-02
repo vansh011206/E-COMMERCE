@@ -12,7 +12,7 @@ const POPULAR_CATEGORIES = [
   { label: 'Women', img: 'https://images.unsplash.com/photo-1539008835657-9e8e9680c956?w=300&q=80' },
   { label: 'Kids', img: 'https://images.unsplash.com/photo-1514090458221-65bb69cf63e6?w=300&q=80' },
   { label: 'Ethnic', img: 'https://images.unsplash.com/photo-1583391733956-3750e0ff4e8b?w=300&q=80' },
-  { label: 'Activewear', img: 'https://images.unsplash.com/photo-1571902943202-507ec2618e8f?w=300&q=80' },
+  { label: 'Undergarments', img: 'https://images.unsplash.com/photo-1596558450255-7c0b7be9d56a?w=300&q=80' },
   { label: 'Accessories', img: 'https://images.unsplash.com/photo-1523275335684-37898b6baf30?w=300&q=80' },
 ];
 

@@ -11,6 +11,7 @@ const CATEGORIES = [
   { label: 'Accessories', value: 'Accessories' },
   { label: 'Ethnic', value: 'Ethnic Wear' },
   { label: 'Activewear', value: 'Activewear' },
+  { label: 'Undergarments', value: 'Undergarments' },
   { label: 'Sale', value: 'sale' },
   { label: 'New In', value: 'new' },
 ];
