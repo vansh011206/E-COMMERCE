@@ -16,21 +16,22 @@ const app = express();
 
 import cors from 'cors';
 
-// Allowed origins
-const allowedOrigins = [
-  'http://localhost:5173',
-  'https://voguevalut.vercel.app',
-  process.env.FRONTEND_URL
-].filter(Boolean);
-
 // CORS middleware
 app.use(cors({
   origin: function (origin, callback) {
-    if (!origin || allowedOrigins.includes(origin)) {
-      callback(null, true);
-    } else {
-      callback(new Error('Not allowed by CORS'));
+    // Allow requests with no origin (like mobile apps or curl requests)
+    if (!origin) return callback(null, true);
+    
+    // Allow localhost, the main domain, or any Vercel preview deployment URL
+    if (
+      origin.startsWith('http://localhost') ||
+      origin === 'https://voguevalut.vercel.app' ||
+      origin.endsWith('.vercel.app')
+    ) {
+      return callback(null, true);
     }
+    
+    return callback(new Error('Not allowed by CORS: ' + origin));
   },
   credentials: true,
   methods: ['GET', 'POST', 'PUT', 'DELETE', 'PATCH', 'OPTIONS'],
