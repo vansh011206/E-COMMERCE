@@ -61,9 +61,6 @@ export const addOrderItems = async (req, res) => {
     await publishEvent('admin-notifications', 'new_order', createdOrder);
     await publishEvent('admin-notifications', 'new_notification', notif);
 
-    // Send Order Placed Email to User
-    sendOrderEmail(createdOrder, 'Placed');
-
     res.status(201).json(createdOrder);
   } catch (error) {
     res.status(500).json({ message: error.message });
