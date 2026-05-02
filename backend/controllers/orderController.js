@@ -79,7 +79,9 @@ export const getMyOrders = async (req, res) => {
 // GET /api/orders/:id
 export const getOrderById = async (req, res) => {
   try {
-    const order = await Order.findOne({ orderId: req.params.id }).populate('user', 'name email');
+    const order = await Order.findOne({ orderId: req.params.id })
+      .populate('user', 'name email')
+      .populate('items.product');
     if (order) {
       res.json(order);
     } else {
@@ -118,6 +120,7 @@ export const updateOrderStatus = async (req, res) => {
       const io = req.app.get('io');
       if (io) {
         io.to('admin_room').emit('order_updated', updatedOrder);
+        io.emit('user_order_updated', updatedOrder);
       }
 
       res.json(updatedOrder);

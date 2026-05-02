@@ -9,6 +9,20 @@ const userSchema = new mongoose.Schema({
   isAdmin: { type: Boolean, required: true, default: false },
   ordersCount: { type: Number, default: 0 },
   totalSpent: { type: Number, default: 0 },
+  addresses: [{
+    fullName: String,
+    phone: String,
+    addressLine1: String,
+    addressLine2: String,
+    city: String,
+    state: String,
+    pincode: String,
+    type: { type: String, enum: ['HOME', 'OFFICE', 'home', 'work'], default: 'HOME' }
+  }],
+  wishlist: [{
+    type: mongoose.Schema.Types.ObjectId,
+    ref: 'Product'
+  }],
 }, { timestamps: true });
 
 userSchema.methods.matchPassword = async function (enteredPassword) {
@@ -17,7 +31,7 @@ userSchema.methods.matchPassword = async function (enteredPassword) {
 
 userSchema.pre('save', async function (next) {
   if (!this.isModified('password')) {
-    next();
+    return next();
   }
   const salt = await bcrypt.genSalt(10);
   this.password = await bcrypt.hash(this.password, salt);

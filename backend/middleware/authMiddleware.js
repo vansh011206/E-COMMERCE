@@ -24,3 +24,16 @@ export const admin = (req, res, next) => {
     res.status(401).json({ message: 'Not authorized as admin' });
   }
 };
+
+export const optionalAuth = async (req, res, next) => {
+  let token = req.cookies.jwt;
+  if (token) {
+    try {
+      const decoded = jwt.verify(token, process.env.JWT_SECRET);
+      req.user = await User.findById(decoded.userId).select('-password');
+    } catch (error) {
+      // Token failed, ignore and proceed as guest
+    }
+  }
+  next();
+};
