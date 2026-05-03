@@ -158,7 +158,7 @@ const AdminDashboard = () => {
       {/* ROW 2: STATS CARDS */}
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-5">
         <StatsCard 
-          index={0} title={period === 'All' ? "Total Revenue" : \`Revenue (\${period})\`} value={getStat('revenue')} isCurrency 
+          index={0} title={period === 'All' ? "Total Revenue" : `Revenue (${period})`} value={getStat('revenue')} isCurrency 
           change={0} changeType="up" icon={IndianRupee}
           bottomContent={
             <p className="font-mono text-[14px] text-[#0A0A0A]">
@@ -169,7 +169,7 @@ const AdminDashboard = () => {
           }
         />
         <StatsCard 
-          index={1} title={period === 'All' ? "Total Orders" : \`Orders (\${period})\`} value={getStat('orders')} 
+          index={1} title={period === 'All' ? "Total Orders" : `Orders (${period})`} value={getStat('orders')} 
           change={0} changeType="up" icon={ShoppingBag}
           bottomContent={
             <p className="font-mono text-[14px] text-[#0A0A0A]">
@@ -189,7 +189,7 @@ const AdminDashboard = () => {
           }
         />
         <StatsCard 
-          index={3} title={period === 'All' ? "Registered Users" : \`Users (\${period})\`} value={getStat('users')} 
+          index={3} title={period === 'All' ? "Registered Users" : `Users (${period})`} value={getStat('users')} 
           change={0} changeType="up" icon={Users}
           bottomContent={
             <p className="font-mono text-[14px] text-[#0A0A0A]">
