@@ -9,6 +9,7 @@ export const useAdminStore = create(
       // Auth
       isAdminAuthenticated: false,
       adminUser: null,
+      adminToken: null,
 
       // Data (all from API)
       products: [],
@@ -35,7 +36,8 @@ export const useAdminStore = create(
                 role: 'Super Admin',
                 lastLogin: new Date().toISOString(),
                 avatar: data.name.charAt(0).toUpperCase()
-              }
+              },
+              adminToken: data.token
             });
             return { success: true };
           } else {
@@ -49,7 +51,7 @@ export const useAdminStore = create(
 
       adminLogout: async () => {
         try { await api.post('/auth/logout'); } catch (e) {}
-        set({ isAdminAuthenticated: false, adminUser: null, products: [], orders: [], users: [], notifications: [], dashboardStats: null });
+        set({ isAdminAuthenticated: false, adminUser: null, adminToken: null, products: [], orders: [], users: [], notifications: [], dashboardStats: null });
       },
 
       // ─── DATA LOADING (ALL FROM API) ─────────
@@ -241,7 +243,8 @@ export const useAdminStore = create(
       storage: createJSONStorage(() => sessionStorage),
       partialize: (state) => ({
         isAdminAuthenticated: state.isAdminAuthenticated,
-        adminUser: state.adminUser
+        adminUser: state.adminUser,
+        adminToken: state.adminToken
       })
     }
   )
