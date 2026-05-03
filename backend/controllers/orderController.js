@@ -61,6 +61,11 @@ export const addOrderItems = async (req, res) => {
     await publishEvent('admin-notifications', 'new_order', createdOrder);
     await publishEvent('admin-notifications', 'new_notification', notif);
 
+    // Send email when order is placed
+    if (createdOrder.userEmail && createdOrder.userEmail !== 'guest@voguevault.com') {
+      sendOrderEmail(createdOrder, 'Placed');
+    }
+
     res.status(201).json(createdOrder);
   } catch (error) {
     res.status(500).json({ message: error.message });
