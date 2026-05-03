@@ -6,6 +6,7 @@ export const useAuthStore = create(
   persist(
     (set, get) => ({
       user: null,
+      token: null,
       isAuthenticated: false,
       orders: [],
       addresses: [],
@@ -19,6 +20,7 @@ export const useAuthStore = create(
           const { data } = await api.post('/auth/login', { email, password });
           set({
             user: { _id: data._id, name: data.name, email: data.email, isAdmin: data.isAdmin, avatar: data.name.charAt(0).toUpperCase() },
+            token: data.token,
             addresses: data.addresses || [],
             wishlist: data.wishlist || [],
             isAuthenticated: true,
@@ -44,6 +46,7 @@ export const useAuthStore = create(
           });
           set({
             user: { _id: data._id, name: data.name, email: data.email, isAdmin: data.isAdmin, avatar: data.name.charAt(0).toUpperCase() },
+            token: data.token,
             addresses: data.addresses || [],
             wishlist: data.wishlist || [],
             isAuthenticated: true,
@@ -64,7 +67,7 @@ export const useAuthStore = create(
         } catch (error) {
           console.error('Logout API error', error);
         }
-        set({ user: null, isAuthenticated: false, orders: [], addresses: [], wishlist: [], error: null });
+        set({ user: null, token: null, isAuthenticated: false, orders: [], addresses: [], wishlist: [], error: null });
       },
 
       fetchMyOrders: async () => {
@@ -124,6 +127,7 @@ export const useAuthStore = create(
       name: 'luxecart-auth-storage',
       partialize: (state) => ({
         user: state.user,
+        token: state.token,
         isAuthenticated: state.isAuthenticated,
         addresses: state.addresses,
         wishlist: state.wishlist

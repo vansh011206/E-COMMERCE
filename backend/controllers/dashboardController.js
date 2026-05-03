@@ -37,6 +37,12 @@ export const getDashboardStats = async (req, res) => {
     ]);
     const revenueToday = revenueTodayAgg[0]?.total || 0;
 
+    const revenueThisWeekAgg = await Order.aggregate([
+      { $match: { createdAt: { $gte: weekStart }, status: { $nin: ['Cancelled', 'Returned'] } } },
+      { $group: { _id: null, total: { $sum: '$totalPrice' } } }
+    ]);
+    const revenueThisWeek = revenueThisWeekAgg[0]?.total || 0;
+
     const revenueThisMonthAgg = await Order.aggregate([
       { $match: { createdAt: { $gte: monthStart }, status: { $nin: ['Cancelled', 'Returned'] } } },
       { $group: { _id: null, total: { $sum: '$totalPrice' } } }
@@ -120,6 +126,7 @@ export const getDashboardStats = async (req, res) => {
       totalOrders,
       totalRevenue,
       revenueToday,
+      revenueThisWeek,
       revenueThisMonth,
       newUsersToday,
       newUsersThisWeek,
