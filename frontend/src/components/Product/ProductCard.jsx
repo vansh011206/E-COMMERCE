@@ -1,6 +1,6 @@
 import React, { memo, useState, useCallback } from 'react';
 import { useNavigate } from 'react-router-dom';
-import { Heart, ShoppingBag, Check } from 'lucide-react';
+import { Heart, ShoppingBag, Check, Star } from 'lucide-react';
 import { motion } from 'framer-motion';
 import toast from 'react-hot-toast';
 import { useWishlistStore } from '../../store/wishlistStore';
@@ -47,134 +47,134 @@ const ProductCard = ({ product, showDealBadge = false }) => {
 
   return (
     <motion.div
-      className="group h-full flex flex-col bg-white border border-[#EFEFED] rounded-md overflow-hidden cursor-pointer hover:border-[#E0E0E0] hover:shadow-[0_4px_12px_rgba(0,0,0,0.07)] transition-all duration-200"
+      className="group h-full flex flex-col bg-background-primary cursor-pointer transition-all duration-300"
       onClick={handleCardClick}
-      initial={{ opacity: 0, y: 12 }}
+      initial={{ opacity: 0, y: 20 }}
       whileInView={{ opacity: 1, y: 0 }}
-      viewport={{ once: true, margin: '-30px' }}
-      transition={{ duration: 0.3, ease: 'easeOut' }}
+      viewport={{ once: true, margin: '-20px' }}
+      transition={{ duration: 0.4, ease: [0.25, 0.46, 0.45, 0.94] }}
     >
       {/* ── Image Section ── */}
-      <div className="relative overflow-hidden bg-[#F2F2F0] aspect-[3/4]">
+      <div className="relative overflow-hidden bg-background-secondary aspect-[3/4] rounded-[4px] group-hover:shadow-[0_8px_30px_rgb(0,0,0,0.08)] transition-shadow duration-300">
         <img
           src={product.images?.[0]}
           alt={product.name}
-          className="w-full h-full object-cover object-top transition-transform duration-500 ease-out group-hover:scale-[1.04]"
+          className="w-full h-full object-cover object-top transition-transform duration-700 ease-out group-hover:scale-105"
           loading="lazy"
         />
 
-        {/* Discount Badge */}
-        {showDealBadge && showDiscount && (
-          <span className="absolute top-2.5 left-2.5 z-10 bg-black text-white text-[11px] font-body font-semibold px-2 py-[3px] rounded-[3px]">
-            -{product.discount}%
-          </span>
-        )}
-        {!showDealBadge && showDiscount && (
-          <span className="absolute top-2.5 left-2.5 z-10 bg-black text-white text-[11px] font-body font-semibold px-2 py-[3px] rounded-[3px]">
-            -{product.discount}%
-          </span>
-        )}
+        {/* Overlay gradient on hover for better text contrast if needed */}
+        <div className="absolute inset-0 bg-black/5 opacity-0 group-hover:opacity-100 transition-opacity duration-300" />
 
-        {/* New Badge */}
-        {showNew && (
-          <span className="absolute top-2.5 left-2.5 z-10 bg-[#0A0A0A] text-white text-[10px] font-body font-semibold uppercase tracking-wider px-2 py-[3px] rounded-[3px]">
-            New
-          </span>
-        )}
+        {/* Badges */}
+        <div className="absolute top-3 left-3 flex flex-col gap-1.5 z-10">
+          {showDiscount && (
+            <span className="bg-white/95 backdrop-blur-sm text-text-primary text-[10px] font-heading font-semibold uppercase tracking-widest px-2.5 py-1 rounded-sm shadow-sm">
+              -{product.discount}%
+            </span>
+          )}
+          {showNew && (
+            <span className="bg-accent-primary text-white text-[10px] font-heading font-semibold uppercase tracking-widest px-2.5 py-1 rounded-sm shadow-sm">
+              New
+            </span>
+          )}
+        </div>
 
         {/* Wishlist Heart */}
         <button
           onClick={handleWishlist}
-          className="absolute top-2.5 right-2.5 z-10 w-8 h-8 rounded-full bg-white/85 backdrop-blur-sm flex items-center justify-center shadow-sm hover:bg-white transition-colors duration-150"
+          className="absolute top-3 right-3 z-10 w-[34px] h-[34px] rounded-full bg-white/90 backdrop-blur-md flex items-center justify-center shadow-sm hover:bg-white hover:scale-110 transition-all duration-200"
           aria-label="Toggle wishlist"
-          style={{ transform: heartPop ? 'scale(1.25)' : 'scale(1)', transition: 'transform 250ms ease-out' }}
+          style={{ transform: heartPop ? 'scale(1.2)' : '' }}
         >
           <Heart
             size={16}
-            strokeWidth={1.5}
-            className={wishlisted ? 'fill-black text-black' : 'text-[#999]'}
+            strokeWidth={wishlisted ? 2 : 1.5}
+            className={wishlisted ? 'fill-accent-primary text-accent-primary' : 'text-text-primary'}
           />
         </button>
 
-        {/* Add to Bag Overlay */}
+        {/* Add to Bag Overlay Button */}
         <button
           onClick={handleAddToBag}
-          className={`absolute bottom-0 left-0 right-0 h-[42px] flex items-center justify-center gap-2 text-white text-[12px] font-body uppercase tracking-[0.1em] z-10 transition-all duration-200 ease-out md:translate-y-full md:group-hover:translate-y-0 ${
-            justAdded ? 'bg-[#00D68F]' : 'bg-[#0A0A0A]/88'
+          className={`absolute bottom-0 left-0 right-0 h-12 flex items-center justify-center gap-2 text-white text-[12px] font-heading font-medium uppercase tracking-widest z-10 transition-all duration-300 ease-out translate-y-full group-hover:translate-y-0 ${
+            justAdded ? 'bg-accent-primary' : 'bg-accent-primary/95 hover:bg-accent-primary backdrop-blur-sm'
           }`}
         >
           {justAdded ? (
             <>
-              <Check size={14} />
-              <span>Added</span>
+              <Check size={16} />
+              <span>Added to Bag</span>
             </>
           ) : (
             <>
-              <ShoppingBag size={14} />
-              <span>Add to Bag</span>
+              <ShoppingBag size={16} />
+              <span>Quick Add</span>
             </>
           )}
         </button>
       </div>
 
       {/* ── Text Section ── */}
-      <div className="flex-1 flex flex-col px-3 pt-2.5 pb-3">
-        {/* Brand */}
-        <p className="font-body text-[11px] text-[#999] uppercase tracking-[0.06em] truncate">
-          {product.brand}
-        </p>
-
-        {/* Name */}
-        <p className="font-body text-[14px] text-[#0A0A0A] mt-[3px] leading-[1.4] line-clamp-2 mb-2">
-          {product.name}
-        </p>
-
-        <div className="mt-auto flex flex-col gap-1.5">
-          {/* Price Row */}
-          <div className="flex items-center gap-1.5 flex-wrap">
-          <span className="font-mono text-[15px] font-semibold text-[#0A0A0A]">
-            {product.currency}{product.price.toLocaleString('en-IN')}
-          </span>
-          {product.mrp > product.price && (
-            <>
-              <span className="font-mono text-[13px] text-[#BBB] line-through">
-                {product.currency}{product.mrp.toLocaleString('en-IN')}
+      <div className="flex-1 flex flex-col pt-3.5 pb-2 px-1">
+        {/* Brand & Rating Row */}
+        <div className="flex items-start justify-between gap-2 mb-1.5">
+          <p className="font-heading font-semibold text-[13px] text-text-primary uppercase tracking-wider truncate">
+            {product.brand}
+          </p>
+          
+          {/* Rating */}
+          {product.reviewCount > 0 && (
+            <div className="flex items-center gap-1 shrink-0 mt-0.5">
+              <span className="text-text-primary text-[11px] font-medium leading-none flex items-center gap-0.5">
+                {product.rating}
+                <Star className="w-3 h-3 fill-current mb-[1px]" />
               </span>
-              <span className="font-body text-[12px] text-[#FF4747]">
-                ({product.discount}% OFF)
+              <span className="text-text-muted text-[10px]">
+                ({product.reviewCount >= 1000 ? `${(product.reviewCount / 1000).toFixed(1)}K` : product.reviewCount})
               </span>
-            </>
+            </div>
           )}
         </div>
 
-        {/* Rating */}
-        {product.reviewCount > 0 && (
-          <div className="flex items-center gap-1">
-            <span className="text-[#F59E0B] text-[12px]">★</span>
-            <span className="font-body text-[12px] text-[#999]">
-              {product.rating}
-            </span>
-            <span className="text-[#DDD] text-[10px] mx-0.5">|</span>
-            <span className="font-body text-[12px] text-[#999]">
-              {product.reviewCount >= 1000
-                ? `${(product.reviewCount / 1000).toFixed(1)}K`
-                : product.reviewCount}
-            </span>
-          </div>
-        )}
+        {/* Name */}
+        <p className="font-body text-[14px] text-text-secondary leading-snug line-clamp-1 mb-2.5">
+          {product.name}
+        </p>
 
-        {/* Deal Stock Indicator */}
-        {showDealBadge && product.stock < 50 && (
-          <div className="mt-1">
-            <p className="font-body text-[11px] text-[#333] font-medium mb-1">🔥 Only {product.stock} left</p>
-            <div className="w-full h-[3px] bg-[#E8E8E8] rounded-full overflow-hidden">
-              <div
-                className="h-full bg-black rounded-full"
-                style={{ width: `${Math.min((product.stock / 100) * 100, 100)}%` }}
-              />
-            </div>
+        <div className="mt-auto flex flex-col gap-2">
+          {/* Price Row */}
+          <div className="flex items-baseline gap-2 flex-wrap">
+            <span className="font-mono text-[16px] font-medium text-text-primary">
+              {product.currency}{product.price.toLocaleString('en-IN')}
+            </span>
+            {product.mrp > product.price && (
+              <>
+                <span className="font-mono text-[13px] text-text-muted line-through">
+                  {product.currency}{product.mrp.toLocaleString('en-IN')}
+                </span>
+              </>
+            )}
           </div>
-        )}
+
+          {/* Deal Stock Indicator */}
+          {showDealBadge && product.stock < 50 && (
+            <div className="mt-1.5">
+              <p className="font-body text-[11px] text-[#FF4747] font-medium mb-1.5 flex items-center gap-1.5">
+                <span className="relative flex h-2 w-2">
+                  <span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-[#FF4747] opacity-75"></span>
+                  <span className="relative inline-flex rounded-full h-2 w-2 bg-[#FF4747]"></span>
+                </span>
+                Only {product.stock} left
+              </p>
+              <div className="w-full h-[3px] bg-border rounded-full overflow-hidden">
+                <div
+                  className="h-full bg-[#FF4747] rounded-full transition-all duration-500"
+                  style={{ width: `${Math.min((product.stock / 100) * 100, 100)}%` }}
+                />
+              </div>
+            </div>
+          )}
         </div>
       </div>
     </motion.div>
@@ -182,9 +182,3 @@ const ProductCard = ({ product, showDealBadge = false }) => {
 };
 
 export default memo(ProductCard);
-
-
-
-
-
-
