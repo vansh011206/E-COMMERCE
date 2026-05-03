@@ -17,14 +17,9 @@ VogueVault is a production-ready, full-stack web application designed to deliver
 
 ## LIVE DEMO
 
-🌐 **Live:** [voguevault.vercel.app](https://voguevault.vercel.app)
+🌐 **Live:** [voguevault.vercel.app](https://voguevalut.vercel.app)
 
-**Admin Panel Access:**
-Navigate to `/admin` to access the dashboard.
-- **Email:** `admin@voguevault.com`
-- **Password:** `Admin@123`
 
----
 
 ## FEATURES
 
@@ -40,7 +35,7 @@ Navigate to `/admin` to access the dashboard.
 |---|---|
 | **Frontend** | React, Vite, Tailwind CSS, Framer Motion, Zustand |
 | **Backend** | Node.js, Express.js, MongoDB, Mongoose |
-| **Auth** | JWT, Firebase (Google OAuth) |
+| **Auth** | JWT,Google OAuth |
 | **Real-time** | Ably |
 | **Images** | Cloudinary |
 | **Charts** | Recharts |
