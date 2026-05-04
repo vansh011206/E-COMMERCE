@@ -42,7 +42,7 @@ VogueVault is a production-ready, full-stack web application designed to deliver
 | **Deployment** | Vercel (frontend), Render (backend) |
 
 ---
-
+ 
 ## SCREENSHOTS
 
 | | |
